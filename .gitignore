@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+.ipynb_*
+.vscode/
+data/lm_1b
+data/.Rproj.user/

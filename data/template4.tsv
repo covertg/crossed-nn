@@ -1,0 +1,3 @@
+Base	E_nX	E_X	C_nX	C_X
+{E/D} A {Comp} B Vtr		B Vtr A		A Vtr B
+{E/D} B {Comp} A Vtr		A Vtr B		B Vtr A

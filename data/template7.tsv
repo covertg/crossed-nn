@@ -1,0 +1,5 @@
+Base	E_nX	E_X	C_nX	C_X
+A {Comp} B Vtr Vin1		A Vin1|B Vtr A		B Vin1|A Vtr B
+B {Comp} A Vtr Vin1		B Vin1|A Vtr B		A Vin1|B Vtr A
+A {Comp} B Vtr Vin2		A Vin2|B Vtr A		B Vin2|A Vtr B
+B {Comp} A Vtr Vin2		B Vin2|A Vtr B		A Vin2|B Vtr A

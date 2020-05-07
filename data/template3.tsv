@@ -1,0 +1,5 @@
+Base	E_nX	E_X	C_nX	C_X
+{Prep} A , B Vin1 and Vin2	B Vin1	B Vin2	A Vin1	A Vin2
+{Prep} B , A Vin1 and Vin2	A Vin1	A Vin2	B Vin1	B Vin2
+{Prep} A , B Vin2 and Vin1	B Vin2	B Vin1	A Vin2	A Vin1
+{Prep} B , A Vin2 and Vin1	A Vin2	A Vin1	B Vin2	B Vin1
