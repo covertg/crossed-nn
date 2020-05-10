@@ -1,5 +1,7 @@
 # crossing-nn
 
+## *v2: work in progresse* ...
+
 This repo contains the code, data, and results of a study done for LING 380 at Yale, *Neurals Network & Language* with Prof. Bob Frank.
 
 * Can we probe a language model’s induction of syntax by characterizing its ability to make inferences?

@@ -8,15 +8,14 @@ def surprisal(model, sent_id, surprisal_idx):
     surprisals = []
     for i, t in enumerate(sent_id[0]):
         surprisals.append(-1 * log_probs[i][t])  # log_probs[i] is the probability distribution conditional on all words up to and INCLUDING word_i
-    surprisals = torch.tensor(surprisals[surprisal_idx:])
-    # print('Individual surprisals, sum:', surprisals, torch.sum(surprisals))
+    surprisals = torch.tensor(surprisals[surprisal_idx:])  # Region of interest is from surprisal_idx till the end
     return surprisals, torch.sum(surprisals)
 
 
 def get_model_fn(name='gpt2'):
     tokenizer = transformers.AutoTokenizer.from_pretrained(name)
     model = transformers.AutoModelWithLMHead.from_pretrained(name)
-    print('Loaded model and tokenizer for GPT-2')
+    print('Loaded model and tokenizer for GPT-2.')
 
     # Inputs is a single item: sentence, surprisal_index
     def model_fn(sent, idx):

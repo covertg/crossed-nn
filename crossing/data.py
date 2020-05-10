@@ -1,14 +1,15 @@
 import pandas as pd
 
 cols = ['Base', 'E_nX', 'E_X', 'C_nX', 'C_X']
-
-connectives = ['I repeat', 'again', 'in short', 'therefore', 'that is', 'thus', 'on the other hand', 'but then']
+punct = (';', ',') 
+connectives = ['in short', 'therefore', 'that is', 'thus', 'on the other hand', 'by contrast']
 expanders = {
     '{Prep}': ['Near', 'By', 'Nearby'],
     '{E/D}': ['Here is', 'This is', 'That is'],  # ['Here is', 'There is', 'That is', 'This is', 'It is']
     '{Comp}': ['that'],  # Do we want "which?" I don't think so.
-    '{Conn}': [punct + c + ', ' for c in connectives for punct in ['; ', ', ']]
+    '{Conn}': [p + ' ' + c + ', ' for c in connectives for p in punct]
 }
+
 
 # Returns a list of dicts; each tuple becomes a dict
 def read_items(filename):
