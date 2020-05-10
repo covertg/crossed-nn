@@ -13,14 +13,14 @@ def surprisal(model, sent_id, surprisal_idx):
     return surprisals, torch.sum(surprisals)
 
 
-def get_model_fn():
-    tokenizer = transformers.AutoTokenizer.from_pretrained('gpt2')
-    model = transformers.AutoModelWithLMHead.from_pretrained('gpt2')
+def get_model_fn(name='gpt2'):
+    tokenizer = transformers.AutoTokenizer.from_pretrained(name)
+    model = transformers.AutoModelWithLMHead.from_pretrained(name)
     print('Loaded model and tokenizer for GPT-2')
 
     # Inputs is a single item: sentence, surprisal_index
     def model_fn(sent, idx):
-        surprisal_idx = len(tokenizer.encode(sent[:idx+1], add_special_tokens=True,))  # Where to begin counting!
+        surprisal_idx = len(tokenizer.encode(sent[:idx], add_special_tokens=True,))  # Where to begin counting!
         sent_id = tokenizer.encode(sent, add_special_tokens=True, return_tensors='pt')
         _, total = surprisal(model, sent_id, surprisal_idx)  # Returns tensors
         return total.item()
