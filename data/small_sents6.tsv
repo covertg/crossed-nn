@@ -1,0 +1,1601 @@
+inference	item	correct	crossing	{Prep}	{E/D}	{Comp}	{Conn}	surprisal_idx
+The car that hit the tree burned; by contrast, the car hit the tree.	0	True	True			that	; by contrast, 	49
+The car that hit the tree burned; in short, the car hit the tree.	0	True	True			that	; in short, 	46
+The car that hit the tree burned; by contrast, the car hit the tree.	0	True	True			that	; by contrast, 	47
+The car that hit the tree burned; in short, the car hit the tree.	0	True	True			that	; in short, 	44
+The car that hit the tree burned; by contrast, the car burned.	0	True	False			that	; by contrast, 	49
+The car that hit the tree burned; in short, the car burned.	0	True	False			that	; in short, 	46
+The car that hit the tree burned; by contrast, the car burned.	0	True	False			that	; by contrast, 	47
+The car that hit the tree burned; in short, the car burned.	0	True	False			that	; in short, 	44
+The car that hit the tree burned; by contrast, the tree hit the car.	0	False	True			that	; by contrast, 	49
+The car that hit the tree burned; in short, the tree hit the car.	0	False	True			that	; in short, 	46
+The car that hit the tree burned; by contrast, the tree hit the car.	0	False	True			that	; by contrast, 	47
+The car that hit the tree burned; in short, the tree hit the car.	0	False	True			that	; in short, 	44
+The car that hit the tree burned; by contrast, the tree burned.	0	False	False			that	; by contrast, 	49
+The car that hit the tree burned; in short, the tree burned.	0	False	False			that	; in short, 	46
+The car that hit the tree burned; by contrast, the tree burned.	0	False	False			that	; by contrast, 	47
+The car that hit the tree burned; in short, the tree burned.	0	False	False			that	; in short, 	44
+The tree that hit the car burned; by contrast, the tree hit the car.	0	True	True			that	; by contrast, 	49
+The tree that hit the car burned; in short, the tree hit the car.	0	True	True			that	; in short, 	46
+The tree that hit the car burned; by contrast, the tree hit the car.	0	True	True			that	; by contrast, 	47
+The tree that hit the car burned; in short, the tree hit the car.	0	True	True			that	; in short, 	44
+The tree that hit the car burned; by contrast, the tree burned.	0	True	False			that	; by contrast, 	49
+The tree that hit the car burned; in short, the tree burned.	0	True	False			that	; in short, 	46
+The tree that hit the car burned; by contrast, the tree burned.	0	True	False			that	; by contrast, 	47
+The tree that hit the car burned; in short, the tree burned.	0	True	False			that	; in short, 	44
+The tree that hit the car burned; by contrast, the car hit the tree.	0	False	True			that	; by contrast, 	49
+The tree that hit the car burned; in short, the car hit the tree.	0	False	True			that	; in short, 	46
+The tree that hit the car burned; by contrast, the car hit the tree.	0	False	True			that	; by contrast, 	47
+The tree that hit the car burned; in short, the car hit the tree.	0	False	True			that	; in short, 	44
+The tree that hit the car burned; by contrast, the car burned.	0	False	False			that	; by contrast, 	49
+The tree that hit the car burned; in short, the car burned.	0	False	False			that	; in short, 	46
+The tree that hit the car burned; by contrast, the car burned.	0	False	False			that	; by contrast, 	47
+The tree that hit the car burned; in short, the car burned.	0	False	False			that	; in short, 	44
+The car that hit the tree shook; by contrast, the car hit the tree.	0	True	True			that	; by contrast, 	48
+The car that hit the tree shook; in short, the car hit the tree.	0	True	True			that	; in short, 	45
+The car that hit the tree shook; by contrast, the car hit the tree.	0	True	True			that	; by contrast, 	46
+The car that hit the tree shook; in short, the car hit the tree.	0	True	True			that	; in short, 	43
+The car that hit the tree shook; by contrast, the car shook.	0	True	False			that	; by contrast, 	48
+The car that hit the tree shook; in short, the car shook.	0	True	False			that	; in short, 	45
+The car that hit the tree shook; by contrast, the car shook.	0	True	False			that	; by contrast, 	46
+The car that hit the tree shook; in short, the car shook.	0	True	False			that	; in short, 	43
+The car that hit the tree shook; by contrast, the tree hit the car.	0	False	True			that	; by contrast, 	48
+The car that hit the tree shook; in short, the tree hit the car.	0	False	True			that	; in short, 	45
+The car that hit the tree shook; by contrast, the tree hit the car.	0	False	True			that	; by contrast, 	46
+The car that hit the tree shook; in short, the tree hit the car.	0	False	True			that	; in short, 	43
+The car that hit the tree shook; by contrast, the tree shook.	0	False	False			that	; by contrast, 	48
+The car that hit the tree shook; in short, the tree shook.	0	False	False			that	; in short, 	45
+The car that hit the tree shook; by contrast, the tree shook.	0	False	False			that	; by contrast, 	46
+The car that hit the tree shook; in short, the tree shook.	0	False	False			that	; in short, 	43
+The tree that hit the car shook; by contrast, the tree hit the car.	0	True	True			that	; by contrast, 	48
+The tree that hit the car shook; in short, the tree hit the car.	0	True	True			that	; in short, 	45
+The tree that hit the car shook; by contrast, the tree hit the car.	0	True	True			that	; by contrast, 	46
+The tree that hit the car shook; in short, the tree hit the car.	0	True	True			that	; in short, 	43
+The tree that hit the car shook; by contrast, the tree shook.	0	True	False			that	; by contrast, 	48
+The tree that hit the car shook; in short, the tree shook.	0	True	False			that	; in short, 	45
+The tree that hit the car shook; by contrast, the tree shook.	0	True	False			that	; by contrast, 	46
+The tree that hit the car shook; in short, the tree shook.	0	True	False			that	; in short, 	43
+The tree that hit the car shook; by contrast, the car hit the tree.	0	False	True			that	; by contrast, 	48
+The tree that hit the car shook; in short, the car hit the tree.	0	False	True			that	; in short, 	45
+The tree that hit the car shook; by contrast, the car hit the tree.	0	False	True			that	; by contrast, 	46
+The tree that hit the car shook; in short, the car hit the tree.	0	False	True			that	; in short, 	43
+The tree that hit the car shook; by contrast, the car shook.	0	False	False			that	; by contrast, 	48
+The tree that hit the car shook; in short, the car shook.	0	False	False			that	; in short, 	45
+The tree that hit the car shook; by contrast, the car shook.	0	False	False			that	; by contrast, 	46
+The tree that hit the car shook; in short, the car shook.	0	False	False			that	; in short, 	43
+The grandma that kissed the girl smiled; by contrast, the grandma kissed the girl.	1	True	True			that	; by contrast, 	56
+The grandma that kissed the girl smiled; in short, the grandma kissed the girl.	1	True	True			that	; in short, 	53
+The grandma that kissed the girl smiled; by contrast, the grandma kissed the girl.	1	True	True			that	; by contrast, 	54
+The grandma that kissed the girl smiled; in short, the grandma kissed the girl.	1	True	True			that	; in short, 	51
+The grandma that kissed the girl smiled; by contrast, the grandma smiled.	1	True	False			that	; by contrast, 	56
+The grandma that kissed the girl smiled; in short, the grandma smiled.	1	True	False			that	; in short, 	53
+The grandma that kissed the girl smiled; by contrast, the grandma smiled.	1	True	False			that	; by contrast, 	54
+The grandma that kissed the girl smiled; in short, the grandma smiled.	1	True	False			that	; in short, 	51
+The grandma that kissed the girl smiled; by contrast, the girl kissed the grandma.	1	False	True			that	; by contrast, 	56
+The grandma that kissed the girl smiled; in short, the girl kissed the grandma.	1	False	True			that	; in short, 	53
+The grandma that kissed the girl smiled; by contrast, the girl kissed the grandma.	1	False	True			that	; by contrast, 	54
+The grandma that kissed the girl smiled; in short, the girl kissed the grandma.	1	False	True			that	; in short, 	51
+The grandma that kissed the girl smiled; by contrast, the girl smiled.	1	False	False			that	; by contrast, 	56
+The grandma that kissed the girl smiled; in short, the girl smiled.	1	False	False			that	; in short, 	53
+The grandma that kissed the girl smiled; by contrast, the girl smiled.	1	False	False			that	; by contrast, 	54
+The grandma that kissed the girl smiled; in short, the girl smiled.	1	False	False			that	; in short, 	51
+The girl that kissed the grandma smiled; by contrast, the girl kissed the grandma.	1	True	True			that	; by contrast, 	56
+The girl that kissed the grandma smiled; in short, the girl kissed the grandma.	1	True	True			that	; in short, 	53
+The girl that kissed the grandma smiled; by contrast, the girl kissed the grandma.	1	True	True			that	; by contrast, 	54
+The girl that kissed the grandma smiled; in short, the girl kissed the grandma.	1	True	True			that	; in short, 	51
+The girl that kissed the grandma smiled; by contrast, the girl smiled.	1	True	False			that	; by contrast, 	56
+The girl that kissed the grandma smiled; in short, the girl smiled.	1	True	False			that	; in short, 	53
+The girl that kissed the grandma smiled; by contrast, the girl smiled.	1	True	False			that	; by contrast, 	54
+The girl that kissed the grandma smiled; in short, the girl smiled.	1	True	False			that	; in short, 	51
+The girl that kissed the grandma smiled; by contrast, the grandma kissed the girl.	1	False	True			that	; by contrast, 	56
+The girl that kissed the grandma smiled; in short, the grandma kissed the girl.	1	False	True			that	; in short, 	53
+The girl that kissed the grandma smiled; by contrast, the grandma kissed the girl.	1	False	True			that	; by contrast, 	54
+The girl that kissed the grandma smiled; in short, the grandma kissed the girl.	1	False	True			that	; in short, 	51
+The girl that kissed the grandma smiled; by contrast, the grandma smiled.	1	False	False			that	; by contrast, 	56
+The girl that kissed the grandma smiled; in short, the grandma smiled.	1	False	False			that	; in short, 	53
+The girl that kissed the grandma smiled; by contrast, the grandma smiled.	1	False	False			that	; by contrast, 	54
+The girl that kissed the grandma smiled; in short, the grandma smiled.	1	False	False			that	; in short, 	51
+The grandma that kissed the girl laughed; by contrast, the grandma kissed the girl.	1	True	True			that	; by contrast, 	57
+The grandma that kissed the girl laughed; in short, the grandma kissed the girl.	1	True	True			that	; in short, 	54
+The grandma that kissed the girl laughed; by contrast, the grandma kissed the girl.	1	True	True			that	; by contrast, 	55
+The grandma that kissed the girl laughed; in short, the grandma kissed the girl.	1	True	True			that	; in short, 	52
+The grandma that kissed the girl laughed; by contrast, the grandma laughed.	1	True	False			that	; by contrast, 	57
+The grandma that kissed the girl laughed; in short, the grandma laughed.	1	True	False			that	; in short, 	54
+The grandma that kissed the girl laughed; by contrast, the grandma laughed.	1	True	False			that	; by contrast, 	55
+The grandma that kissed the girl laughed; in short, the grandma laughed.	1	True	False			that	; in short, 	52
+The grandma that kissed the girl laughed; by contrast, the girl kissed the grandma.	1	False	True			that	; by contrast, 	57
+The grandma that kissed the girl laughed; in short, the girl kissed the grandma.	1	False	True			that	; in short, 	54
+The grandma that kissed the girl laughed; by contrast, the girl kissed the grandma.	1	False	True			that	; by contrast, 	55
+The grandma that kissed the girl laughed; in short, the girl kissed the grandma.	1	False	True			that	; in short, 	52
+The grandma that kissed the girl laughed; by contrast, the girl laughed.	1	False	False			that	; by contrast, 	57
+The grandma that kissed the girl laughed; in short, the girl laughed.	1	False	False			that	; in short, 	54
+The grandma that kissed the girl laughed; by contrast, the girl laughed.	1	False	False			that	; by contrast, 	55
+The grandma that kissed the girl laughed; in short, the girl laughed.	1	False	False			that	; in short, 	52
+The girl that kissed the grandma laughed; by contrast, the girl kissed the grandma.	1	True	True			that	; by contrast, 	57
+The girl that kissed the grandma laughed; in short, the girl kissed the grandma.	1	True	True			that	; in short, 	54
+The girl that kissed the grandma laughed; by contrast, the girl kissed the grandma.	1	True	True			that	; by contrast, 	55
+The girl that kissed the grandma laughed; in short, the girl kissed the grandma.	1	True	True			that	; in short, 	52
+The girl that kissed the grandma laughed; by contrast, the girl laughed.	1	True	False			that	; by contrast, 	57
+The girl that kissed the grandma laughed; in short, the girl laughed.	1	True	False			that	; in short, 	54
+The girl that kissed the grandma laughed; by contrast, the girl laughed.	1	True	False			that	; by contrast, 	55
+The girl that kissed the grandma laughed; in short, the girl laughed.	1	True	False			that	; in short, 	52
+The girl that kissed the grandma laughed; by contrast, the grandma kissed the girl.	1	False	True			that	; by contrast, 	57
+The girl that kissed the grandma laughed; in short, the grandma kissed the girl.	1	False	True			that	; in short, 	54
+The girl that kissed the grandma laughed; by contrast, the grandma kissed the girl.	1	False	True			that	; by contrast, 	55
+The girl that kissed the grandma laughed; in short, the grandma kissed the girl.	1	False	True			that	; in short, 	52
+The girl that kissed the grandma laughed; by contrast, the grandma laughed.	1	False	False			that	; by contrast, 	57
+The girl that kissed the grandma laughed; in short, the grandma laughed.	1	False	False			that	; in short, 	54
+The girl that kissed the grandma laughed; by contrast, the grandma laughed.	1	False	False			that	; by contrast, 	55
+The girl that kissed the grandma laughed; in short, the grandma laughed.	1	False	False			that	; in short, 	52
+The dog that bit the cat jumped; by contrast, the dog bit the cat.	2	True	True			that	; by contrast, 	48
+The dog that bit the cat jumped; in short, the dog bit the cat.	2	True	True			that	; in short, 	45
+The dog that bit the cat jumped; by contrast, the dog bit the cat.	2	True	True			that	; by contrast, 	46
+The dog that bit the cat jumped; in short, the dog bit the cat.	2	True	True			that	; in short, 	43
+The dog that bit the cat jumped; by contrast, the dog jumped.	2	True	False			that	; by contrast, 	48
+The dog that bit the cat jumped; in short, the dog jumped.	2	True	False			that	; in short, 	45
+The dog that bit the cat jumped; by contrast, the dog jumped.	2	True	False			that	; by contrast, 	46
+The dog that bit the cat jumped; in short, the dog jumped.	2	True	False			that	; in short, 	43
+The dog that bit the cat jumped; by contrast, the cat bit the dog.	2	False	True			that	; by contrast, 	48
+The dog that bit the cat jumped; in short, the cat bit the dog.	2	False	True			that	; in short, 	45
+The dog that bit the cat jumped; by contrast, the cat bit the dog.	2	False	True			that	; by contrast, 	46
+The dog that bit the cat jumped; in short, the cat bit the dog.	2	False	True			that	; in short, 	43
+The dog that bit the cat jumped; by contrast, the cat jumped.	2	False	False			that	; by contrast, 	48
+The dog that bit the cat jumped; in short, the cat jumped.	2	False	False			that	; in short, 	45
+The dog that bit the cat jumped; by contrast, the cat jumped.	2	False	False			that	; by contrast, 	46
+The dog that bit the cat jumped; in short, the cat jumped.	2	False	False			that	; in short, 	43
+The cat that bit the dog jumped; by contrast, the cat bit the dog.	2	True	True			that	; by contrast, 	48
+The cat that bit the dog jumped; in short, the cat bit the dog.	2	True	True			that	; in short, 	45
+The cat that bit the dog jumped; by contrast, the cat bit the dog.	2	True	True			that	; by contrast, 	46
+The cat that bit the dog jumped; in short, the cat bit the dog.	2	True	True			that	; in short, 	43
+The cat that bit the dog jumped; by contrast, the cat jumped.	2	True	False			that	; by contrast, 	48
+The cat that bit the dog jumped; in short, the cat jumped.	2	True	False			that	; in short, 	45
+The cat that bit the dog jumped; by contrast, the cat jumped.	2	True	False			that	; by contrast, 	46
+The cat that bit the dog jumped; in short, the cat jumped.	2	True	False			that	; in short, 	43
+The cat that bit the dog jumped; by contrast, the dog bit the cat.	2	False	True			that	; by contrast, 	48
+The cat that bit the dog jumped; in short, the dog bit the cat.	2	False	True			that	; in short, 	45
+The cat that bit the dog jumped; by contrast, the dog bit the cat.	2	False	True			that	; by contrast, 	46
+The cat that bit the dog jumped; in short, the dog bit the cat.	2	False	True			that	; in short, 	43
+The cat that bit the dog jumped; by contrast, the dog jumped.	2	False	False			that	; by contrast, 	48
+The cat that bit the dog jumped; in short, the dog jumped.	2	False	False			that	; in short, 	45
+The cat that bit the dog jumped; by contrast, the dog jumped.	2	False	False			that	; by contrast, 	46
+The cat that bit the dog jumped; in short, the dog jumped.	2	False	False			that	; in short, 	43
+The dog that bit the cat hid; by contrast, the dog bit the cat.	2	True	True			that	; by contrast, 	45
+The dog that bit the cat hid; in short, the dog bit the cat.	2	True	True			that	; in short, 	42
+The dog that bit the cat hid; by contrast, the dog bit the cat.	2	True	True			that	; by contrast, 	43
+The dog that bit the cat hid; in short, the dog bit the cat.	2	True	True			that	; in short, 	40
+The dog that bit the cat hid; by contrast, the dog hid.	2	True	False			that	; by contrast, 	45
+The dog that bit the cat hid; in short, the dog hid.	2	True	False			that	; in short, 	42
+The dog that bit the cat hid; by contrast, the dog hid.	2	True	False			that	; by contrast, 	43
+The dog that bit the cat hid; in short, the dog hid.	2	True	False			that	; in short, 	40
+The dog that bit the cat hid; by contrast, the cat bit the dog.	2	False	True			that	; by contrast, 	45
+The dog that bit the cat hid; in short, the cat bit the dog.	2	False	True			that	; in short, 	42
+The dog that bit the cat hid; by contrast, the cat bit the dog.	2	False	True			that	; by contrast, 	43
+The dog that bit the cat hid; in short, the cat bit the dog.	2	False	True			that	; in short, 	40
+The dog that bit the cat hid; by contrast, the cat hid.	2	False	False			that	; by contrast, 	45
+The dog that bit the cat hid; in short, the cat hid.	2	False	False			that	; in short, 	42
+The dog that bit the cat hid; by contrast, the cat hid.	2	False	False			that	; by contrast, 	43
+The dog that bit the cat hid; in short, the cat hid.	2	False	False			that	; in short, 	40
+The cat that bit the dog hid; by contrast, the cat bit the dog.	2	True	True			that	; by contrast, 	45
+The cat that bit the dog hid; in short, the cat bit the dog.	2	True	True			that	; in short, 	42
+The cat that bit the dog hid; by contrast, the cat bit the dog.	2	True	True			that	; by contrast, 	43
+The cat that bit the dog hid; in short, the cat bit the dog.	2	True	True			that	; in short, 	40
+The cat that bit the dog hid; by contrast, the cat hid.	2	True	False			that	; by contrast, 	45
+The cat that bit the dog hid; in short, the cat hid.	2	True	False			that	; in short, 	42
+The cat that bit the dog hid; by contrast, the cat hid.	2	True	False			that	; by contrast, 	43
+The cat that bit the dog hid; in short, the cat hid.	2	True	False			that	; in short, 	40
+The cat that bit the dog hid; by contrast, the dog bit the cat.	2	False	True			that	; by contrast, 	45
+The cat that bit the dog hid; in short, the dog bit the cat.	2	False	True			that	; in short, 	42
+The cat that bit the dog hid; by contrast, the dog bit the cat.	2	False	True			that	; by contrast, 	43
+The cat that bit the dog hid; in short, the dog bit the cat.	2	False	True			that	; in short, 	40
+The cat that bit the dog hid; by contrast, the dog hid.	2	False	False			that	; by contrast, 	45
+The cat that bit the dog hid; in short, the dog hid.	2	False	False			that	; in short, 	42
+The cat that bit the dog hid; by contrast, the dog hid.	2	False	False			that	; by contrast, 	43
+The cat that bit the dog hid; in short, the dog hid.	2	False	False			that	; in short, 	40
+The lion that chased the tiger growled; by contrast, the lion chased the tiger.	3	True	True			that	; by contrast, 	55
+The lion that chased the tiger growled; in short, the lion chased the tiger.	3	True	True			that	; in short, 	52
+The lion that chased the tiger growled; by contrast, the lion chased the tiger.	3	True	True			that	; by contrast, 	53
+The lion that chased the tiger growled; in short, the lion chased the tiger.	3	True	True			that	; in short, 	50
+The lion that chased the tiger growled; by contrast, the lion growled.	3	True	False			that	; by contrast, 	55
+The lion that chased the tiger growled; in short, the lion growled.	3	True	False			that	; in short, 	52
+The lion that chased the tiger growled; by contrast, the lion growled.	3	True	False			that	; by contrast, 	53
+The lion that chased the tiger growled; in short, the lion growled.	3	True	False			that	; in short, 	50
+The lion that chased the tiger growled; by contrast, the tiger chased the lion.	3	False	True			that	; by contrast, 	55
+The lion that chased the tiger growled; in short, the tiger chased the lion.	3	False	True			that	; in short, 	52
+The lion that chased the tiger growled; by contrast, the tiger chased the lion.	3	False	True			that	; by contrast, 	53
+The lion that chased the tiger growled; in short, the tiger chased the lion.	3	False	True			that	; in short, 	50
+The lion that chased the tiger growled; by contrast, the tiger growled.	3	False	False			that	; by contrast, 	55
+The lion that chased the tiger growled; in short, the tiger growled.	3	False	False			that	; in short, 	52
+The lion that chased the tiger growled; by contrast, the tiger growled.	3	False	False			that	; by contrast, 	53
+The lion that chased the tiger growled; in short, the tiger growled.	3	False	False			that	; in short, 	50
+The tiger that chased the lion growled; by contrast, the tiger chased the lion.	3	True	True			that	; by contrast, 	55
+The tiger that chased the lion growled; in short, the tiger chased the lion.	3	True	True			that	; in short, 	52
+The tiger that chased the lion growled; by contrast, the tiger chased the lion.	3	True	True			that	; by contrast, 	53
+The tiger that chased the lion growled; in short, the tiger chased the lion.	3	True	True			that	; in short, 	50
+The tiger that chased the lion growled; by contrast, the tiger growled.	3	True	False			that	; by contrast, 	55
+The tiger that chased the lion growled; in short, the tiger growled.	3	True	False			that	; in short, 	52
+The tiger that chased the lion growled; by contrast, the tiger growled.	3	True	False			that	; by contrast, 	53
+The tiger that chased the lion growled; in short, the tiger growled.	3	True	False			that	; in short, 	50
+The tiger that chased the lion growled; by contrast, the lion chased the tiger.	3	False	True			that	; by contrast, 	55
+The tiger that chased the lion growled; in short, the lion chased the tiger.	3	False	True			that	; in short, 	52
+The tiger that chased the lion growled; by contrast, the lion chased the tiger.	3	False	True			that	; by contrast, 	53
+The tiger that chased the lion growled; in short, the lion chased the tiger.	3	False	True			that	; in short, 	50
+The tiger that chased the lion growled; by contrast, the lion growled.	3	False	False			that	; by contrast, 	55
+The tiger that chased the lion growled; in short, the lion growled.	3	False	False			that	; in short, 	52
+The tiger that chased the lion growled; by contrast, the lion growled.	3	False	False			that	; by contrast, 	53
+The tiger that chased the lion growled; in short, the lion growled.	3	False	False			that	; in short, 	50
+The lion that chased the tiger yawned; by contrast, the lion chased the tiger.	3	True	True			that	; by contrast, 	54
+The lion that chased the tiger yawned; in short, the lion chased the tiger.	3	True	True			that	; in short, 	51
+The lion that chased the tiger yawned; by contrast, the lion chased the tiger.	3	True	True			that	; by contrast, 	52
+The lion that chased the tiger yawned; in short, the lion chased the tiger.	3	True	True			that	; in short, 	49
+The lion that chased the tiger yawned; by contrast, the lion yawned.	3	True	False			that	; by contrast, 	54
+The lion that chased the tiger yawned; in short, the lion yawned.	3	True	False			that	; in short, 	51
+The lion that chased the tiger yawned; by contrast, the lion yawned.	3	True	False			that	; by contrast, 	52
+The lion that chased the tiger yawned; in short, the lion yawned.	3	True	False			that	; in short, 	49
+The lion that chased the tiger yawned; by contrast, the tiger chased the lion.	3	False	True			that	; by contrast, 	54
+The lion that chased the tiger yawned; in short, the tiger chased the lion.	3	False	True			that	; in short, 	51
+The lion that chased the tiger yawned; by contrast, the tiger chased the lion.	3	False	True			that	; by contrast, 	52
+The lion that chased the tiger yawned; in short, the tiger chased the lion.	3	False	True			that	; in short, 	49
+The lion that chased the tiger yawned; by contrast, the tiger yawned.	3	False	False			that	; by contrast, 	54
+The lion that chased the tiger yawned; in short, the tiger yawned.	3	False	False			that	; in short, 	51
+The lion that chased the tiger yawned; by contrast, the tiger yawned.	3	False	False			that	; by contrast, 	52
+The lion that chased the tiger yawned; in short, the tiger yawned.	3	False	False			that	; in short, 	49
+The tiger that chased the lion yawned; by contrast, the tiger chased the lion.	3	True	True			that	; by contrast, 	54
+The tiger that chased the lion yawned; in short, the tiger chased the lion.	3	True	True			that	; in short, 	51
+The tiger that chased the lion yawned; by contrast, the tiger chased the lion.	3	True	True			that	; by contrast, 	52
+The tiger that chased the lion yawned; in short, the tiger chased the lion.	3	True	True			that	; in short, 	49
+The tiger that chased the lion yawned; by contrast, the tiger yawned.	3	True	False			that	; by contrast, 	54
+The tiger that chased the lion yawned; in short, the tiger yawned.	3	True	False			that	; in short, 	51
+The tiger that chased the lion yawned; by contrast, the tiger yawned.	3	True	False			that	; by contrast, 	52
+The tiger that chased the lion yawned; in short, the tiger yawned.	3	True	False			that	; in short, 	49
+The tiger that chased the lion yawned; by contrast, the lion chased the tiger.	3	False	True			that	; by contrast, 	54
+The tiger that chased the lion yawned; in short, the lion chased the tiger.	3	False	True			that	; in short, 	51
+The tiger that chased the lion yawned; by contrast, the lion chased the tiger.	3	False	True			that	; by contrast, 	52
+The tiger that chased the lion yawned; in short, the lion chased the tiger.	3	False	True			that	; in short, 	49
+The tiger that chased the lion yawned; by contrast, the lion yawned.	3	False	False			that	; by contrast, 	54
+The tiger that chased the lion yawned; in short, the lion yawned.	3	False	False			that	; in short, 	51
+The tiger that chased the lion yawned; by contrast, the lion yawned.	3	False	False			that	; by contrast, 	52
+The tiger that chased the lion yawned; in short, the lion yawned.	3	False	False			that	; in short, 	49
+The doctor that reviewed the patient sat; by contrast, the doctor reviewed the patient.	4	True	True			that	; by contrast, 	57
+The doctor that reviewed the patient sat; in short, the doctor reviewed the patient.	4	True	True			that	; in short, 	54
+The doctor that reviewed the patient sat; by contrast, the doctor reviewed the patient.	4	True	True			that	; by contrast, 	55
+The doctor that reviewed the patient sat; in short, the doctor reviewed the patient.	4	True	True			that	; in short, 	52
+The doctor that reviewed the patient sat; by contrast, the doctor sat.	4	True	False			that	; by contrast, 	57
+The doctor that reviewed the patient sat; in short, the doctor sat.	4	True	False			that	; in short, 	54
+The doctor that reviewed the patient sat; by contrast, the doctor sat.	4	True	False			that	; by contrast, 	55
+The doctor that reviewed the patient sat; in short, the doctor sat.	4	True	False			that	; in short, 	52
+The doctor that reviewed the patient sat; by contrast, the patient reviewed the doctor.	4	False	True			that	; by contrast, 	57
+The doctor that reviewed the patient sat; in short, the patient reviewed the doctor.	4	False	True			that	; in short, 	54
+The doctor that reviewed the patient sat; by contrast, the patient reviewed the doctor.	4	False	True			that	; by contrast, 	55
+The doctor that reviewed the patient sat; in short, the patient reviewed the doctor.	4	False	True			that	; in short, 	52
+The doctor that reviewed the patient sat; by contrast, the patient sat.	4	False	False			that	; by contrast, 	57
+The doctor that reviewed the patient sat; in short, the patient sat.	4	False	False			that	; in short, 	54
+The doctor that reviewed the patient sat; by contrast, the patient sat.	4	False	False			that	; by contrast, 	55
+The doctor that reviewed the patient sat; in short, the patient sat.	4	False	False			that	; in short, 	52
+The patient that reviewed the doctor sat; by contrast, the patient reviewed the doctor.	4	True	True			that	; by contrast, 	57
+The patient that reviewed the doctor sat; in short, the patient reviewed the doctor.	4	True	True			that	; in short, 	54
+The patient that reviewed the doctor sat; by contrast, the patient reviewed the doctor.	4	True	True			that	; by contrast, 	55
+The patient that reviewed the doctor sat; in short, the patient reviewed the doctor.	4	True	True			that	; in short, 	52
+The patient that reviewed the doctor sat; by contrast, the patient sat.	4	True	False			that	; by contrast, 	57
+The patient that reviewed the doctor sat; in short, the patient sat.	4	True	False			that	; in short, 	54
+The patient that reviewed the doctor sat; by contrast, the patient sat.	4	True	False			that	; by contrast, 	55
+The patient that reviewed the doctor sat; in short, the patient sat.	4	True	False			that	; in short, 	52
+The patient that reviewed the doctor sat; by contrast, the doctor reviewed the patient.	4	False	True			that	; by contrast, 	57
+The patient that reviewed the doctor sat; in short, the doctor reviewed the patient.	4	False	True			that	; in short, 	54
+The patient that reviewed the doctor sat; by contrast, the doctor reviewed the patient.	4	False	True			that	; by contrast, 	55
+The patient that reviewed the doctor sat; in short, the doctor reviewed the patient.	4	False	True			that	; in short, 	52
+The patient that reviewed the doctor sat; by contrast, the doctor sat.	4	False	False			that	; by contrast, 	57
+The patient that reviewed the doctor sat; in short, the doctor sat.	4	False	False			that	; in short, 	54
+The patient that reviewed the doctor sat; by contrast, the doctor sat.	4	False	False			that	; by contrast, 	55
+The patient that reviewed the doctor sat; in short, the doctor sat.	4	False	False			that	; in short, 	52
+The doctor that reviewed the patient blinked; by contrast, the doctor reviewed the patient.	4	True	True			that	; by contrast, 	61
+The doctor that reviewed the patient blinked; in short, the doctor reviewed the patient.	4	True	True			that	; in short, 	58
+The doctor that reviewed the patient blinked; by contrast, the doctor reviewed the patient.	4	True	True			that	; by contrast, 	59
+The doctor that reviewed the patient blinked; in short, the doctor reviewed the patient.	4	True	True			that	; in short, 	56
+The doctor that reviewed the patient blinked; by contrast, the doctor blinked.	4	True	False			that	; by contrast, 	61
+The doctor that reviewed the patient blinked; in short, the doctor blinked.	4	True	False			that	; in short, 	58
+The doctor that reviewed the patient blinked; by contrast, the doctor blinked.	4	True	False			that	; by contrast, 	59
+The doctor that reviewed the patient blinked; in short, the doctor blinked.	4	True	False			that	; in short, 	56
+The doctor that reviewed the patient blinked; by contrast, the patient reviewed the doctor.	4	False	True			that	; by contrast, 	61
+The doctor that reviewed the patient blinked; in short, the patient reviewed the doctor.	4	False	True			that	; in short, 	58
+The doctor that reviewed the patient blinked; by contrast, the patient reviewed the doctor.	4	False	True			that	; by contrast, 	59
+The doctor that reviewed the patient blinked; in short, the patient reviewed the doctor.	4	False	True			that	; in short, 	56
+The doctor that reviewed the patient blinked; by contrast, the patient blinked.	4	False	False			that	; by contrast, 	61
+The doctor that reviewed the patient blinked; in short, the patient blinked.	4	False	False			that	; in short, 	58
+The doctor that reviewed the patient blinked; by contrast, the patient blinked.	4	False	False			that	; by contrast, 	59
+The doctor that reviewed the patient blinked; in short, the patient blinked.	4	False	False			that	; in short, 	56
+The patient that reviewed the doctor blinked; by contrast, the patient reviewed the doctor.	4	True	True			that	; by contrast, 	61
+The patient that reviewed the doctor blinked; in short, the patient reviewed the doctor.	4	True	True			that	; in short, 	58
+The patient that reviewed the doctor blinked; by contrast, the patient reviewed the doctor.	4	True	True			that	; by contrast, 	59
+The patient that reviewed the doctor blinked; in short, the patient reviewed the doctor.	4	True	True			that	; in short, 	56
+The patient that reviewed the doctor blinked; by contrast, the patient blinked.	4	True	False			that	; by contrast, 	61
+The patient that reviewed the doctor blinked; in short, the patient blinked.	4	True	False			that	; in short, 	58
+The patient that reviewed the doctor blinked; by contrast, the patient blinked.	4	True	False			that	; by contrast, 	59
+The patient that reviewed the doctor blinked; in short, the patient blinked.	4	True	False			that	; in short, 	56
+The patient that reviewed the doctor blinked; by contrast, the doctor reviewed the patient.	4	False	True			that	; by contrast, 	61
+The patient that reviewed the doctor blinked; in short, the doctor reviewed the patient.	4	False	True			that	; in short, 	58
+The patient that reviewed the doctor blinked; by contrast, the doctor reviewed the patient.	4	False	True			that	; by contrast, 	59
+The patient that reviewed the doctor blinked; in short, the doctor reviewed the patient.	4	False	True			that	; in short, 	56
+The patient that reviewed the doctor blinked; by contrast, the doctor blinked.	4	False	False			that	; by contrast, 	61
+The patient that reviewed the doctor blinked; in short, the doctor blinked.	4	False	False			that	; in short, 	58
+The patient that reviewed the doctor blinked; by contrast, the doctor blinked.	4	False	False			that	; by contrast, 	59
+The patient that reviewed the doctor blinked; in short, the doctor blinked.	4	False	False			that	; in short, 	56
+The President that noticed the beaurocrat contemplated; by contrast, the President noticed the beaurocrat.	5	True	True			that	; by contrast, 	71
+The President that noticed the beaurocrat contemplated; in short, the President noticed the beaurocrat.	5	True	True			that	; in short, 	68
+The President that noticed the beaurocrat contemplated; by contrast, the President noticed the beaurocrat.	5	True	True			that	; by contrast, 	69
+The President that noticed the beaurocrat contemplated; in short, the President noticed the beaurocrat.	5	True	True			that	; in short, 	66
+The President that noticed the beaurocrat contemplated; by contrast, the President contemplated.	5	True	False			that	; by contrast, 	71
+The President that noticed the beaurocrat contemplated; in short, the President contemplated.	5	True	False			that	; in short, 	68
+The President that noticed the beaurocrat contemplated; by contrast, the President contemplated.	5	True	False			that	; by contrast, 	69
+The President that noticed the beaurocrat contemplated; in short, the President contemplated.	5	True	False			that	; in short, 	66
+The President that noticed the beaurocrat contemplated; by contrast, the beaurocrat noticed the President.	5	False	True			that	; by contrast, 	71
+The President that noticed the beaurocrat contemplated; in short, the beaurocrat noticed the President.	5	False	True			that	; in short, 	68
+The President that noticed the beaurocrat contemplated; by contrast, the beaurocrat noticed the President.	5	False	True			that	; by contrast, 	69
+The President that noticed the beaurocrat contemplated; in short, the beaurocrat noticed the President.	5	False	True			that	; in short, 	66
+The President that noticed the beaurocrat contemplated; by contrast, the beaurocrat contemplated.	5	False	False			that	; by contrast, 	71
+The President that noticed the beaurocrat contemplated; in short, the beaurocrat contemplated.	5	False	False			that	; in short, 	68
+The President that noticed the beaurocrat contemplated; by contrast, the beaurocrat contemplated.	5	False	False			that	; by contrast, 	69
+The President that noticed the beaurocrat contemplated; in short, the beaurocrat contemplated.	5	False	False			that	; in short, 	66
+The beaurocrat that noticed the President contemplated; by contrast, the beaurocrat noticed the President.	5	True	True			that	; by contrast, 	71
+The beaurocrat that noticed the President contemplated; in short, the beaurocrat noticed the President.	5	True	True			that	; in short, 	68
+The beaurocrat that noticed the President contemplated; by contrast, the beaurocrat noticed the President.	5	True	True			that	; by contrast, 	69
+The beaurocrat that noticed the President contemplated; in short, the beaurocrat noticed the President.	5	True	True			that	; in short, 	66
+The beaurocrat that noticed the President contemplated; by contrast, the beaurocrat contemplated.	5	True	False			that	; by contrast, 	71
+The beaurocrat that noticed the President contemplated; in short, the beaurocrat contemplated.	5	True	False			that	; in short, 	68
+The beaurocrat that noticed the President contemplated; by contrast, the beaurocrat contemplated.	5	True	False			that	; by contrast, 	69
+The beaurocrat that noticed the President contemplated; in short, the beaurocrat contemplated.	5	True	False			that	; in short, 	66
+The beaurocrat that noticed the President contemplated; by contrast, the President noticed the beaurocrat.	5	False	True			that	; by contrast, 	71
+The beaurocrat that noticed the President contemplated; in short, the President noticed the beaurocrat.	5	False	True			that	; in short, 	68
+The beaurocrat that noticed the President contemplated; by contrast, the President noticed the beaurocrat.	5	False	True			that	; by contrast, 	69
+The beaurocrat that noticed the President contemplated; in short, the President noticed the beaurocrat.	5	False	True			that	; in short, 	66
+The beaurocrat that noticed the President contemplated; by contrast, the President contemplated.	5	False	False			that	; by contrast, 	71
+The beaurocrat that noticed the President contemplated; in short, the President contemplated.	5	False	False			that	; in short, 	68
+The beaurocrat that noticed the President contemplated; by contrast, the President contemplated.	5	False	False			that	; by contrast, 	69
+The beaurocrat that noticed the President contemplated; in short, the President contemplated.	5	False	False			that	; in short, 	66
+The President that noticed the beaurocrat tweeted; by contrast, the President noticed the beaurocrat.	5	True	True			that	; by contrast, 	66
+The President that noticed the beaurocrat tweeted; in short, the President noticed the beaurocrat.	5	True	True			that	; in short, 	63
+The President that noticed the beaurocrat tweeted; by contrast, the President noticed the beaurocrat.	5	True	True			that	; by contrast, 	64
+The President that noticed the beaurocrat tweeted; in short, the President noticed the beaurocrat.	5	True	True			that	; in short, 	61
+The President that noticed the beaurocrat tweeted; by contrast, the President tweeted.	5	True	False			that	; by contrast, 	66
+The President that noticed the beaurocrat tweeted; in short, the President tweeted.	5	True	False			that	; in short, 	63
+The President that noticed the beaurocrat tweeted; by contrast, the President tweeted.	5	True	False			that	; by contrast, 	64
+The President that noticed the beaurocrat tweeted; in short, the President tweeted.	5	True	False			that	; in short, 	61
+The President that noticed the beaurocrat tweeted; by contrast, the beaurocrat noticed the President.	5	False	True			that	; by contrast, 	66
+The President that noticed the beaurocrat tweeted; in short, the beaurocrat noticed the President.	5	False	True			that	; in short, 	63
+The President that noticed the beaurocrat tweeted; by contrast, the beaurocrat noticed the President.	5	False	True			that	; by contrast, 	64
+The President that noticed the beaurocrat tweeted; in short, the beaurocrat noticed the President.	5	False	True			that	; in short, 	61
+The President that noticed the beaurocrat tweeted; by contrast, the beaurocrat tweeted.	5	False	False			that	; by contrast, 	66
+The President that noticed the beaurocrat tweeted; in short, the beaurocrat tweeted.	5	False	False			that	; in short, 	63
+The President that noticed the beaurocrat tweeted; by contrast, the beaurocrat tweeted.	5	False	False			that	; by contrast, 	64
+The President that noticed the beaurocrat tweeted; in short, the beaurocrat tweeted.	5	False	False			that	; in short, 	61
+The beaurocrat that noticed the President tweeted; by contrast, the beaurocrat noticed the President.	5	True	True			that	; by contrast, 	66
+The beaurocrat that noticed the President tweeted; in short, the beaurocrat noticed the President.	5	True	True			that	; in short, 	63
+The beaurocrat that noticed the President tweeted; by contrast, the beaurocrat noticed the President.	5	True	True			that	; by contrast, 	64
+The beaurocrat that noticed the President tweeted; in short, the beaurocrat noticed the President.	5	True	True			that	; in short, 	61
+The beaurocrat that noticed the President tweeted; by contrast, the beaurocrat tweeted.	5	True	False			that	; by contrast, 	66
+The beaurocrat that noticed the President tweeted; in short, the beaurocrat tweeted.	5	True	False			that	; in short, 	63
+The beaurocrat that noticed the President tweeted; by contrast, the beaurocrat tweeted.	5	True	False			that	; by contrast, 	64
+The beaurocrat that noticed the President tweeted; in short, the beaurocrat tweeted.	5	True	False			that	; in short, 	61
+The beaurocrat that noticed the President tweeted; by contrast, the President noticed the beaurocrat.	5	False	True			that	; by contrast, 	66
+The beaurocrat that noticed the President tweeted; in short, the President noticed the beaurocrat.	5	False	True			that	; in short, 	63
+The beaurocrat that noticed the President tweeted; by contrast, the President noticed the beaurocrat.	5	False	True			that	; by contrast, 	64
+The beaurocrat that noticed the President tweeted; in short, the President noticed the beaurocrat.	5	False	True			that	; in short, 	61
+The beaurocrat that noticed the President tweeted; by contrast, the President tweeted.	5	False	False			that	; by contrast, 	66
+The beaurocrat that noticed the President tweeted; in short, the President tweeted.	5	False	False			that	; in short, 	63
+The beaurocrat that noticed the President tweeted; by contrast, the President tweeted.	5	False	False			that	; by contrast, 	64
+The beaurocrat that noticed the President tweeted; in short, the President tweeted.	5	False	False			that	; in short, 	61
+The bride that slapped the priest shouted; by contrast, the bride slapped the priest.	6	True	True			that	; by contrast, 	58
+The bride that slapped the priest shouted; in short, the bride slapped the priest.	6	True	True			that	; in short, 	55
+The bride that slapped the priest shouted; by contrast, the bride slapped the priest.	6	True	True			that	; by contrast, 	56
+The bride that slapped the priest shouted; in short, the bride slapped the priest.	6	True	True			that	; in short, 	53
+The bride that slapped the priest shouted; by contrast, the bride shouted.	6	True	False			that	; by contrast, 	58
+The bride that slapped the priest shouted; in short, the bride shouted.	6	True	False			that	; in short, 	55
+The bride that slapped the priest shouted; by contrast, the bride shouted.	6	True	False			that	; by contrast, 	56
+The bride that slapped the priest shouted; in short, the bride shouted.	6	True	False			that	; in short, 	53
+The bride that slapped the priest shouted; by contrast, the priest slapped the bride.	6	False	True			that	; by contrast, 	58
+The bride that slapped the priest shouted; in short, the priest slapped the bride.	6	False	True			that	; in short, 	55
+The bride that slapped the priest shouted; by contrast, the priest slapped the bride.	6	False	True			that	; by contrast, 	56
+The bride that slapped the priest shouted; in short, the priest slapped the bride.	6	False	True			that	; in short, 	53
+The bride that slapped the priest shouted; by contrast, the priest shouted.	6	False	False			that	; by contrast, 	58
+The bride that slapped the priest shouted; in short, the priest shouted.	6	False	False			that	; in short, 	55
+The bride that slapped the priest shouted; by contrast, the priest shouted.	6	False	False			that	; by contrast, 	56
+The bride that slapped the priest shouted; in short, the priest shouted.	6	False	False			that	; in short, 	53
+The priest that slapped the bride shouted; by contrast, the priest slapped the bride.	6	True	True			that	; by contrast, 	58
+The priest that slapped the bride shouted; in short, the priest slapped the bride.	6	True	True			that	; in short, 	55
+The priest that slapped the bride shouted; by contrast, the priest slapped the bride.	6	True	True			that	; by contrast, 	56
+The priest that slapped the bride shouted; in short, the priest slapped the bride.	6	True	True			that	; in short, 	53
+The priest that slapped the bride shouted; by contrast, the priest shouted.	6	True	False			that	; by contrast, 	58
+The priest that slapped the bride shouted; in short, the priest shouted.	6	True	False			that	; in short, 	55
+The priest that slapped the bride shouted; by contrast, the priest shouted.	6	True	False			that	; by contrast, 	56
+The priest that slapped the bride shouted; in short, the priest shouted.	6	True	False			that	; in short, 	53
+The priest that slapped the bride shouted; by contrast, the bride slapped the priest.	6	False	True			that	; by contrast, 	58
+The priest that slapped the bride shouted; in short, the bride slapped the priest.	6	False	True			that	; in short, 	55
+The priest that slapped the bride shouted; by contrast, the bride slapped the priest.	6	False	True			that	; by contrast, 	56
+The priest that slapped the bride shouted; in short, the bride slapped the priest.	6	False	True			that	; in short, 	53
+The priest that slapped the bride shouted; by contrast, the bride shouted.	6	False	False			that	; by contrast, 	58
+The priest that slapped the bride shouted; in short, the bride shouted.	6	False	False			that	; in short, 	55
+The priest that slapped the bride shouted; by contrast, the bride shouted.	6	False	False			that	; by contrast, 	56
+The priest that slapped the bride shouted; in short, the bride shouted.	6	False	False			that	; in short, 	53
+The bride that slapped the priest frowned; by contrast, the bride slapped the priest.	6	True	True			that	; by contrast, 	58
+The bride that slapped the priest frowned; in short, the bride slapped the priest.	6	True	True			that	; in short, 	55
+The bride that slapped the priest frowned; by contrast, the bride slapped the priest.	6	True	True			that	; by contrast, 	56
+The bride that slapped the priest frowned; in short, the bride slapped the priest.	6	True	True			that	; in short, 	53
+The bride that slapped the priest frowned; by contrast, the bride frowned.	6	True	False			that	; by contrast, 	58
+The bride that slapped the priest frowned; in short, the bride frowned.	6	True	False			that	; in short, 	55
+The bride that slapped the priest frowned; by contrast, the bride frowned.	6	True	False			that	; by contrast, 	56
+The bride that slapped the priest frowned; in short, the bride frowned.	6	True	False			that	; in short, 	53
+The bride that slapped the priest frowned; by contrast, the priest slapped the bride.	6	False	True			that	; by contrast, 	58
+The bride that slapped the priest frowned; in short, the priest slapped the bride.	6	False	True			that	; in short, 	55
+The bride that slapped the priest frowned; by contrast, the priest slapped the bride.	6	False	True			that	; by contrast, 	56
+The bride that slapped the priest frowned; in short, the priest slapped the bride.	6	False	True			that	; in short, 	53
+The bride that slapped the priest frowned; by contrast, the priest frowned.	6	False	False			that	; by contrast, 	58
+The bride that slapped the priest frowned; in short, the priest frowned.	6	False	False			that	; in short, 	55
+The bride that slapped the priest frowned; by contrast, the priest frowned.	6	False	False			that	; by contrast, 	56
+The bride that slapped the priest frowned; in short, the priest frowned.	6	False	False			that	; in short, 	53
+The priest that slapped the bride frowned; by contrast, the priest slapped the bride.	6	True	True			that	; by contrast, 	58
+The priest that slapped the bride frowned; in short, the priest slapped the bride.	6	True	True			that	; in short, 	55
+The priest that slapped the bride frowned; by contrast, the priest slapped the bride.	6	True	True			that	; by contrast, 	56
+The priest that slapped the bride frowned; in short, the priest slapped the bride.	6	True	True			that	; in short, 	53
+The priest that slapped the bride frowned; by contrast, the priest frowned.	6	True	False			that	; by contrast, 	58
+The priest that slapped the bride frowned; in short, the priest frowned.	6	True	False			that	; in short, 	55
+The priest that slapped the bride frowned; by contrast, the priest frowned.	6	True	False			that	; by contrast, 	56
+The priest that slapped the bride frowned; in short, the priest frowned.	6	True	False			that	; in short, 	53
+The priest that slapped the bride frowned; by contrast, the bride slapped the priest.	6	False	True			that	; by contrast, 	58
+The priest that slapped the bride frowned; in short, the bride slapped the priest.	6	False	True			that	; in short, 	55
+The priest that slapped the bride frowned; by contrast, the bride slapped the priest.	6	False	True			that	; by contrast, 	56
+The priest that slapped the bride frowned; in short, the bride slapped the priest.	6	False	True			that	; in short, 	53
+The priest that slapped the bride frowned; by contrast, the bride frowned.	6	False	False			that	; by contrast, 	58
+The priest that slapped the bride frowned; in short, the bride frowned.	6	False	False			that	; in short, 	55
+The priest that slapped the bride frowned; by contrast, the bride frowned.	6	False	False			that	; by contrast, 	56
+The priest that slapped the bride frowned; in short, the bride frowned.	6	False	False			that	; in short, 	53
+The bee that appreciated the flower sang; by contrast, the bee appreciated the flower.	7	True	True			that	; by contrast, 	57
+The bee that appreciated the flower sang; in short, the bee appreciated the flower.	7	True	True			that	; in short, 	54
+The bee that appreciated the flower sang; by contrast, the bee appreciated the flower.	7	True	True			that	; by contrast, 	55
+The bee that appreciated the flower sang; in short, the bee appreciated the flower.	7	True	True			that	; in short, 	52
+The bee that appreciated the flower sang; by contrast, the bee sang.	7	True	False			that	; by contrast, 	57
+The bee that appreciated the flower sang; in short, the bee sang.	7	True	False			that	; in short, 	54
+The bee that appreciated the flower sang; by contrast, the bee sang.	7	True	False			that	; by contrast, 	55
+The bee that appreciated the flower sang; in short, the bee sang.	7	True	False			that	; in short, 	52
+The bee that appreciated the flower sang; by contrast, the flower appreciated the bee.	7	False	True			that	; by contrast, 	57
+The bee that appreciated the flower sang; in short, the flower appreciated the bee.	7	False	True			that	; in short, 	54
+The bee that appreciated the flower sang; by contrast, the flower appreciated the bee.	7	False	True			that	; by contrast, 	55
+The bee that appreciated the flower sang; in short, the flower appreciated the bee.	7	False	True			that	; in short, 	52
+The bee that appreciated the flower sang; by contrast, the flower sang.	7	False	False			that	; by contrast, 	57
+The bee that appreciated the flower sang; in short, the flower sang.	7	False	False			that	; in short, 	54
+The bee that appreciated the flower sang; by contrast, the flower sang.	7	False	False			that	; by contrast, 	55
+The bee that appreciated the flower sang; in short, the flower sang.	7	False	False			that	; in short, 	52
+The flower that appreciated the bee sang; by contrast, the flower appreciated the bee.	7	True	True			that	; by contrast, 	57
+The flower that appreciated the bee sang; in short, the flower appreciated the bee.	7	True	True			that	; in short, 	54
+The flower that appreciated the bee sang; by contrast, the flower appreciated the bee.	7	True	True			that	; by contrast, 	55
+The flower that appreciated the bee sang; in short, the flower appreciated the bee.	7	True	True			that	; in short, 	52
+The flower that appreciated the bee sang; by contrast, the flower sang.	7	True	False			that	; by contrast, 	57
+The flower that appreciated the bee sang; in short, the flower sang.	7	True	False			that	; in short, 	54
+The flower that appreciated the bee sang; by contrast, the flower sang.	7	True	False			that	; by contrast, 	55
+The flower that appreciated the bee sang; in short, the flower sang.	7	True	False			that	; in short, 	52
+The flower that appreciated the bee sang; by contrast, the bee appreciated the flower.	7	False	True			that	; by contrast, 	57
+The flower that appreciated the bee sang; in short, the bee appreciated the flower.	7	False	True			that	; in short, 	54
+The flower that appreciated the bee sang; by contrast, the bee appreciated the flower.	7	False	True			that	; by contrast, 	55
+The flower that appreciated the bee sang; in short, the bee appreciated the flower.	7	False	True			that	; in short, 	52
+The flower that appreciated the bee sang; by contrast, the bee sang.	7	False	False			that	; by contrast, 	57
+The flower that appreciated the bee sang; in short, the bee sang.	7	False	False			that	; in short, 	54
+The flower that appreciated the bee sang; by contrast, the bee sang.	7	False	False			that	; by contrast, 	55
+The flower that appreciated the bee sang; in short, the bee sang.	7	False	False			that	; in short, 	52
+The bee that appreciated the flower wriggled; by contrast, the bee appreciated the flower.	7	True	True			that	; by contrast, 	61
+The bee that appreciated the flower wriggled; in short, the bee appreciated the flower.	7	True	True			that	; in short, 	58
+The bee that appreciated the flower wriggled; by contrast, the bee appreciated the flower.	7	True	True			that	; by contrast, 	59
+The bee that appreciated the flower wriggled; in short, the bee appreciated the flower.	7	True	True			that	; in short, 	56
+The bee that appreciated the flower wriggled; by contrast, the bee wriggled.	7	True	False			that	; by contrast, 	61
+The bee that appreciated the flower wriggled; in short, the bee wriggled.	7	True	False			that	; in short, 	58
+The bee that appreciated the flower wriggled; by contrast, the bee wriggled.	7	True	False			that	; by contrast, 	59
+The bee that appreciated the flower wriggled; in short, the bee wriggled.	7	True	False			that	; in short, 	56
+The bee that appreciated the flower wriggled; by contrast, the flower appreciated the bee.	7	False	True			that	; by contrast, 	61
+The bee that appreciated the flower wriggled; in short, the flower appreciated the bee.	7	False	True			that	; in short, 	58
+The bee that appreciated the flower wriggled; by contrast, the flower appreciated the bee.	7	False	True			that	; by contrast, 	59
+The bee that appreciated the flower wriggled; in short, the flower appreciated the bee.	7	False	True			that	; in short, 	56
+The bee that appreciated the flower wriggled; by contrast, the flower wriggled.	7	False	False			that	; by contrast, 	61
+The bee that appreciated the flower wriggled; in short, the flower wriggled.	7	False	False			that	; in short, 	58
+The bee that appreciated the flower wriggled; by contrast, the flower wriggled.	7	False	False			that	; by contrast, 	59
+The bee that appreciated the flower wriggled; in short, the flower wriggled.	7	False	False			that	; in short, 	56
+The flower that appreciated the bee wriggled; by contrast, the flower appreciated the bee.	7	True	True			that	; by contrast, 	61
+The flower that appreciated the bee wriggled; in short, the flower appreciated the bee.	7	True	True			that	; in short, 	58
+The flower that appreciated the bee wriggled; by contrast, the flower appreciated the bee.	7	True	True			that	; by contrast, 	59
+The flower that appreciated the bee wriggled; in short, the flower appreciated the bee.	7	True	True			that	; in short, 	56
+The flower that appreciated the bee wriggled; by contrast, the flower wriggled.	7	True	False			that	; by contrast, 	61
+The flower that appreciated the bee wriggled; in short, the flower wriggled.	7	True	False			that	; in short, 	58
+The flower that appreciated the bee wriggled; by contrast, the flower wriggled.	7	True	False			that	; by contrast, 	59
+The flower that appreciated the bee wriggled; in short, the flower wriggled.	7	True	False			that	; in short, 	56
+The flower that appreciated the bee wriggled; by contrast, the bee appreciated the flower.	7	False	True			that	; by contrast, 	61
+The flower that appreciated the bee wriggled; in short, the bee appreciated the flower.	7	False	True			that	; in short, 	58
+The flower that appreciated the bee wriggled; by contrast, the bee appreciated the flower.	7	False	True			that	; by contrast, 	59
+The flower that appreciated the bee wriggled; in short, the bee appreciated the flower.	7	False	True			that	; in short, 	56
+The flower that appreciated the bee wriggled; by contrast, the bee wriggled.	7	False	False			that	; by contrast, 	61
+The flower that appreciated the bee wriggled; in short, the bee wriggled.	7	False	False			that	; in short, 	58
+The flower that appreciated the bee wriggled; by contrast, the bee wriggled.	7	False	False			that	; by contrast, 	59
+The flower that appreciated the bee wriggled; in short, the bee wriggled.	7	False	False			that	; in short, 	56
+The baby that loved the nurse slept; by contrast, the baby loved the nurse.	8	True	True			that	; by contrast, 	52
+The baby that loved the nurse slept; in short, the baby loved the nurse.	8	True	True			that	; in short, 	49
+The baby that loved the nurse slept; by contrast, the baby loved the nurse.	8	True	True			that	; by contrast, 	50
+The baby that loved the nurse slept; in short, the baby loved the nurse.	8	True	True			that	; in short, 	47
+The baby that loved the nurse slept; by contrast, the baby slept.	8	True	False			that	; by contrast, 	52
+The baby that loved the nurse slept; in short, the baby slept.	8	True	False			that	; in short, 	49
+The baby that loved the nurse slept; by contrast, the baby slept.	8	True	False			that	; by contrast, 	50
+The baby that loved the nurse slept; in short, the baby slept.	8	True	False			that	; in short, 	47
+The baby that loved the nurse slept; by contrast, the nurse loved the baby.	8	False	True			that	; by contrast, 	52
+The baby that loved the nurse slept; in short, the nurse loved the baby.	8	False	True			that	; in short, 	49
+The baby that loved the nurse slept; by contrast, the nurse loved the baby.	8	False	True			that	; by contrast, 	50
+The baby that loved the nurse slept; in short, the nurse loved the baby.	8	False	True			that	; in short, 	47
+The baby that loved the nurse slept; by contrast, the nurse slept.	8	False	False			that	; by contrast, 	52
+The baby that loved the nurse slept; in short, the nurse slept.	8	False	False			that	; in short, 	49
+The baby that loved the nurse slept; by contrast, the nurse slept.	8	False	False			that	; by contrast, 	50
+The baby that loved the nurse slept; in short, the nurse slept.	8	False	False			that	; in short, 	47
+The nurse that loved the baby slept; by contrast, the nurse loved the baby.	8	True	True			that	; by contrast, 	52
+The nurse that loved the baby slept; in short, the nurse loved the baby.	8	True	True			that	; in short, 	49
+The nurse that loved the baby slept; by contrast, the nurse loved the baby.	8	True	True			that	; by contrast, 	50
+The nurse that loved the baby slept; in short, the nurse loved the baby.	8	True	True			that	; in short, 	47
+The nurse that loved the baby slept; by contrast, the nurse slept.	8	True	False			that	; by contrast, 	52
+The nurse that loved the baby slept; in short, the nurse slept.	8	True	False			that	; in short, 	49
+The nurse that loved the baby slept; by contrast, the nurse slept.	8	True	False			that	; by contrast, 	50
+The nurse that loved the baby slept; in short, the nurse slept.	8	True	False			that	; in short, 	47
+The nurse that loved the baby slept; by contrast, the baby loved the nurse.	8	False	True			that	; by contrast, 	52
+The nurse that loved the baby slept; in short, the baby loved the nurse.	8	False	True			that	; in short, 	49
+The nurse that loved the baby slept; by contrast, the baby loved the nurse.	8	False	True			that	; by contrast, 	50
+The nurse that loved the baby slept; in short, the baby loved the nurse.	8	False	True			that	; in short, 	47
+The nurse that loved the baby slept; by contrast, the baby slept.	8	False	False			that	; by contrast, 	52
+The nurse that loved the baby slept; in short, the baby slept.	8	False	False			that	; in short, 	49
+The nurse that loved the baby slept; by contrast, the baby slept.	8	False	False			that	; by contrast, 	50
+The nurse that loved the baby slept; in short, the baby slept.	8	False	False			that	; in short, 	47
+The baby that loved the nurse cried; by contrast, the baby loved the nurse.	8	True	True			that	; by contrast, 	52
+The baby that loved the nurse cried; in short, the baby loved the nurse.	8	True	True			that	; in short, 	49
+The baby that loved the nurse cried; by contrast, the baby loved the nurse.	8	True	True			that	; by contrast, 	50
+The baby that loved the nurse cried; in short, the baby loved the nurse.	8	True	True			that	; in short, 	47
+The baby that loved the nurse cried; by contrast, the baby cried.	8	True	False			that	; by contrast, 	52
+The baby that loved the nurse cried; in short, the baby cried.	8	True	False			that	; in short, 	49
+The baby that loved the nurse cried; by contrast, the baby cried.	8	True	False			that	; by contrast, 	50
+The baby that loved the nurse cried; in short, the baby cried.	8	True	False			that	; in short, 	47
+The baby that loved the nurse cried; by contrast, the nurse loved the baby.	8	False	True			that	; by contrast, 	52
+The baby that loved the nurse cried; in short, the nurse loved the baby.	8	False	True			that	; in short, 	49
+The baby that loved the nurse cried; by contrast, the nurse loved the baby.	8	False	True			that	; by contrast, 	50
+The baby that loved the nurse cried; in short, the nurse loved the baby.	8	False	True			that	; in short, 	47
+The baby that loved the nurse cried; by contrast, the nurse cried.	8	False	False			that	; by contrast, 	52
+The baby that loved the nurse cried; in short, the nurse cried.	8	False	False			that	; in short, 	49
+The baby that loved the nurse cried; by contrast, the nurse cried.	8	False	False			that	; by contrast, 	50
+The baby that loved the nurse cried; in short, the nurse cried.	8	False	False			that	; in short, 	47
+The nurse that loved the baby cried; by contrast, the nurse loved the baby.	8	True	True			that	; by contrast, 	52
+The nurse that loved the baby cried; in short, the nurse loved the baby.	8	True	True			that	; in short, 	49
+The nurse that loved the baby cried; by contrast, the nurse loved the baby.	8	True	True			that	; by contrast, 	50
+The nurse that loved the baby cried; in short, the nurse loved the baby.	8	True	True			that	; in short, 	47
+The nurse that loved the baby cried; by contrast, the nurse cried.	8	True	False			that	; by contrast, 	52
+The nurse that loved the baby cried; in short, the nurse cried.	8	True	False			that	; in short, 	49
+The nurse that loved the baby cried; by contrast, the nurse cried.	8	True	False			that	; by contrast, 	50
+The nurse that loved the baby cried; in short, the nurse cried.	8	True	False			that	; in short, 	47
+The nurse that loved the baby cried; by contrast, the baby loved the nurse.	8	False	True			that	; by contrast, 	52
+The nurse that loved the baby cried; in short, the baby loved the nurse.	8	False	True			that	; in short, 	49
+The nurse that loved the baby cried; by contrast, the baby loved the nurse.	8	False	True			that	; by contrast, 	50
+The nurse that loved the baby cried; in short, the baby loved the nurse.	8	False	True			that	; in short, 	47
+The nurse that loved the baby cried; by contrast, the baby cried.	8	False	False			that	; by contrast, 	52
+The nurse that loved the baby cried; in short, the baby cried.	8	False	False			that	; in short, 	49
+The nurse that loved the baby cried; by contrast, the baby cried.	8	False	False			that	; by contrast, 	50
+The nurse that loved the baby cried; in short, the baby cried.	8	False	False			that	; in short, 	47
+The virus that stopped the antibodies emerged; by contrast, the virus stopped the antibodies.	9	True	True			that	; by contrast, 	62
+The virus that stopped the antibodies emerged; in short, the virus stopped the antibodies.	9	True	True			that	; in short, 	59
+The virus that stopped the antibodies emerged; by contrast, the virus stopped the antibodies.	9	True	True			that	; by contrast, 	60
+The virus that stopped the antibodies emerged; in short, the virus stopped the antibodies.	9	True	True			that	; in short, 	57
+The virus that stopped the antibodies emerged; by contrast, the virus emerged.	9	True	False			that	; by contrast, 	62
+The virus that stopped the antibodies emerged; in short, the virus emerged.	9	True	False			that	; in short, 	59
+The virus that stopped the antibodies emerged; by contrast, the virus emerged.	9	True	False			that	; by contrast, 	60
+The virus that stopped the antibodies emerged; in short, the virus emerged.	9	True	False			that	; in short, 	57
+The virus that stopped the antibodies emerged; by contrast, the antibodies stopped the virus.	9	False	True			that	; by contrast, 	62
+The virus that stopped the antibodies emerged; in short, the antibodies stopped the virus.	9	False	True			that	; in short, 	59
+The virus that stopped the antibodies emerged; by contrast, the antibodies stopped the virus.	9	False	True			that	; by contrast, 	60
+The virus that stopped the antibodies emerged; in short, the antibodies stopped the virus.	9	False	True			that	; in short, 	57
+The virus that stopped the antibodies emerged; by contrast, the antibodies emerged.	9	False	False			that	; by contrast, 	62
+The virus that stopped the antibodies emerged; in short, the antibodies emerged.	9	False	False			that	; in short, 	59
+The virus that stopped the antibodies emerged; by contrast, the antibodies emerged.	9	False	False			that	; by contrast, 	60
+The virus that stopped the antibodies emerged; in short, the antibodies emerged.	9	False	False			that	; in short, 	57
+The antibodies that stopped the virus emerged; by contrast, the antibodies stopped the virus.	9	True	True			that	; by contrast, 	62
+The antibodies that stopped the virus emerged; in short, the antibodies stopped the virus.	9	True	True			that	; in short, 	59
+The antibodies that stopped the virus emerged; by contrast, the antibodies stopped the virus.	9	True	True			that	; by contrast, 	60
+The antibodies that stopped the virus emerged; in short, the antibodies stopped the virus.	9	True	True			that	; in short, 	57
+The antibodies that stopped the virus emerged; by contrast, the antibodies emerged.	9	True	False			that	; by contrast, 	62
+The antibodies that stopped the virus emerged; in short, the antibodies emerged.	9	True	False			that	; in short, 	59
+The antibodies that stopped the virus emerged; by contrast, the antibodies emerged.	9	True	False			that	; by contrast, 	60
+The antibodies that stopped the virus emerged; in short, the antibodies emerged.	9	True	False			that	; in short, 	57
+The antibodies that stopped the virus emerged; by contrast, the virus stopped the antibodies.	9	False	True			that	; by contrast, 	62
+The antibodies that stopped the virus emerged; in short, the virus stopped the antibodies.	9	False	True			that	; in short, 	59
+The antibodies that stopped the virus emerged; by contrast, the virus stopped the antibodies.	9	False	True			that	; by contrast, 	60
+The antibodies that stopped the virus emerged; in short, the virus stopped the antibodies.	9	False	True			that	; in short, 	57
+The antibodies that stopped the virus emerged; by contrast, the virus emerged.	9	False	False			that	; by contrast, 	62
+The antibodies that stopped the virus emerged; in short, the virus emerged.	9	False	False			that	; in short, 	59
+The antibodies that stopped the virus emerged; by contrast, the virus emerged.	9	False	False			that	; by contrast, 	60
+The antibodies that stopped the virus emerged; in short, the virus emerged.	9	False	False			that	; in short, 	57
+The virus that stopped the antibodies dwindled; by contrast, the virus stopped the antibodies.	9	True	True			that	; by contrast, 	63
+The virus that stopped the antibodies dwindled; in short, the virus stopped the antibodies.	9	True	True			that	; in short, 	60
+The virus that stopped the antibodies dwindled; by contrast, the virus stopped the antibodies.	9	True	True			that	; by contrast, 	61
+The virus that stopped the antibodies dwindled; in short, the virus stopped the antibodies.	9	True	True			that	; in short, 	58
+The virus that stopped the antibodies dwindled; by contrast, the virus dwindled.	9	True	False			that	; by contrast, 	63
+The virus that stopped the antibodies dwindled; in short, the virus dwindled.	9	True	False			that	; in short, 	60
+The virus that stopped the antibodies dwindled; by contrast, the virus dwindled.	9	True	False			that	; by contrast, 	61
+The virus that stopped the antibodies dwindled; in short, the virus dwindled.	9	True	False			that	; in short, 	58
+The virus that stopped the antibodies dwindled; by contrast, the antibodies stopped the virus.	9	False	True			that	; by contrast, 	63
+The virus that stopped the antibodies dwindled; in short, the antibodies stopped the virus.	9	False	True			that	; in short, 	60
+The virus that stopped the antibodies dwindled; by contrast, the antibodies stopped the virus.	9	False	True			that	; by contrast, 	61
+The virus that stopped the antibodies dwindled; in short, the antibodies stopped the virus.	9	False	True			that	; in short, 	58
+The virus that stopped the antibodies dwindled; by contrast, the antibodies dwindled.	9	False	False			that	; by contrast, 	63
+The virus that stopped the antibodies dwindled; in short, the antibodies dwindled.	9	False	False			that	; in short, 	60
+The virus that stopped the antibodies dwindled; by contrast, the antibodies dwindled.	9	False	False			that	; by contrast, 	61
+The virus that stopped the antibodies dwindled; in short, the antibodies dwindled.	9	False	False			that	; in short, 	58
+The antibodies that stopped the virus dwindled; by contrast, the antibodies stopped the virus.	9	True	True			that	; by contrast, 	63
+The antibodies that stopped the virus dwindled; in short, the antibodies stopped the virus.	9	True	True			that	; in short, 	60
+The antibodies that stopped the virus dwindled; by contrast, the antibodies stopped the virus.	9	True	True			that	; by contrast, 	61
+The antibodies that stopped the virus dwindled; in short, the antibodies stopped the virus.	9	True	True			that	; in short, 	58
+The antibodies that stopped the virus dwindled; by contrast, the antibodies dwindled.	9	True	False			that	; by contrast, 	63
+The antibodies that stopped the virus dwindled; in short, the antibodies dwindled.	9	True	False			that	; in short, 	60
+The antibodies that stopped the virus dwindled; by contrast, the antibodies dwindled.	9	True	False			that	; by contrast, 	61
+The antibodies that stopped the virus dwindled; in short, the antibodies dwindled.	9	True	False			that	; in short, 	58
+The antibodies that stopped the virus dwindled; by contrast, the virus stopped the antibodies.	9	False	True			that	; by contrast, 	63
+The antibodies that stopped the virus dwindled; in short, the virus stopped the antibodies.	9	False	True			that	; in short, 	60
+The antibodies that stopped the virus dwindled; by contrast, the virus stopped the antibodies.	9	False	True			that	; by contrast, 	61
+The antibodies that stopped the virus dwindled; in short, the virus stopped the antibodies.	9	False	True			that	; in short, 	58
+The antibodies that stopped the virus dwindled; by contrast, the virus dwindled.	9	False	False			that	; by contrast, 	63
+The antibodies that stopped the virus dwindled; in short, the virus dwindled.	9	False	False			that	; in short, 	60
+The antibodies that stopped the virus dwindled; by contrast, the virus dwindled.	9	False	False			that	; by contrast, 	61
+The antibodies that stopped the virus dwindled; in short, the virus dwindled.	9	False	False			that	; in short, 	58
+The chef that squeezed the octopus vanished; by contrast, the chef squeezed the octopus.	10	True	True			that	; by contrast, 	60
+The chef that squeezed the octopus vanished; in short, the chef squeezed the octopus.	10	True	True			that	; in short, 	57
+The chef that squeezed the octopus vanished; by contrast, the chef squeezed the octopus.	10	True	True			that	; by contrast, 	58
+The chef that squeezed the octopus vanished; in short, the chef squeezed the octopus.	10	True	True			that	; in short, 	55
+The chef that squeezed the octopus vanished; by contrast, the chef vanished.	10	True	False			that	; by contrast, 	60
+The chef that squeezed the octopus vanished; in short, the chef vanished.	10	True	False			that	; in short, 	57
+The chef that squeezed the octopus vanished; by contrast, the chef vanished.	10	True	False			that	; by contrast, 	58
+The chef that squeezed the octopus vanished; in short, the chef vanished.	10	True	False			that	; in short, 	55
+The chef that squeezed the octopus vanished; by contrast, the octopus squeezed the chef.	10	False	True			that	; by contrast, 	60
+The chef that squeezed the octopus vanished; in short, the octopus squeezed the chef.	10	False	True			that	; in short, 	57
+The chef that squeezed the octopus vanished; by contrast, the octopus squeezed the chef.	10	False	True			that	; by contrast, 	58
+The chef that squeezed the octopus vanished; in short, the octopus squeezed the chef.	10	False	True			that	; in short, 	55
+The chef that squeezed the octopus vanished; by contrast, the octopus vanished.	10	False	False			that	; by contrast, 	60
+The chef that squeezed the octopus vanished; in short, the octopus vanished.	10	False	False			that	; in short, 	57
+The chef that squeezed the octopus vanished; by contrast, the octopus vanished.	10	False	False			that	; by contrast, 	58
+The chef that squeezed the octopus vanished; in short, the octopus vanished.	10	False	False			that	; in short, 	55
+The octopus that squeezed the chef vanished; by contrast, the octopus squeezed the chef.	10	True	True			that	; by contrast, 	60
+The octopus that squeezed the chef vanished; in short, the octopus squeezed the chef.	10	True	True			that	; in short, 	57
+The octopus that squeezed the chef vanished; by contrast, the octopus squeezed the chef.	10	True	True			that	; by contrast, 	58
+The octopus that squeezed the chef vanished; in short, the octopus squeezed the chef.	10	True	True			that	; in short, 	55
+The octopus that squeezed the chef vanished; by contrast, the octopus vanished.	10	True	False			that	; by contrast, 	60
+The octopus that squeezed the chef vanished; in short, the octopus vanished.	10	True	False			that	; in short, 	57
+The octopus that squeezed the chef vanished; by contrast, the octopus vanished.	10	True	False			that	; by contrast, 	58
+The octopus that squeezed the chef vanished; in short, the octopus vanished.	10	True	False			that	; in short, 	55
+The octopus that squeezed the chef vanished; by contrast, the chef squeezed the octopus.	10	False	True			that	; by contrast, 	60
+The octopus that squeezed the chef vanished; in short, the chef squeezed the octopus.	10	False	True			that	; in short, 	57
+The octopus that squeezed the chef vanished; by contrast, the chef squeezed the octopus.	10	False	True			that	; by contrast, 	58
+The octopus that squeezed the chef vanished; in short, the chef squeezed the octopus.	10	False	True			that	; in short, 	55
+The octopus that squeezed the chef vanished; by contrast, the chef vanished.	10	False	False			that	; by contrast, 	60
+The octopus that squeezed the chef vanished; in short, the chef vanished.	10	False	False			that	; in short, 	57
+The octopus that squeezed the chef vanished; by contrast, the chef vanished.	10	False	False			that	; by contrast, 	58
+The octopus that squeezed the chef vanished; in short, the chef vanished.	10	False	False			that	; in short, 	55
+The chef that squeezed the octopus gasped; by contrast, the chef squeezed the octopus.	10	True	True			that	; by contrast, 	58
+The chef that squeezed the octopus gasped; in short, the chef squeezed the octopus.	10	True	True			that	; in short, 	55
+The chef that squeezed the octopus gasped; by contrast, the chef squeezed the octopus.	10	True	True			that	; by contrast, 	56
+The chef that squeezed the octopus gasped; in short, the chef squeezed the octopus.	10	True	True			that	; in short, 	53
+The chef that squeezed the octopus gasped; by contrast, the chef gasped.	10	True	False			that	; by contrast, 	58
+The chef that squeezed the octopus gasped; in short, the chef gasped.	10	True	False			that	; in short, 	55
+The chef that squeezed the octopus gasped; by contrast, the chef gasped.	10	True	False			that	; by contrast, 	56
+The chef that squeezed the octopus gasped; in short, the chef gasped.	10	True	False			that	; in short, 	53
+The chef that squeezed the octopus gasped; by contrast, the octopus squeezed the chef.	10	False	True			that	; by contrast, 	58
+The chef that squeezed the octopus gasped; in short, the octopus squeezed the chef.	10	False	True			that	; in short, 	55
+The chef that squeezed the octopus gasped; by contrast, the octopus squeezed the chef.	10	False	True			that	; by contrast, 	56
+The chef that squeezed the octopus gasped; in short, the octopus squeezed the chef.	10	False	True			that	; in short, 	53
+The chef that squeezed the octopus gasped; by contrast, the octopus gasped.	10	False	False			that	; by contrast, 	58
+The chef that squeezed the octopus gasped; in short, the octopus gasped.	10	False	False			that	; in short, 	55
+The chef that squeezed the octopus gasped; by contrast, the octopus gasped.	10	False	False			that	; by contrast, 	56
+The chef that squeezed the octopus gasped; in short, the octopus gasped.	10	False	False			that	; in short, 	53
+The octopus that squeezed the chef gasped; by contrast, the octopus squeezed the chef.	10	True	True			that	; by contrast, 	58
+The octopus that squeezed the chef gasped; in short, the octopus squeezed the chef.	10	True	True			that	; in short, 	55
+The octopus that squeezed the chef gasped; by contrast, the octopus squeezed the chef.	10	True	True			that	; by contrast, 	56
+The octopus that squeezed the chef gasped; in short, the octopus squeezed the chef.	10	True	True			that	; in short, 	53
+The octopus that squeezed the chef gasped; by contrast, the octopus gasped.	10	True	False			that	; by contrast, 	58
+The octopus that squeezed the chef gasped; in short, the octopus gasped.	10	True	False			that	; in short, 	55
+The octopus that squeezed the chef gasped; by contrast, the octopus gasped.	10	True	False			that	; by contrast, 	56
+The octopus that squeezed the chef gasped; in short, the octopus gasped.	10	True	False			that	; in short, 	53
+The octopus that squeezed the chef gasped; by contrast, the chef squeezed the octopus.	10	False	True			that	; by contrast, 	58
+The octopus that squeezed the chef gasped; in short, the chef squeezed the octopus.	10	False	True			that	; in short, 	55
+The octopus that squeezed the chef gasped; by contrast, the chef squeezed the octopus.	10	False	True			that	; by contrast, 	56
+The octopus that squeezed the chef gasped; in short, the chef squeezed the octopus.	10	False	True			that	; in short, 	53
+The octopus that squeezed the chef gasped; by contrast, the chef gasped.	10	False	False			that	; by contrast, 	58
+The octopus that squeezed the chef gasped; in short, the chef gasped.	10	False	False			that	; in short, 	55
+The octopus that squeezed the chef gasped; by contrast, the chef gasped.	10	False	False			that	; by contrast, 	56
+The octopus that squeezed the chef gasped; in short, the chef gasped.	10	False	False			that	; in short, 	53
+The journalist that pestered the senator wrote; by contrast, the journalist pestered the senator.	11	True	True			that	; by contrast, 	63
+The journalist that pestered the senator wrote; in short, the journalist pestered the senator.	11	True	True			that	; in short, 	60
+The journalist that pestered the senator wrote; by contrast, the journalist pestered the senator.	11	True	True			that	; by contrast, 	61
+The journalist that pestered the senator wrote; in short, the journalist pestered the senator.	11	True	True			that	; in short, 	58
+The journalist that pestered the senator wrote; by contrast, the journalist wrote.	11	True	False			that	; by contrast, 	63
+The journalist that pestered the senator wrote; in short, the journalist wrote.	11	True	False			that	; in short, 	60
+The journalist that pestered the senator wrote; by contrast, the journalist wrote.	11	True	False			that	; by contrast, 	61
+The journalist that pestered the senator wrote; in short, the journalist wrote.	11	True	False			that	; in short, 	58
+The journalist that pestered the senator wrote; by contrast, the senator pestered the journalist.	11	False	True			that	; by contrast, 	63
+The journalist that pestered the senator wrote; in short, the senator pestered the journalist.	11	False	True			that	; in short, 	60
+The journalist that pestered the senator wrote; by contrast, the senator pestered the journalist.	11	False	True			that	; by contrast, 	61
+The journalist that pestered the senator wrote; in short, the senator pestered the journalist.	11	False	True			that	; in short, 	58
+The journalist that pestered the senator wrote; by contrast, the senator wrote.	11	False	False			that	; by contrast, 	63
+The journalist that pestered the senator wrote; in short, the senator wrote.	11	False	False			that	; in short, 	60
+The journalist that pestered the senator wrote; by contrast, the senator wrote.	11	False	False			that	; by contrast, 	61
+The journalist that pestered the senator wrote; in short, the senator wrote.	11	False	False			that	; in short, 	58
+The senator that pestered the journalist wrote; by contrast, the senator pestered the journalist.	11	True	True			that	; by contrast, 	63
+The senator that pestered the journalist wrote; in short, the senator pestered the journalist.	11	True	True			that	; in short, 	60
+The senator that pestered the journalist wrote; by contrast, the senator pestered the journalist.	11	True	True			that	; by contrast, 	61
+The senator that pestered the journalist wrote; in short, the senator pestered the journalist.	11	True	True			that	; in short, 	58
+The senator that pestered the journalist wrote; by contrast, the senator wrote.	11	True	False			that	; by contrast, 	63
+The senator that pestered the journalist wrote; in short, the senator wrote.	11	True	False			that	; in short, 	60
+The senator that pestered the journalist wrote; by contrast, the senator wrote.	11	True	False			that	; by contrast, 	61
+The senator that pestered the journalist wrote; in short, the senator wrote.	11	True	False			that	; in short, 	58
+The senator that pestered the journalist wrote; by contrast, the journalist pestered the senator.	11	False	True			that	; by contrast, 	63
+The senator that pestered the journalist wrote; in short, the journalist pestered the senator.	11	False	True			that	; in short, 	60
+The senator that pestered the journalist wrote; by contrast, the journalist pestered the senator.	11	False	True			that	; by contrast, 	61
+The senator that pestered the journalist wrote; in short, the journalist pestered the senator.	11	False	True			that	; in short, 	58
+The senator that pestered the journalist wrote; by contrast, the journalist wrote.	11	False	False			that	; by contrast, 	63
+The senator that pestered the journalist wrote; in short, the journalist wrote.	11	False	False			that	; in short, 	60
+The senator that pestered the journalist wrote; by contrast, the journalist wrote.	11	False	False			that	; by contrast, 	61
+The senator that pestered the journalist wrote; in short, the journalist wrote.	11	False	False			that	; in short, 	58
+The journalist that pestered the senator fumed; by contrast, the journalist pestered the senator.	11	True	True			that	; by contrast, 	63
+The journalist that pestered the senator fumed; in short, the journalist pestered the senator.	11	True	True			that	; in short, 	60
+The journalist that pestered the senator fumed; by contrast, the journalist pestered the senator.	11	True	True			that	; by contrast, 	61
+The journalist that pestered the senator fumed; in short, the journalist pestered the senator.	11	True	True			that	; in short, 	58
+The journalist that pestered the senator fumed; by contrast, the journalist fumed.	11	True	False			that	; by contrast, 	63
+The journalist that pestered the senator fumed; in short, the journalist fumed.	11	True	False			that	; in short, 	60
+The journalist that pestered the senator fumed; by contrast, the journalist fumed.	11	True	False			that	; by contrast, 	61
+The journalist that pestered the senator fumed; in short, the journalist fumed.	11	True	False			that	; in short, 	58
+The journalist that pestered the senator fumed; by contrast, the senator pestered the journalist.	11	False	True			that	; by contrast, 	63
+The journalist that pestered the senator fumed; in short, the senator pestered the journalist.	11	False	True			that	; in short, 	60
+The journalist that pestered the senator fumed; by contrast, the senator pestered the journalist.	11	False	True			that	; by contrast, 	61
+The journalist that pestered the senator fumed; in short, the senator pestered the journalist.	11	False	True			that	; in short, 	58
+The journalist that pestered the senator fumed; by contrast, the senator fumed.	11	False	False			that	; by contrast, 	63
+The journalist that pestered the senator fumed; in short, the senator fumed.	11	False	False			that	; in short, 	60
+The journalist that pestered the senator fumed; by contrast, the senator fumed.	11	False	False			that	; by contrast, 	61
+The journalist that pestered the senator fumed; in short, the senator fumed.	11	False	False			that	; in short, 	58
+The senator that pestered the journalist fumed; by contrast, the senator pestered the journalist.	11	True	True			that	; by contrast, 	63
+The senator that pestered the journalist fumed; in short, the senator pestered the journalist.	11	True	True			that	; in short, 	60
+The senator that pestered the journalist fumed; by contrast, the senator pestered the journalist.	11	True	True			that	; by contrast, 	61
+The senator that pestered the journalist fumed; in short, the senator pestered the journalist.	11	True	True			that	; in short, 	58
+The senator that pestered the journalist fumed; by contrast, the senator fumed.	11	True	False			that	; by contrast, 	63
+The senator that pestered the journalist fumed; in short, the senator fumed.	11	True	False			that	; in short, 	60
+The senator that pestered the journalist fumed; by contrast, the senator fumed.	11	True	False			that	; by contrast, 	61
+The senator that pestered the journalist fumed; in short, the senator fumed.	11	True	False			that	; in short, 	58
+The senator that pestered the journalist fumed; by contrast, the journalist pestered the senator.	11	False	True			that	; by contrast, 	63
+The senator that pestered the journalist fumed; in short, the journalist pestered the senator.	11	False	True			that	; in short, 	60
+The senator that pestered the journalist fumed; by contrast, the journalist pestered the senator.	11	False	True			that	; by contrast, 	61
+The senator that pestered the journalist fumed; in short, the journalist pestered the senator.	11	False	True			that	; in short, 	58
+The senator that pestered the journalist fumed; by contrast, the journalist fumed.	11	False	False			that	; by contrast, 	63
+The senator that pestered the journalist fumed; in short, the journalist fumed.	11	False	False			that	; in short, 	60
+The senator that pestered the journalist fumed; by contrast, the journalist fumed.	11	False	False			that	; by contrast, 	61
+The senator that pestered the journalist fumed; in short, the journalist fumed.	11	False	False			that	; in short, 	58
+The ant that saw the grasshopper worked; by contrast, the ant saw the grasshopper.	12	True	True			that	; by contrast, 	56
+The ant that saw the grasshopper worked; in short, the ant saw the grasshopper.	12	True	True			that	; in short, 	53
+The ant that saw the grasshopper worked; by contrast, the ant saw the grasshopper.	12	True	True			that	; by contrast, 	54
+The ant that saw the grasshopper worked; in short, the ant saw the grasshopper.	12	True	True			that	; in short, 	51
+The ant that saw the grasshopper worked; by contrast, the ant worked.	12	True	False			that	; by contrast, 	56
+The ant that saw the grasshopper worked; in short, the ant worked.	12	True	False			that	; in short, 	53
+The ant that saw the grasshopper worked; by contrast, the ant worked.	12	True	False			that	; by contrast, 	54
+The ant that saw the grasshopper worked; in short, the ant worked.	12	True	False			that	; in short, 	51
+The ant that saw the grasshopper worked; by contrast, the grasshopper saw the ant.	12	False	True			that	; by contrast, 	56
+The ant that saw the grasshopper worked; in short, the grasshopper saw the ant.	12	False	True			that	; in short, 	53
+The ant that saw the grasshopper worked; by contrast, the grasshopper saw the ant.	12	False	True			that	; by contrast, 	54
+The ant that saw the grasshopper worked; in short, the grasshopper saw the ant.	12	False	True			that	; in short, 	51
+The ant that saw the grasshopper worked; by contrast, the grasshopper worked.	12	False	False			that	; by contrast, 	56
+The ant that saw the grasshopper worked; in short, the grasshopper worked.	12	False	False			that	; in short, 	53
+The ant that saw the grasshopper worked; by contrast, the grasshopper worked.	12	False	False			that	; by contrast, 	54
+The ant that saw the grasshopper worked; in short, the grasshopper worked.	12	False	False			that	; in short, 	51
+The grasshopper that saw the ant worked; by contrast, the grasshopper saw the ant.	12	True	True			that	; by contrast, 	56
+The grasshopper that saw the ant worked; in short, the grasshopper saw the ant.	12	True	True			that	; in short, 	53
+The grasshopper that saw the ant worked; by contrast, the grasshopper saw the ant.	12	True	True			that	; by contrast, 	54
+The grasshopper that saw the ant worked; in short, the grasshopper saw the ant.	12	True	True			that	; in short, 	51
+The grasshopper that saw the ant worked; by contrast, the grasshopper worked.	12	True	False			that	; by contrast, 	56
+The grasshopper that saw the ant worked; in short, the grasshopper worked.	12	True	False			that	; in short, 	53
+The grasshopper that saw the ant worked; by contrast, the grasshopper worked.	12	True	False			that	; by contrast, 	54
+The grasshopper that saw the ant worked; in short, the grasshopper worked.	12	True	False			that	; in short, 	51
+The grasshopper that saw the ant worked; by contrast, the ant saw the grasshopper.	12	False	True			that	; by contrast, 	56
+The grasshopper that saw the ant worked; in short, the ant saw the grasshopper.	12	False	True			that	; in short, 	53
+The grasshopper that saw the ant worked; by contrast, the ant saw the grasshopper.	12	False	True			that	; by contrast, 	54
+The grasshopper that saw the ant worked; in short, the ant saw the grasshopper.	12	False	True			that	; in short, 	51
+The grasshopper that saw the ant worked; by contrast, the ant worked.	12	False	False			that	; by contrast, 	56
+The grasshopper that saw the ant worked; in short, the ant worked.	12	False	False			that	; in short, 	53
+The grasshopper that saw the ant worked; by contrast, the ant worked.	12	False	False			that	; by contrast, 	54
+The grasshopper that saw the ant worked; in short, the ant worked.	12	False	False			that	; in short, 	51
+The ant that saw the grasshopper played; by contrast, the ant saw the grasshopper.	12	True	True			that	; by contrast, 	56
+The ant that saw the grasshopper played; in short, the ant saw the grasshopper.	12	True	True			that	; in short, 	53
+The ant that saw the grasshopper played; by contrast, the ant saw the grasshopper.	12	True	True			that	; by contrast, 	54
+The ant that saw the grasshopper played; in short, the ant saw the grasshopper.	12	True	True			that	; in short, 	51
+The ant that saw the grasshopper played; by contrast, the ant played.	12	True	False			that	; by contrast, 	56
+The ant that saw the grasshopper played; in short, the ant played.	12	True	False			that	; in short, 	53
+The ant that saw the grasshopper played; by contrast, the ant played.	12	True	False			that	; by contrast, 	54
+The ant that saw the grasshopper played; in short, the ant played.	12	True	False			that	; in short, 	51
+The ant that saw the grasshopper played; by contrast, the grasshopper saw the ant.	12	False	True			that	; by contrast, 	56
+The ant that saw the grasshopper played; in short, the grasshopper saw the ant.	12	False	True			that	; in short, 	53
+The ant that saw the grasshopper played; by contrast, the grasshopper saw the ant.	12	False	True			that	; by contrast, 	54
+The ant that saw the grasshopper played; in short, the grasshopper saw the ant.	12	False	True			that	; in short, 	51
+The ant that saw the grasshopper played; by contrast, the grasshopper played.	12	False	False			that	; by contrast, 	56
+The ant that saw the grasshopper played; in short, the grasshopper played.	12	False	False			that	; in short, 	53
+The ant that saw the grasshopper played; by contrast, the grasshopper played.	12	False	False			that	; by contrast, 	54
+The ant that saw the grasshopper played; in short, the grasshopper played.	12	False	False			that	; in short, 	51
+The grasshopper that saw the ant played; by contrast, the grasshopper saw the ant.	12	True	True			that	; by contrast, 	56
+The grasshopper that saw the ant played; in short, the grasshopper saw the ant.	12	True	True			that	; in short, 	53
+The grasshopper that saw the ant played; by contrast, the grasshopper saw the ant.	12	True	True			that	; by contrast, 	54
+The grasshopper that saw the ant played; in short, the grasshopper saw the ant.	12	True	True			that	; in short, 	51
+The grasshopper that saw the ant played; by contrast, the grasshopper played.	12	True	False			that	; by contrast, 	56
+The grasshopper that saw the ant played; in short, the grasshopper played.	12	True	False			that	; in short, 	53
+The grasshopper that saw the ant played; by contrast, the grasshopper played.	12	True	False			that	; by contrast, 	54
+The grasshopper that saw the ant played; in short, the grasshopper played.	12	True	False			that	; in short, 	51
+The grasshopper that saw the ant played; by contrast, the ant saw the grasshopper.	12	False	True			that	; by contrast, 	56
+The grasshopper that saw the ant played; in short, the ant saw the grasshopper.	12	False	True			that	; in short, 	53
+The grasshopper that saw the ant played; by contrast, the ant saw the grasshopper.	12	False	True			that	; by contrast, 	54
+The grasshopper that saw the ant played; in short, the ant saw the grasshopper.	12	False	True			that	; in short, 	51
+The grasshopper that saw the ant played; by contrast, the ant played.	12	False	False			that	; by contrast, 	56
+The grasshopper that saw the ant played; in short, the ant played.	12	False	False			that	; in short, 	53
+The grasshopper that saw the ant played; by contrast, the ant played.	12	False	False			that	; by contrast, 	54
+The grasshopper that saw the ant played; in short, the ant played.	12	False	False			that	; in short, 	51
+The princess that angered the witch melted; by contrast, the princess angered the witch.	13	True	True			that	; by contrast, 	59
+The princess that angered the witch melted; in short, the princess angered the witch.	13	True	True			that	; in short, 	56
+The princess that angered the witch melted; by contrast, the princess angered the witch.	13	True	True			that	; by contrast, 	57
+The princess that angered the witch melted; in short, the princess angered the witch.	13	True	True			that	; in short, 	54
+The princess that angered the witch melted; by contrast, the princess melted.	13	True	False			that	; by contrast, 	59
+The princess that angered the witch melted; in short, the princess melted.	13	True	False			that	; in short, 	56
+The princess that angered the witch melted; by contrast, the princess melted.	13	True	False			that	; by contrast, 	57
+The princess that angered the witch melted; in short, the princess melted.	13	True	False			that	; in short, 	54
+The princess that angered the witch melted; by contrast, the witch angered the princess.	13	False	True			that	; by contrast, 	59
+The princess that angered the witch melted; in short, the witch angered the princess.	13	False	True			that	; in short, 	56
+The princess that angered the witch melted; by contrast, the witch angered the princess.	13	False	True			that	; by contrast, 	57
+The princess that angered the witch melted; in short, the witch angered the princess.	13	False	True			that	; in short, 	54
+The princess that angered the witch melted; by contrast, the witch melted.	13	False	False			that	; by contrast, 	59
+The princess that angered the witch melted; in short, the witch melted.	13	False	False			that	; in short, 	56
+The princess that angered the witch melted; by contrast, the witch melted.	13	False	False			that	; by contrast, 	57
+The princess that angered the witch melted; in short, the witch melted.	13	False	False			that	; in short, 	54
+The witch that angered the princess melted; by contrast, the witch angered the princess.	13	True	True			that	; by contrast, 	59
+The witch that angered the princess melted; in short, the witch angered the princess.	13	True	True			that	; in short, 	56
+The witch that angered the princess melted; by contrast, the witch angered the princess.	13	True	True			that	; by contrast, 	57
+The witch that angered the princess melted; in short, the witch angered the princess.	13	True	True			that	; in short, 	54
+The witch that angered the princess melted; by contrast, the witch melted.	13	True	False			that	; by contrast, 	59
+The witch that angered the princess melted; in short, the witch melted.	13	True	False			that	; in short, 	56
+The witch that angered the princess melted; by contrast, the witch melted.	13	True	False			that	; by contrast, 	57
+The witch that angered the princess melted; in short, the witch melted.	13	True	False			that	; in short, 	54
+The witch that angered the princess melted; by contrast, the princess angered the witch.	13	False	True			that	; by contrast, 	59
+The witch that angered the princess melted; in short, the princess angered the witch.	13	False	True			that	; in short, 	56
+The witch that angered the princess melted; by contrast, the princess angered the witch.	13	False	True			that	; by contrast, 	57
+The witch that angered the princess melted; in short, the princess angered the witch.	13	False	True			that	; in short, 	54
+The witch that angered the princess melted; by contrast, the princess melted.	13	False	False			that	; by contrast, 	59
+The witch that angered the princess melted; in short, the princess melted.	13	False	False			that	; in short, 	56
+The witch that angered the princess melted; by contrast, the princess melted.	13	False	False			that	; by contrast, 	57
+The witch that angered the princess melted; in short, the princess melted.	13	False	False			that	; in short, 	54
+The princess that angered the witch rejoiced; by contrast, the princess angered the witch.	13	True	True			that	; by contrast, 	61
+The princess that angered the witch rejoiced; in short, the princess angered the witch.	13	True	True			that	; in short, 	58
+The princess that angered the witch rejoiced; by contrast, the princess angered the witch.	13	True	True			that	; by contrast, 	59
+The princess that angered the witch rejoiced; in short, the princess angered the witch.	13	True	True			that	; in short, 	56
+The princess that angered the witch rejoiced; by contrast, the princess rejoiced.	13	True	False			that	; by contrast, 	61
+The princess that angered the witch rejoiced; in short, the princess rejoiced.	13	True	False			that	; in short, 	58
+The princess that angered the witch rejoiced; by contrast, the princess rejoiced.	13	True	False			that	; by contrast, 	59
+The princess that angered the witch rejoiced; in short, the princess rejoiced.	13	True	False			that	; in short, 	56
+The princess that angered the witch rejoiced; by contrast, the witch angered the princess.	13	False	True			that	; by contrast, 	61
+The princess that angered the witch rejoiced; in short, the witch angered the princess.	13	False	True			that	; in short, 	58
+The princess that angered the witch rejoiced; by contrast, the witch angered the princess.	13	False	True			that	; by contrast, 	59
+The princess that angered the witch rejoiced; in short, the witch angered the princess.	13	False	True			that	; in short, 	56
+The princess that angered the witch rejoiced; by contrast, the witch rejoiced.	13	False	False			that	; by contrast, 	61
+The princess that angered the witch rejoiced; in short, the witch rejoiced.	13	False	False			that	; in short, 	58
+The princess that angered the witch rejoiced; by contrast, the witch rejoiced.	13	False	False			that	; by contrast, 	59
+The princess that angered the witch rejoiced; in short, the witch rejoiced.	13	False	False			that	; in short, 	56
+The witch that angered the princess rejoiced; by contrast, the witch angered the princess.	13	True	True			that	; by contrast, 	61
+The witch that angered the princess rejoiced; in short, the witch angered the princess.	13	True	True			that	; in short, 	58
+The witch that angered the princess rejoiced; by contrast, the witch angered the princess.	13	True	True			that	; by contrast, 	59
+The witch that angered the princess rejoiced; in short, the witch angered the princess.	13	True	True			that	; in short, 	56
+The witch that angered the princess rejoiced; by contrast, the witch rejoiced.	13	True	False			that	; by contrast, 	61
+The witch that angered the princess rejoiced; in short, the witch rejoiced.	13	True	False			that	; in short, 	58
+The witch that angered the princess rejoiced; by contrast, the witch rejoiced.	13	True	False			that	; by contrast, 	59
+The witch that angered the princess rejoiced; in short, the witch rejoiced.	13	True	False			that	; in short, 	56
+The witch that angered the princess rejoiced; by contrast, the princess angered the witch.	13	False	True			that	; by contrast, 	61
+The witch that angered the princess rejoiced; in short, the princess angered the witch.	13	False	True			that	; in short, 	58
+The witch that angered the princess rejoiced; by contrast, the princess angered the witch.	13	False	True			that	; by contrast, 	59
+The witch that angered the princess rejoiced; in short, the princess angered the witch.	13	False	True			that	; in short, 	56
+The witch that angered the princess rejoiced; by contrast, the princess rejoiced.	13	False	False			that	; by contrast, 	61
+The witch that angered the princess rejoiced; in short, the princess rejoiced.	13	False	False			that	; in short, 	58
+The witch that angered the princess rejoiced; by contrast, the princess rejoiced.	13	False	False			that	; by contrast, 	59
+The witch that angered the princess rejoiced; in short, the princess rejoiced.	13	False	False			that	; in short, 	56
+The fish that sought the turtle learned; by contrast, the fish sought the turtle.	14	True	True			that	; by contrast, 	56
+The fish that sought the turtle learned; in short, the fish sought the turtle.	14	True	True			that	; in short, 	53
+The fish that sought the turtle learned; by contrast, the fish sought the turtle.	14	True	True			that	; by contrast, 	54
+The fish that sought the turtle learned; in short, the fish sought the turtle.	14	True	True			that	; in short, 	51
+The fish that sought the turtle learned; by contrast, the fish learned.	14	True	False			that	; by contrast, 	56
+The fish that sought the turtle learned; in short, the fish learned.	14	True	False			that	; in short, 	53
+The fish that sought the turtle learned; by contrast, the fish learned.	14	True	False			that	; by contrast, 	54
+The fish that sought the turtle learned; in short, the fish learned.	14	True	False			that	; in short, 	51
+The fish that sought the turtle learned; by contrast, the turtle sought the fish.	14	False	True			that	; by contrast, 	56
+The fish that sought the turtle learned; in short, the turtle sought the fish.	14	False	True			that	; in short, 	53
+The fish that sought the turtle learned; by contrast, the turtle sought the fish.	14	False	True			that	; by contrast, 	54
+The fish that sought the turtle learned; in short, the turtle sought the fish.	14	False	True			that	; in short, 	51
+The fish that sought the turtle learned; by contrast, the turtle learned.	14	False	False			that	; by contrast, 	56
+The fish that sought the turtle learned; in short, the turtle learned.	14	False	False			that	; in short, 	53
+The fish that sought the turtle learned; by contrast, the turtle learned.	14	False	False			that	; by contrast, 	54
+The fish that sought the turtle learned; in short, the turtle learned.	14	False	False			that	; in short, 	51
+The turtle that sought the fish learned; by contrast, the turtle sought the fish.	14	True	True			that	; by contrast, 	56
+The turtle that sought the fish learned; in short, the turtle sought the fish.	14	True	True			that	; in short, 	53
+The turtle that sought the fish learned; by contrast, the turtle sought the fish.	14	True	True			that	; by contrast, 	54
+The turtle that sought the fish learned; in short, the turtle sought the fish.	14	True	True			that	; in short, 	51
+The turtle that sought the fish learned; by contrast, the turtle learned.	14	True	False			that	; by contrast, 	56
+The turtle that sought the fish learned; in short, the turtle learned.	14	True	False			that	; in short, 	53
+The turtle that sought the fish learned; by contrast, the turtle learned.	14	True	False			that	; by contrast, 	54
+The turtle that sought the fish learned; in short, the turtle learned.	14	True	False			that	; in short, 	51
+The turtle that sought the fish learned; by contrast, the fish sought the turtle.	14	False	True			that	; by contrast, 	56
+The turtle that sought the fish learned; in short, the fish sought the turtle.	14	False	True			that	; in short, 	53
+The turtle that sought the fish learned; by contrast, the fish sought the turtle.	14	False	True			that	; by contrast, 	54
+The turtle that sought the fish learned; in short, the fish sought the turtle.	14	False	True			that	; in short, 	51
+The turtle that sought the fish learned; by contrast, the fish learned.	14	False	False			that	; by contrast, 	56
+The turtle that sought the fish learned; in short, the fish learned.	14	False	False			that	; in short, 	53
+The turtle that sought the fish learned; by contrast, the fish learned.	14	False	False			that	; by contrast, 	54
+The turtle that sought the fish learned; in short, the fish learned.	14	False	False			that	; in short, 	51
+The fish that sought the turtle failed; by contrast, the fish sought the turtle.	14	True	True			that	; by contrast, 	55
+The fish that sought the turtle failed; in short, the fish sought the turtle.	14	True	True			that	; in short, 	52
+The fish that sought the turtle failed; by contrast, the fish sought the turtle.	14	True	True			that	; by contrast, 	53
+The fish that sought the turtle failed; in short, the fish sought the turtle.	14	True	True			that	; in short, 	50
+The fish that sought the turtle failed; by contrast, the fish failed.	14	True	False			that	; by contrast, 	55
+The fish that sought the turtle failed; in short, the fish failed.	14	True	False			that	; in short, 	52
+The fish that sought the turtle failed; by contrast, the fish failed.	14	True	False			that	; by contrast, 	53
+The fish that sought the turtle failed; in short, the fish failed.	14	True	False			that	; in short, 	50
+The fish that sought the turtle failed; by contrast, the turtle sought the fish.	14	False	True			that	; by contrast, 	55
+The fish that sought the turtle failed; in short, the turtle sought the fish.	14	False	True			that	; in short, 	52
+The fish that sought the turtle failed; by contrast, the turtle sought the fish.	14	False	True			that	; by contrast, 	53
+The fish that sought the turtle failed; in short, the turtle sought the fish.	14	False	True			that	; in short, 	50
+The fish that sought the turtle failed; by contrast, the turtle failed.	14	False	False			that	; by contrast, 	55
+The fish that sought the turtle failed; in short, the turtle failed.	14	False	False			that	; in short, 	52
+The fish that sought the turtle failed; by contrast, the turtle failed.	14	False	False			that	; by contrast, 	53
+The fish that sought the turtle failed; in short, the turtle failed.	14	False	False			that	; in short, 	50
+The turtle that sought the fish failed; by contrast, the turtle sought the fish.	14	True	True			that	; by contrast, 	55
+The turtle that sought the fish failed; in short, the turtle sought the fish.	14	True	True			that	; in short, 	52
+The turtle that sought the fish failed; by contrast, the turtle sought the fish.	14	True	True			that	; by contrast, 	53
+The turtle that sought the fish failed; in short, the turtle sought the fish.	14	True	True			that	; in short, 	50
+The turtle that sought the fish failed; by contrast, the turtle failed.	14	True	False			that	; by contrast, 	55
+The turtle that sought the fish failed; in short, the turtle failed.	14	True	False			that	; in short, 	52
+The turtle that sought the fish failed; by contrast, the turtle failed.	14	True	False			that	; by contrast, 	53
+The turtle that sought the fish failed; in short, the turtle failed.	14	True	False			that	; in short, 	50
+The turtle that sought the fish failed; by contrast, the fish sought the turtle.	14	False	True			that	; by contrast, 	55
+The turtle that sought the fish failed; in short, the fish sought the turtle.	14	False	True			that	; in short, 	52
+The turtle that sought the fish failed; by contrast, the fish sought the turtle.	14	False	True			that	; by contrast, 	53
+The turtle that sought the fish failed; in short, the fish sought the turtle.	14	False	True			that	; in short, 	50
+The turtle that sought the fish failed; by contrast, the fish failed.	14	False	False			that	; by contrast, 	55
+The turtle that sought the fish failed; in short, the fish failed.	14	False	False			that	; in short, 	52
+The turtle that sought the fish failed; by contrast, the fish failed.	14	False	False			that	; by contrast, 	53
+The turtle that sought the fish failed; in short, the fish failed.	14	False	False			that	; in short, 	50
+The king that entertained the jester juggled; by contrast, the king entertained the jester.	15	True	True			that	; by contrast, 	61
+The king that entertained the jester juggled; in short, the king entertained the jester.	15	True	True			that	; in short, 	58
+The king that entertained the jester juggled; by contrast, the king entertained the jester.	15	True	True			that	; by contrast, 	59
+The king that entertained the jester juggled; in short, the king entertained the jester.	15	True	True			that	; in short, 	56
+The king that entertained the jester juggled; by contrast, the king juggled.	15	True	False			that	; by contrast, 	61
+The king that entertained the jester juggled; in short, the king juggled.	15	True	False			that	; in short, 	58
+The king that entertained the jester juggled; by contrast, the king juggled.	15	True	False			that	; by contrast, 	59
+The king that entertained the jester juggled; in short, the king juggled.	15	True	False			that	; in short, 	56
+The king that entertained the jester juggled; by contrast, the jester entertained the king.	15	False	True			that	; by contrast, 	61
+The king that entertained the jester juggled; in short, the jester entertained the king.	15	False	True			that	; in short, 	58
+The king that entertained the jester juggled; by contrast, the jester entertained the king.	15	False	True			that	; by contrast, 	59
+The king that entertained the jester juggled; in short, the jester entertained the king.	15	False	True			that	; in short, 	56
+The king that entertained the jester juggled; by contrast, the jester juggled.	15	False	False			that	; by contrast, 	61
+The king that entertained the jester juggled; in short, the jester juggled.	15	False	False			that	; in short, 	58
+The king that entertained the jester juggled; by contrast, the jester juggled.	15	False	False			that	; by contrast, 	59
+The king that entertained the jester juggled; in short, the jester juggled.	15	False	False			that	; in short, 	56
+The jester that entertained the king juggled; by contrast, the jester entertained the king.	15	True	True			that	; by contrast, 	61
+The jester that entertained the king juggled; in short, the jester entertained the king.	15	True	True			that	; in short, 	58
+The jester that entertained the king juggled; by contrast, the jester entertained the king.	15	True	True			that	; by contrast, 	59
+The jester that entertained the king juggled; in short, the jester entertained the king.	15	True	True			that	; in short, 	56
+The jester that entertained the king juggled; by contrast, the jester juggled.	15	True	False			that	; by contrast, 	61
+The jester that entertained the king juggled; in short, the jester juggled.	15	True	False			that	; in short, 	58
+The jester that entertained the king juggled; by contrast, the jester juggled.	15	True	False			that	; by contrast, 	59
+The jester that entertained the king juggled; in short, the jester juggled.	15	True	False			that	; in short, 	56
+The jester that entertained the king juggled; by contrast, the king entertained the jester.	15	False	True			that	; by contrast, 	61
+The jester that entertained the king juggled; in short, the king entertained the jester.	15	False	True			that	; in short, 	58
+The jester that entertained the king juggled; by contrast, the king entertained the jester.	15	False	True			that	; by contrast, 	59
+The jester that entertained the king juggled; in short, the king entertained the jester.	15	False	True			that	; in short, 	56
+The jester that entertained the king juggled; by contrast, the king juggled.	15	False	False			that	; by contrast, 	61
+The jester that entertained the king juggled; in short, the king juggled.	15	False	False			that	; in short, 	58
+The jester that entertained the king juggled; by contrast, the king juggled.	15	False	False			that	; by contrast, 	59
+The jester that entertained the king juggled; in short, the king juggled.	15	False	False			that	; in short, 	56
+The king that entertained the jester sang; by contrast, the king entertained the jester.	15	True	True			that	; by contrast, 	58
+The king that entertained the jester sang; in short, the king entertained the jester.	15	True	True			that	; in short, 	55
+The king that entertained the jester sang; by contrast, the king entertained the jester.	15	True	True			that	; by contrast, 	56
+The king that entertained the jester sang; in short, the king entertained the jester.	15	True	True			that	; in short, 	53
+The king that entertained the jester sang; by contrast, the king sang.	15	True	False			that	; by contrast, 	58
+The king that entertained the jester sang; in short, the king sang.	15	True	False			that	; in short, 	55
+The king that entertained the jester sang; by contrast, the king sang.	15	True	False			that	; by contrast, 	56
+The king that entertained the jester sang; in short, the king sang.	15	True	False			that	; in short, 	53
+The king that entertained the jester sang; by contrast, the jester entertained the king.	15	False	True			that	; by contrast, 	58
+The king that entertained the jester sang; in short, the jester entertained the king.	15	False	True			that	; in short, 	55
+The king that entertained the jester sang; by contrast, the jester entertained the king.	15	False	True			that	; by contrast, 	56
+The king that entertained the jester sang; in short, the jester entertained the king.	15	False	True			that	; in short, 	53
+The king that entertained the jester sang; by contrast, the jester sang.	15	False	False			that	; by contrast, 	58
+The king that entertained the jester sang; in short, the jester sang.	15	False	False			that	; in short, 	55
+The king that entertained the jester sang; by contrast, the jester sang.	15	False	False			that	; by contrast, 	56
+The king that entertained the jester sang; in short, the jester sang.	15	False	False			that	; in short, 	53
+The jester that entertained the king sang; by contrast, the jester entertained the king.	15	True	True			that	; by contrast, 	58
+The jester that entertained the king sang; in short, the jester entertained the king.	15	True	True			that	; in short, 	55
+The jester that entertained the king sang; by contrast, the jester entertained the king.	15	True	True			that	; by contrast, 	56
+The jester that entertained the king sang; in short, the jester entertained the king.	15	True	True			that	; in short, 	53
+The jester that entertained the king sang; by contrast, the jester sang.	15	True	False			that	; by contrast, 	58
+The jester that entertained the king sang; in short, the jester sang.	15	True	False			that	; in short, 	55
+The jester that entertained the king sang; by contrast, the jester sang.	15	True	False			that	; by contrast, 	56
+The jester that entertained the king sang; in short, the jester sang.	15	True	False			that	; in short, 	53
+The jester that entertained the king sang; by contrast, the king entertained the jester.	15	False	True			that	; by contrast, 	58
+The jester that entertained the king sang; in short, the king entertained the jester.	15	False	True			that	; in short, 	55
+The jester that entertained the king sang; by contrast, the king entertained the jester.	15	False	True			that	; by contrast, 	56
+The jester that entertained the king sang; in short, the king entertained the jester.	15	False	True			that	; in short, 	53
+The jester that entertained the king sang; by contrast, the king sang.	15	False	False			that	; by contrast, 	58
+The jester that entertained the king sang; in short, the king sang.	15	False	False			that	; in short, 	55
+The jester that entertained the king sang; by contrast, the king sang.	15	False	False			that	; by contrast, 	56
+The jester that entertained the king sang; in short, the king sang.	15	False	False			that	; in short, 	53
+The poet that brushed the dandelion swayed; by contrast, the poet brushed the dandelion.	16	True	True			that	; by contrast, 	59
+The poet that brushed the dandelion swayed; in short, the poet brushed the dandelion.	16	True	True			that	; in short, 	56
+The poet that brushed the dandelion swayed; by contrast, the poet brushed the dandelion.	16	True	True			that	; by contrast, 	57
+The poet that brushed the dandelion swayed; in short, the poet brushed the dandelion.	16	True	True			that	; in short, 	54
+The poet that brushed the dandelion swayed; by contrast, the poet swayed.	16	True	False			that	; by contrast, 	59
+The poet that brushed the dandelion swayed; in short, the poet swayed.	16	True	False			that	; in short, 	56
+The poet that brushed the dandelion swayed; by contrast, the poet swayed.	16	True	False			that	; by contrast, 	57
+The poet that brushed the dandelion swayed; in short, the poet swayed.	16	True	False			that	; in short, 	54
+The poet that brushed the dandelion swayed; by contrast, the dandelion brushed the poet.	16	False	True			that	; by contrast, 	59
+The poet that brushed the dandelion swayed; in short, the dandelion brushed the poet.	16	False	True			that	; in short, 	56
+The poet that brushed the dandelion swayed; by contrast, the dandelion brushed the poet.	16	False	True			that	; by contrast, 	57
+The poet that brushed the dandelion swayed; in short, the dandelion brushed the poet.	16	False	True			that	; in short, 	54
+The poet that brushed the dandelion swayed; by contrast, the dandelion swayed.	16	False	False			that	; by contrast, 	59
+The poet that brushed the dandelion swayed; in short, the dandelion swayed.	16	False	False			that	; in short, 	56
+The poet that brushed the dandelion swayed; by contrast, the dandelion swayed.	16	False	False			that	; by contrast, 	57
+The poet that brushed the dandelion swayed; in short, the dandelion swayed.	16	False	False			that	; in short, 	54
+The dandelion that brushed the poet swayed; by contrast, the dandelion brushed the poet.	16	True	True			that	; by contrast, 	59
+The dandelion that brushed the poet swayed; in short, the dandelion brushed the poet.	16	True	True			that	; in short, 	56
+The dandelion that brushed the poet swayed; by contrast, the dandelion brushed the poet.	16	True	True			that	; by contrast, 	57
+The dandelion that brushed the poet swayed; in short, the dandelion brushed the poet.	16	True	True			that	; in short, 	54
+The dandelion that brushed the poet swayed; by contrast, the dandelion swayed.	16	True	False			that	; by contrast, 	59
+The dandelion that brushed the poet swayed; in short, the dandelion swayed.	16	True	False			that	; in short, 	56
+The dandelion that brushed the poet swayed; by contrast, the dandelion swayed.	16	True	False			that	; by contrast, 	57
+The dandelion that brushed the poet swayed; in short, the dandelion swayed.	16	True	False			that	; in short, 	54
+The dandelion that brushed the poet swayed; by contrast, the poet brushed the dandelion.	16	False	True			that	; by contrast, 	59
+The dandelion that brushed the poet swayed; in short, the poet brushed the dandelion.	16	False	True			that	; in short, 	56
+The dandelion that brushed the poet swayed; by contrast, the poet brushed the dandelion.	16	False	True			that	; by contrast, 	57
+The dandelion that brushed the poet swayed; in short, the poet brushed the dandelion.	16	False	True			that	; in short, 	54
+The dandelion that brushed the poet swayed; by contrast, the poet swayed.	16	False	False			that	; by contrast, 	59
+The dandelion that brushed the poet swayed; in short, the poet swayed.	16	False	False			that	; in short, 	56
+The dandelion that brushed the poet swayed; by contrast, the poet swayed.	16	False	False			that	; by contrast, 	57
+The dandelion that brushed the poet swayed; in short, the poet swayed.	16	False	False			that	; in short, 	54
+The poet that brushed the dandelion breathed; by contrast, the poet brushed the dandelion.	16	True	True			that	; by contrast, 	61
+The poet that brushed the dandelion breathed; in short, the poet brushed the dandelion.	16	True	True			that	; in short, 	58
+The poet that brushed the dandelion breathed; by contrast, the poet brushed the dandelion.	16	True	True			that	; by contrast, 	59
+The poet that brushed the dandelion breathed; in short, the poet brushed the dandelion.	16	True	True			that	; in short, 	56
+The poet that brushed the dandelion breathed; by contrast, the poet breathed.	16	True	False			that	; by contrast, 	61
+The poet that brushed the dandelion breathed; in short, the poet breathed.	16	True	False			that	; in short, 	58
+The poet that brushed the dandelion breathed; by contrast, the poet breathed.	16	True	False			that	; by contrast, 	59
+The poet that brushed the dandelion breathed; in short, the poet breathed.	16	True	False			that	; in short, 	56
+The poet that brushed the dandelion breathed; by contrast, the dandelion brushed the poet.	16	False	True			that	; by contrast, 	61
+The poet that brushed the dandelion breathed; in short, the dandelion brushed the poet.	16	False	True			that	; in short, 	58
+The poet that brushed the dandelion breathed; by contrast, the dandelion brushed the poet.	16	False	True			that	; by contrast, 	59
+The poet that brushed the dandelion breathed; in short, the dandelion brushed the poet.	16	False	True			that	; in short, 	56
+The poet that brushed the dandelion breathed; by contrast, the dandelion breathed.	16	False	False			that	; by contrast, 	61
+The poet that brushed the dandelion breathed; in short, the dandelion breathed.	16	False	False			that	; in short, 	58
+The poet that brushed the dandelion breathed; by contrast, the dandelion breathed.	16	False	False			that	; by contrast, 	59
+The poet that brushed the dandelion breathed; in short, the dandelion breathed.	16	False	False			that	; in short, 	56
+The dandelion that brushed the poet breathed; by contrast, the dandelion brushed the poet.	16	True	True			that	; by contrast, 	61
+The dandelion that brushed the poet breathed; in short, the dandelion brushed the poet.	16	True	True			that	; in short, 	58
+The dandelion that brushed the poet breathed; by contrast, the dandelion brushed the poet.	16	True	True			that	; by contrast, 	59
+The dandelion that brushed the poet breathed; in short, the dandelion brushed the poet.	16	True	True			that	; in short, 	56
+The dandelion that brushed the poet breathed; by contrast, the dandelion breathed.	16	True	False			that	; by contrast, 	61
+The dandelion that brushed the poet breathed; in short, the dandelion breathed.	16	True	False			that	; in short, 	58
+The dandelion that brushed the poet breathed; by contrast, the dandelion breathed.	16	True	False			that	; by contrast, 	59
+The dandelion that brushed the poet breathed; in short, the dandelion breathed.	16	True	False			that	; in short, 	56
+The dandelion that brushed the poet breathed; by contrast, the poet brushed the dandelion.	16	False	True			that	; by contrast, 	61
+The dandelion that brushed the poet breathed; in short, the poet brushed the dandelion.	16	False	True			that	; in short, 	58
+The dandelion that brushed the poet breathed; by contrast, the poet brushed the dandelion.	16	False	True			that	; by contrast, 	59
+The dandelion that brushed the poet breathed; in short, the poet brushed the dandelion.	16	False	True			that	; in short, 	56
+The dandelion that brushed the poet breathed; by contrast, the poet breathed.	16	False	False			that	; by contrast, 	61
+The dandelion that brushed the poet breathed; in short, the poet breathed.	16	False	False			that	; in short, 	58
+The dandelion that brushed the poet breathed; by contrast, the poet breathed.	16	False	False			that	; by contrast, 	59
+The dandelion that brushed the poet breathed; in short, the poet breathed.	16	False	False			that	; in short, 	56
+The worker that sued the boss resigned; by contrast, the worker sued the boss.	17	True	True			that	; by contrast, 	55
+The worker that sued the boss resigned; in short, the worker sued the boss.	17	True	True			that	; in short, 	52
+The worker that sued the boss resigned; by contrast, the worker sued the boss.	17	True	True			that	; by contrast, 	53
+The worker that sued the boss resigned; in short, the worker sued the boss.	17	True	True			that	; in short, 	50
+The worker that sued the boss resigned; by contrast, the worker resigned.	17	True	False			that	; by contrast, 	55
+The worker that sued the boss resigned; in short, the worker resigned.	17	True	False			that	; in short, 	52
+The worker that sued the boss resigned; by contrast, the worker resigned.	17	True	False			that	; by contrast, 	53
+The worker that sued the boss resigned; in short, the worker resigned.	17	True	False			that	; in short, 	50
+The worker that sued the boss resigned; by contrast, the boss sued the worker.	17	False	True			that	; by contrast, 	55
+The worker that sued the boss resigned; in short, the boss sued the worker.	17	False	True			that	; in short, 	52
+The worker that sued the boss resigned; by contrast, the boss sued the worker.	17	False	True			that	; by contrast, 	53
+The worker that sued the boss resigned; in short, the boss sued the worker.	17	False	True			that	; in short, 	50
+The worker that sued the boss resigned; by contrast, the boss resigned.	17	False	False			that	; by contrast, 	55
+The worker that sued the boss resigned; in short, the boss resigned.	17	False	False			that	; in short, 	52
+The worker that sued the boss resigned; by contrast, the boss resigned.	17	False	False			that	; by contrast, 	53
+The worker that sued the boss resigned; in short, the boss resigned.	17	False	False			that	; in short, 	50
+The boss that sued the worker resigned; by contrast, the boss sued the worker.	17	True	True			that	; by contrast, 	55
+The boss that sued the worker resigned; in short, the boss sued the worker.	17	True	True			that	; in short, 	52
+The boss that sued the worker resigned; by contrast, the boss sued the worker.	17	True	True			that	; by contrast, 	53
+The boss that sued the worker resigned; in short, the boss sued the worker.	17	True	True			that	; in short, 	50
+The boss that sued the worker resigned; by contrast, the boss resigned.	17	True	False			that	; by contrast, 	55
+The boss that sued the worker resigned; in short, the boss resigned.	17	True	False			that	; in short, 	52
+The boss that sued the worker resigned; by contrast, the boss resigned.	17	True	False			that	; by contrast, 	53
+The boss that sued the worker resigned; in short, the boss resigned.	17	True	False			that	; in short, 	50
+The boss that sued the worker resigned; by contrast, the worker sued the boss.	17	False	True			that	; by contrast, 	55
+The boss that sued the worker resigned; in short, the worker sued the boss.	17	False	True			that	; in short, 	52
+The boss that sued the worker resigned; by contrast, the worker sued the boss.	17	False	True			that	; by contrast, 	53
+The boss that sued the worker resigned; in short, the worker sued the boss.	17	False	True			that	; in short, 	50
+The boss that sued the worker resigned; by contrast, the worker resigned.	17	False	False			that	; by contrast, 	55
+The boss that sued the worker resigned; in short, the worker resigned.	17	False	False			that	; in short, 	52
+The boss that sued the worker resigned; by contrast, the worker resigned.	17	False	False			that	; by contrast, 	53
+The boss that sued the worker resigned; in short, the worker resigned.	17	False	False			that	; in short, 	50
+The worker that sued the boss apologized; by contrast, the worker sued the boss.	17	True	True			that	; by contrast, 	57
+The worker that sued the boss apologized; in short, the worker sued the boss.	17	True	True			that	; in short, 	54
+The worker that sued the boss apologized; by contrast, the worker sued the boss.	17	True	True			that	; by contrast, 	55
+The worker that sued the boss apologized; in short, the worker sued the boss.	17	True	True			that	; in short, 	52
+The worker that sued the boss apologized; by contrast, the worker apologized.	17	True	False			that	; by contrast, 	57
+The worker that sued the boss apologized; in short, the worker apologized.	17	True	False			that	; in short, 	54
+The worker that sued the boss apologized; by contrast, the worker apologized.	17	True	False			that	; by contrast, 	55
+The worker that sued the boss apologized; in short, the worker apologized.	17	True	False			that	; in short, 	52
+The worker that sued the boss apologized; by contrast, the boss sued the worker.	17	False	True			that	; by contrast, 	57
+The worker that sued the boss apologized; in short, the boss sued the worker.	17	False	True			that	; in short, 	54
+The worker that sued the boss apologized; by contrast, the boss sued the worker.	17	False	True			that	; by contrast, 	55
+The worker that sued the boss apologized; in short, the boss sued the worker.	17	False	True			that	; in short, 	52
+The worker that sued the boss apologized; by contrast, the boss apologized.	17	False	False			that	; by contrast, 	57
+The worker that sued the boss apologized; in short, the boss apologized.	17	False	False			that	; in short, 	54
+The worker that sued the boss apologized; by contrast, the boss apologized.	17	False	False			that	; by contrast, 	55
+The worker that sued the boss apologized; in short, the boss apologized.	17	False	False			that	; in short, 	52
+The boss that sued the worker apologized; by contrast, the boss sued the worker.	17	True	True			that	; by contrast, 	57
+The boss that sued the worker apologized; in short, the boss sued the worker.	17	True	True			that	; in short, 	54
+The boss that sued the worker apologized; by contrast, the boss sued the worker.	17	True	True			that	; by contrast, 	55
+The boss that sued the worker apologized; in short, the boss sued the worker.	17	True	True			that	; in short, 	52
+The boss that sued the worker apologized; by contrast, the boss apologized.	17	True	False			that	; by contrast, 	57
+The boss that sued the worker apologized; in short, the boss apologized.	17	True	False			that	; in short, 	54
+The boss that sued the worker apologized; by contrast, the boss apologized.	17	True	False			that	; by contrast, 	55
+The boss that sued the worker apologized; in short, the boss apologized.	17	True	False			that	; in short, 	52
+The boss that sued the worker apologized; by contrast, the worker sued the boss.	17	False	True			that	; by contrast, 	57
+The boss that sued the worker apologized; in short, the worker sued the boss.	17	False	True			that	; in short, 	54
+The boss that sued the worker apologized; by contrast, the worker sued the boss.	17	False	True			that	; by contrast, 	55
+The boss that sued the worker apologized; in short, the worker sued the boss.	17	False	True			that	; in short, 	52
+The boss that sued the worker apologized; by contrast, the worker apologized.	17	False	False			that	; by contrast, 	57
+The boss that sued the worker apologized; in short, the worker apologized.	17	False	False			that	; in short, 	54
+The boss that sued the worker apologized; by contrast, the worker apologized.	17	False	False			that	; by contrast, 	55
+The boss that sued the worker apologized; in short, the worker apologized.	17	False	False			that	; in short, 	52
+The magician that touched the bunny disappeared; by contrast, the magician touched the bunny.	18	True	True			that	; by contrast, 	64
+The magician that touched the bunny disappeared; in short, the magician touched the bunny.	18	True	True			that	; in short, 	61
+The magician that touched the bunny disappeared; by contrast, the magician touched the bunny.	18	True	True			that	; by contrast, 	62
+The magician that touched the bunny disappeared; in short, the magician touched the bunny.	18	True	True			that	; in short, 	59
+The magician that touched the bunny disappeared; by contrast, the magician disappeared.	18	True	False			that	; by contrast, 	64
+The magician that touched the bunny disappeared; in short, the magician disappeared.	18	True	False			that	; in short, 	61
+The magician that touched the bunny disappeared; by contrast, the magician disappeared.	18	True	False			that	; by contrast, 	62
+The magician that touched the bunny disappeared; in short, the magician disappeared.	18	True	False			that	; in short, 	59
+The magician that touched the bunny disappeared; by contrast, the bunny touched the magician.	18	False	True			that	; by contrast, 	64
+The magician that touched the bunny disappeared; in short, the bunny touched the magician.	18	False	True			that	; in short, 	61
+The magician that touched the bunny disappeared; by contrast, the bunny touched the magician.	18	False	True			that	; by contrast, 	62
+The magician that touched the bunny disappeared; in short, the bunny touched the magician.	18	False	True			that	; in short, 	59
+The magician that touched the bunny disappeared; by contrast, the bunny disappeared.	18	False	False			that	; by contrast, 	64
+The magician that touched the bunny disappeared; in short, the bunny disappeared.	18	False	False			that	; in short, 	61
+The magician that touched the bunny disappeared; by contrast, the bunny disappeared.	18	False	False			that	; by contrast, 	62
+The magician that touched the bunny disappeared; in short, the bunny disappeared.	18	False	False			that	; in short, 	59
+The bunny that touched the magician disappeared; by contrast, the bunny touched the magician.	18	True	True			that	; by contrast, 	64
+The bunny that touched the magician disappeared; in short, the bunny touched the magician.	18	True	True			that	; in short, 	61
+The bunny that touched the magician disappeared; by contrast, the bunny touched the magician.	18	True	True			that	; by contrast, 	62
+The bunny that touched the magician disappeared; in short, the bunny touched the magician.	18	True	True			that	; in short, 	59
+The bunny that touched the magician disappeared; by contrast, the bunny disappeared.	18	True	False			that	; by contrast, 	64
+The bunny that touched the magician disappeared; in short, the bunny disappeared.	18	True	False			that	; in short, 	61
+The bunny that touched the magician disappeared; by contrast, the bunny disappeared.	18	True	False			that	; by contrast, 	62
+The bunny that touched the magician disappeared; in short, the bunny disappeared.	18	True	False			that	; in short, 	59
+The bunny that touched the magician disappeared; by contrast, the magician touched the bunny.	18	False	True			that	; by contrast, 	64
+The bunny that touched the magician disappeared; in short, the magician touched the bunny.	18	False	True			that	; in short, 	61
+The bunny that touched the magician disappeared; by contrast, the magician touched the bunny.	18	False	True			that	; by contrast, 	62
+The bunny that touched the magician disappeared; in short, the magician touched the bunny.	18	False	True			that	; in short, 	59
+The bunny that touched the magician disappeared; by contrast, the magician disappeared.	18	False	False			that	; by contrast, 	64
+The bunny that touched the magician disappeared; in short, the magician disappeared.	18	False	False			that	; in short, 	61
+The bunny that touched the magician disappeared; by contrast, the magician disappeared.	18	False	False			that	; by contrast, 	62
+The bunny that touched the magician disappeared; in short, the magician disappeared.	18	False	False			that	; in short, 	59
+The magician that touched the bunny observed; by contrast, the magician touched the bunny.	18	True	True			that	; by contrast, 	61
+The magician that touched the bunny observed; in short, the magician touched the bunny.	18	True	True			that	; in short, 	58
+The magician that touched the bunny observed; by contrast, the magician touched the bunny.	18	True	True			that	; by contrast, 	59
+The magician that touched the bunny observed; in short, the magician touched the bunny.	18	True	True			that	; in short, 	56
+The magician that touched the bunny observed; by contrast, the magician observed.	18	True	False			that	; by contrast, 	61
+The magician that touched the bunny observed; in short, the magician observed.	18	True	False			that	; in short, 	58
+The magician that touched the bunny observed; by contrast, the magician observed.	18	True	False			that	; by contrast, 	59
+The magician that touched the bunny observed; in short, the magician observed.	18	True	False			that	; in short, 	56
+The magician that touched the bunny observed; by contrast, the bunny touched the magician.	18	False	True			that	; by contrast, 	61
+The magician that touched the bunny observed; in short, the bunny touched the magician.	18	False	True			that	; in short, 	58
+The magician that touched the bunny observed; by contrast, the bunny touched the magician.	18	False	True			that	; by contrast, 	59
+The magician that touched the bunny observed; in short, the bunny touched the magician.	18	False	True			that	; in short, 	56
+The magician that touched the bunny observed; by contrast, the bunny observed.	18	False	False			that	; by contrast, 	61
+The magician that touched the bunny observed; in short, the bunny observed.	18	False	False			that	; in short, 	58
+The magician that touched the bunny observed; by contrast, the bunny observed.	18	False	False			that	; by contrast, 	59
+The magician that touched the bunny observed; in short, the bunny observed.	18	False	False			that	; in short, 	56
+The bunny that touched the magician observed; by contrast, the bunny touched the magician.	18	True	True			that	; by contrast, 	61
+The bunny that touched the magician observed; in short, the bunny touched the magician.	18	True	True			that	; in short, 	58
+The bunny that touched the magician observed; by contrast, the bunny touched the magician.	18	True	True			that	; by contrast, 	59
+The bunny that touched the magician observed; in short, the bunny touched the magician.	18	True	True			that	; in short, 	56
+The bunny that touched the magician observed; by contrast, the bunny observed.	18	True	False			that	; by contrast, 	61
+The bunny that touched the magician observed; in short, the bunny observed.	18	True	False			that	; in short, 	58
+The bunny that touched the magician observed; by contrast, the bunny observed.	18	True	False			that	; by contrast, 	59
+The bunny that touched the magician observed; in short, the bunny observed.	18	True	False			that	; in short, 	56
+The bunny that touched the magician observed; by contrast, the magician touched the bunny.	18	False	True			that	; by contrast, 	61
+The bunny that touched the magician observed; in short, the magician touched the bunny.	18	False	True			that	; in short, 	58
+The bunny that touched the magician observed; by contrast, the magician touched the bunny.	18	False	True			that	; by contrast, 	59
+The bunny that touched the magician observed; in short, the magician touched the bunny.	18	False	True			that	; in short, 	56
+The bunny that touched the magician observed; by contrast, the magician observed.	18	False	False			that	; by contrast, 	61
+The bunny that touched the magician observed; in short, the magician observed.	18	False	False			that	; in short, 	58
+The bunny that touched the magician observed; by contrast, the magician observed.	18	False	False			that	; by contrast, 	59
+The bunny that touched the magician observed; in short, the magician observed.	18	False	False			that	; in short, 	56
+The dragon that surprised the child apologized; by contrast, the dragon surprised the child.	19	True	True			that	; by contrast, 	63
+The dragon that surprised the child apologized; in short, the dragon surprised the child.	19	True	True			that	; in short, 	60
+The dragon that surprised the child apologized; by contrast, the dragon surprised the child.	19	True	True			that	; by contrast, 	61
+The dragon that surprised the child apologized; in short, the dragon surprised the child.	19	True	True			that	; in short, 	58
+The dragon that surprised the child apologized; by contrast, the dragon apologized.	19	True	False			that	; by contrast, 	63
+The dragon that surprised the child apologized; in short, the dragon apologized.	19	True	False			that	; in short, 	60
+The dragon that surprised the child apologized; by contrast, the dragon apologized.	19	True	False			that	; by contrast, 	61
+The dragon that surprised the child apologized; in short, the dragon apologized.	19	True	False			that	; in short, 	58
+The dragon that surprised the child apologized; by contrast, the child surprised the dragon.	19	False	True			that	; by contrast, 	63
+The dragon that surprised the child apologized; in short, the child surprised the dragon.	19	False	True			that	; in short, 	60
+The dragon that surprised the child apologized; by contrast, the child surprised the dragon.	19	False	True			that	; by contrast, 	61
+The dragon that surprised the child apologized; in short, the child surprised the dragon.	19	False	True			that	; in short, 	58
+The dragon that surprised the child apologized; by contrast, the child apologized.	19	False	False			that	; by contrast, 	63
+The dragon that surprised the child apologized; in short, the child apologized.	19	False	False			that	; in short, 	60
+The dragon that surprised the child apologized; by contrast, the child apologized.	19	False	False			that	; by contrast, 	61
+The dragon that surprised the child apologized; in short, the child apologized.	19	False	False			that	; in short, 	58
+The child that surprised the dragon apologized; by contrast, the child surprised the dragon.	19	True	True			that	; by contrast, 	63
+The child that surprised the dragon apologized; in short, the child surprised the dragon.	19	True	True			that	; in short, 	60
+The child that surprised the dragon apologized; by contrast, the child surprised the dragon.	19	True	True			that	; by contrast, 	61
+The child that surprised the dragon apologized; in short, the child surprised the dragon.	19	True	True			that	; in short, 	58
+The child that surprised the dragon apologized; by contrast, the child apologized.	19	True	False			that	; by contrast, 	63
+The child that surprised the dragon apologized; in short, the child apologized.	19	True	False			that	; in short, 	60
+The child that surprised the dragon apologized; by contrast, the child apologized.	19	True	False			that	; by contrast, 	61
+The child that surprised the dragon apologized; in short, the child apologized.	19	True	False			that	; in short, 	58
+The child that surprised the dragon apologized; by contrast, the dragon surprised the child.	19	False	True			that	; by contrast, 	63
+The child that surprised the dragon apologized; in short, the dragon surprised the child.	19	False	True			that	; in short, 	60
+The child that surprised the dragon apologized; by contrast, the dragon surprised the child.	19	False	True			that	; by contrast, 	61
+The child that surprised the dragon apologized; in short, the dragon surprised the child.	19	False	True			that	; in short, 	58
+The child that surprised the dragon apologized; by contrast, the dragon apologized.	19	False	False			that	; by contrast, 	63
+The child that surprised the dragon apologized; in short, the dragon apologized.	19	False	False			that	; in short, 	60
+The child that surprised the dragon apologized; by contrast, the dragon apologized.	19	False	False			that	; by contrast, 	61
+The child that surprised the dragon apologized; in short, the dragon apologized.	19	False	False			that	; in short, 	58
+The dragon that surprised the child flew; by contrast, the dragon surprised the child.	19	True	True			that	; by contrast, 	57
+The dragon that surprised the child flew; in short, the dragon surprised the child.	19	True	True			that	; in short, 	54
+The dragon that surprised the child flew; by contrast, the dragon surprised the child.	19	True	True			that	; by contrast, 	55
+The dragon that surprised the child flew; in short, the dragon surprised the child.	19	True	True			that	; in short, 	52
+The dragon that surprised the child flew; by contrast, the dragon flew.	19	True	False			that	; by contrast, 	57
+The dragon that surprised the child flew; in short, the dragon flew.	19	True	False			that	; in short, 	54
+The dragon that surprised the child flew; by contrast, the dragon flew.	19	True	False			that	; by contrast, 	55
+The dragon that surprised the child flew; in short, the dragon flew.	19	True	False			that	; in short, 	52
+The dragon that surprised the child flew; by contrast, the child surprised the dragon.	19	False	True			that	; by contrast, 	57
+The dragon that surprised the child flew; in short, the child surprised the dragon.	19	False	True			that	; in short, 	54
+The dragon that surprised the child flew; by contrast, the child surprised the dragon.	19	False	True			that	; by contrast, 	55
+The dragon that surprised the child flew; in short, the child surprised the dragon.	19	False	True			that	; in short, 	52
+The dragon that surprised the child flew; by contrast, the child flew.	19	False	False			that	; by contrast, 	57
+The dragon that surprised the child flew; in short, the child flew.	19	False	False			that	; in short, 	54
+The dragon that surprised the child flew; by contrast, the child flew.	19	False	False			that	; by contrast, 	55
+The dragon that surprised the child flew; in short, the child flew.	19	False	False			that	; in short, 	52
+The child that surprised the dragon flew; by contrast, the child surprised the dragon.	19	True	True			that	; by contrast, 	57
+The child that surprised the dragon flew; in short, the child surprised the dragon.	19	True	True			that	; in short, 	54
+The child that surprised the dragon flew; by contrast, the child surprised the dragon.	19	True	True			that	; by contrast, 	55
+The child that surprised the dragon flew; in short, the child surprised the dragon.	19	True	True			that	; in short, 	52
+The child that surprised the dragon flew; by contrast, the child flew.	19	True	False			that	; by contrast, 	57
+The child that surprised the dragon flew; in short, the child flew.	19	True	False			that	; in short, 	54
+The child that surprised the dragon flew; by contrast, the child flew.	19	True	False			that	; by contrast, 	55
+The child that surprised the dragon flew; in short, the child flew.	19	True	False			that	; in short, 	52
+The child that surprised the dragon flew; by contrast, the dragon surprised the child.	19	False	True			that	; by contrast, 	57
+The child that surprised the dragon flew; in short, the dragon surprised the child.	19	False	True			that	; in short, 	54
+The child that surprised the dragon flew; by contrast, the dragon surprised the child.	19	False	True			that	; by contrast, 	55
+The child that surprised the dragon flew; in short, the dragon surprised the child.	19	False	True			that	; in short, 	52
+The child that surprised the dragon flew; by contrast, the dragon flew.	19	False	False			that	; by contrast, 	57
+The child that surprised the dragon flew; in short, the dragon flew.	19	False	False			that	; in short, 	54
+The child that surprised the dragon flew; by contrast, the dragon flew.	19	False	False			that	; by contrast, 	55
+The child that surprised the dragon flew; in short, the dragon flew.	19	False	False			that	; in short, 	52
+The comedian that delighted the audience bombed; by contrast, the comedian delighted the audience.	20	True	True			that	; by contrast, 	64
+The comedian that delighted the audience bombed; in short, the comedian delighted the audience.	20	True	True			that	; in short, 	61
+The comedian that delighted the audience bombed; by contrast, the comedian delighted the audience.	20	True	True			that	; by contrast, 	62
+The comedian that delighted the audience bombed; in short, the comedian delighted the audience.	20	True	True			that	; in short, 	59
+The comedian that delighted the audience bombed; by contrast, the comedian bombed.	20	True	False			that	; by contrast, 	64
+The comedian that delighted the audience bombed; in short, the comedian bombed.	20	True	False			that	; in short, 	61
+The comedian that delighted the audience bombed; by contrast, the comedian bombed.	20	True	False			that	; by contrast, 	62
+The comedian that delighted the audience bombed; in short, the comedian bombed.	20	True	False			that	; in short, 	59
+The comedian that delighted the audience bombed; by contrast, the audience delighted the comedian.	20	False	True			that	; by contrast, 	64
+The comedian that delighted the audience bombed; in short, the audience delighted the comedian.	20	False	True			that	; in short, 	61
+The comedian that delighted the audience bombed; by contrast, the audience delighted the comedian.	20	False	True			that	; by contrast, 	62
+The comedian that delighted the audience bombed; in short, the audience delighted the comedian.	20	False	True			that	; in short, 	59
+The comedian that delighted the audience bombed; by contrast, the audience bombed.	20	False	False			that	; by contrast, 	64
+The comedian that delighted the audience bombed; in short, the audience bombed.	20	False	False			that	; in short, 	61
+The comedian that delighted the audience bombed; by contrast, the audience bombed.	20	False	False			that	; by contrast, 	62
+The comedian that delighted the audience bombed; in short, the audience bombed.	20	False	False			that	; in short, 	59
+The audience that delighted the comedian bombed; by contrast, the audience delighted the comedian.	20	True	True			that	; by contrast, 	64
+The audience that delighted the comedian bombed; in short, the audience delighted the comedian.	20	True	True			that	; in short, 	61
+The audience that delighted the comedian bombed; by contrast, the audience delighted the comedian.	20	True	True			that	; by contrast, 	62
+The audience that delighted the comedian bombed; in short, the audience delighted the comedian.	20	True	True			that	; in short, 	59
+The audience that delighted the comedian bombed; by contrast, the audience bombed.	20	True	False			that	; by contrast, 	64
+The audience that delighted the comedian bombed; in short, the audience bombed.	20	True	False			that	; in short, 	61
+The audience that delighted the comedian bombed; by contrast, the audience bombed.	20	True	False			that	; by contrast, 	62
+The audience that delighted the comedian bombed; in short, the audience bombed.	20	True	False			that	; in short, 	59
+The audience that delighted the comedian bombed; by contrast, the comedian delighted the audience.	20	False	True			that	; by contrast, 	64
+The audience that delighted the comedian bombed; in short, the comedian delighted the audience.	20	False	True			that	; in short, 	61
+The audience that delighted the comedian bombed; by contrast, the comedian delighted the audience.	20	False	True			that	; by contrast, 	62
+The audience that delighted the comedian bombed; in short, the comedian delighted the audience.	20	False	True			that	; in short, 	59
+The audience that delighted the comedian bombed; by contrast, the comedian bombed.	20	False	False			that	; by contrast, 	64
+The audience that delighted the comedian bombed; in short, the comedian bombed.	20	False	False			that	; in short, 	61
+The audience that delighted the comedian bombed; by contrast, the comedian bombed.	20	False	False			that	; by contrast, 	62
+The audience that delighted the comedian bombed; in short, the comedian bombed.	20	False	False			that	; in short, 	59
+The comedian that delighted the audience aged; by contrast, the comedian delighted the audience.	20	True	True			that	; by contrast, 	62
+The comedian that delighted the audience aged; in short, the comedian delighted the audience.	20	True	True			that	; in short, 	59
+The comedian that delighted the audience aged; by contrast, the comedian delighted the audience.	20	True	True			that	; by contrast, 	60
+The comedian that delighted the audience aged; in short, the comedian delighted the audience.	20	True	True			that	; in short, 	57
+The comedian that delighted the audience aged; by contrast, the comedian aged.	20	True	False			that	; by contrast, 	62
+The comedian that delighted the audience aged; in short, the comedian aged.	20	True	False			that	; in short, 	59
+The comedian that delighted the audience aged; by contrast, the comedian aged.	20	True	False			that	; by contrast, 	60
+The comedian that delighted the audience aged; in short, the comedian aged.	20	True	False			that	; in short, 	57
+The comedian that delighted the audience aged; by contrast, the audience delighted the comedian.	20	False	True			that	; by contrast, 	62
+The comedian that delighted the audience aged; in short, the audience delighted the comedian.	20	False	True			that	; in short, 	59
+The comedian that delighted the audience aged; by contrast, the audience delighted the comedian.	20	False	True			that	; by contrast, 	60
+The comedian that delighted the audience aged; in short, the audience delighted the comedian.	20	False	True			that	; in short, 	57
+The comedian that delighted the audience aged; by contrast, the audience aged.	20	False	False			that	; by contrast, 	62
+The comedian that delighted the audience aged; in short, the audience aged.	20	False	False			that	; in short, 	59
+The comedian that delighted the audience aged; by contrast, the audience aged.	20	False	False			that	; by contrast, 	60
+The comedian that delighted the audience aged; in short, the audience aged.	20	False	False			that	; in short, 	57
+The audience that delighted the comedian aged; by contrast, the audience delighted the comedian.	20	True	True			that	; by contrast, 	62
+The audience that delighted the comedian aged; in short, the audience delighted the comedian.	20	True	True			that	; in short, 	59
+The audience that delighted the comedian aged; by contrast, the audience delighted the comedian.	20	True	True			that	; by contrast, 	60
+The audience that delighted the comedian aged; in short, the audience delighted the comedian.	20	True	True			that	; in short, 	57
+The audience that delighted the comedian aged; by contrast, the audience aged.	20	True	False			that	; by contrast, 	62
+The audience that delighted the comedian aged; in short, the audience aged.	20	True	False			that	; in short, 	59
+The audience that delighted the comedian aged; by contrast, the audience aged.	20	True	False			that	; by contrast, 	60
+The audience that delighted the comedian aged; in short, the audience aged.	20	True	False			that	; in short, 	57
+The audience that delighted the comedian aged; by contrast, the comedian delighted the audience.	20	False	True			that	; by contrast, 	62
+The audience that delighted the comedian aged; in short, the comedian delighted the audience.	20	False	True			that	; in short, 	59
+The audience that delighted the comedian aged; by contrast, the comedian delighted the audience.	20	False	True			that	; by contrast, 	60
+The audience that delighted the comedian aged; in short, the comedian delighted the audience.	20	False	True			that	; in short, 	57
+The audience that delighted the comedian aged; by contrast, the comedian aged.	20	False	False			that	; by contrast, 	62
+The audience that delighted the comedian aged; in short, the comedian aged.	20	False	False			that	; in short, 	59
+The audience that delighted the comedian aged; by contrast, the comedian aged.	20	False	False			that	; by contrast, 	60
+The audience that delighted the comedian aged; in short, the comedian aged.	20	False	False			that	; in short, 	57
+The therapist that frustrated the insurer refused; by contrast, the therapist frustrated the insurer.	21	True	True			that	; by contrast, 	66
+The therapist that frustrated the insurer refused; in short, the therapist frustrated the insurer.	21	True	True			that	; in short, 	63
+The therapist that frustrated the insurer refused; by contrast, the therapist frustrated the insurer.	21	True	True			that	; by contrast, 	64
+The therapist that frustrated the insurer refused; in short, the therapist frustrated the insurer.	21	True	True			that	; in short, 	61
+The therapist that frustrated the insurer refused; by contrast, the therapist refused.	21	True	False			that	; by contrast, 	66
+The therapist that frustrated the insurer refused; in short, the therapist refused.	21	True	False			that	; in short, 	63
+The therapist that frustrated the insurer refused; by contrast, the therapist refused.	21	True	False			that	; by contrast, 	64
+The therapist that frustrated the insurer refused; in short, the therapist refused.	21	True	False			that	; in short, 	61
+The therapist that frustrated the insurer refused; by contrast, the insurer frustrated the therapist.	21	False	True			that	; by contrast, 	66
+The therapist that frustrated the insurer refused; in short, the insurer frustrated the therapist.	21	False	True			that	; in short, 	63
+The therapist that frustrated the insurer refused; by contrast, the insurer frustrated the therapist.	21	False	True			that	; by contrast, 	64
+The therapist that frustrated the insurer refused; in short, the insurer frustrated the therapist.	21	False	True			that	; in short, 	61
+The therapist that frustrated the insurer refused; by contrast, the insurer refused.	21	False	False			that	; by contrast, 	66
+The therapist that frustrated the insurer refused; in short, the insurer refused.	21	False	False			that	; in short, 	63
+The therapist that frustrated the insurer refused; by contrast, the insurer refused.	21	False	False			that	; by contrast, 	64
+The therapist that frustrated the insurer refused; in short, the insurer refused.	21	False	False			that	; in short, 	61
+The insurer that frustrated the therapist refused; by contrast, the insurer frustrated the therapist.	21	True	True			that	; by contrast, 	66
+The insurer that frustrated the therapist refused; in short, the insurer frustrated the therapist.	21	True	True			that	; in short, 	63
+The insurer that frustrated the therapist refused; by contrast, the insurer frustrated the therapist.	21	True	True			that	; by contrast, 	64
+The insurer that frustrated the therapist refused; in short, the insurer frustrated the therapist.	21	True	True			that	; in short, 	61
+The insurer that frustrated the therapist refused; by contrast, the insurer refused.	21	True	False			that	; by contrast, 	66
+The insurer that frustrated the therapist refused; in short, the insurer refused.	21	True	False			that	; in short, 	63
+The insurer that frustrated the therapist refused; by contrast, the insurer refused.	21	True	False			that	; by contrast, 	64
+The insurer that frustrated the therapist refused; in short, the insurer refused.	21	True	False			that	; in short, 	61
+The insurer that frustrated the therapist refused; by contrast, the therapist frustrated the insurer.	21	False	True			that	; by contrast, 	66
+The insurer that frustrated the therapist refused; in short, the therapist frustrated the insurer.	21	False	True			that	; in short, 	63
+The insurer that frustrated the therapist refused; by contrast, the therapist frustrated the insurer.	21	False	True			that	; by contrast, 	64
+The insurer that frustrated the therapist refused; in short, the therapist frustrated the insurer.	21	False	True			that	; in short, 	61
+The insurer that frustrated the therapist refused; by contrast, the therapist refused.	21	False	False			that	; by contrast, 	66
+The insurer that frustrated the therapist refused; in short, the therapist refused.	21	False	False			that	; in short, 	63
+The insurer that frustrated the therapist refused; by contrast, the therapist refused.	21	False	False			that	; by contrast, 	64
+The insurer that frustrated the therapist refused; in short, the therapist refused.	21	False	False			that	; in short, 	61
+The therapist that frustrated the insurer screamed; by contrast, the therapist frustrated the insurer.	21	True	True			that	; by contrast, 	67
+The therapist that frustrated the insurer screamed; in short, the therapist frustrated the insurer.	21	True	True			that	; in short, 	64
+The therapist that frustrated the insurer screamed; by contrast, the therapist frustrated the insurer.	21	True	True			that	; by contrast, 	65
+The therapist that frustrated the insurer screamed; in short, the therapist frustrated the insurer.	21	True	True			that	; in short, 	62
+The therapist that frustrated the insurer screamed; by contrast, the therapist screamed.	21	True	False			that	; by contrast, 	67
+The therapist that frustrated the insurer screamed; in short, the therapist screamed.	21	True	False			that	; in short, 	64
+The therapist that frustrated the insurer screamed; by contrast, the therapist screamed.	21	True	False			that	; by contrast, 	65
+The therapist that frustrated the insurer screamed; in short, the therapist screamed.	21	True	False			that	; in short, 	62
+The therapist that frustrated the insurer screamed; by contrast, the insurer frustrated the therapist.	21	False	True			that	; by contrast, 	67
+The therapist that frustrated the insurer screamed; in short, the insurer frustrated the therapist.	21	False	True			that	; in short, 	64
+The therapist that frustrated the insurer screamed; by contrast, the insurer frustrated the therapist.	21	False	True			that	; by contrast, 	65
+The therapist that frustrated the insurer screamed; in short, the insurer frustrated the therapist.	21	False	True			that	; in short, 	62
+The therapist that frustrated the insurer screamed; by contrast, the insurer screamed.	21	False	False			that	; by contrast, 	67
+The therapist that frustrated the insurer screamed; in short, the insurer screamed.	21	False	False			that	; in short, 	64
+The therapist that frustrated the insurer screamed; by contrast, the insurer screamed.	21	False	False			that	; by contrast, 	65
+The therapist that frustrated the insurer screamed; in short, the insurer screamed.	21	False	False			that	; in short, 	62
+The insurer that frustrated the therapist screamed; by contrast, the insurer frustrated the therapist.	21	True	True			that	; by contrast, 	67
+The insurer that frustrated the therapist screamed; in short, the insurer frustrated the therapist.	21	True	True			that	; in short, 	64
+The insurer that frustrated the therapist screamed; by contrast, the insurer frustrated the therapist.	21	True	True			that	; by contrast, 	65
+The insurer that frustrated the therapist screamed; in short, the insurer frustrated the therapist.	21	True	True			that	; in short, 	62
+The insurer that frustrated the therapist screamed; by contrast, the insurer screamed.	21	True	False			that	; by contrast, 	67
+The insurer that frustrated the therapist screamed; in short, the insurer screamed.	21	True	False			that	; in short, 	64
+The insurer that frustrated the therapist screamed; by contrast, the insurer screamed.	21	True	False			that	; by contrast, 	65
+The insurer that frustrated the therapist screamed; in short, the insurer screamed.	21	True	False			that	; in short, 	62
+The insurer that frustrated the therapist screamed; by contrast, the therapist frustrated the insurer.	21	False	True			that	; by contrast, 	67
+The insurer that frustrated the therapist screamed; in short, the therapist frustrated the insurer.	21	False	True			that	; in short, 	64
+The insurer that frustrated the therapist screamed; by contrast, the therapist frustrated the insurer.	21	False	True			that	; by contrast, 	65
+The insurer that frustrated the therapist screamed; in short, the therapist frustrated the insurer.	21	False	True			that	; in short, 	62
+The insurer that frustrated the therapist screamed; by contrast, the therapist screamed.	21	False	False			that	; by contrast, 	67
+The insurer that frustrated the therapist screamed; in short, the therapist screamed.	21	False	False			that	; in short, 	64
+The insurer that frustrated the therapist screamed; by contrast, the therapist screamed.	21	False	False			that	; by contrast, 	65
+The insurer that frustrated the therapist screamed; in short, the therapist screamed.	21	False	False			that	; in short, 	62
+The shoes that destroyed the carpet shone; by contrast, the shoes destroyed the carpet.	22	True	True			that	; by contrast, 	58
+The shoes that destroyed the carpet shone; in short, the shoes destroyed the carpet.	22	True	True			that	; in short, 	55
+The shoes that destroyed the carpet shone; by contrast, the shoes destroyed the carpet.	22	True	True			that	; by contrast, 	56
+The shoes that destroyed the carpet shone; in short, the shoes destroyed the carpet.	22	True	True			that	; in short, 	53
+The shoes that destroyed the carpet shone; by contrast, the shoes shone.	22	True	False			that	; by contrast, 	58
+The shoes that destroyed the carpet shone; in short, the shoes shone.	22	True	False			that	; in short, 	55
+The shoes that destroyed the carpet shone; by contrast, the shoes shone.	22	True	False			that	; by contrast, 	56
+The shoes that destroyed the carpet shone; in short, the shoes shone.	22	True	False			that	; in short, 	53
+The shoes that destroyed the carpet shone; by contrast, the carpet destroyed the shoes.	22	False	True			that	; by contrast, 	58
+The shoes that destroyed the carpet shone; in short, the carpet destroyed the shoes.	22	False	True			that	; in short, 	55
+The shoes that destroyed the carpet shone; by contrast, the carpet destroyed the shoes.	22	False	True			that	; by contrast, 	56
+The shoes that destroyed the carpet shone; in short, the carpet destroyed the shoes.	22	False	True			that	; in short, 	53
+The shoes that destroyed the carpet shone; by contrast, the carpet shone.	22	False	False			that	; by contrast, 	58
+The shoes that destroyed the carpet shone; in short, the carpet shone.	22	False	False			that	; in short, 	55
+The shoes that destroyed the carpet shone; by contrast, the carpet shone.	22	False	False			that	; by contrast, 	56
+The shoes that destroyed the carpet shone; in short, the carpet shone.	22	False	False			that	; in short, 	53
+The carpet that destroyed the shoes shone; by contrast, the carpet destroyed the shoes.	22	True	True			that	; by contrast, 	58
+The carpet that destroyed the shoes shone; in short, the carpet destroyed the shoes.	22	True	True			that	; in short, 	55
+The carpet that destroyed the shoes shone; by contrast, the carpet destroyed the shoes.	22	True	True			that	; by contrast, 	56
+The carpet that destroyed the shoes shone; in short, the carpet destroyed the shoes.	22	True	True			that	; in short, 	53
+The carpet that destroyed the shoes shone; by contrast, the carpet shone.	22	True	False			that	; by contrast, 	58
+The carpet that destroyed the shoes shone; in short, the carpet shone.	22	True	False			that	; in short, 	55
+The carpet that destroyed the shoes shone; by contrast, the carpet shone.	22	True	False			that	; by contrast, 	56
+The carpet that destroyed the shoes shone; in short, the carpet shone.	22	True	False			that	; in short, 	53
+The carpet that destroyed the shoes shone; by contrast, the shoes destroyed the carpet.	22	False	True			that	; by contrast, 	58
+The carpet that destroyed the shoes shone; in short, the shoes destroyed the carpet.	22	False	True			that	; in short, 	55
+The carpet that destroyed the shoes shone; by contrast, the shoes destroyed the carpet.	22	False	True			that	; by contrast, 	56
+The carpet that destroyed the shoes shone; in short, the shoes destroyed the carpet.	22	False	True			that	; in short, 	53
+The carpet that destroyed the shoes shone; by contrast, the shoes shone.	22	False	False			that	; by contrast, 	58
+The carpet that destroyed the shoes shone; in short, the shoes shone.	22	False	False			that	; in short, 	55
+The carpet that destroyed the shoes shone; by contrast, the shoes shone.	22	False	False			that	; by contrast, 	56
+The carpet that destroyed the shoes shone; in short, the shoes shone.	22	False	False			that	; in short, 	53
+The shoes that destroyed the carpet deteriorated; by contrast, the shoes destroyed the carpet.	22	True	True			that	; by contrast, 	65
+The shoes that destroyed the carpet deteriorated; in short, the shoes destroyed the carpet.	22	True	True			that	; in short, 	62
+The shoes that destroyed the carpet deteriorated; by contrast, the shoes destroyed the carpet.	22	True	True			that	; by contrast, 	63
+The shoes that destroyed the carpet deteriorated; in short, the shoes destroyed the carpet.	22	True	True			that	; in short, 	60
+The shoes that destroyed the carpet deteriorated; by contrast, the shoes deteriorated.	22	True	False			that	; by contrast, 	65
+The shoes that destroyed the carpet deteriorated; in short, the shoes deteriorated.	22	True	False			that	; in short, 	62
+The shoes that destroyed the carpet deteriorated; by contrast, the shoes deteriorated.	22	True	False			that	; by contrast, 	63
+The shoes that destroyed the carpet deteriorated; in short, the shoes deteriorated.	22	True	False			that	; in short, 	60
+The shoes that destroyed the carpet deteriorated; by contrast, the carpet destroyed the shoes.	22	False	True			that	; by contrast, 	65
+The shoes that destroyed the carpet deteriorated; in short, the carpet destroyed the shoes.	22	False	True			that	; in short, 	62
+The shoes that destroyed the carpet deteriorated; by contrast, the carpet destroyed the shoes.	22	False	True			that	; by contrast, 	63
+The shoes that destroyed the carpet deteriorated; in short, the carpet destroyed the shoes.	22	False	True			that	; in short, 	60
+The shoes that destroyed the carpet deteriorated; by contrast, the carpet deteriorated.	22	False	False			that	; by contrast, 	65
+The shoes that destroyed the carpet deteriorated; in short, the carpet deteriorated.	22	False	False			that	; in short, 	62
+The shoes that destroyed the carpet deteriorated; by contrast, the carpet deteriorated.	22	False	False			that	; by contrast, 	63
+The shoes that destroyed the carpet deteriorated; in short, the carpet deteriorated.	22	False	False			that	; in short, 	60
+The carpet that destroyed the shoes deteriorated; by contrast, the carpet destroyed the shoes.	22	True	True			that	; by contrast, 	65
+The carpet that destroyed the shoes deteriorated; in short, the carpet destroyed the shoes.	22	True	True			that	; in short, 	62
+The carpet that destroyed the shoes deteriorated; by contrast, the carpet destroyed the shoes.	22	True	True			that	; by contrast, 	63
+The carpet that destroyed the shoes deteriorated; in short, the carpet destroyed the shoes.	22	True	True			that	; in short, 	60
+The carpet that destroyed the shoes deteriorated; by contrast, the carpet deteriorated.	22	True	False			that	; by contrast, 	65
+The carpet that destroyed the shoes deteriorated; in short, the carpet deteriorated.	22	True	False			that	; in short, 	62
+The carpet that destroyed the shoes deteriorated; by contrast, the carpet deteriorated.	22	True	False			that	; by contrast, 	63
+The carpet that destroyed the shoes deteriorated; in short, the carpet deteriorated.	22	True	False			that	; in short, 	60
+The carpet that destroyed the shoes deteriorated; by contrast, the shoes destroyed the carpet.	22	False	True			that	; by contrast, 	65
+The carpet that destroyed the shoes deteriorated; in short, the shoes destroyed the carpet.	22	False	True			that	; in short, 	62
+The carpet that destroyed the shoes deteriorated; by contrast, the shoes destroyed the carpet.	22	False	True			that	; by contrast, 	63
+The carpet that destroyed the shoes deteriorated; in short, the shoes destroyed the carpet.	22	False	True			that	; in short, 	60
+The carpet that destroyed the shoes deteriorated; by contrast, the shoes deteriorated.	22	False	False			that	; by contrast, 	65
+The carpet that destroyed the shoes deteriorated; in short, the shoes deteriorated.	22	False	False			that	; in short, 	62
+The carpet that destroyed the shoes deteriorated; by contrast, the shoes deteriorated.	22	False	False			that	; by contrast, 	63
+The carpet that destroyed the shoes deteriorated; in short, the shoes deteriorated.	22	False	False			that	; in short, 	60
+The principal that expelled the student smiled; by contrast, the principal expelled the student.	23	True	True			that	; by contrast, 	63
+The principal that expelled the student smiled; in short, the principal expelled the student.	23	True	True			that	; in short, 	60
+The principal that expelled the student smiled; by contrast, the principal expelled the student.	23	True	True			that	; by contrast, 	61
+The principal that expelled the student smiled; in short, the principal expelled the student.	23	True	True			that	; in short, 	58
+The principal that expelled the student smiled; by contrast, the principal smiled.	23	True	False			that	; by contrast, 	63
+The principal that expelled the student smiled; in short, the principal smiled.	23	True	False			that	; in short, 	60
+The principal that expelled the student smiled; by contrast, the principal smiled.	23	True	False			that	; by contrast, 	61
+The principal that expelled the student smiled; in short, the principal smiled.	23	True	False			that	; in short, 	58
+The principal that expelled the student smiled; by contrast, the student expelled the principal.	23	False	True			that	; by contrast, 	63
+The principal that expelled the student smiled; in short, the student expelled the principal.	23	False	True			that	; in short, 	60
+The principal that expelled the student smiled; by contrast, the student expelled the principal.	23	False	True			that	; by contrast, 	61
+The principal that expelled the student smiled; in short, the student expelled the principal.	23	False	True			that	; in short, 	58
+The principal that expelled the student smiled; by contrast, the student smiled.	23	False	False			that	; by contrast, 	63
+The principal that expelled the student smiled; in short, the student smiled.	23	False	False			that	; in short, 	60
+The principal that expelled the student smiled; by contrast, the student smiled.	23	False	False			that	; by contrast, 	61
+The principal that expelled the student smiled; in short, the student smiled.	23	False	False			that	; in short, 	58
+The student that expelled the principal smiled; by contrast, the student expelled the principal.	23	True	True			that	; by contrast, 	63
+The student that expelled the principal smiled; in short, the student expelled the principal.	23	True	True			that	; in short, 	60
+The student that expelled the principal smiled; by contrast, the student expelled the principal.	23	True	True			that	; by contrast, 	61
+The student that expelled the principal smiled; in short, the student expelled the principal.	23	True	True			that	; in short, 	58
+The student that expelled the principal smiled; by contrast, the student smiled.	23	True	False			that	; by contrast, 	63
+The student that expelled the principal smiled; in short, the student smiled.	23	True	False			that	; in short, 	60
+The student that expelled the principal smiled; by contrast, the student smiled.	23	True	False			that	; by contrast, 	61
+The student that expelled the principal smiled; in short, the student smiled.	23	True	False			that	; in short, 	58
+The student that expelled the principal smiled; by contrast, the principal expelled the student.	23	False	True			that	; by contrast, 	63
+The student that expelled the principal smiled; in short, the principal expelled the student.	23	False	True			that	; in short, 	60
+The student that expelled the principal smiled; by contrast, the principal expelled the student.	23	False	True			that	; by contrast, 	61
+The student that expelled the principal smiled; in short, the principal expelled the student.	23	False	True			that	; in short, 	58
+The student that expelled the principal smiled; by contrast, the principal smiled.	23	False	False			that	; by contrast, 	63
+The student that expelled the principal smiled; in short, the principal smiled.	23	False	False			that	; in short, 	60
+The student that expelled the principal smiled; by contrast, the principal smiled.	23	False	False			that	; by contrast, 	61
+The student that expelled the principal smiled; in short, the principal smiled.	23	False	False			that	; in short, 	58
+The principal that expelled the student frowned; by contrast, the principal expelled the student.	23	True	True			that	; by contrast, 	64
+The principal that expelled the student frowned; in short, the principal expelled the student.	23	True	True			that	; in short, 	61
+The principal that expelled the student frowned; by contrast, the principal expelled the student.	23	True	True			that	; by contrast, 	62
+The principal that expelled the student frowned; in short, the principal expelled the student.	23	True	True			that	; in short, 	59
+The principal that expelled the student frowned; by contrast, the principal frowned.	23	True	False			that	; by contrast, 	64
+The principal that expelled the student frowned; in short, the principal frowned.	23	True	False			that	; in short, 	61
+The principal that expelled the student frowned; by contrast, the principal frowned.	23	True	False			that	; by contrast, 	62
+The principal that expelled the student frowned; in short, the principal frowned.	23	True	False			that	; in short, 	59
+The principal that expelled the student frowned; by contrast, the student expelled the principal.	23	False	True			that	; by contrast, 	64
+The principal that expelled the student frowned; in short, the student expelled the principal.	23	False	True			that	; in short, 	61
+The principal that expelled the student frowned; by contrast, the student expelled the principal.	23	False	True			that	; by contrast, 	62
+The principal that expelled the student frowned; in short, the student expelled the principal.	23	False	True			that	; in short, 	59
+The principal that expelled the student frowned; by contrast, the student frowned.	23	False	False			that	; by contrast, 	64
+The principal that expelled the student frowned; in short, the student frowned.	23	False	False			that	; in short, 	61
+The principal that expelled the student frowned; by contrast, the student frowned.	23	False	False			that	; by contrast, 	62
+The principal that expelled the student frowned; in short, the student frowned.	23	False	False			that	; in short, 	59
+The student that expelled the principal frowned; by contrast, the student expelled the principal.	23	True	True			that	; by contrast, 	64
+The student that expelled the principal frowned; in short, the student expelled the principal.	23	True	True			that	; in short, 	61
+The student that expelled the principal frowned; by contrast, the student expelled the principal.	23	True	True			that	; by contrast, 	62
+The student that expelled the principal frowned; in short, the student expelled the principal.	23	True	True			that	; in short, 	59
+The student that expelled the principal frowned; by contrast, the student frowned.	23	True	False			that	; by contrast, 	64
+The student that expelled the principal frowned; in short, the student frowned.	23	True	False			that	; in short, 	61
+The student that expelled the principal frowned; by contrast, the student frowned.	23	True	False			that	; by contrast, 	62
+The student that expelled the principal frowned; in short, the student frowned.	23	True	False			that	; in short, 	59
+The student that expelled the principal frowned; by contrast, the principal expelled the student.	23	False	True			that	; by contrast, 	64
+The student that expelled the principal frowned; in short, the principal expelled the student.	23	False	True			that	; in short, 	61
+The student that expelled the principal frowned; by contrast, the principal expelled the student.	23	False	True			that	; by contrast, 	62
+The student that expelled the principal frowned; in short, the principal expelled the student.	23	False	True			that	; in short, 	59
+The student that expelled the principal frowned; by contrast, the principal frowned.	23	False	False			that	; by contrast, 	64
+The student that expelled the principal frowned; in short, the principal frowned.	23	False	False			that	; in short, 	61
+The student that expelled the principal frowned; by contrast, the principal frowned.	23	False	False			that	; by contrast, 	62
+The student that expelled the principal frowned; in short, the principal frowned.	23	False	False			that	; in short, 	59
+The river that joined the sea swelled; by contrast, the river joined the sea.	24	True	True			that	; by contrast, 	54
+The river that joined the sea swelled; in short, the river joined the sea.	24	True	True			that	; in short, 	51
+The river that joined the sea swelled; by contrast, the river joined the sea.	24	True	True			that	; by contrast, 	52
+The river that joined the sea swelled; in short, the river joined the sea.	24	True	True			that	; in short, 	49
+The river that joined the sea swelled; by contrast, the river swelled.	24	True	False			that	; by contrast, 	54
+The river that joined the sea swelled; in short, the river swelled.	24	True	False			that	; in short, 	51
+The river that joined the sea swelled; by contrast, the river swelled.	24	True	False			that	; by contrast, 	52
+The river that joined the sea swelled; in short, the river swelled.	24	True	False			that	; in short, 	49
+The river that joined the sea swelled; by contrast, the sea joined the river.	24	False	True			that	; by contrast, 	54
+The river that joined the sea swelled; in short, the sea joined the river.	24	False	True			that	; in short, 	51
+The river that joined the sea swelled; by contrast, the sea joined the river.	24	False	True			that	; by contrast, 	52
+The river that joined the sea swelled; in short, the sea joined the river.	24	False	True			that	; in short, 	49
+The river that joined the sea swelled; by contrast, the sea swelled.	24	False	False			that	; by contrast, 	54
+The river that joined the sea swelled; in short, the sea swelled.	24	False	False			that	; in short, 	51
+The river that joined the sea swelled; by contrast, the sea swelled.	24	False	False			that	; by contrast, 	52
+The river that joined the sea swelled; in short, the sea swelled.	24	False	False			that	; in short, 	49
+The sea that joined the river swelled; by contrast, the sea joined the river.	24	True	True			that	; by contrast, 	54
+The sea that joined the river swelled; in short, the sea joined the river.	24	True	True			that	; in short, 	51
+The sea that joined the river swelled; by contrast, the sea joined the river.	24	True	True			that	; by contrast, 	52
+The sea that joined the river swelled; in short, the sea joined the river.	24	True	True			that	; in short, 	49
+The sea that joined the river swelled; by contrast, the sea swelled.	24	True	False			that	; by contrast, 	54
+The sea that joined the river swelled; in short, the sea swelled.	24	True	False			that	; in short, 	51
+The sea that joined the river swelled; by contrast, the sea swelled.	24	True	False			that	; by contrast, 	52
+The sea that joined the river swelled; in short, the sea swelled.	24	True	False			that	; in short, 	49
+The sea that joined the river swelled; by contrast, the river joined the sea.	24	False	True			that	; by contrast, 	54
+The sea that joined the river swelled; in short, the river joined the sea.	24	False	True			that	; in short, 	51
+The sea that joined the river swelled; by contrast, the river joined the sea.	24	False	True			that	; by contrast, 	52
+The sea that joined the river swelled; in short, the river joined the sea.	24	False	True			that	; in short, 	49
+The sea that joined the river swelled; by contrast, the river swelled.	24	False	False			that	; by contrast, 	54
+The sea that joined the river swelled; in short, the river swelled.	24	False	False			that	; in short, 	51
+The sea that joined the river swelled; by contrast, the river swelled.	24	False	False			that	; by contrast, 	52
+The sea that joined the river swelled; in short, the river swelled.	24	False	False			that	; in short, 	49
+The river that joined the sea shimmered; by contrast, the river joined the sea.	24	True	True			that	; by contrast, 	56
+The river that joined the sea shimmered; in short, the river joined the sea.	24	True	True			that	; in short, 	53
+The river that joined the sea shimmered; by contrast, the river joined the sea.	24	True	True			that	; by contrast, 	54
+The river that joined the sea shimmered; in short, the river joined the sea.	24	True	True			that	; in short, 	51
+The river that joined the sea shimmered; by contrast, the river shimmered.	24	True	False			that	; by contrast, 	56
+The river that joined the sea shimmered; in short, the river shimmered.	24	True	False			that	; in short, 	53
+The river that joined the sea shimmered; by contrast, the river shimmered.	24	True	False			that	; by contrast, 	54
+The river that joined the sea shimmered; in short, the river shimmered.	24	True	False			that	; in short, 	51
+The river that joined the sea shimmered; by contrast, the sea joined the river.	24	False	True			that	; by contrast, 	56
+The river that joined the sea shimmered; in short, the sea joined the river.	24	False	True			that	; in short, 	53
+The river that joined the sea shimmered; by contrast, the sea joined the river.	24	False	True			that	; by contrast, 	54
+The river that joined the sea shimmered; in short, the sea joined the river.	24	False	True			that	; in short, 	51
+The river that joined the sea shimmered; by contrast, the sea shimmered.	24	False	False			that	; by contrast, 	56
+The river that joined the sea shimmered; in short, the sea shimmered.	24	False	False			that	; in short, 	53
+The river that joined the sea shimmered; by contrast, the sea shimmered.	24	False	False			that	; by contrast, 	54
+The river that joined the sea shimmered; in short, the sea shimmered.	24	False	False			that	; in short, 	51
+The sea that joined the river shimmered; by contrast, the sea joined the river.	24	True	True			that	; by contrast, 	56
+The sea that joined the river shimmered; in short, the sea joined the river.	24	True	True			that	; in short, 	53
+The sea that joined the river shimmered; by contrast, the sea joined the river.	24	True	True			that	; by contrast, 	54
+The sea that joined the river shimmered; in short, the sea joined the river.	24	True	True			that	; in short, 	51
+The sea that joined the river shimmered; by contrast, the sea shimmered.	24	True	False			that	; by contrast, 	56
+The sea that joined the river shimmered; in short, the sea shimmered.	24	True	False			that	; in short, 	53
+The sea that joined the river shimmered; by contrast, the sea shimmered.	24	True	False			that	; by contrast, 	54
+The sea that joined the river shimmered; in short, the sea shimmered.	24	True	False			that	; in short, 	51
+The sea that joined the river shimmered; by contrast, the river joined the sea.	24	False	True			that	; by contrast, 	56
+The sea that joined the river shimmered; in short, the river joined the sea.	24	False	True			that	; in short, 	53
+The sea that joined the river shimmered; by contrast, the river joined the sea.	24	False	True			that	; by contrast, 	54
+The sea that joined the river shimmered; in short, the river joined the sea.	24	False	True			that	; in short, 	51
+The sea that joined the river shimmered; by contrast, the river shimmered.	24	False	False			that	; by contrast, 	56
+The sea that joined the river shimmered; in short, the river shimmered.	24	False	False			that	; in short, 	53
+The sea that joined the river shimmered; by contrast, the river shimmered.	24	False	False			that	; by contrast, 	54
+The sea that joined the river shimmered; in short, the river shimmered.	24	False	False			that	; in short, 	51

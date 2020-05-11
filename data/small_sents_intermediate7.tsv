@@ -1,0 +1,401 @@
+inference	item	correct	crossing
+The car {Comp} the tree hit burned{Conn}the car burned.	0	True	False
+The car {Comp} the tree hit burned{Conn}the tree hit the car.	0	True	False
+The car {Comp} the tree hit burned{Conn}the tree burned.	0	False	False
+The car {Comp} the tree hit burned{Conn}the car hit the tree.	0	False	False
+The tree {Comp} the car hit burned{Conn}the tree burned.	0	True	False
+The tree {Comp} the car hit burned{Conn}the car hit the tree.	0	True	False
+The tree {Comp} the car hit burned{Conn}the car burned.	0	False	False
+The tree {Comp} the car hit burned{Conn}the tree hit the car.	0	False	False
+The car {Comp} the tree hit shook{Conn}the car shook.	0	True	False
+The car {Comp} the tree hit shook{Conn}the tree hit the car.	0	True	False
+The car {Comp} the tree hit shook{Conn}the tree shook.	0	False	False
+The car {Comp} the tree hit shook{Conn}the car hit the tree.	0	False	False
+The tree {Comp} the car hit shook{Conn}the tree shook.	0	True	False
+The tree {Comp} the car hit shook{Conn}the car hit the tree.	0	True	False
+The tree {Comp} the car hit shook{Conn}the car shook.	0	False	False
+The tree {Comp} the car hit shook{Conn}the tree hit the car.	0	False	False
+The grandma {Comp} the girl kissed smiled{Conn}the grandma smiled.	1	True	False
+The grandma {Comp} the girl kissed smiled{Conn}the girl kissed the grandma.	1	True	False
+The grandma {Comp} the girl kissed smiled{Conn}the girl smiled.	1	False	False
+The grandma {Comp} the girl kissed smiled{Conn}the grandma kissed the girl.	1	False	False
+The girl {Comp} the grandma kissed smiled{Conn}the girl smiled.	1	True	False
+The girl {Comp} the grandma kissed smiled{Conn}the grandma kissed the girl.	1	True	False
+The girl {Comp} the grandma kissed smiled{Conn}the grandma smiled.	1	False	False
+The girl {Comp} the grandma kissed smiled{Conn}the girl kissed the grandma.	1	False	False
+The grandma {Comp} the girl kissed laughed{Conn}the grandma laughed.	1	True	False
+The grandma {Comp} the girl kissed laughed{Conn}the girl kissed the grandma.	1	True	False
+The grandma {Comp} the girl kissed laughed{Conn}the girl laughed.	1	False	False
+The grandma {Comp} the girl kissed laughed{Conn}the grandma kissed the girl.	1	False	False
+The girl {Comp} the grandma kissed laughed{Conn}the girl laughed.	1	True	False
+The girl {Comp} the grandma kissed laughed{Conn}the grandma kissed the girl.	1	True	False
+The girl {Comp} the grandma kissed laughed{Conn}the grandma laughed.	1	False	False
+The girl {Comp} the grandma kissed laughed{Conn}the girl kissed the grandma.	1	False	False
+The dog {Comp} the cat bit jumped{Conn}the dog jumped.	2	True	False
+The dog {Comp} the cat bit jumped{Conn}the cat bit the dog.	2	True	False
+The dog {Comp} the cat bit jumped{Conn}the cat jumped.	2	False	False
+The dog {Comp} the cat bit jumped{Conn}the dog bit the cat.	2	False	False
+The cat {Comp} the dog bit jumped{Conn}the cat jumped.	2	True	False
+The cat {Comp} the dog bit jumped{Conn}the dog bit the cat.	2	True	False
+The cat {Comp} the dog bit jumped{Conn}the dog jumped.	2	False	False
+The cat {Comp} the dog bit jumped{Conn}the cat bit the dog.	2	False	False
+The dog {Comp} the cat bit hid{Conn}the dog hid.	2	True	False
+The dog {Comp} the cat bit hid{Conn}the cat bit the dog.	2	True	False
+The dog {Comp} the cat bit hid{Conn}the cat hid.	2	False	False
+The dog {Comp} the cat bit hid{Conn}the dog bit the cat.	2	False	False
+The cat {Comp} the dog bit hid{Conn}the cat hid.	2	True	False
+The cat {Comp} the dog bit hid{Conn}the dog bit the cat.	2	True	False
+The cat {Comp} the dog bit hid{Conn}the dog hid.	2	False	False
+The cat {Comp} the dog bit hid{Conn}the cat bit the dog.	2	False	False
+The lion {Comp} the tiger chased growled{Conn}the lion growled.	3	True	False
+The lion {Comp} the tiger chased growled{Conn}the tiger chased the lion.	3	True	False
+The lion {Comp} the tiger chased growled{Conn}the tiger growled.	3	False	False
+The lion {Comp} the tiger chased growled{Conn}the lion chased the tiger.	3	False	False
+The tiger {Comp} the lion chased growled{Conn}the tiger growled.	3	True	False
+The tiger {Comp} the lion chased growled{Conn}the lion chased the tiger.	3	True	False
+The tiger {Comp} the lion chased growled{Conn}the lion growled.	3	False	False
+The tiger {Comp} the lion chased growled{Conn}the tiger chased the lion.	3	False	False
+The lion {Comp} the tiger chased yawned{Conn}the lion yawned.	3	True	False
+The lion {Comp} the tiger chased yawned{Conn}the tiger chased the lion.	3	True	False
+The lion {Comp} the tiger chased yawned{Conn}the tiger yawned.	3	False	False
+The lion {Comp} the tiger chased yawned{Conn}the lion chased the tiger.	3	False	False
+The tiger {Comp} the lion chased yawned{Conn}the tiger yawned.	3	True	False
+The tiger {Comp} the lion chased yawned{Conn}the lion chased the tiger.	3	True	False
+The tiger {Comp} the lion chased yawned{Conn}the lion yawned.	3	False	False
+The tiger {Comp} the lion chased yawned{Conn}the tiger chased the lion.	3	False	False
+The doctor {Comp} the patient reviewed sat{Conn}the doctor sat.	4	True	False
+The doctor {Comp} the patient reviewed sat{Conn}the patient reviewed the doctor.	4	True	False
+The doctor {Comp} the patient reviewed sat{Conn}the patient sat.	4	False	False
+The doctor {Comp} the patient reviewed sat{Conn}the doctor reviewed the patient.	4	False	False
+The patient {Comp} the doctor reviewed sat{Conn}the patient sat.	4	True	False
+The patient {Comp} the doctor reviewed sat{Conn}the doctor reviewed the patient.	4	True	False
+The patient {Comp} the doctor reviewed sat{Conn}the doctor sat.	4	False	False
+The patient {Comp} the doctor reviewed sat{Conn}the patient reviewed the doctor.	4	False	False
+The doctor {Comp} the patient reviewed blinked{Conn}the doctor blinked.	4	True	False
+The doctor {Comp} the patient reviewed blinked{Conn}the patient reviewed the doctor.	4	True	False
+The doctor {Comp} the patient reviewed blinked{Conn}the patient blinked.	4	False	False
+The doctor {Comp} the patient reviewed blinked{Conn}the doctor reviewed the patient.	4	False	False
+The patient {Comp} the doctor reviewed blinked{Conn}the patient blinked.	4	True	False
+The patient {Comp} the doctor reviewed blinked{Conn}the doctor reviewed the patient.	4	True	False
+The patient {Comp} the doctor reviewed blinked{Conn}the doctor blinked.	4	False	False
+The patient {Comp} the doctor reviewed blinked{Conn}the patient reviewed the doctor.	4	False	False
+The President {Comp} the beaurocrat noticed contemplated{Conn}the President contemplated.	5	True	False
+The President {Comp} the beaurocrat noticed contemplated{Conn}the beaurocrat noticed the President.	5	True	False
+The President {Comp} the beaurocrat noticed contemplated{Conn}the beaurocrat contemplated.	5	False	False
+The President {Comp} the beaurocrat noticed contemplated{Conn}the President noticed the beaurocrat.	5	False	False
+The beaurocrat {Comp} the President noticed contemplated{Conn}the beaurocrat contemplated.	5	True	False
+The beaurocrat {Comp} the President noticed contemplated{Conn}the President noticed the beaurocrat.	5	True	False
+The beaurocrat {Comp} the President noticed contemplated{Conn}the President contemplated.	5	False	False
+The beaurocrat {Comp} the President noticed contemplated{Conn}the beaurocrat noticed the President.	5	False	False
+The President {Comp} the beaurocrat noticed tweeted{Conn}the President tweeted.	5	True	False
+The President {Comp} the beaurocrat noticed tweeted{Conn}the beaurocrat noticed the President.	5	True	False
+The President {Comp} the beaurocrat noticed tweeted{Conn}the beaurocrat tweeted.	5	False	False
+The President {Comp} the beaurocrat noticed tweeted{Conn}the President noticed the beaurocrat.	5	False	False
+The beaurocrat {Comp} the President noticed tweeted{Conn}the beaurocrat tweeted.	5	True	False
+The beaurocrat {Comp} the President noticed tweeted{Conn}the President noticed the beaurocrat.	5	True	False
+The beaurocrat {Comp} the President noticed tweeted{Conn}the President tweeted.	5	False	False
+The beaurocrat {Comp} the President noticed tweeted{Conn}the beaurocrat noticed the President.	5	False	False
+The bride {Comp} the priest slapped shouted{Conn}the bride shouted.	6	True	False
+The bride {Comp} the priest slapped shouted{Conn}the priest slapped the bride.	6	True	False
+The bride {Comp} the priest slapped shouted{Conn}the priest shouted.	6	False	False
+The bride {Comp} the priest slapped shouted{Conn}the bride slapped the priest.	6	False	False
+The priest {Comp} the bride slapped shouted{Conn}the priest shouted.	6	True	False
+The priest {Comp} the bride slapped shouted{Conn}the bride slapped the priest.	6	True	False
+The priest {Comp} the bride slapped shouted{Conn}the bride shouted.	6	False	False
+The priest {Comp} the bride slapped shouted{Conn}the priest slapped the bride.	6	False	False
+The bride {Comp} the priest slapped frowned{Conn}the bride frowned.	6	True	False
+The bride {Comp} the priest slapped frowned{Conn}the priest slapped the bride.	6	True	False
+The bride {Comp} the priest slapped frowned{Conn}the priest frowned.	6	False	False
+The bride {Comp} the priest slapped frowned{Conn}the bride slapped the priest.	6	False	False
+The priest {Comp} the bride slapped frowned{Conn}the priest frowned.	6	True	False
+The priest {Comp} the bride slapped frowned{Conn}the bride slapped the priest.	6	True	False
+The priest {Comp} the bride slapped frowned{Conn}the bride frowned.	6	False	False
+The priest {Comp} the bride slapped frowned{Conn}the priest slapped the bride.	6	False	False
+The bee {Comp} the flower appreciated sang{Conn}the bee sang.	7	True	False
+The bee {Comp} the flower appreciated sang{Conn}the flower appreciated the bee.	7	True	False
+The bee {Comp} the flower appreciated sang{Conn}the flower sang.	7	False	False
+The bee {Comp} the flower appreciated sang{Conn}the bee appreciated the flower.	7	False	False
+The flower {Comp} the bee appreciated sang{Conn}the flower sang.	7	True	False
+The flower {Comp} the bee appreciated sang{Conn}the bee appreciated the flower.	7	True	False
+The flower {Comp} the bee appreciated sang{Conn}the bee sang.	7	False	False
+The flower {Comp} the bee appreciated sang{Conn}the flower appreciated the bee.	7	False	False
+The bee {Comp} the flower appreciated wriggled{Conn}the bee wriggled.	7	True	False
+The bee {Comp} the flower appreciated wriggled{Conn}the flower appreciated the bee.	7	True	False
+The bee {Comp} the flower appreciated wriggled{Conn}the flower wriggled.	7	False	False
+The bee {Comp} the flower appreciated wriggled{Conn}the bee appreciated the flower.	7	False	False
+The flower {Comp} the bee appreciated wriggled{Conn}the flower wriggled.	7	True	False
+The flower {Comp} the bee appreciated wriggled{Conn}the bee appreciated the flower.	7	True	False
+The flower {Comp} the bee appreciated wriggled{Conn}the bee wriggled.	7	False	False
+The flower {Comp} the bee appreciated wriggled{Conn}the flower appreciated the bee.	7	False	False
+The baby {Comp} the nurse loved slept{Conn}the baby slept.	8	True	False
+The baby {Comp} the nurse loved slept{Conn}the nurse loved the baby.	8	True	False
+The baby {Comp} the nurse loved slept{Conn}the nurse slept.	8	False	False
+The baby {Comp} the nurse loved slept{Conn}the baby loved the nurse.	8	False	False
+The nurse {Comp} the baby loved slept{Conn}the nurse slept.	8	True	False
+The nurse {Comp} the baby loved slept{Conn}the baby loved the nurse.	8	True	False
+The nurse {Comp} the baby loved slept{Conn}the baby slept.	8	False	False
+The nurse {Comp} the baby loved slept{Conn}the nurse loved the baby.	8	False	False
+The baby {Comp} the nurse loved cried{Conn}the baby cried.	8	True	False
+The baby {Comp} the nurse loved cried{Conn}the nurse loved the baby.	8	True	False
+The baby {Comp} the nurse loved cried{Conn}the nurse cried.	8	False	False
+The baby {Comp} the nurse loved cried{Conn}the baby loved the nurse.	8	False	False
+The nurse {Comp} the baby loved cried{Conn}the nurse cried.	8	True	False
+The nurse {Comp} the baby loved cried{Conn}the baby loved the nurse.	8	True	False
+The nurse {Comp} the baby loved cried{Conn}the baby cried.	8	False	False
+The nurse {Comp} the baby loved cried{Conn}the nurse loved the baby.	8	False	False
+The virus {Comp} the antibodies stopped emerged{Conn}the virus emerged.	9	True	False
+The virus {Comp} the antibodies stopped emerged{Conn}the antibodies stopped the virus.	9	True	False
+The virus {Comp} the antibodies stopped emerged{Conn}the antibodies emerged.	9	False	False
+The virus {Comp} the antibodies stopped emerged{Conn}the virus stopped the antibodies.	9	False	False
+The antibodies {Comp} the virus stopped emerged{Conn}the antibodies emerged.	9	True	False
+The antibodies {Comp} the virus stopped emerged{Conn}the virus stopped the antibodies.	9	True	False
+The antibodies {Comp} the virus stopped emerged{Conn}the virus emerged.	9	False	False
+The antibodies {Comp} the virus stopped emerged{Conn}the antibodies stopped the virus.	9	False	False
+The virus {Comp} the antibodies stopped dwindled{Conn}the virus dwindled.	9	True	False
+The virus {Comp} the antibodies stopped dwindled{Conn}the antibodies stopped the virus.	9	True	False
+The virus {Comp} the antibodies stopped dwindled{Conn}the antibodies dwindled.	9	False	False
+The virus {Comp} the antibodies stopped dwindled{Conn}the virus stopped the antibodies.	9	False	False
+The antibodies {Comp} the virus stopped dwindled{Conn}the antibodies dwindled.	9	True	False
+The antibodies {Comp} the virus stopped dwindled{Conn}the virus stopped the antibodies.	9	True	False
+The antibodies {Comp} the virus stopped dwindled{Conn}the virus dwindled.	9	False	False
+The antibodies {Comp} the virus stopped dwindled{Conn}the antibodies stopped the virus.	9	False	False
+The chef {Comp} the octopus squeezed vanished{Conn}the chef vanished.	10	True	False
+The chef {Comp} the octopus squeezed vanished{Conn}the octopus squeezed the chef.	10	True	False
+The chef {Comp} the octopus squeezed vanished{Conn}the octopus vanished.	10	False	False
+The chef {Comp} the octopus squeezed vanished{Conn}the chef squeezed the octopus.	10	False	False
+The octopus {Comp} the chef squeezed vanished{Conn}the octopus vanished.	10	True	False
+The octopus {Comp} the chef squeezed vanished{Conn}the chef squeezed the octopus.	10	True	False
+The octopus {Comp} the chef squeezed vanished{Conn}the chef vanished.	10	False	False
+The octopus {Comp} the chef squeezed vanished{Conn}the octopus squeezed the chef.	10	False	False
+The chef {Comp} the octopus squeezed gasped{Conn}the chef gasped.	10	True	False
+The chef {Comp} the octopus squeezed gasped{Conn}the octopus squeezed the chef.	10	True	False
+The chef {Comp} the octopus squeezed gasped{Conn}the octopus gasped.	10	False	False
+The chef {Comp} the octopus squeezed gasped{Conn}the chef squeezed the octopus.	10	False	False
+The octopus {Comp} the chef squeezed gasped{Conn}the octopus gasped.	10	True	False
+The octopus {Comp} the chef squeezed gasped{Conn}the chef squeezed the octopus.	10	True	False
+The octopus {Comp} the chef squeezed gasped{Conn}the chef gasped.	10	False	False
+The octopus {Comp} the chef squeezed gasped{Conn}the octopus squeezed the chef.	10	False	False
+The journalist {Comp} the senator pestered wrote{Conn}the journalist wrote.	11	True	False
+The journalist {Comp} the senator pestered wrote{Conn}the senator pestered the journalist.	11	True	False
+The journalist {Comp} the senator pestered wrote{Conn}the senator wrote.	11	False	False
+The journalist {Comp} the senator pestered wrote{Conn}the journalist pestered the senator.	11	False	False
+The senator {Comp} the journalist pestered wrote{Conn}the senator wrote.	11	True	False
+The senator {Comp} the journalist pestered wrote{Conn}the journalist pestered the senator.	11	True	False
+The senator {Comp} the journalist pestered wrote{Conn}the journalist wrote.	11	False	False
+The senator {Comp} the journalist pestered wrote{Conn}the senator pestered the journalist.	11	False	False
+The journalist {Comp} the senator pestered fumed{Conn}the journalist fumed.	11	True	False
+The journalist {Comp} the senator pestered fumed{Conn}the senator pestered the journalist.	11	True	False
+The journalist {Comp} the senator pestered fumed{Conn}the senator fumed.	11	False	False
+The journalist {Comp} the senator pestered fumed{Conn}the journalist pestered the senator.	11	False	False
+The senator {Comp} the journalist pestered fumed{Conn}the senator fumed.	11	True	False
+The senator {Comp} the journalist pestered fumed{Conn}the journalist pestered the senator.	11	True	False
+The senator {Comp} the journalist pestered fumed{Conn}the journalist fumed.	11	False	False
+The senator {Comp} the journalist pestered fumed{Conn}the senator pestered the journalist.	11	False	False
+The ant {Comp} the grasshopper saw worked{Conn}the ant worked.	12	True	False
+The ant {Comp} the grasshopper saw worked{Conn}the grasshopper saw the ant.	12	True	False
+The ant {Comp} the grasshopper saw worked{Conn}the grasshopper worked.	12	False	False
+The ant {Comp} the grasshopper saw worked{Conn}the ant saw the grasshopper.	12	False	False
+The grasshopper {Comp} the ant saw worked{Conn}the grasshopper worked.	12	True	False
+The grasshopper {Comp} the ant saw worked{Conn}the ant saw the grasshopper.	12	True	False
+The grasshopper {Comp} the ant saw worked{Conn}the ant worked.	12	False	False
+The grasshopper {Comp} the ant saw worked{Conn}the grasshopper saw the ant.	12	False	False
+The ant {Comp} the grasshopper saw played{Conn}the ant played.	12	True	False
+The ant {Comp} the grasshopper saw played{Conn}the grasshopper saw the ant.	12	True	False
+The ant {Comp} the grasshopper saw played{Conn}the grasshopper played.	12	False	False
+The ant {Comp} the grasshopper saw played{Conn}the ant saw the grasshopper.	12	False	False
+The grasshopper {Comp} the ant saw played{Conn}the grasshopper played.	12	True	False
+The grasshopper {Comp} the ant saw played{Conn}the ant saw the grasshopper.	12	True	False
+The grasshopper {Comp} the ant saw played{Conn}the ant played.	12	False	False
+The grasshopper {Comp} the ant saw played{Conn}the grasshopper saw the ant.	12	False	False
+The princess {Comp} the witch angered melted{Conn}the princess melted.	13	True	False
+The princess {Comp} the witch angered melted{Conn}the witch angered the princess.	13	True	False
+The princess {Comp} the witch angered melted{Conn}the witch melted.	13	False	False
+The princess {Comp} the witch angered melted{Conn}the princess angered the witch.	13	False	False
+The witch {Comp} the princess angered melted{Conn}the witch melted.	13	True	False
+The witch {Comp} the princess angered melted{Conn}the princess angered the witch.	13	True	False
+The witch {Comp} the princess angered melted{Conn}the princess melted.	13	False	False
+The witch {Comp} the princess angered melted{Conn}the witch angered the princess.	13	False	False
+The princess {Comp} the witch angered rejoiced{Conn}the princess rejoiced.	13	True	False
+The princess {Comp} the witch angered rejoiced{Conn}the witch angered the princess.	13	True	False
+The princess {Comp} the witch angered rejoiced{Conn}the witch rejoiced.	13	False	False
+The princess {Comp} the witch angered rejoiced{Conn}the princess angered the witch.	13	False	False
+The witch {Comp} the princess angered rejoiced{Conn}the witch rejoiced.	13	True	False
+The witch {Comp} the princess angered rejoiced{Conn}the princess angered the witch.	13	True	False
+The witch {Comp} the princess angered rejoiced{Conn}the princess rejoiced.	13	False	False
+The witch {Comp} the princess angered rejoiced{Conn}the witch angered the princess.	13	False	False
+The fish {Comp} the turtle sought learned{Conn}the fish learned.	14	True	False
+The fish {Comp} the turtle sought learned{Conn}the turtle sought the fish.	14	True	False
+The fish {Comp} the turtle sought learned{Conn}the turtle learned.	14	False	False
+The fish {Comp} the turtle sought learned{Conn}the fish sought the turtle.	14	False	False
+The turtle {Comp} the fish sought learned{Conn}the turtle learned.	14	True	False
+The turtle {Comp} the fish sought learned{Conn}the fish sought the turtle.	14	True	False
+The turtle {Comp} the fish sought learned{Conn}the fish learned.	14	False	False
+The turtle {Comp} the fish sought learned{Conn}the turtle sought the fish.	14	False	False
+The fish {Comp} the turtle sought failed{Conn}the fish failed.	14	True	False
+The fish {Comp} the turtle sought failed{Conn}the turtle sought the fish.	14	True	False
+The fish {Comp} the turtle sought failed{Conn}the turtle failed.	14	False	False
+The fish {Comp} the turtle sought failed{Conn}the fish sought the turtle.	14	False	False
+The turtle {Comp} the fish sought failed{Conn}the turtle failed.	14	True	False
+The turtle {Comp} the fish sought failed{Conn}the fish sought the turtle.	14	True	False
+The turtle {Comp} the fish sought failed{Conn}the fish failed.	14	False	False
+The turtle {Comp} the fish sought failed{Conn}the turtle sought the fish.	14	False	False
+The king {Comp} the jester entertained juggled{Conn}the king juggled.	15	True	False
+The king {Comp} the jester entertained juggled{Conn}the jester entertained the king.	15	True	False
+The king {Comp} the jester entertained juggled{Conn}the jester juggled.	15	False	False
+The king {Comp} the jester entertained juggled{Conn}the king entertained the jester.	15	False	False
+The jester {Comp} the king entertained juggled{Conn}the jester juggled.	15	True	False
+The jester {Comp} the king entertained juggled{Conn}the king entertained the jester.	15	True	False
+The jester {Comp} the king entertained juggled{Conn}the king juggled.	15	False	False
+The jester {Comp} the king entertained juggled{Conn}the jester entertained the king.	15	False	False
+The king {Comp} the jester entertained sang{Conn}the king sang.	15	True	False
+The king {Comp} the jester entertained sang{Conn}the jester entertained the king.	15	True	False
+The king {Comp} the jester entertained sang{Conn}the jester sang.	15	False	False
+The king {Comp} the jester entertained sang{Conn}the king entertained the jester.	15	False	False
+The jester {Comp} the king entertained sang{Conn}the jester sang.	15	True	False
+The jester {Comp} the king entertained sang{Conn}the king entertained the jester.	15	True	False
+The jester {Comp} the king entertained sang{Conn}the king sang.	15	False	False
+The jester {Comp} the king entertained sang{Conn}the jester entertained the king.	15	False	False
+The poet {Comp} the dandelion brushed swayed{Conn}the poet swayed.	16	True	False
+The poet {Comp} the dandelion brushed swayed{Conn}the dandelion brushed the poet.	16	True	False
+The poet {Comp} the dandelion brushed swayed{Conn}the dandelion swayed.	16	False	False
+The poet {Comp} the dandelion brushed swayed{Conn}the poet brushed the dandelion.	16	False	False
+The dandelion {Comp} the poet brushed swayed{Conn}the dandelion swayed.	16	True	False
+The dandelion {Comp} the poet brushed swayed{Conn}the poet brushed the dandelion.	16	True	False
+The dandelion {Comp} the poet brushed swayed{Conn}the poet swayed.	16	False	False
+The dandelion {Comp} the poet brushed swayed{Conn}the dandelion brushed the poet.	16	False	False
+The poet {Comp} the dandelion brushed breathed{Conn}the poet breathed.	16	True	False
+The poet {Comp} the dandelion brushed breathed{Conn}the dandelion brushed the poet.	16	True	False
+The poet {Comp} the dandelion brushed breathed{Conn}the dandelion breathed.	16	False	False
+The poet {Comp} the dandelion brushed breathed{Conn}the poet brushed the dandelion.	16	False	False
+The dandelion {Comp} the poet brushed breathed{Conn}the dandelion breathed.	16	True	False
+The dandelion {Comp} the poet brushed breathed{Conn}the poet brushed the dandelion.	16	True	False
+The dandelion {Comp} the poet brushed breathed{Conn}the poet breathed.	16	False	False
+The dandelion {Comp} the poet brushed breathed{Conn}the dandelion brushed the poet.	16	False	False
+The worker {Comp} the boss sued resigned{Conn}the worker resigned.	17	True	False
+The worker {Comp} the boss sued resigned{Conn}the boss sued the worker.	17	True	False
+The worker {Comp} the boss sued resigned{Conn}the boss resigned.	17	False	False
+The worker {Comp} the boss sued resigned{Conn}the worker sued the boss.	17	False	False
+The boss {Comp} the worker sued resigned{Conn}the boss resigned.	17	True	False
+The boss {Comp} the worker sued resigned{Conn}the worker sued the boss.	17	True	False
+The boss {Comp} the worker sued resigned{Conn}the worker resigned.	17	False	False
+The boss {Comp} the worker sued resigned{Conn}the boss sued the worker.	17	False	False
+The worker {Comp} the boss sued apologized{Conn}the worker apologized.	17	True	False
+The worker {Comp} the boss sued apologized{Conn}the boss sued the worker.	17	True	False
+The worker {Comp} the boss sued apologized{Conn}the boss apologized.	17	False	False
+The worker {Comp} the boss sued apologized{Conn}the worker sued the boss.	17	False	False
+The boss {Comp} the worker sued apologized{Conn}the boss apologized.	17	True	False
+The boss {Comp} the worker sued apologized{Conn}the worker sued the boss.	17	True	False
+The boss {Comp} the worker sued apologized{Conn}the worker apologized.	17	False	False
+The boss {Comp} the worker sued apologized{Conn}the boss sued the worker.	17	False	False
+The magician {Comp} the bunny touched disappeared{Conn}the magician disappeared.	18	True	False
+The magician {Comp} the bunny touched disappeared{Conn}the bunny touched the magician.	18	True	False
+The magician {Comp} the bunny touched disappeared{Conn}the bunny disappeared.	18	False	False
+The magician {Comp} the bunny touched disappeared{Conn}the magician touched the bunny.	18	False	False
+The bunny {Comp} the magician touched disappeared{Conn}the bunny disappeared.	18	True	False
+The bunny {Comp} the magician touched disappeared{Conn}the magician touched the bunny.	18	True	False
+The bunny {Comp} the magician touched disappeared{Conn}the magician disappeared.	18	False	False
+The bunny {Comp} the magician touched disappeared{Conn}the bunny touched the magician.	18	False	False
+The magician {Comp} the bunny touched observed{Conn}the magician observed.	18	True	False
+The magician {Comp} the bunny touched observed{Conn}the bunny touched the magician.	18	True	False
+The magician {Comp} the bunny touched observed{Conn}the bunny observed.	18	False	False
+The magician {Comp} the bunny touched observed{Conn}the magician touched the bunny.	18	False	False
+The bunny {Comp} the magician touched observed{Conn}the bunny observed.	18	True	False
+The bunny {Comp} the magician touched observed{Conn}the magician touched the bunny.	18	True	False
+The bunny {Comp} the magician touched observed{Conn}the magician observed.	18	False	False
+The bunny {Comp} the magician touched observed{Conn}the bunny touched the magician.	18	False	False
+The dragon {Comp} the child surprised apologized{Conn}the dragon apologized.	19	True	False
+The dragon {Comp} the child surprised apologized{Conn}the child surprised the dragon.	19	True	False
+The dragon {Comp} the child surprised apologized{Conn}the child apologized.	19	False	False
+The dragon {Comp} the child surprised apologized{Conn}the dragon surprised the child.	19	False	False
+The child {Comp} the dragon surprised apologized{Conn}the child apologized.	19	True	False
+The child {Comp} the dragon surprised apologized{Conn}the dragon surprised the child.	19	True	False
+The child {Comp} the dragon surprised apologized{Conn}the dragon apologized.	19	False	False
+The child {Comp} the dragon surprised apologized{Conn}the child surprised the dragon.	19	False	False
+The dragon {Comp} the child surprised flew{Conn}the dragon flew.	19	True	False
+The dragon {Comp} the child surprised flew{Conn}the child surprised the dragon.	19	True	False
+The dragon {Comp} the child surprised flew{Conn}the child flew.	19	False	False
+The dragon {Comp} the child surprised flew{Conn}the dragon surprised the child.	19	False	False
+The child {Comp} the dragon surprised flew{Conn}the child flew.	19	True	False
+The child {Comp} the dragon surprised flew{Conn}the dragon surprised the child.	19	True	False
+The child {Comp} the dragon surprised flew{Conn}the dragon flew.	19	False	False
+The child {Comp} the dragon surprised flew{Conn}the child surprised the dragon.	19	False	False
+The comedian {Comp} the audience delighted bombed{Conn}the comedian bombed.	20	True	False
+The comedian {Comp} the audience delighted bombed{Conn}the audience delighted the comedian.	20	True	False
+The comedian {Comp} the audience delighted bombed{Conn}the audience bombed.	20	False	False
+The comedian {Comp} the audience delighted bombed{Conn}the comedian delighted the audience.	20	False	False
+The audience {Comp} the comedian delighted bombed{Conn}the audience bombed.	20	True	False
+The audience {Comp} the comedian delighted bombed{Conn}the comedian delighted the audience.	20	True	False
+The audience {Comp} the comedian delighted bombed{Conn}the comedian bombed.	20	False	False
+The audience {Comp} the comedian delighted bombed{Conn}the audience delighted the comedian.	20	False	False
+The comedian {Comp} the audience delighted aged{Conn}the comedian aged.	20	True	False
+The comedian {Comp} the audience delighted aged{Conn}the audience delighted the comedian.	20	True	False
+The comedian {Comp} the audience delighted aged{Conn}the audience aged.	20	False	False
+The comedian {Comp} the audience delighted aged{Conn}the comedian delighted the audience.	20	False	False
+The audience {Comp} the comedian delighted aged{Conn}the audience aged.	20	True	False
+The audience {Comp} the comedian delighted aged{Conn}the comedian delighted the audience.	20	True	False
+The audience {Comp} the comedian delighted aged{Conn}the comedian aged.	20	False	False
+The audience {Comp} the comedian delighted aged{Conn}the audience delighted the comedian.	20	False	False
+The therapist {Comp} the insurer frustrated refused{Conn}the therapist refused.	21	True	False
+The therapist {Comp} the insurer frustrated refused{Conn}the insurer frustrated the therapist.	21	True	False
+The therapist {Comp} the insurer frustrated refused{Conn}the insurer refused.	21	False	False
+The therapist {Comp} the insurer frustrated refused{Conn}the therapist frustrated the insurer.	21	False	False
+The insurer {Comp} the therapist frustrated refused{Conn}the insurer refused.	21	True	False
+The insurer {Comp} the therapist frustrated refused{Conn}the therapist frustrated the insurer.	21	True	False
+The insurer {Comp} the therapist frustrated refused{Conn}the therapist refused.	21	False	False
+The insurer {Comp} the therapist frustrated refused{Conn}the insurer frustrated the therapist.	21	False	False
+The therapist {Comp} the insurer frustrated screamed{Conn}the therapist screamed.	21	True	False
+The therapist {Comp} the insurer frustrated screamed{Conn}the insurer frustrated the therapist.	21	True	False
+The therapist {Comp} the insurer frustrated screamed{Conn}the insurer screamed.	21	False	False
+The therapist {Comp} the insurer frustrated screamed{Conn}the therapist frustrated the insurer.	21	False	False
+The insurer {Comp} the therapist frustrated screamed{Conn}the insurer screamed.	21	True	False
+The insurer {Comp} the therapist frustrated screamed{Conn}the therapist frustrated the insurer.	21	True	False
+The insurer {Comp} the therapist frustrated screamed{Conn}the therapist screamed.	21	False	False
+The insurer {Comp} the therapist frustrated screamed{Conn}the insurer frustrated the therapist.	21	False	False
+The shoes {Comp} the carpet destroyed shone{Conn}the shoes shone.	22	True	False
+The shoes {Comp} the carpet destroyed shone{Conn}the carpet destroyed the shoes.	22	True	False
+The shoes {Comp} the carpet destroyed shone{Conn}the carpet shone.	22	False	False
+The shoes {Comp} the carpet destroyed shone{Conn}the shoes destroyed the carpet.	22	False	False
+The carpet {Comp} the shoes destroyed shone{Conn}the carpet shone.	22	True	False
+The carpet {Comp} the shoes destroyed shone{Conn}the shoes destroyed the carpet.	22	True	False
+The carpet {Comp} the shoes destroyed shone{Conn}the shoes shone.	22	False	False
+The carpet {Comp} the shoes destroyed shone{Conn}the carpet destroyed the shoes.	22	False	False
+The shoes {Comp} the carpet destroyed deteriorated{Conn}the shoes deteriorated.	22	True	False
+The shoes {Comp} the carpet destroyed deteriorated{Conn}the carpet destroyed the shoes.	22	True	False
+The shoes {Comp} the carpet destroyed deteriorated{Conn}the carpet deteriorated.	22	False	False
+The shoes {Comp} the carpet destroyed deteriorated{Conn}the shoes destroyed the carpet.	22	False	False
+The carpet {Comp} the shoes destroyed deteriorated{Conn}the carpet deteriorated.	22	True	False
+The carpet {Comp} the shoes destroyed deteriorated{Conn}the shoes destroyed the carpet.	22	True	False
+The carpet {Comp} the shoes destroyed deteriorated{Conn}the shoes deteriorated.	22	False	False
+The carpet {Comp} the shoes destroyed deteriorated{Conn}the carpet destroyed the shoes.	22	False	False
+The principal {Comp} the student expelled smiled{Conn}the principal smiled.	23	True	False
+The principal {Comp} the student expelled smiled{Conn}the student expelled the principal.	23	True	False
+The principal {Comp} the student expelled smiled{Conn}the student smiled.	23	False	False
+The principal {Comp} the student expelled smiled{Conn}the principal expelled the student.	23	False	False
+The student {Comp} the principal expelled smiled{Conn}the student smiled.	23	True	False
+The student {Comp} the principal expelled smiled{Conn}the principal expelled the student.	23	True	False
+The student {Comp} the principal expelled smiled{Conn}the principal smiled.	23	False	False
+The student {Comp} the principal expelled smiled{Conn}the student expelled the principal.	23	False	False
+The principal {Comp} the student expelled frowned{Conn}the principal frowned.	23	True	False
+The principal {Comp} the student expelled frowned{Conn}the student expelled the principal.	23	True	False
+The principal {Comp} the student expelled frowned{Conn}the student frowned.	23	False	False
+The principal {Comp} the student expelled frowned{Conn}the principal expelled the student.	23	False	False
+The student {Comp} the principal expelled frowned{Conn}the student frowned.	23	True	False
+The student {Comp} the principal expelled frowned{Conn}the principal expelled the student.	23	True	False
+The student {Comp} the principal expelled frowned{Conn}the principal frowned.	23	False	False
+The student {Comp} the principal expelled frowned{Conn}the student expelled the principal.	23	False	False
+The river {Comp} the sea joined swelled{Conn}the river swelled.	24	True	False
+The river {Comp} the sea joined swelled{Conn}the sea joined the river.	24	True	False
+The river {Comp} the sea joined swelled{Conn}the sea swelled.	24	False	False
+The river {Comp} the sea joined swelled{Conn}the river joined the sea.	24	False	False
+The sea {Comp} the river joined swelled{Conn}the sea swelled.	24	True	False
+The sea {Comp} the river joined swelled{Conn}the river joined the sea.	24	True	False
+The sea {Comp} the river joined swelled{Conn}the river swelled.	24	False	False
+The sea {Comp} the river joined swelled{Conn}the sea joined the river.	24	False	False
+The river {Comp} the sea joined shimmered{Conn}the river shimmered.	24	True	False
+The river {Comp} the sea joined shimmered{Conn}the sea joined the river.	24	True	False
+The river {Comp} the sea joined shimmered{Conn}the sea shimmered.	24	False	False
+The river {Comp} the sea joined shimmered{Conn}the river joined the sea.	24	False	False
+The sea {Comp} the river joined shimmered{Conn}the sea shimmered.	24	True	False
+The sea {Comp} the river joined shimmered{Conn}the river joined the sea.	24	True	False
+The sea {Comp} the river joined shimmered{Conn}the river shimmered.	24	False	False
+The sea {Comp} the river joined shimmered{Conn}the sea joined the river.	24	False	False

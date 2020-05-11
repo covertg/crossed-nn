@@ -9,7 +9,7 @@ import numpy as np
 import tensorflow as tf
 
 MAX_WORD_LEN = 50  # Number of characters. Fixed value from Google's demo
-PUNCT = data.punct + ('.',)
+PUNCT = ('.', ',', ';')
 
 
 def _preprocess_sentence(sent, idx):
@@ -46,7 +46,7 @@ def get_model_fn(pbtxt, ckpt, vocab_file):
             surprisals.append(-1 * log_probs[i][tok])
         surprisals = surprisals[surprisal_idx:]  # Region of interest is from surprisal_idx till the end
         total = tf.reduce_sum(surprisals).numpy()
-#         print('[lm_1b.py] {:.2f} \t{}'.format(total, sent))
+        # print('[lm_1b.py] {:.2f} \t{}'.format(total, sent))
         return total
 
     return model_fn
