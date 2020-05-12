@@ -19,7 +19,7 @@ def get_model_fn(name='gpt2'):
 
     # Inputs is a single item: sentence, surprisal_index
     def model_fn(sent, idx):
-        surprisal_idx = len(tokenizer.encode(sent[:idx], add_special_tokens=True,))  # Where to begin counting!
+        surprisal_idx = len(tokenizer.encode(sent[:idx], add_special_tokens=True,))  # Where to begin counting!  TODO(cove) make sure this index is correct
         sent_id = tokenizer.encode(sent, add_special_tokens=True, return_tensors='pt')
         _, total = surprisal(model, sent_id, surprisal_idx)  # Returns tensors
         return total.item()
