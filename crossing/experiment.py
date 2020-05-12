@@ -17,8 +17,8 @@ def run_experiment(inputs, outfile, model_fn, silent=True):
     df.to_csv(outfile, sep='\t', index=False)
 
 
-def run_experiments(infilef, outfilef, model_fn, n, silent=True):
-    for i in range(n):
+def run_experiments(infilef, outfilef, model_fn, n_exps, silent=True):
+    for i in n_exps:
         print('[experiment.py] Experiment {}\t [START] {}'.format(i+1, datetime.datetime.now().time()))
         inputs = data.read_sents(infilef % (i+1))
         run_experiment(inputs, outfilef % (i+1), model_fn, silent=silent)

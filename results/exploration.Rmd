@@ -29,16 +29,14 @@ set.seed(42)
 
 ```{r}
 # Each experiment has a tsv output; bind them together into one table
-prefix <- 'results_GPT2-'
-n_forms <- 7
+prefix <- 'lm1b_'
+n_forms <- 1
 n_tuples <- 25
 
 for (i in 1:n_forms) {
   input <- read.csv(paste(prefix, i, '.tsv', sep=''), sep='\t') %>%
-    mutate(Experiment=i) %>%
-    mutate(Entailment=ifelse(Crossing == 'E_nX' | Crossing == 'E_X', "Entailment", "Not Entailment")) %>%
-    mutate(Crossing=ifelse(Experiment != 3 & (Crossing == 'E_X' | Crossing == 'C_X'), 'Crossing Dependency', 'Not Crossing'))
-  # Note! Experiment 3 was mistemplated, and in fact is not crossing at all.
+    mutate(experiment=i)
+  # TODO switch T/F strings to booleans
   if (i == 1) tbl <- tbl_df(input)
   else tbl <- bind_rows(tbl, input)
 }
@@ -48,18 +46,15 @@ sample_n(tbl, 10)
 
 Our big ol' question: does entailment affect surprisal?
 ```{r}
-ggplot(tbl, aes(x=Entailment, y=Surprisal, color=interaction(Entailment, Experiment))) +
-  facet_wrap(~ Experiment) +
-  geom_point(alpha = 0.2, position = "jitter") + 
+ggplot(tbl, aes(x=correct, y=inference, color=interaction(correct, experiment))) +
+  facet_wrap(~ experiment) +
+  # geom_point(alpha = 0.2, position = "jitter") + 
   geom_boxplot(alpha=0, color='black', notch=T) +
   theme(legend.position="none") +
+  scale_y_continuous(limits=c(67.9, 68))
   xlab("Entailment, Contradiction in all Experiments")
 ggsave("entailment_all_boxplot_scatter.pdf", width=8, dpi="retina")
 ```
-
-It's clear that there is a lot of noise. But with the small size of the boxplot notches, it's possible there may be some significant differences.
-
-Before getting to testing those differences, let's look into the other factors at play.
 
 How do crossing dependencies play into this? In particular, do crossing dependencies affect surprisal?
 ```{r}
@@ -90,26 +85,15 @@ tbl %>% subset(Experiment %in% c(4, 5)) %>%
 ggsave("crossing_on_entailment_45_boxplot_scatter.pdf", dpi="retina")
 ```
 
-Here are some cool points to note. It seems that in the experiments where we can compare crossing-notcrossing, the network actually seems to solve crossing dependencies better than it does the not-crossing dependencies. (Relative surprisal in each experiment shows a concentration of low-surprisal for crossing compared to not-crossing.) What's up with these experiments?
 
 * In Exp2, all the Xing entailments involve Vin, while all the non-Xing entailments involve Vtr.
 * In Exp6, all the Xing entailments involve Vin, while all the non-Xing entailments involve Xtr.
-
-Could this have to do with transitivity? *Perhaps*, and it is a limitation of this two-subject dataset that it doesn't include all the possible crossing-dependency phrases structures that can arise with transitive verbs. (Exp 4 and 7, the object relatives, are our holdouts.)
-
-But considering transitivity in all the experiments:
 
 * Exp1 is all non-crossing; entailments are intransitive
 * Exp3 is all non-crossing; entailments are intransitive
 * Exp4 is all crossing; entailments are transitive
 * Exp5 is all non-crossing; entailments are transitive
 * Exp7 is all crossing; entailments are transitive and intransitive.
-
-Although it is noteworthy that Experiments 1 and 3 have lower surprisal than 5, perhaps bolstering the transitivity hypothesis, the dissocation of crossing and transitivity across experiments should allow us to see trends which cut through any possible transitivity problem. Experiments 4 and 5 (relative clauses in VP) provide great test cases for this. Despite both having only transitive verbs as entailments, the surprisal in Exp4 is lower than that of Exp5, and this doesn't seem to impact any trend in Entailment-NotEntailment.
-
-Therefore it seems that the network's higher confidence upon seeing a predicate which has required a crossing dependency cannot fully be explained by verb transitivity.
-
-Yet, this is not an overwhelmingly strong trend: across all experiments and both forms of entailments, the network actually produces higher average surprisal for not-crossing than for crossing. (This should not be seen as a necessarily balanced condition on all possible English phrases, however. In this case, Experiment 3 is the main culprit in lowering the average surprisal for not-crossing.)
 
 ```{r}
 # Overall?
@@ -119,10 +103,7 @@ ggplot(tbl, aes(x=Crossing, y=Surprisal, fill=Crossing)) +
     theme(legend.position="none") +
     xlab("Crossing, Not Crossing in all Experiments")
 ggsave("crossing_all_boxplot.pdf", dpi="retina")
-
 ```
-
-Additionally, it seems like there are some interesting, systematic gaps in all experiments. Let's look into those.
 
 Is there interaction with Preposition? Experiment 3.
 ```{r}
@@ -134,8 +115,6 @@ tbl %>% subset(Experiment %in% c(3)) %>%
 ggsave("preps_3_boxplot_scatter.pdf", dpi="retina")
 ```
 
-Doesn't look like it. Everything is very well-mixed.
-
 Is there interaction with Expletive/Demonstrative? Experiments 4, 5.
 ```{r}
 tbl %>% subset(Experiment %in% c(4, 5)) %>%
@@ -146,28 +125,20 @@ tbl %>% subset(Experiment %in% c(4, 5)) %>%
 ggsave("ED_46_boxplot_scatter.pdf", dpi="retina")
 ```
 
-Also doesn't look like it. Everything is very well-mixed.
-
 Is there interaction with Connective?
 ```{r}
-ggplot(tbl, aes(x=Entailment, y=Surprisal, color=interaction(Connective))) +
+ggplot(tbl, aes(x=correct, y=inference, color=interaction(X.Conn.))) +
   geom_point(alpha = 0.2, position = "jitter") + 
   geom_boxplot(alpha=0, color='black', notch=T) +
   xlab("Connectives in all Experiments")
 ggsave("connectives_all_boxplot_scatter.pdf")
-ggplot(tbl, aes(x=Entailment, y=Surprisal, fill=Entailment)) +
-  facet_wrap(~ Connective) +
+ggplot(tbl, aes(x=correct, y=inference, fill=correct)) +
+  facet_wrap(~ X.Conn.) +
   theme(legend.position="none") +
   geom_boxplot(notch=T) +
   xlab("Entailment, not Entailment for each Connective")
 ggsave("connectives_each_boxplots.pdf", dpi="retina")
 ```
-
-From the first plot, it doesn't *seem* like it---there's a lot of mixing. It might be that some bands are forming, e.g. a pink or blue band in the high outlier zone, but these don't seem to be asymmetrical between Entailment and Not-Entailment. The second plot seems to confirm.
-
-So interestingly, we haven't found a culprit for those systematic gaps/extremes. One explanation could be the nature of the test data; some sentences may be assigned surprisal at high variance for purely semantic reasons. The variance here still seems a little bit surprising, but the boxplot notches (based on IQR) speak to where most of the network's output is distributed.
-
-Then let's move on over to look s'more at those entailments, now that we've seen that (1) the network does plausibly represent crossing dependencies, which or may not assist in assessing entailments, and (2) other possible confounds in the data are accounted for.
 
 Time for tea! T-tests. Considering the difference of means (of surprisal) for not-entailment versus entailment across each experiment, if the network makes the right inferences about these entailments, then we'd expect $\mu_{\text{not entailment}}-\mu_{\text{entailment}}$ to be positive.
 
@@ -175,31 +146,21 @@ Time for tea! T-tests. Considering the difference of means (of surprisal) for no
 tests <- vector('list', n_forms)
 
 for (i in 1:n_forms) {
-  S_not <- filter(tbl, (Experiment==i & Entailment=="Not Entailment"))$Surprisal
-  S_ent <- filter(tbl, (Experiment==i & Entailment=="Entailment"))$Surprisal
-  test <- t.test(S_not, S_ent, paired=T, alternative="greater")
+  S_not <- filter(tbl, (experiment==i & correct=='False'))$inference
+  S_ent <- filter(tbl, (experiment==i & correct=='True'))$inference
+  test <- t.test(S_not, S_ent, paired=T)
   tests[[i]] <- test
 }
 tests
 ```
 
-* Exp1: Nope
-* Exp2: p<2.2e-16
-* Exp3: Nope
-* Exp4: Nope
-* Exp5: Nope
-* Exp6: Nope
-* Exp7: p=0.09132
-
-And we'll use r's calculated standard error, based on the **paired** one-sided t-test, to plot error bars.
-
 ```{r}
 estimators <- tbl_df(t(sapply(tests, c))) %>% # https://stackoverflow.com/questions/4227223/convert-a-list-to-a-data-frame
   select(c('stderr', 'estimate')) %>%
   transmute(diff_means=as.numeric(estimate), stderr=as.numeric(stderr)) %>%
-  mutate(Experiment=1:n_forms)
+  mutate(experiment=1:n_forms)
 
-ggplot(estimators, aes(x=Experiment, y=diff_means, fill=Experiment)) +
+ggplot(estimators, aes(x=experiment, y=diff_means, fill=experiment)) +
   geom_bar(stat="identity", position="dodge") +
   theme(legend.position="none") +
   geom_errorbar(aes(ymin=(diff_means - 1.96 * stderr), ymax=(diff_means + 1.96 * stderr)), color='black', width=.3) +
@@ -207,20 +168,3 @@ ggplot(estimators, aes(x=Experiment, y=diff_means, fill=Experiment)) +
   xlab("Mean S(Contradiction)-S(Entailment), per-Experiment")
 ggsave("diff_means_barplot_errors.pdf", dpi="retina")
 ```
-
-In Experiment 1, the control, the network seems agnostic to the proper entailment. This suggests that the network might instead be relying on contextual cues other than true subject-verb relations; because there are no unique cues in any way in this condition, it seems to peform at chance.
-
-Given this, it's surprising that it performs so well in Experiment 2.
-
-Also, it approaches significance in Experiment 7.
-
-And in at least xEp3-5, it seems to perform below chance---something is cuing it incorrectly.
-
-So it doesn't behavior like a child. And transitivity doesn't seem to be at play. But I'm struggling to explain this trend. Paradoxically, 2 and 6 are the ones where shorter n-grams over the depency-crossed region would be definitively ungrammatical if taken as sentences without crossing dependencies, whereas in other experiments the same n-grams would yield more plausible sentences, or phrases which could become sentences without crossed dependencies.
-
-Perhaps, then, these contexts ("the tiger and growled", "the tiger chased growled") serve to disallow more linear interpretations, forcing the network to consider other alternatives, and thus better-representing crossing dependencies.
-
-In this analysis, it is possible that the network could have induced syntax specifically for phrases as in (2) and (6), but the heuristic described above could also work to yield very similar behavior. Thus this evidence shows that GPT-2 might be sensitive to the syntactical dance of crossing dependencies, but it does not necessarily act upon them correctly.
-
-/////////////-------------
-So this has been a big buckshoot look into this area, and there's a lot more places to go. (We interpret "performance" as a high difference in means.)
