@@ -1,0 +1,214 @@
+---
+title: "exploration"
+header-includes: |
+  \makeatletter
+  \def\verbatim@nolig@list{}
+  \makeatother
+  \usepackage{cancel}
+  \usepackage[fontsize=9.5pt]{scrextend}
+output:
+  html_document:
+    df_print: paged
+  pdf_document:
+    highlight: default
+    latex_engine: xelatex
+    number_sections: yes
+classoption: landscape
+monofont: Fira Code Retina
+geometry: margin=0.5in
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(Hmisc)
+library(tidyverse)
+set.seed(42)
+```
+
+# Data wrangling
+
+```{r}
+forms <- c(1, 2, 6, 7)
+connective_contrasts <- c(", but then, ", "; but then, ", ", on the other hand, ", "; on the other hand, ",
+                          "; by contrast, ", ", by contrast, ")
+connective_summaries <- c(", thus, ", "; thus, ", ", that is, ", "; that is, ", ", therefore, ", "; therefore, ",
+                          ", in short, ", "; in short, ", ", again, ", "; again, ", ", I repeat, ", "; I repeat, ")
+
+results2tbl <- function(prefix, n) {
+  # Bind all n results tsv's into one tbl, add experiment number column
+  for (i in n) {
+    input <- read.csv(paste(prefix, i, '.tsv', sep=''), sep='\t') %>%
+      mutate(Experiment=i)
+    if (i == 1) results <- tbl_df(input)
+    else results <- bind_rows(results, input)
+  }
+  # Convert string T/F to boolean
+  results <- results %>% mutate(correct=(correct=="True")) %>%
+    mutate(crossing=(crossing=="True"))
+  # Include column for connective type
+  results <- results %>%
+    mutate(Conn.Type=ifelse(X.Conn. %in% connective_summaries, "Summary", ifelse(X.Conn. %in% connective_contrasts, "Contrast", "ERR")))
+  # Capitalize
+  names(results) <- capitalize(names(results))
+  return(results)
+}
+```
+
+```{r}
+lm1b <- results2tbl('lm1b_', forms)
+gpt2 <- results2tbl('gpt2_', forms)
+
+# Just a taste...
+print(sample_n(lm1b, 10))
+print(sample_n(gpt2, 10))
+```
+
+# Does NN know enough about SVO dependencies to be less surprised at summary than contrast?
+
+We could use a t-test as follows, but since many datapoints come from the same premises, and many more datapoints come from similar overall sentences, arguably they are not independent samples.
+
+A paired t-test could be helpful, but in this case we're looking at [Matching/Summary] - [Matching/Contrast] and there's no obvious 1-1 relation between the summary and contrasting connectives, so we don't have equal sample sizes. Below (t-tests with unequal variance) is kept for posterity, but instead we do permutation tests to approximate null distributions.
+
+```{r}
+test_contrast_t <- function(tbl) {
+  tests <- vector('list', length(forms))
+  for (i in 1:length(forms)) {  # We do weird indexing to be able to still analyze when not all forms (1-7) are available
+    S_match_summary <- tbl %>% filter(Experiment==forms[i] & Correct==T & Conn.Type=='Summary') %>% select(Inference)
+    S_match_contrast <- tbl %>% filter(Experiment==forms[i] & Correct==T & Conn.Type=='Contrast') %>% select(Inference)
+    test <- t.test(S_match_summary, S_match_contrast, var.equal=F)
+    tests[[i]] <- test
+  }
+  return(tests)
+}
+
+ctlm1b <- test_contrast_t(lm1b)
+ctgpt2 <- test_contrast_t(gpt2)
+ctlm1b
+ctgpt2
+```
+
+Onto the permutation test logic:
+
+```{r}
+diff_mean_stat <- function(data, labels, labelX, labelY) {
+  x <- data[labels==labelX]
+  y <- data[labels==labelY]
+  return(mean(x) - mean(y))
+}
+
+permute_diff_mean <- function(data, labels, labelX, labelY) {
+  return(diff_mean_stat(data, sample(labels, length(labels), replace=F), labelX, labelY))
+}
+
+test_contrast_permute <- function(tbl, iter=1e5) {
+  tests <- vector('list', length(forms))
+  labelX <- 'Summary'
+  labelY <- 'Contrast'
+  for (i in 1:length(forms)) {
+    # Setup
+    data <- tbl %>% filter(Experiment==forms[i] & Correct==T)
+    labels <- data$Conn.Type
+    data <- data$Inference
+    t.obs <- diff_mean_stat(data, labels, labelX, labelY)
+    # Generate one permutation and calculate the difference of means statistic 
+    perm_dist <- replicate(iter, permute_diff_mean(data, labels, labelX, labelY))
+    # Get p-value
+    # p <- min(mean(t.obs > perm_dist), mean(t.obs < perm_dist)) * 2  # 2-sided
+    p <- mean(perm_dist < t.obs)
+    tests[[i]] <- list(p=p, DiffMean=t.obs, NullDistribution=perm_dist)
+  }
+  # Convert funky list into a nice tbl
+  tests_tbl <- tbl_df(t(sapply(tests, c))) %>%
+    mutate(p=as.numeric(p)) %>%
+    mutate(DiffMean=as.numeric(DiffMean))
+  return(tests_tbl)
+}
+```
+
+```{r}
+cplm1b <- test_contrast_permute(lm1b, iter=1e5)
+cpgpt2 <- test_contrast_permute(gpt2, iter=1e5)
+cplm1b
+cpgpt2
+```
+
+Let's look at these numbers with a visual in mind:
+
+```{r}
+contrasts <- bind_rows(
+  cplm1b %>% rownames_to_column(var='Experiment') %>% mutate(Model='LM1B'),
+  cpgpt2 %>% rownames_to_column(var='Experiment') %>% mutate(Model='GPT2')
+)
+
+ggplot(contrasts, aes(x=Experiment, y=DiffMean, fill=Model)) +
+  geom_bar(stat="identity", position="dodge")
+  # scale_x_continuous(breaks=1:n_forms) +
+  # xlab("Mean S(Contradiction)-S(Entailment), per-Experiment")
+```
+
+This is certainly interesting, hm. I'm a little worried about the multiple-testing scenario we're getting close to. And some p-values above are interesting, but some are borderline.
+
+I think, perhaps, our best bet will be to do a bootstrap to construct some confidence intervals.
+
+```{r}
+library(boot)
+
+diff_mean_stat <- function(x, indices) {
+ data <- x[indices,]
+ return(mean(filter(data, Conn.Type=='Summary')$Inference) -
+        mean(filter(data, Conn.Type=='Contrast')$Inference))
+}
+
+diff_mean.CI <- function(tbl, iter=1e4) {
+  tests <- vector('list', length(forms))
+  for (i in 1:length(forms)) {
+    # Setup
+    data <- tbl %>%
+      filter(Experiment==forms[i] & Correct==T) %>%
+      mutate(strata=ifelse(Conn.Type=='Summary', 1, ifelse(Conn.Type=='Contrast', 2, 'ERR')))
+    # Do boostrap
+    b <- boot(data, statistic=diff_mean_stat, R=iter, strata=data$strata)
+    ci <- boot.ci(b, conf=0.95, type='basic')
+    # Save statistic, basic confidence interval, and boostrap object for posterity
+    tests[[i]] <- list(Experiment=forms[i], Diff.Mean=b$t0, CI.lower=ci$basic[4], CI.upper=ci$basic[5], boot.obj=b)
+  }
+  # Convert funky list into a nice tbl
+  tests_tbl <- tbl_df(t(sapply(tests, c))) %>%
+    mutate(Diff.Mean=as.numeric(Diff.Mean), CI.lower=as.numeric(CI.lower), CI.upper=as.numeric(CI.upper))
+  return(tests_tbl)
+}
+
+diff_mean.CI(lm1b)
+```
+
+
+
+# To be less surprised at correct-summ than incorrect-summ?
+
+# ```{r}
+# for (i in 1:n_forms) {
+#   S_not <- filter(lm1b, (Experiment==i & Correct==F))$Inference
+#   S_ent <- filter(lm1b, (Experiment==i & Correct==T))$Inference
+#   test <- t.test(S_not, S_ent, paired=T, var.equal=F)
+#   print(i)
+#   print(test)
+# }
+# ```
+# 
+# ```{r}
+# estimators <- tbl_df(t(sapply(tests, c))) %>% # https://stackoverflow.com/questions/4227223/convert-a-list-to-a-data-frame
+#   select(c('stderr', 'estimate')) %>%
+#   transmute(diff_means=as.numeric(estimate), stderr=as.numeric(stderr)) %>%
+#   mutate(experiment=1:n_forms)
+# 
+# ggplot(estimators, aes(x=experiment, y=diff_means, fill=experiment)) +
+#   geom_bar(stat="identity", position="dodge") +
+#   theme(legend.position="none") +
+#   geom_errorbar(aes(ymin=(diff_means - 1.96 * stderr), ymax=(diff_means + 1.96 * stderr)), color='black', width=.3) +
+#   scale_x_continuous(breaks=1:n_forms) +
+#   xlab("Mean S(Contradiction)-S(Entailment), per-Experiment")
+# ggsave("diff_means_barplot_errors.pdf", dpi="retina")
+```
