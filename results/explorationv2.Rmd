@@ -25,13 +25,16 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library(Hmisc)
 library(tidyverse)
+library(boot)
 set.seed(42)
+options(boot.parallel='multicore')
+options(boot.ncpus=4)
 ```
 
 # Data wrangling
 
 ```{r}
-forms <- c(1, 2, 6, 7)
+forms <- 1:7
 connective_contrasts <- c(", but then, ", "; but then, ", ", on the other hand, ", "; on the other hand, ",
                           "; by contrast, ", ", by contrast, ")
 connective_summaries <- c(", thus, ", "; thus, ", ", that is, ", "; that is, ", ", therefore, ", "; therefore, ",
@@ -68,9 +71,12 @@ print(sample_n(gpt2, 10))
 
 # Does NN know enough about SVO dependencies to be less surprised at summary than contrast?
 
+<!--
 We could use a t-test as follows, but since many datapoints come from the same premises, and many more datapoints come from similar overall sentences, arguably they are not independent samples.
 
-A paired t-test could be helpful, but in this case we're looking at [Matching/Summary] - [Matching/Contrast] and there's no obvious 1-1 relation between the summary and contrasting connectives, so we don't have equal sample sizes. Below (t-tests with unequal variance) is kept for posterity, but instead we do permutation tests to approximate null distributions.
+A paired t-test could be helpful, but in this case we're looking at [Matching/Summary] - [Matching/Contrast] and there's no obvious 1-1 relation between the summary and contrasting connectives, so we don't have equal sample sizes. Below (t-tests with unequal variance) is kept for posterity, but instead we can do permutation tests to approximate null distributions.
+
+However, moving away from hypothesis testing, I think it might be best to just generate bootstrap confidence intervals and call it a day. I'd rather be more explicit in my uncertainty and effect size than bank on a p-value that may or may not have a noteworthy effect. -->
 
 ```{r}
 test_contrast_t <- function(tbl) {
@@ -89,7 +95,7 @@ ctgpt2 <- test_contrast_t(gpt2)
 ctlm1b
 ctgpt2
 ```
-
+<!--
 Onto the permutation test logic:
 
 ```{r}
@@ -135,80 +141,58 @@ cplm1b
 cpgpt2
 ```
 
-Let's look at these numbers with a visual in mind:
+Looking to a visual (*graph moved to lower notebook point*), it's certainly interesting, hm. I'm a little worried about the multiple-testing scenario we're getting close to. And some p-values above are interesting, but some are borderline. I think, perhaps, our best bet will be to do a bootstrap to construct some confidence intervals.
+-->
 
 ```{r}
-contrasts <- bind_rows(
-  cplm1b %>% rownames_to_column(var='Experiment') %>% mutate(Model='LM1B'),
-  cpgpt2 %>% rownames_to_column(var='Experiment') %>% mutate(Model='GPT2')
-)
-
-ggplot(contrasts, aes(x=Experiment, y=DiffMean, fill=Model)) +
-  geom_bar(stat="identity", position="dodge")
-  # scale_x_continuous(breaks=1:n_forms) +
-  # xlab("Mean S(Contradiction)-S(Entailment), per-Experiment")
-```
-
-This is certainly interesting, hm. I'm a little worried about the multiple-testing scenario we're getting close to. And some p-values above are interesting, but some are borderline.
-
-I think, perhaps, our best bet will be to do a bootstrap to construct some confidence intervals.
-
-```{r}
-library(boot)
-
 diff_mean_stat <- function(x, indices) {
  data <- x[indices,]
  return(mean(filter(data, Conn.Type=='Summary')$Inference) -
         mean(filter(data, Conn.Type=='Contrast')$Inference))
 }
 
+# Calculates simple bootstrap confidence intervals for a difference in means
+# between [Matching/Summary] and [Matching/Contrast]
+# with stratified sampling on connective type (but--this doesn't seem to have a huge impact in testing?)
 diff_mean.CI <- function(tbl, iter=1e4) {
-  tests <- vector('list', length(forms))
+  tests <- array(dim=c(length(forms), 4), dimnames=list(NULL, c('Experiment', 'Diff.Mean', 'CI.lower', 'CI.upper')))
   for (i in 1:length(forms)) {
     # Setup
     data <- tbl %>%
       filter(Experiment==forms[i] & Correct==T) %>%
-      mutate(strata=ifelse(Conn.Type=='Summary', 1, ifelse(Conn.Type=='Contrast', 2, 'ERR')))
+      mutate(strata=ifelse(Conn.Type=='Summary', 1, 2))
     # Do boostrap
     b <- boot(data, statistic=diff_mean_stat, R=iter, strata=data$strata)
     ci <- boot.ci(b, conf=0.95, type='basic')
-    # Save statistic, basic confidence interval, and boostrap object for posterity
-    tests[[i]] <- list(Experiment=forms[i], Diff.Mean=b$t0, CI.lower=ci$basic[4], CI.upper=ci$basic[5], boot.obj=b)
+    # Save statistic, basic confidence interval, and experiment no.
+    tests[i, 'Experiment'] <- forms[i]
+    tests[i, 'Diff.Mean'] <- b$t0
+    tests[i, 'CI.lower'] <- ci$basic[4]
+    tests[i, 'CI.upper'] <- ci$basic[5]
   }
-  # Convert funky list into a nice tbl
-  tests_tbl <- tbl_df(t(sapply(tests, c))) %>%
-    mutate(Diff.Mean=as.numeric(Diff.Mean), CI.lower=as.numeric(CI.lower), CI.upper=as.numeric(CI.upper))
-  return(tests_tbl)
+  return(tbl_df(tests))
 }
-
-diff_mean.CI(lm1b)
 ```
 
+```{r}
+lm1b_contrast_ci <- diff_mean.CI(lm1b, iter=1e3)
+gpt2_contrast_ci <- diff_mean.CI(gpt2, iter=1e3)
 
+contrasts <- bind_rows(
+  lm1b_contrast_ci %>% mutate(Model='LM1B'),
+  gpt2_contrast_ci %>% mutate(Model='GPT2')
+)
+
+ggplot(contrasts, aes(x=Experiment, y=Diff.Mean, fill=Model)) +
+  geom_bar(stat="identity", position="dodge") +
+  # theme(legend.position="none") +
+  geom_errorbar(aes(ymin=CI.lower, ymax=CI.upper), color='black', position='dodge') +
+  scale_x_continuous(breaks=forms) +
+  xlab("Contrasts, Diff Means")
+```
+
+These results don't bode very well---for LM1B in general, and for GPT-2 on Experiments 2, 6, and 7. Interesting.
 
 # To be less surprised at correct-summ than incorrect-summ?
 
-# ```{r}
-# for (i in 1:n_forms) {
-#   S_not <- filter(lm1b, (Experiment==i & Correct==F))$Inference
-#   S_ent <- filter(lm1b, (Experiment==i & Correct==T))$Inference
-#   test <- t.test(S_not, S_ent, paired=T, var.equal=F)
-#   print(i)
-#   print(test)
-# }
-# ```
-# 
-# ```{r}
-# estimators <- tbl_df(t(sapply(tests, c))) %>% # https://stackoverflow.com/questions/4227223/convert-a-list-to-a-data-frame
-#   select(c('stderr', 'estimate')) %>%
-#   transmute(diff_means=as.numeric(estimate), stderr=as.numeric(stderr)) %>%
-#   mutate(experiment=1:n_forms)
-# 
-# ggplot(estimators, aes(x=experiment, y=diff_means, fill=experiment)) +
-#   geom_bar(stat="identity", position="dodge") +
-#   theme(legend.position="none") +
-#   geom_errorbar(aes(ymin=(diff_means - 1.96 * stderr), ymax=(diff_means + 1.96 * stderr)), color='black', width=.3) +
-#   scale_x_continuous(breaks=1:n_forms) +
-#   xlab("Mean S(Contradiction)-S(Entailment), per-Experiment")
-# ggsave("diff_means_barplot_errors.pdf", dpi="retina")
-```
+<!-- Overall limitation is that this definitely doesn't have predictive power -->
