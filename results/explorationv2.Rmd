@@ -1,4 +1,4 @@
----
+  ---
 title: "exploration"
 header-includes: |
   \makeatletter
@@ -28,7 +28,7 @@ library(tidyverse)
 library(boot)
 set.seed(42)
 options(boot.parallel='multicore')
-options(boot.ncpus=4)
+options(boot.ncpus=8)
 ```
 
 # Data wrangling
@@ -175,8 +175,8 @@ diff_mean.CI <- function(tbl, iter=1e4) {
 ```
 
 ```{r}
-lm1b_contrast_ci <- diff_mean.CI(lm1b, iter=1e3)
-gpt2_contrast_ci <- diff_mean.CI(gpt2, iter=1e3)
+lm1b_contrast_ci <- diff_mean.CI(lm1b, iter=3e4)
+gpt2_contrast_ci <- diff_mean.CI(gpt2, iter=3e4)  # max(table(lm1b$Experiment)) = 28800
 
 contrasts <- bind_rows(
   lm1b_contrast_ci %>% mutate(Model='LM1B'),
@@ -190,7 +190,7 @@ ggplot(contrasts, aes(x=Experiment, y=Diff.Mean, fill=Model)) +
   scale_x_continuous(breaks=forms) +
   xlab("Contrasts, Diff Means")
 ```
-
+ 
 These results don't bode very well---for LM1B in general, and for GPT-2 on Experiments 2, 6, and 7. Interesting.
 
 # To be less surprised at correct-summ than incorrect-summ?
