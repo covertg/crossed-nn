@@ -1,5 +1,5 @@
 Base	E_nX	E_X	C_nX	C_X
-A Vin1 and B Vin2	A Vin1|B Vin2		B Vin1|A Vin2	
-B Vin1 and A Vin2	B Vin1|A Vin2		A Vin1|B Vin2	
-A Vin2 and B Vin1	A Vin2|B Vin1		B Vin2|A Vin1	
-B Vin2 and A Vin1	B Vin2|A Vin1		B Vin1|A Vin2	
+A Vin1 and B Vin2	1 A Vin1|2 B Vin2		1 B Vin1|2 A Vin2	
+B Vin1 and A Vin2	1 B Vin1|2 A Vin2		1 A Vin1|2 B Vin2	
+A Vin2 and B Vin1	1 A Vin2|2 B Vin1		1 B Vin2|2 A Vin1	
+B Vin2 and A Vin1	1 B Vin2|2 A Vin1		1 B Vin1|2 A Vin2	

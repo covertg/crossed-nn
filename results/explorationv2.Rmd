@@ -175,8 +175,8 @@ diff_mean.CI <- function(tbl, iter=1e4) {
 ```
 
 ```{r}
-lm1b_contrast_ci <- diff_mean.CI(lm1b, iter=3e4)
-gpt2_contrast_ci <- diff_mean.CI(gpt2, iter=3e4)  # max(table(lm1b$Experiment)) = 28800
+lm1b_contrast_ci <- diff_mean.CI(lm1b, iter=1e4)
+gpt2_contrast_ci <- diff_mean.CI(gpt2, iter=1e4)  # max(table(lm1b$Experiment)) = 28800
 
 contrasts <- bind_rows(
   lm1b_contrast_ci %>% mutate(Model='LM1B'),
