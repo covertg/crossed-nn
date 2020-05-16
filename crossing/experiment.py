@@ -13,7 +13,7 @@ def run_experiment(inputs, outfile, model_fn, silent=True):
         if not silent and not ((i+1) % 100):
             print('[experiment.py] Processed {} lines \t {}'.format(i+1, datetime.datetime.now().time()))
     # And when we're all done, write out to a df
-    df = pd.DataFrame.from_records(outputs, columns=inputs.columns)
+    df = pd.DataFrame.from_records(outputs, columns=inputs.columns)  # TODO it would have been much easier to *just* the surprisal into a df, and bind all the other relevant data from the input tsv.
     df.to_csv(outfile, sep='\t', index=False)
 
 

@@ -2,7 +2,8 @@ import pandas as pd
 
 cols = ['Base', 'E_nX', 'E_X', 'C_nX', 'C_X']
 punct = (';', ',') 
-connectives = ['in short', 'therefore', 'that is', 'thus', 'on the other hand', 'by contrast']
+conn_summ, conn_contr = ['in short', 'therefore', 'that is', 'thus'], ['on the other hand', 'by contrast']
+connectives = conn_summ + conn_contr
 expanders = {
     '{Prep}': ['Near', 'By', 'Nearby'],
     '{E/D}': ['Here is', 'This is', 'That is'],  # ['Here is', 'There is', 'That is', 'This is', 'It is']
@@ -56,19 +57,21 @@ def expand_template(items, template, capitalize=True):
                 correct = 'E' in label
                 crossing = 'n' in label
                 for entailment in entailments:
-                    entailment = _map(item, entailment)
+                    subform = int(entailment[0])
+                    entailment = _map(item, entailment[2:])
                     sentence = base_premise + '{Conn}' + entailment + '.'   # Whole sentence aka "inference"
-                    sents_intermediate.append([sentence, i, correct, crossing])    
-    data_cols = ['inference', 'item', 'correct', 'crossing']
+                    sents_intermediate.append([sentence, i, correct, crossing, subform])    
+    data_cols = ['inference', 'item', 'correct', 'crossing', 'subform.id']
     df_intermediate = pd.DataFrame.from_records(sents_intermediate, columns=data_cols)
 
     # Then we expand on {curly brace} expanders, such as connectives.
     sents_expanded = []
     for intermed in sents_intermediate:
-        new_sents = [(expanded[0], *intermed[1:], *expanded[1].values(), expanded[2]) for expanded in _expand(intermed[0])]
+        expandeds = _expand(intermed[0])
+        new_sents = [(expanded[0], *intermed[1:], *expanded[1].values()) for expanded in expandeds]
         sents_expanded.extend(new_sents)
-    data_cols.extend(expanders.keys())
-    data_cols.append('surprisal_idx')
+        if 'surprisal.idx' not in data_cols:
+            data_cols.extend(expandeds[0][1].keys())
     df_expanded = pd.DataFrame.from_records(sents_expanded, columns=data_cols)
 
     return df_intermediate, df_expanded
@@ -76,10 +79,10 @@ def expand_template(items, template, capitalize=True):
 
 # Expands on {expanders}, returning a list of (sentence, attribute) pairs, where 'attribute' is the choice(s) of expander made.
 def _expand(sentence):
-    stack = [(sentence, dict.fromkeys(expanders.keys()), 0)]
+    stack = [(sentence, dict.fromkeys(expanders.keys()))]
     expanded = []
     while stack:
-        sent, attributes, surprisal_idx = stack.pop()
+        sent, attributes = stack.pop()
         if '{' in sent:
             for k in expanders.keys():
                 if k in sent:
@@ -87,8 +90,9 @@ def _expand(sentence):
                         new_sent = sent[:sent.index(k)] + value + sent[sent.index(k)+len(k):]
                         attributes.update({k: value})
                         if k == '{Conn}':
-                            surprisal_idx = len(sent[:sent.index(k)] + value)
-                        stack.append((new_sent, attributes.copy(), surprisal_idx))
+                            attributes.update({'connective.summ': (value[2:-2] in conn_summ)})  # 2:-2 strips punctuation
+                            attributes.update({'surprisal.idx': len(sent[:sent.index(k)] + value)})  # experiment.py assumes that surprisal.idx is the last column
+                        stack.append((new_sent, attributes.copy()))
         else:
-            expanded.append((sent, attributes, surprisal_idx))
+            expanded.append((sent, attributes))
     return expanded

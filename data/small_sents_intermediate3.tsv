@@ -1,401 +1,401 @@
-inference	item	correct	crossing
-{Prep} the car , the tree burned and shook{Conn}the tree burned.	0	True	True
-{Prep} the car , the tree burned and shook{Conn}the tree shook.	0	True	True
-{Prep} the car , the tree burned and shook{Conn}the car burned.	0	False	True
-{Prep} the car , the tree burned and shook{Conn}the car shook.	0	False	True
-{Prep} the tree , the car burned and shook{Conn}the car burned.	0	True	True
-{Prep} the tree , the car burned and shook{Conn}the car shook.	0	True	True
-{Prep} the tree , the car burned and shook{Conn}the tree burned.	0	False	True
-{Prep} the tree , the car burned and shook{Conn}the tree shook.	0	False	True
-{Prep} the car , the tree shook and burned{Conn}the tree shook.	0	True	True
-{Prep} the car , the tree shook and burned{Conn}the tree burned.	0	True	True
-{Prep} the car , the tree shook and burned{Conn}the car shook.	0	False	True
-{Prep} the car , the tree shook and burned{Conn}the car burned.	0	False	True
-{Prep} the tree , the car shook and burned{Conn}the car shook.	0	True	True
-{Prep} the tree , the car shook and burned{Conn}the car burned.	0	True	True
-{Prep} the tree , the car shook and burned{Conn}the tree shook.	0	False	True
-{Prep} the tree , the car shook and burned{Conn}the tree burned.	0	False	True
-{Prep} the grandma , the girl smiled and laughed{Conn}the girl smiled.	1	True	True
-{Prep} the grandma , the girl smiled and laughed{Conn}the girl laughed.	1	True	True
-{Prep} the grandma , the girl smiled and laughed{Conn}the grandma smiled.	1	False	True
-{Prep} the grandma , the girl smiled and laughed{Conn}the grandma laughed.	1	False	True
-{Prep} the girl , the grandma smiled and laughed{Conn}the grandma smiled.	1	True	True
-{Prep} the girl , the grandma smiled and laughed{Conn}the grandma laughed.	1	True	True
-{Prep} the girl , the grandma smiled and laughed{Conn}the girl smiled.	1	False	True
-{Prep} the girl , the grandma smiled and laughed{Conn}the girl laughed.	1	False	True
-{Prep} the grandma , the girl laughed and smiled{Conn}the girl laughed.	1	True	True
-{Prep} the grandma , the girl laughed and smiled{Conn}the girl smiled.	1	True	True
-{Prep} the grandma , the girl laughed and smiled{Conn}the grandma laughed.	1	False	True
-{Prep} the grandma , the girl laughed and smiled{Conn}the grandma smiled.	1	False	True
-{Prep} the girl , the grandma laughed and smiled{Conn}the grandma laughed.	1	True	True
-{Prep} the girl , the grandma laughed and smiled{Conn}the grandma smiled.	1	True	True
-{Prep} the girl , the grandma laughed and smiled{Conn}the girl laughed.	1	False	True
-{Prep} the girl , the grandma laughed and smiled{Conn}the girl smiled.	1	False	True
-{Prep} the dog , the cat jumped and hid{Conn}the cat jumped.	2	True	True
-{Prep} the dog , the cat jumped and hid{Conn}the cat hid.	2	True	True
-{Prep} the dog , the cat jumped and hid{Conn}the dog jumped.	2	False	True
-{Prep} the dog , the cat jumped and hid{Conn}the dog hid.	2	False	True
-{Prep} the cat , the dog jumped and hid{Conn}the dog jumped.	2	True	True
-{Prep} the cat , the dog jumped and hid{Conn}the dog hid.	2	True	True
-{Prep} the cat , the dog jumped and hid{Conn}the cat jumped.	2	False	True
-{Prep} the cat , the dog jumped and hid{Conn}the cat hid.	2	False	True
-{Prep} the dog , the cat hid and jumped{Conn}the cat hid.	2	True	True
-{Prep} the dog , the cat hid and jumped{Conn}the cat jumped.	2	True	True
-{Prep} the dog , the cat hid and jumped{Conn}the dog hid.	2	False	True
-{Prep} the dog , the cat hid and jumped{Conn}the dog jumped.	2	False	True
-{Prep} the cat , the dog hid and jumped{Conn}the dog hid.	2	True	True
-{Prep} the cat , the dog hid and jumped{Conn}the dog jumped.	2	True	True
-{Prep} the cat , the dog hid and jumped{Conn}the cat hid.	2	False	True
-{Prep} the cat , the dog hid and jumped{Conn}the cat jumped.	2	False	True
-{Prep} the lion , the tiger growled and yawned{Conn}the tiger growled.	3	True	True
-{Prep} the lion , the tiger growled and yawned{Conn}the tiger yawned.	3	True	True
-{Prep} the lion , the tiger growled and yawned{Conn}the lion growled.	3	False	True
-{Prep} the lion , the tiger growled and yawned{Conn}the lion yawned.	3	False	True
-{Prep} the tiger , the lion growled and yawned{Conn}the lion growled.	3	True	True
-{Prep} the tiger , the lion growled and yawned{Conn}the lion yawned.	3	True	True
-{Prep} the tiger , the lion growled and yawned{Conn}the tiger growled.	3	False	True
-{Prep} the tiger , the lion growled and yawned{Conn}the tiger yawned.	3	False	True
-{Prep} the lion , the tiger yawned and growled{Conn}the tiger yawned.	3	True	True
-{Prep} the lion , the tiger yawned and growled{Conn}the tiger growled.	3	True	True
-{Prep} the lion , the tiger yawned and growled{Conn}the lion yawned.	3	False	True
-{Prep} the lion , the tiger yawned and growled{Conn}the lion growled.	3	False	True
-{Prep} the tiger , the lion yawned and growled{Conn}the lion yawned.	3	True	True
-{Prep} the tiger , the lion yawned and growled{Conn}the lion growled.	3	True	True
-{Prep} the tiger , the lion yawned and growled{Conn}the tiger yawned.	3	False	True
-{Prep} the tiger , the lion yawned and growled{Conn}the tiger growled.	3	False	True
-{Prep} the doctor , the patient sat and blinked{Conn}the patient sat.	4	True	True
-{Prep} the doctor , the patient sat and blinked{Conn}the patient blinked.	4	True	True
-{Prep} the doctor , the patient sat and blinked{Conn}the doctor sat.	4	False	True
-{Prep} the doctor , the patient sat and blinked{Conn}the doctor blinked.	4	False	True
-{Prep} the patient , the doctor sat and blinked{Conn}the doctor sat.	4	True	True
-{Prep} the patient , the doctor sat and blinked{Conn}the doctor blinked.	4	True	True
-{Prep} the patient , the doctor sat and blinked{Conn}the patient sat.	4	False	True
-{Prep} the patient , the doctor sat and blinked{Conn}the patient blinked.	4	False	True
-{Prep} the doctor , the patient blinked and sat{Conn}the patient blinked.	4	True	True
-{Prep} the doctor , the patient blinked and sat{Conn}the patient sat.	4	True	True
-{Prep} the doctor , the patient blinked and sat{Conn}the doctor blinked.	4	False	True
-{Prep} the doctor , the patient blinked and sat{Conn}the doctor sat.	4	False	True
-{Prep} the patient , the doctor blinked and sat{Conn}the doctor blinked.	4	True	True
-{Prep} the patient , the doctor blinked and sat{Conn}the doctor sat.	4	True	True
-{Prep} the patient , the doctor blinked and sat{Conn}the patient blinked.	4	False	True
-{Prep} the patient , the doctor blinked and sat{Conn}the patient sat.	4	False	True
-{Prep} the President , the beaurocrat contemplated and tweeted{Conn}the beaurocrat contemplated.	5	True	True
-{Prep} the President , the beaurocrat contemplated and tweeted{Conn}the beaurocrat tweeted.	5	True	True
-{Prep} the President , the beaurocrat contemplated and tweeted{Conn}the President contemplated.	5	False	True
-{Prep} the President , the beaurocrat contemplated and tweeted{Conn}the President tweeted.	5	False	True
-{Prep} the beaurocrat , the President contemplated and tweeted{Conn}the President contemplated.	5	True	True
-{Prep} the beaurocrat , the President contemplated and tweeted{Conn}the President tweeted.	5	True	True
-{Prep} the beaurocrat , the President contemplated and tweeted{Conn}the beaurocrat contemplated.	5	False	True
-{Prep} the beaurocrat , the President contemplated and tweeted{Conn}the beaurocrat tweeted.	5	False	True
-{Prep} the President , the beaurocrat tweeted and contemplated{Conn}the beaurocrat tweeted.	5	True	True
-{Prep} the President , the beaurocrat tweeted and contemplated{Conn}the beaurocrat contemplated.	5	True	True
-{Prep} the President , the beaurocrat tweeted and contemplated{Conn}the President tweeted.	5	False	True
-{Prep} the President , the beaurocrat tweeted and contemplated{Conn}the President contemplated.	5	False	True
-{Prep} the beaurocrat , the President tweeted and contemplated{Conn}the President tweeted.	5	True	True
-{Prep} the beaurocrat , the President tweeted and contemplated{Conn}the President contemplated.	5	True	True
-{Prep} the beaurocrat , the President tweeted and contemplated{Conn}the beaurocrat tweeted.	5	False	True
-{Prep} the beaurocrat , the President tweeted and contemplated{Conn}the beaurocrat contemplated.	5	False	True
-{Prep} the bride , the priest shouted and frowned{Conn}the priest shouted.	6	True	True
-{Prep} the bride , the priest shouted and frowned{Conn}the priest frowned.	6	True	True
-{Prep} the bride , the priest shouted and frowned{Conn}the bride shouted.	6	False	True
-{Prep} the bride , the priest shouted and frowned{Conn}the bride frowned.	6	False	True
-{Prep} the priest , the bride shouted and frowned{Conn}the bride shouted.	6	True	True
-{Prep} the priest , the bride shouted and frowned{Conn}the bride frowned.	6	True	True
-{Prep} the priest , the bride shouted and frowned{Conn}the priest shouted.	6	False	True
-{Prep} the priest , the bride shouted and frowned{Conn}the priest frowned.	6	False	True
-{Prep} the bride , the priest frowned and shouted{Conn}the priest frowned.	6	True	True
-{Prep} the bride , the priest frowned and shouted{Conn}the priest shouted.	6	True	True
-{Prep} the bride , the priest frowned and shouted{Conn}the bride frowned.	6	False	True
-{Prep} the bride , the priest frowned and shouted{Conn}the bride shouted.	6	False	True
-{Prep} the priest , the bride frowned and shouted{Conn}the bride frowned.	6	True	True
-{Prep} the priest , the bride frowned and shouted{Conn}the bride shouted.	6	True	True
-{Prep} the priest , the bride frowned and shouted{Conn}the priest frowned.	6	False	True
-{Prep} the priest , the bride frowned and shouted{Conn}the priest shouted.	6	False	True
-{Prep} the bee , the flower sang and wriggled{Conn}the flower sang.	7	True	True
-{Prep} the bee , the flower sang and wriggled{Conn}the flower wriggled.	7	True	True
-{Prep} the bee , the flower sang and wriggled{Conn}the bee sang.	7	False	True
-{Prep} the bee , the flower sang and wriggled{Conn}the bee wriggled.	7	False	True
-{Prep} the flower , the bee sang and wriggled{Conn}the bee sang.	7	True	True
-{Prep} the flower , the bee sang and wriggled{Conn}the bee wriggled.	7	True	True
-{Prep} the flower , the bee sang and wriggled{Conn}the flower sang.	7	False	True
-{Prep} the flower , the bee sang and wriggled{Conn}the flower wriggled.	7	False	True
-{Prep} the bee , the flower wriggled and sang{Conn}the flower wriggled.	7	True	True
-{Prep} the bee , the flower wriggled and sang{Conn}the flower sang.	7	True	True
-{Prep} the bee , the flower wriggled and sang{Conn}the bee wriggled.	7	False	True
-{Prep} the bee , the flower wriggled and sang{Conn}the bee sang.	7	False	True
-{Prep} the flower , the bee wriggled and sang{Conn}the bee wriggled.	7	True	True
-{Prep} the flower , the bee wriggled and sang{Conn}the bee sang.	7	True	True
-{Prep} the flower , the bee wriggled and sang{Conn}the flower wriggled.	7	False	True
-{Prep} the flower , the bee wriggled and sang{Conn}the flower sang.	7	False	True
-{Prep} the baby , the nurse slept and cried{Conn}the nurse slept.	8	True	True
-{Prep} the baby , the nurse slept and cried{Conn}the nurse cried.	8	True	True
-{Prep} the baby , the nurse slept and cried{Conn}the baby slept.	8	False	True
-{Prep} the baby , the nurse slept and cried{Conn}the baby cried.	8	False	True
-{Prep} the nurse , the baby slept and cried{Conn}the baby slept.	8	True	True
-{Prep} the nurse , the baby slept and cried{Conn}the baby cried.	8	True	True
-{Prep} the nurse , the baby slept and cried{Conn}the nurse slept.	8	False	True
-{Prep} the nurse , the baby slept and cried{Conn}the nurse cried.	8	False	True
-{Prep} the baby , the nurse cried and slept{Conn}the nurse cried.	8	True	True
-{Prep} the baby , the nurse cried and slept{Conn}the nurse slept.	8	True	True
-{Prep} the baby , the nurse cried and slept{Conn}the baby cried.	8	False	True
-{Prep} the baby , the nurse cried and slept{Conn}the baby slept.	8	False	True
-{Prep} the nurse , the baby cried and slept{Conn}the baby cried.	8	True	True
-{Prep} the nurse , the baby cried and slept{Conn}the baby slept.	8	True	True
-{Prep} the nurse , the baby cried and slept{Conn}the nurse cried.	8	False	True
-{Prep} the nurse , the baby cried and slept{Conn}the nurse slept.	8	False	True
-{Prep} the virus , the antibodies emerged and dwindled{Conn}the antibodies emerged.	9	True	True
-{Prep} the virus , the antibodies emerged and dwindled{Conn}the antibodies dwindled.	9	True	True
-{Prep} the virus , the antibodies emerged and dwindled{Conn}the virus emerged.	9	False	True
-{Prep} the virus , the antibodies emerged and dwindled{Conn}the virus dwindled.	9	False	True
-{Prep} the antibodies , the virus emerged and dwindled{Conn}the virus emerged.	9	True	True
-{Prep} the antibodies , the virus emerged and dwindled{Conn}the virus dwindled.	9	True	True
-{Prep} the antibodies , the virus emerged and dwindled{Conn}the antibodies emerged.	9	False	True
-{Prep} the antibodies , the virus emerged and dwindled{Conn}the antibodies dwindled.	9	False	True
-{Prep} the virus , the antibodies dwindled and emerged{Conn}the antibodies dwindled.	9	True	True
-{Prep} the virus , the antibodies dwindled and emerged{Conn}the antibodies emerged.	9	True	True
-{Prep} the virus , the antibodies dwindled and emerged{Conn}the virus dwindled.	9	False	True
-{Prep} the virus , the antibodies dwindled and emerged{Conn}the virus emerged.	9	False	True
-{Prep} the antibodies , the virus dwindled and emerged{Conn}the virus dwindled.	9	True	True
-{Prep} the antibodies , the virus dwindled and emerged{Conn}the virus emerged.	9	True	True
-{Prep} the antibodies , the virus dwindled and emerged{Conn}the antibodies dwindled.	9	False	True
-{Prep} the antibodies , the virus dwindled and emerged{Conn}the antibodies emerged.	9	False	True
-{Prep} the chef , the octopus vanished and gasped{Conn}the octopus vanished.	10	True	True
-{Prep} the chef , the octopus vanished and gasped{Conn}the octopus gasped.	10	True	True
-{Prep} the chef , the octopus vanished and gasped{Conn}the chef vanished.	10	False	True
-{Prep} the chef , the octopus vanished and gasped{Conn}the chef gasped.	10	False	True
-{Prep} the octopus , the chef vanished and gasped{Conn}the chef vanished.	10	True	True
-{Prep} the octopus , the chef vanished and gasped{Conn}the chef gasped.	10	True	True
-{Prep} the octopus , the chef vanished and gasped{Conn}the octopus vanished.	10	False	True
-{Prep} the octopus , the chef vanished and gasped{Conn}the octopus gasped.	10	False	True
-{Prep} the chef , the octopus gasped and vanished{Conn}the octopus gasped.	10	True	True
-{Prep} the chef , the octopus gasped and vanished{Conn}the octopus vanished.	10	True	True
-{Prep} the chef , the octopus gasped and vanished{Conn}the chef gasped.	10	False	True
-{Prep} the chef , the octopus gasped and vanished{Conn}the chef vanished.	10	False	True
-{Prep} the octopus , the chef gasped and vanished{Conn}the chef gasped.	10	True	True
-{Prep} the octopus , the chef gasped and vanished{Conn}the chef vanished.	10	True	True
-{Prep} the octopus , the chef gasped and vanished{Conn}the octopus gasped.	10	False	True
-{Prep} the octopus , the chef gasped and vanished{Conn}the octopus vanished.	10	False	True
-{Prep} the journalist , the senator wrote and fumed{Conn}the senator wrote.	11	True	True
-{Prep} the journalist , the senator wrote and fumed{Conn}the senator fumed.	11	True	True
-{Prep} the journalist , the senator wrote and fumed{Conn}the journalist wrote.	11	False	True
-{Prep} the journalist , the senator wrote and fumed{Conn}the journalist fumed.	11	False	True
-{Prep} the senator , the journalist wrote and fumed{Conn}the journalist wrote.	11	True	True
-{Prep} the senator , the journalist wrote and fumed{Conn}the journalist fumed.	11	True	True
-{Prep} the senator , the journalist wrote and fumed{Conn}the senator wrote.	11	False	True
-{Prep} the senator , the journalist wrote and fumed{Conn}the senator fumed.	11	False	True
-{Prep} the journalist , the senator fumed and wrote{Conn}the senator fumed.	11	True	True
-{Prep} the journalist , the senator fumed and wrote{Conn}the senator wrote.	11	True	True
-{Prep} the journalist , the senator fumed and wrote{Conn}the journalist fumed.	11	False	True
-{Prep} the journalist , the senator fumed and wrote{Conn}the journalist wrote.	11	False	True
-{Prep} the senator , the journalist fumed and wrote{Conn}the journalist fumed.	11	True	True
-{Prep} the senator , the journalist fumed and wrote{Conn}the journalist wrote.	11	True	True
-{Prep} the senator , the journalist fumed and wrote{Conn}the senator fumed.	11	False	True
-{Prep} the senator , the journalist fumed and wrote{Conn}the senator wrote.	11	False	True
-{Prep} the ant , the grasshopper worked and played{Conn}the grasshopper worked.	12	True	True
-{Prep} the ant , the grasshopper worked and played{Conn}the grasshopper played.	12	True	True
-{Prep} the ant , the grasshopper worked and played{Conn}the ant worked.	12	False	True
-{Prep} the ant , the grasshopper worked and played{Conn}the ant played.	12	False	True
-{Prep} the grasshopper , the ant worked and played{Conn}the ant worked.	12	True	True
-{Prep} the grasshopper , the ant worked and played{Conn}the ant played.	12	True	True
-{Prep} the grasshopper , the ant worked and played{Conn}the grasshopper worked.	12	False	True
-{Prep} the grasshopper , the ant worked and played{Conn}the grasshopper played.	12	False	True
-{Prep} the ant , the grasshopper played and worked{Conn}the grasshopper played.	12	True	True
-{Prep} the ant , the grasshopper played and worked{Conn}the grasshopper worked.	12	True	True
-{Prep} the ant , the grasshopper played and worked{Conn}the ant played.	12	False	True
-{Prep} the ant , the grasshopper played and worked{Conn}the ant worked.	12	False	True
-{Prep} the grasshopper , the ant played and worked{Conn}the ant played.	12	True	True
-{Prep} the grasshopper , the ant played and worked{Conn}the ant worked.	12	True	True
-{Prep} the grasshopper , the ant played and worked{Conn}the grasshopper played.	12	False	True
-{Prep} the grasshopper , the ant played and worked{Conn}the grasshopper worked.	12	False	True
-{Prep} the princess , the witch melted and rejoiced{Conn}the witch melted.	13	True	True
-{Prep} the princess , the witch melted and rejoiced{Conn}the witch rejoiced.	13	True	True
-{Prep} the princess , the witch melted and rejoiced{Conn}the princess melted.	13	False	True
-{Prep} the princess , the witch melted and rejoiced{Conn}the princess rejoiced.	13	False	True
-{Prep} the witch , the princess melted and rejoiced{Conn}the princess melted.	13	True	True
-{Prep} the witch , the princess melted and rejoiced{Conn}the princess rejoiced.	13	True	True
-{Prep} the witch , the princess melted and rejoiced{Conn}the witch melted.	13	False	True
-{Prep} the witch , the princess melted and rejoiced{Conn}the witch rejoiced.	13	False	True
-{Prep} the princess , the witch rejoiced and melted{Conn}the witch rejoiced.	13	True	True
-{Prep} the princess , the witch rejoiced and melted{Conn}the witch melted.	13	True	True
-{Prep} the princess , the witch rejoiced and melted{Conn}the princess rejoiced.	13	False	True
-{Prep} the princess , the witch rejoiced and melted{Conn}the princess melted.	13	False	True
-{Prep} the witch , the princess rejoiced and melted{Conn}the princess rejoiced.	13	True	True
-{Prep} the witch , the princess rejoiced and melted{Conn}the princess melted.	13	True	True
-{Prep} the witch , the princess rejoiced and melted{Conn}the witch rejoiced.	13	False	True
-{Prep} the witch , the princess rejoiced and melted{Conn}the witch melted.	13	False	True
-{Prep} the fish , the turtle learned and failed{Conn}the turtle learned.	14	True	True
-{Prep} the fish , the turtle learned and failed{Conn}the turtle failed.	14	True	True
-{Prep} the fish , the turtle learned and failed{Conn}the fish learned.	14	False	True
-{Prep} the fish , the turtle learned and failed{Conn}the fish failed.	14	False	True
-{Prep} the turtle , the fish learned and failed{Conn}the fish learned.	14	True	True
-{Prep} the turtle , the fish learned and failed{Conn}the fish failed.	14	True	True
-{Prep} the turtle , the fish learned and failed{Conn}the turtle learned.	14	False	True
-{Prep} the turtle , the fish learned and failed{Conn}the turtle failed.	14	False	True
-{Prep} the fish , the turtle failed and learned{Conn}the turtle failed.	14	True	True
-{Prep} the fish , the turtle failed and learned{Conn}the turtle learned.	14	True	True
-{Prep} the fish , the turtle failed and learned{Conn}the fish failed.	14	False	True
-{Prep} the fish , the turtle failed and learned{Conn}the fish learned.	14	False	True
-{Prep} the turtle , the fish failed and learned{Conn}the fish failed.	14	True	True
-{Prep} the turtle , the fish failed and learned{Conn}the fish learned.	14	True	True
-{Prep} the turtle , the fish failed and learned{Conn}the turtle failed.	14	False	True
-{Prep} the turtle , the fish failed and learned{Conn}the turtle learned.	14	False	True
-{Prep} the king , the jester juggled and sang{Conn}the jester juggled.	15	True	True
-{Prep} the king , the jester juggled and sang{Conn}the jester sang.	15	True	True
-{Prep} the king , the jester juggled and sang{Conn}the king juggled.	15	False	True
-{Prep} the king , the jester juggled and sang{Conn}the king sang.	15	False	True
-{Prep} the jester , the king juggled and sang{Conn}the king juggled.	15	True	True
-{Prep} the jester , the king juggled and sang{Conn}the king sang.	15	True	True
-{Prep} the jester , the king juggled and sang{Conn}the jester juggled.	15	False	True
-{Prep} the jester , the king juggled and sang{Conn}the jester sang.	15	False	True
-{Prep} the king , the jester sang and juggled{Conn}the jester sang.	15	True	True
-{Prep} the king , the jester sang and juggled{Conn}the jester juggled.	15	True	True
-{Prep} the king , the jester sang and juggled{Conn}the king sang.	15	False	True
-{Prep} the king , the jester sang and juggled{Conn}the king juggled.	15	False	True
-{Prep} the jester , the king sang and juggled{Conn}the king sang.	15	True	True
-{Prep} the jester , the king sang and juggled{Conn}the king juggled.	15	True	True
-{Prep} the jester , the king sang and juggled{Conn}the jester sang.	15	False	True
-{Prep} the jester , the king sang and juggled{Conn}the jester juggled.	15	False	True
-{Prep} the poet , the dandelion swayed and breathed{Conn}the dandelion swayed.	16	True	True
-{Prep} the poet , the dandelion swayed and breathed{Conn}the dandelion breathed.	16	True	True
-{Prep} the poet , the dandelion swayed and breathed{Conn}the poet swayed.	16	False	True
-{Prep} the poet , the dandelion swayed and breathed{Conn}the poet breathed.	16	False	True
-{Prep} the dandelion , the poet swayed and breathed{Conn}the poet swayed.	16	True	True
-{Prep} the dandelion , the poet swayed and breathed{Conn}the poet breathed.	16	True	True
-{Prep} the dandelion , the poet swayed and breathed{Conn}the dandelion swayed.	16	False	True
-{Prep} the dandelion , the poet swayed and breathed{Conn}the dandelion breathed.	16	False	True
-{Prep} the poet , the dandelion breathed and swayed{Conn}the dandelion breathed.	16	True	True
-{Prep} the poet , the dandelion breathed and swayed{Conn}the dandelion swayed.	16	True	True
-{Prep} the poet , the dandelion breathed and swayed{Conn}the poet breathed.	16	False	True
-{Prep} the poet , the dandelion breathed and swayed{Conn}the poet swayed.	16	False	True
-{Prep} the dandelion , the poet breathed and swayed{Conn}the poet breathed.	16	True	True
-{Prep} the dandelion , the poet breathed and swayed{Conn}the poet swayed.	16	True	True
-{Prep} the dandelion , the poet breathed and swayed{Conn}the dandelion breathed.	16	False	True
-{Prep} the dandelion , the poet breathed and swayed{Conn}the dandelion swayed.	16	False	True
-{Prep} the worker , the boss resigned and apologized{Conn}the boss resigned.	17	True	True
-{Prep} the worker , the boss resigned and apologized{Conn}the boss apologized.	17	True	True
-{Prep} the worker , the boss resigned and apologized{Conn}the worker resigned.	17	False	True
-{Prep} the worker , the boss resigned and apologized{Conn}the worker apologized.	17	False	True
-{Prep} the boss , the worker resigned and apologized{Conn}the worker resigned.	17	True	True
-{Prep} the boss , the worker resigned and apologized{Conn}the worker apologized.	17	True	True
-{Prep} the boss , the worker resigned and apologized{Conn}the boss resigned.	17	False	True
-{Prep} the boss , the worker resigned and apologized{Conn}the boss apologized.	17	False	True
-{Prep} the worker , the boss apologized and resigned{Conn}the boss apologized.	17	True	True
-{Prep} the worker , the boss apologized and resigned{Conn}the boss resigned.	17	True	True
-{Prep} the worker , the boss apologized and resigned{Conn}the worker apologized.	17	False	True
-{Prep} the worker , the boss apologized and resigned{Conn}the worker resigned.	17	False	True
-{Prep} the boss , the worker apologized and resigned{Conn}the worker apologized.	17	True	True
-{Prep} the boss , the worker apologized and resigned{Conn}the worker resigned.	17	True	True
-{Prep} the boss , the worker apologized and resigned{Conn}the boss apologized.	17	False	True
-{Prep} the boss , the worker apologized and resigned{Conn}the boss resigned.	17	False	True
-{Prep} the magician , the bunny disappeared and observed{Conn}the bunny disappeared.	18	True	True
-{Prep} the magician , the bunny disappeared and observed{Conn}the bunny observed.	18	True	True
-{Prep} the magician , the bunny disappeared and observed{Conn}the magician disappeared.	18	False	True
-{Prep} the magician , the bunny disappeared and observed{Conn}the magician observed.	18	False	True
-{Prep} the bunny , the magician disappeared and observed{Conn}the magician disappeared.	18	True	True
-{Prep} the bunny , the magician disappeared and observed{Conn}the magician observed.	18	True	True
-{Prep} the bunny , the magician disappeared and observed{Conn}the bunny disappeared.	18	False	True
-{Prep} the bunny , the magician disappeared and observed{Conn}the bunny observed.	18	False	True
-{Prep} the magician , the bunny observed and disappeared{Conn}the bunny observed.	18	True	True
-{Prep} the magician , the bunny observed and disappeared{Conn}the bunny disappeared.	18	True	True
-{Prep} the magician , the bunny observed and disappeared{Conn}the magician observed.	18	False	True
-{Prep} the magician , the bunny observed and disappeared{Conn}the magician disappeared.	18	False	True
-{Prep} the bunny , the magician observed and disappeared{Conn}the magician observed.	18	True	True
-{Prep} the bunny , the magician observed and disappeared{Conn}the magician disappeared.	18	True	True
-{Prep} the bunny , the magician observed and disappeared{Conn}the bunny observed.	18	False	True
-{Prep} the bunny , the magician observed and disappeared{Conn}the bunny disappeared.	18	False	True
-{Prep} the dragon , the child apologized and flew{Conn}the child apologized.	19	True	True
-{Prep} the dragon , the child apologized and flew{Conn}the child flew.	19	True	True
-{Prep} the dragon , the child apologized and flew{Conn}the dragon apologized.	19	False	True
-{Prep} the dragon , the child apologized and flew{Conn}the dragon flew.	19	False	True
-{Prep} the child , the dragon apologized and flew{Conn}the dragon apologized.	19	True	True
-{Prep} the child , the dragon apologized and flew{Conn}the dragon flew.	19	True	True
-{Prep} the child , the dragon apologized and flew{Conn}the child apologized.	19	False	True
-{Prep} the child , the dragon apologized and flew{Conn}the child flew.	19	False	True
-{Prep} the dragon , the child flew and apologized{Conn}the child flew.	19	True	True
-{Prep} the dragon , the child flew and apologized{Conn}the child apologized.	19	True	True
-{Prep} the dragon , the child flew and apologized{Conn}the dragon flew.	19	False	True
-{Prep} the dragon , the child flew and apologized{Conn}the dragon apologized.	19	False	True
-{Prep} the child , the dragon flew and apologized{Conn}the dragon flew.	19	True	True
-{Prep} the child , the dragon flew and apologized{Conn}the dragon apologized.	19	True	True
-{Prep} the child , the dragon flew and apologized{Conn}the child flew.	19	False	True
-{Prep} the child , the dragon flew and apologized{Conn}the child apologized.	19	False	True
-{Prep} the comedian , the audience bombed and aged{Conn}the audience bombed.	20	True	True
-{Prep} the comedian , the audience bombed and aged{Conn}the audience aged.	20	True	True
-{Prep} the comedian , the audience bombed and aged{Conn}the comedian bombed.	20	False	True
-{Prep} the comedian , the audience bombed and aged{Conn}the comedian aged.	20	False	True
-{Prep} the audience , the comedian bombed and aged{Conn}the comedian bombed.	20	True	True
-{Prep} the audience , the comedian bombed and aged{Conn}the comedian aged.	20	True	True
-{Prep} the audience , the comedian bombed and aged{Conn}the audience bombed.	20	False	True
-{Prep} the audience , the comedian bombed and aged{Conn}the audience aged.	20	False	True
-{Prep} the comedian , the audience aged and bombed{Conn}the audience aged.	20	True	True
-{Prep} the comedian , the audience aged and bombed{Conn}the audience bombed.	20	True	True
-{Prep} the comedian , the audience aged and bombed{Conn}the comedian aged.	20	False	True
-{Prep} the comedian , the audience aged and bombed{Conn}the comedian bombed.	20	False	True
-{Prep} the audience , the comedian aged and bombed{Conn}the comedian aged.	20	True	True
-{Prep} the audience , the comedian aged and bombed{Conn}the comedian bombed.	20	True	True
-{Prep} the audience , the comedian aged and bombed{Conn}the audience aged.	20	False	True
-{Prep} the audience , the comedian aged and bombed{Conn}the audience bombed.	20	False	True
-{Prep} the therapist , the insurer refused and screamed{Conn}the insurer refused.	21	True	True
-{Prep} the therapist , the insurer refused and screamed{Conn}the insurer screamed.	21	True	True
-{Prep} the therapist , the insurer refused and screamed{Conn}the therapist refused.	21	False	True
-{Prep} the therapist , the insurer refused and screamed{Conn}the therapist screamed.	21	False	True
-{Prep} the insurer , the therapist refused and screamed{Conn}the therapist refused.	21	True	True
-{Prep} the insurer , the therapist refused and screamed{Conn}the therapist screamed.	21	True	True
-{Prep} the insurer , the therapist refused and screamed{Conn}the insurer refused.	21	False	True
-{Prep} the insurer , the therapist refused and screamed{Conn}the insurer screamed.	21	False	True
-{Prep} the therapist , the insurer screamed and refused{Conn}the insurer screamed.	21	True	True
-{Prep} the therapist , the insurer screamed and refused{Conn}the insurer refused.	21	True	True
-{Prep} the therapist , the insurer screamed and refused{Conn}the therapist screamed.	21	False	True
-{Prep} the therapist , the insurer screamed and refused{Conn}the therapist refused.	21	False	True
-{Prep} the insurer , the therapist screamed and refused{Conn}the therapist screamed.	21	True	True
-{Prep} the insurer , the therapist screamed and refused{Conn}the therapist refused.	21	True	True
-{Prep} the insurer , the therapist screamed and refused{Conn}the insurer screamed.	21	False	True
-{Prep} the insurer , the therapist screamed and refused{Conn}the insurer refused.	21	False	True
-{Prep} the shoes , the carpet shone and deteriorated{Conn}the carpet shone.	22	True	True
-{Prep} the shoes , the carpet shone and deteriorated{Conn}the carpet deteriorated.	22	True	True
-{Prep} the shoes , the carpet shone and deteriorated{Conn}the shoes shone.	22	False	True
-{Prep} the shoes , the carpet shone and deteriorated{Conn}the shoes deteriorated.	22	False	True
-{Prep} the carpet , the shoes shone and deteriorated{Conn}the shoes shone.	22	True	True
-{Prep} the carpet , the shoes shone and deteriorated{Conn}the shoes deteriorated.	22	True	True
-{Prep} the carpet , the shoes shone and deteriorated{Conn}the carpet shone.	22	False	True
-{Prep} the carpet , the shoes shone and deteriorated{Conn}the carpet deteriorated.	22	False	True
-{Prep} the shoes , the carpet deteriorated and shone{Conn}the carpet deteriorated.	22	True	True
-{Prep} the shoes , the carpet deteriorated and shone{Conn}the carpet shone.	22	True	True
-{Prep} the shoes , the carpet deteriorated and shone{Conn}the shoes deteriorated.	22	False	True
-{Prep} the shoes , the carpet deteriorated and shone{Conn}the shoes shone.	22	False	True
-{Prep} the carpet , the shoes deteriorated and shone{Conn}the shoes deteriorated.	22	True	True
-{Prep} the carpet , the shoes deteriorated and shone{Conn}the shoes shone.	22	True	True
-{Prep} the carpet , the shoes deteriorated and shone{Conn}the carpet deteriorated.	22	False	True
-{Prep} the carpet , the shoes deteriorated and shone{Conn}the carpet shone.	22	False	True
-{Prep} the principal , the student smiled and frowned{Conn}the student smiled.	23	True	True
-{Prep} the principal , the student smiled and frowned{Conn}the student frowned.	23	True	True
-{Prep} the principal , the student smiled and frowned{Conn}the principal smiled.	23	False	True
-{Prep} the principal , the student smiled and frowned{Conn}the principal frowned.	23	False	True
-{Prep} the student , the principal smiled and frowned{Conn}the principal smiled.	23	True	True
-{Prep} the student , the principal smiled and frowned{Conn}the principal frowned.	23	True	True
-{Prep} the student , the principal smiled and frowned{Conn}the student smiled.	23	False	True
-{Prep} the student , the principal smiled and frowned{Conn}the student frowned.	23	False	True
-{Prep} the principal , the student frowned and smiled{Conn}the student frowned.	23	True	True
-{Prep} the principal , the student frowned and smiled{Conn}the student smiled.	23	True	True
-{Prep} the principal , the student frowned and smiled{Conn}the principal frowned.	23	False	True
-{Prep} the principal , the student frowned and smiled{Conn}the principal smiled.	23	False	True
-{Prep} the student , the principal frowned and smiled{Conn}the principal frowned.	23	True	True
-{Prep} the student , the principal frowned and smiled{Conn}the principal smiled.	23	True	True
-{Prep} the student , the principal frowned and smiled{Conn}the student frowned.	23	False	True
-{Prep} the student , the principal frowned and smiled{Conn}the student smiled.	23	False	True
-{Prep} the river , the sea swelled and shimmered{Conn}the sea swelled.	24	True	True
-{Prep} the river , the sea swelled and shimmered{Conn}the sea shimmered.	24	True	True
-{Prep} the river , the sea swelled and shimmered{Conn}the river swelled.	24	False	True
-{Prep} the river , the sea swelled and shimmered{Conn}the river shimmered.	24	False	True
-{Prep} the sea , the river swelled and shimmered{Conn}the river swelled.	24	True	True
-{Prep} the sea , the river swelled and shimmered{Conn}the river shimmered.	24	True	True
-{Prep} the sea , the river swelled and shimmered{Conn}the sea swelled.	24	False	True
-{Prep} the sea , the river swelled and shimmered{Conn}the sea shimmered.	24	False	True
-{Prep} the river , the sea shimmered and swelled{Conn}the sea shimmered.	24	True	True
-{Prep} the river , the sea shimmered and swelled{Conn}the sea swelled.	24	True	True
-{Prep} the river , the sea shimmered and swelled{Conn}the river shimmered.	24	False	True
-{Prep} the river , the sea shimmered and swelled{Conn}the river swelled.	24	False	True
-{Prep} the sea , the river shimmered and swelled{Conn}the river shimmered.	24	True	True
-{Prep} the sea , the river shimmered and swelled{Conn}the river swelled.	24	True	True
-{Prep} the sea , the river shimmered and swelled{Conn}the sea shimmered.	24	False	True
-{Prep} the sea , the river shimmered and swelled{Conn}the sea swelled.	24	False	True
+inference	item	correct	crossing	subform.id
+{Prep} the car , the tree burned and shook{Conn}the tree burned.	0	True	True	1
+{Prep} the car , the tree burned and shook{Conn}the tree shook.	0	True	True	2
+{Prep} the car , the tree burned and shook{Conn}the car burned.	0	False	True	1
+{Prep} the car , the tree burned and shook{Conn}the car shook.	0	False	True	2
+{Prep} the tree , the car burned and shook{Conn}the car burned.	0	True	True	1
+{Prep} the tree , the car burned and shook{Conn}the car shook.	0	True	True	2
+{Prep} the tree , the car burned and shook{Conn}the tree burned.	0	False	True	1
+{Prep} the tree , the car burned and shook{Conn}the tree shook.	0	False	True	2
+{Prep} the car , the tree shook and burned{Conn}the tree shook.	0	True	True	1
+{Prep} the car , the tree shook and burned{Conn}the tree burned.	0	True	True	2
+{Prep} the car , the tree shook and burned{Conn}the car shook.	0	False	True	1
+{Prep} the car , the tree shook and burned{Conn}the car burned.	0	False	True	2
+{Prep} the tree , the car shook and burned{Conn}the car shook.	0	True	True	1
+{Prep} the tree , the car shook and burned{Conn}the car burned.	0	True	True	2
+{Prep} the tree , the car shook and burned{Conn}the tree shook.	0	False	True	1
+{Prep} the tree , the car shook and burned{Conn}the tree burned.	0	False	True	2
+{Prep} the grandma , the girl smiled and laughed{Conn}the girl smiled.	1	True	True	1
+{Prep} the grandma , the girl smiled and laughed{Conn}the girl laughed.	1	True	True	2
+{Prep} the grandma , the girl smiled and laughed{Conn}the grandma smiled.	1	False	True	1
+{Prep} the grandma , the girl smiled and laughed{Conn}the grandma laughed.	1	False	True	2
+{Prep} the girl , the grandma smiled and laughed{Conn}the grandma smiled.	1	True	True	1
+{Prep} the girl , the grandma smiled and laughed{Conn}the grandma laughed.	1	True	True	2
+{Prep} the girl , the grandma smiled and laughed{Conn}the girl smiled.	1	False	True	1
+{Prep} the girl , the grandma smiled and laughed{Conn}the girl laughed.	1	False	True	2
+{Prep} the grandma , the girl laughed and smiled{Conn}the girl laughed.	1	True	True	1
+{Prep} the grandma , the girl laughed and smiled{Conn}the girl smiled.	1	True	True	2
+{Prep} the grandma , the girl laughed and smiled{Conn}the grandma laughed.	1	False	True	1
+{Prep} the grandma , the girl laughed and smiled{Conn}the grandma smiled.	1	False	True	2
+{Prep} the girl , the grandma laughed and smiled{Conn}the grandma laughed.	1	True	True	1
+{Prep} the girl , the grandma laughed and smiled{Conn}the grandma smiled.	1	True	True	2
+{Prep} the girl , the grandma laughed and smiled{Conn}the girl laughed.	1	False	True	1
+{Prep} the girl , the grandma laughed and smiled{Conn}the girl smiled.	1	False	True	2
+{Prep} the dog , the cat jumped and hid{Conn}the cat jumped.	2	True	True	1
+{Prep} the dog , the cat jumped and hid{Conn}the cat hid.	2	True	True	2
+{Prep} the dog , the cat jumped and hid{Conn}the dog jumped.	2	False	True	1
+{Prep} the dog , the cat jumped and hid{Conn}the dog hid.	2	False	True	2
+{Prep} the cat , the dog jumped and hid{Conn}the dog jumped.	2	True	True	1
+{Prep} the cat , the dog jumped and hid{Conn}the dog hid.	2	True	True	2
+{Prep} the cat , the dog jumped and hid{Conn}the cat jumped.	2	False	True	1
+{Prep} the cat , the dog jumped and hid{Conn}the cat hid.	2	False	True	2
+{Prep} the dog , the cat hid and jumped{Conn}the cat hid.	2	True	True	1
+{Prep} the dog , the cat hid and jumped{Conn}the cat jumped.	2	True	True	2
+{Prep} the dog , the cat hid and jumped{Conn}the dog hid.	2	False	True	1
+{Prep} the dog , the cat hid and jumped{Conn}the dog jumped.	2	False	True	2
+{Prep} the cat , the dog hid and jumped{Conn}the dog hid.	2	True	True	1
+{Prep} the cat , the dog hid and jumped{Conn}the dog jumped.	2	True	True	2
+{Prep} the cat , the dog hid and jumped{Conn}the cat hid.	2	False	True	1
+{Prep} the cat , the dog hid and jumped{Conn}the cat jumped.	2	False	True	2
+{Prep} the lion , the tiger growled and yawned{Conn}the tiger growled.	3	True	True	1
+{Prep} the lion , the tiger growled and yawned{Conn}the tiger yawned.	3	True	True	2
+{Prep} the lion , the tiger growled and yawned{Conn}the lion growled.	3	False	True	1
+{Prep} the lion , the tiger growled and yawned{Conn}the lion yawned.	3	False	True	2
+{Prep} the tiger , the lion growled and yawned{Conn}the lion growled.	3	True	True	1
+{Prep} the tiger , the lion growled and yawned{Conn}the lion yawned.	3	True	True	2
+{Prep} the tiger , the lion growled and yawned{Conn}the tiger growled.	3	False	True	1
+{Prep} the tiger , the lion growled and yawned{Conn}the tiger yawned.	3	False	True	2
+{Prep} the lion , the tiger yawned and growled{Conn}the tiger yawned.	3	True	True	1
+{Prep} the lion , the tiger yawned and growled{Conn}the tiger growled.	3	True	True	2
+{Prep} the lion , the tiger yawned and growled{Conn}the lion yawned.	3	False	True	1
+{Prep} the lion , the tiger yawned and growled{Conn}the lion growled.	3	False	True	2
+{Prep} the tiger , the lion yawned and growled{Conn}the lion yawned.	3	True	True	1
+{Prep} the tiger , the lion yawned and growled{Conn}the lion growled.	3	True	True	2
+{Prep} the tiger , the lion yawned and growled{Conn}the tiger yawned.	3	False	True	1
+{Prep} the tiger , the lion yawned and growled{Conn}the tiger growled.	3	False	True	2
+{Prep} the doctor , the patient sat and blinked{Conn}the patient sat.	4	True	True	1
+{Prep} the doctor , the patient sat and blinked{Conn}the patient blinked.	4	True	True	2
+{Prep} the doctor , the patient sat and blinked{Conn}the doctor sat.	4	False	True	1
+{Prep} the doctor , the patient sat and blinked{Conn}the doctor blinked.	4	False	True	2
+{Prep} the patient , the doctor sat and blinked{Conn}the doctor sat.	4	True	True	1
+{Prep} the patient , the doctor sat and blinked{Conn}the doctor blinked.	4	True	True	2
+{Prep} the patient , the doctor sat and blinked{Conn}the patient sat.	4	False	True	1
+{Prep} the patient , the doctor sat and blinked{Conn}the patient blinked.	4	False	True	2
+{Prep} the doctor , the patient blinked and sat{Conn}the patient blinked.	4	True	True	1
+{Prep} the doctor , the patient blinked and sat{Conn}the patient sat.	4	True	True	2
+{Prep} the doctor , the patient blinked and sat{Conn}the doctor blinked.	4	False	True	1
+{Prep} the doctor , the patient blinked and sat{Conn}the doctor sat.	4	False	True	2
+{Prep} the patient , the doctor blinked and sat{Conn}the doctor blinked.	4	True	True	1
+{Prep} the patient , the doctor blinked and sat{Conn}the doctor sat.	4	True	True	2
+{Prep} the patient , the doctor blinked and sat{Conn}the patient blinked.	4	False	True	1
+{Prep} the patient , the doctor blinked and sat{Conn}the patient sat.	4	False	True	2
+{Prep} the President , the beaurocrat contemplated and tweeted{Conn}the beaurocrat contemplated.	5	True	True	1
+{Prep} the President , the beaurocrat contemplated and tweeted{Conn}the beaurocrat tweeted.	5	True	True	2
+{Prep} the President , the beaurocrat contemplated and tweeted{Conn}the President contemplated.	5	False	True	1
+{Prep} the President , the beaurocrat contemplated and tweeted{Conn}the President tweeted.	5	False	True	2
+{Prep} the beaurocrat , the President contemplated and tweeted{Conn}the President contemplated.	5	True	True	1
+{Prep} the beaurocrat , the President contemplated and tweeted{Conn}the President tweeted.	5	True	True	2
+{Prep} the beaurocrat , the President contemplated and tweeted{Conn}the beaurocrat contemplated.	5	False	True	1
+{Prep} the beaurocrat , the President contemplated and tweeted{Conn}the beaurocrat tweeted.	5	False	True	2
+{Prep} the President , the beaurocrat tweeted and contemplated{Conn}the beaurocrat tweeted.	5	True	True	1
+{Prep} the President , the beaurocrat tweeted and contemplated{Conn}the beaurocrat contemplated.	5	True	True	2
+{Prep} the President , the beaurocrat tweeted and contemplated{Conn}the President tweeted.	5	False	True	1
+{Prep} the President , the beaurocrat tweeted and contemplated{Conn}the President contemplated.	5	False	True	2
+{Prep} the beaurocrat , the President tweeted and contemplated{Conn}the President tweeted.	5	True	True	1
+{Prep} the beaurocrat , the President tweeted and contemplated{Conn}the President contemplated.	5	True	True	2
+{Prep} the beaurocrat , the President tweeted and contemplated{Conn}the beaurocrat tweeted.	5	False	True	1
+{Prep} the beaurocrat , the President tweeted and contemplated{Conn}the beaurocrat contemplated.	5	False	True	2
+{Prep} the bride , the priest shouted and frowned{Conn}the priest shouted.	6	True	True	1
+{Prep} the bride , the priest shouted and frowned{Conn}the priest frowned.	6	True	True	2
+{Prep} the bride , the priest shouted and frowned{Conn}the bride shouted.	6	False	True	1
+{Prep} the bride , the priest shouted and frowned{Conn}the bride frowned.	6	False	True	2
+{Prep} the priest , the bride shouted and frowned{Conn}the bride shouted.	6	True	True	1
+{Prep} the priest , the bride shouted and frowned{Conn}the bride frowned.	6	True	True	2
+{Prep} the priest , the bride shouted and frowned{Conn}the priest shouted.	6	False	True	1
+{Prep} the priest , the bride shouted and frowned{Conn}the priest frowned.	6	False	True	2
+{Prep} the bride , the priest frowned and shouted{Conn}the priest frowned.	6	True	True	1
+{Prep} the bride , the priest frowned and shouted{Conn}the priest shouted.	6	True	True	2
+{Prep} the bride , the priest frowned and shouted{Conn}the bride frowned.	6	False	True	1
+{Prep} the bride , the priest frowned and shouted{Conn}the bride shouted.	6	False	True	2
+{Prep} the priest , the bride frowned and shouted{Conn}the bride frowned.	6	True	True	1
+{Prep} the priest , the bride frowned and shouted{Conn}the bride shouted.	6	True	True	2
+{Prep} the priest , the bride frowned and shouted{Conn}the priest frowned.	6	False	True	1
+{Prep} the priest , the bride frowned and shouted{Conn}the priest shouted.	6	False	True	2
+{Prep} the bee , the flower sang and wriggled{Conn}the flower sang.	7	True	True	1
+{Prep} the bee , the flower sang and wriggled{Conn}the flower wriggled.	7	True	True	2
+{Prep} the bee , the flower sang and wriggled{Conn}the bee sang.	7	False	True	1
+{Prep} the bee , the flower sang and wriggled{Conn}the bee wriggled.	7	False	True	2
+{Prep} the flower , the bee sang and wriggled{Conn}the bee sang.	7	True	True	1
+{Prep} the flower , the bee sang and wriggled{Conn}the bee wriggled.	7	True	True	2
+{Prep} the flower , the bee sang and wriggled{Conn}the flower sang.	7	False	True	1
+{Prep} the flower , the bee sang and wriggled{Conn}the flower wriggled.	7	False	True	2
+{Prep} the bee , the flower wriggled and sang{Conn}the flower wriggled.	7	True	True	1
+{Prep} the bee , the flower wriggled and sang{Conn}the flower sang.	7	True	True	2
+{Prep} the bee , the flower wriggled and sang{Conn}the bee wriggled.	7	False	True	1
+{Prep} the bee , the flower wriggled and sang{Conn}the bee sang.	7	False	True	2
+{Prep} the flower , the bee wriggled and sang{Conn}the bee wriggled.	7	True	True	1
+{Prep} the flower , the bee wriggled and sang{Conn}the bee sang.	7	True	True	2
+{Prep} the flower , the bee wriggled and sang{Conn}the flower wriggled.	7	False	True	1
+{Prep} the flower , the bee wriggled and sang{Conn}the flower sang.	7	False	True	2
+{Prep} the baby , the nurse slept and cried{Conn}the nurse slept.	8	True	True	1
+{Prep} the baby , the nurse slept and cried{Conn}the nurse cried.	8	True	True	2
+{Prep} the baby , the nurse slept and cried{Conn}the baby slept.	8	False	True	1
+{Prep} the baby , the nurse slept and cried{Conn}the baby cried.	8	False	True	2
+{Prep} the nurse , the baby slept and cried{Conn}the baby slept.	8	True	True	1
+{Prep} the nurse , the baby slept and cried{Conn}the baby cried.	8	True	True	2
+{Prep} the nurse , the baby slept and cried{Conn}the nurse slept.	8	False	True	1
+{Prep} the nurse , the baby slept and cried{Conn}the nurse cried.	8	False	True	2
+{Prep} the baby , the nurse cried and slept{Conn}the nurse cried.	8	True	True	1
+{Prep} the baby , the nurse cried and slept{Conn}the nurse slept.	8	True	True	2
+{Prep} the baby , the nurse cried and slept{Conn}the baby cried.	8	False	True	1
+{Prep} the baby , the nurse cried and slept{Conn}the baby slept.	8	False	True	2
+{Prep} the nurse , the baby cried and slept{Conn}the baby cried.	8	True	True	1
+{Prep} the nurse , the baby cried and slept{Conn}the baby slept.	8	True	True	2
+{Prep} the nurse , the baby cried and slept{Conn}the nurse cried.	8	False	True	1
+{Prep} the nurse , the baby cried and slept{Conn}the nurse slept.	8	False	True	2
+{Prep} the virus , the antibodies emerged and dwindled{Conn}the antibodies emerged.	9	True	True	1
+{Prep} the virus , the antibodies emerged and dwindled{Conn}the antibodies dwindled.	9	True	True	2
+{Prep} the virus , the antibodies emerged and dwindled{Conn}the virus emerged.	9	False	True	1
+{Prep} the virus , the antibodies emerged and dwindled{Conn}the virus dwindled.	9	False	True	2
+{Prep} the antibodies , the virus emerged and dwindled{Conn}the virus emerged.	9	True	True	1
+{Prep} the antibodies , the virus emerged and dwindled{Conn}the virus dwindled.	9	True	True	2
+{Prep} the antibodies , the virus emerged and dwindled{Conn}the antibodies emerged.	9	False	True	1
+{Prep} the antibodies , the virus emerged and dwindled{Conn}the antibodies dwindled.	9	False	True	2
+{Prep} the virus , the antibodies dwindled and emerged{Conn}the antibodies dwindled.	9	True	True	1
+{Prep} the virus , the antibodies dwindled and emerged{Conn}the antibodies emerged.	9	True	True	2
+{Prep} the virus , the antibodies dwindled and emerged{Conn}the virus dwindled.	9	False	True	1
+{Prep} the virus , the antibodies dwindled and emerged{Conn}the virus emerged.	9	False	True	2
+{Prep} the antibodies , the virus dwindled and emerged{Conn}the virus dwindled.	9	True	True	1
+{Prep} the antibodies , the virus dwindled and emerged{Conn}the virus emerged.	9	True	True	2
+{Prep} the antibodies , the virus dwindled and emerged{Conn}the antibodies dwindled.	9	False	True	1
+{Prep} the antibodies , the virus dwindled and emerged{Conn}the antibodies emerged.	9	False	True	2
+{Prep} the chef , the octopus vanished and gasped{Conn}the octopus vanished.	10	True	True	1
+{Prep} the chef , the octopus vanished and gasped{Conn}the octopus gasped.	10	True	True	2
+{Prep} the chef , the octopus vanished and gasped{Conn}the chef vanished.	10	False	True	1
+{Prep} the chef , the octopus vanished and gasped{Conn}the chef gasped.	10	False	True	2
+{Prep} the octopus , the chef vanished and gasped{Conn}the chef vanished.	10	True	True	1
+{Prep} the octopus , the chef vanished and gasped{Conn}the chef gasped.	10	True	True	2
+{Prep} the octopus , the chef vanished and gasped{Conn}the octopus vanished.	10	False	True	1
+{Prep} the octopus , the chef vanished and gasped{Conn}the octopus gasped.	10	False	True	2
+{Prep} the chef , the octopus gasped and vanished{Conn}the octopus gasped.	10	True	True	1
+{Prep} the chef , the octopus gasped and vanished{Conn}the octopus vanished.	10	True	True	2
+{Prep} the chef , the octopus gasped and vanished{Conn}the chef gasped.	10	False	True	1
+{Prep} the chef , the octopus gasped and vanished{Conn}the chef vanished.	10	False	True	2
+{Prep} the octopus , the chef gasped and vanished{Conn}the chef gasped.	10	True	True	1
+{Prep} the octopus , the chef gasped and vanished{Conn}the chef vanished.	10	True	True	2
+{Prep} the octopus , the chef gasped and vanished{Conn}the octopus gasped.	10	False	True	1
+{Prep} the octopus , the chef gasped and vanished{Conn}the octopus vanished.	10	False	True	2
+{Prep} the journalist , the senator wrote and fumed{Conn}the senator wrote.	11	True	True	1
+{Prep} the journalist , the senator wrote and fumed{Conn}the senator fumed.	11	True	True	2
+{Prep} the journalist , the senator wrote and fumed{Conn}the journalist wrote.	11	False	True	1
+{Prep} the journalist , the senator wrote and fumed{Conn}the journalist fumed.	11	False	True	2
+{Prep} the senator , the journalist wrote and fumed{Conn}the journalist wrote.	11	True	True	1
+{Prep} the senator , the journalist wrote and fumed{Conn}the journalist fumed.	11	True	True	2
+{Prep} the senator , the journalist wrote and fumed{Conn}the senator wrote.	11	False	True	1
+{Prep} the senator , the journalist wrote and fumed{Conn}the senator fumed.	11	False	True	2
+{Prep} the journalist , the senator fumed and wrote{Conn}the senator fumed.	11	True	True	1
+{Prep} the journalist , the senator fumed and wrote{Conn}the senator wrote.	11	True	True	2
+{Prep} the journalist , the senator fumed and wrote{Conn}the journalist fumed.	11	False	True	1
+{Prep} the journalist , the senator fumed and wrote{Conn}the journalist wrote.	11	False	True	2
+{Prep} the senator , the journalist fumed and wrote{Conn}the journalist fumed.	11	True	True	1
+{Prep} the senator , the journalist fumed and wrote{Conn}the journalist wrote.	11	True	True	2
+{Prep} the senator , the journalist fumed and wrote{Conn}the senator fumed.	11	False	True	1
+{Prep} the senator , the journalist fumed and wrote{Conn}the senator wrote.	11	False	True	2
+{Prep} the ant , the grasshopper worked and played{Conn}the grasshopper worked.	12	True	True	1
+{Prep} the ant , the grasshopper worked and played{Conn}the grasshopper played.	12	True	True	2
+{Prep} the ant , the grasshopper worked and played{Conn}the ant worked.	12	False	True	1
+{Prep} the ant , the grasshopper worked and played{Conn}the ant played.	12	False	True	2
+{Prep} the grasshopper , the ant worked and played{Conn}the ant worked.	12	True	True	1
+{Prep} the grasshopper , the ant worked and played{Conn}the ant played.	12	True	True	2
+{Prep} the grasshopper , the ant worked and played{Conn}the grasshopper worked.	12	False	True	1
+{Prep} the grasshopper , the ant worked and played{Conn}the grasshopper played.	12	False	True	2
+{Prep} the ant , the grasshopper played and worked{Conn}the grasshopper played.	12	True	True	1
+{Prep} the ant , the grasshopper played and worked{Conn}the grasshopper worked.	12	True	True	2
+{Prep} the ant , the grasshopper played and worked{Conn}the ant played.	12	False	True	1
+{Prep} the ant , the grasshopper played and worked{Conn}the ant worked.	12	False	True	2
+{Prep} the grasshopper , the ant played and worked{Conn}the ant played.	12	True	True	1
+{Prep} the grasshopper , the ant played and worked{Conn}the ant worked.	12	True	True	2
+{Prep} the grasshopper , the ant played and worked{Conn}the grasshopper played.	12	False	True	1
+{Prep} the grasshopper , the ant played and worked{Conn}the grasshopper worked.	12	False	True	2
+{Prep} the princess , the witch melted and rejoiced{Conn}the witch melted.	13	True	True	1
+{Prep} the princess , the witch melted and rejoiced{Conn}the witch rejoiced.	13	True	True	2
+{Prep} the princess , the witch melted and rejoiced{Conn}the princess melted.	13	False	True	1
+{Prep} the princess , the witch melted and rejoiced{Conn}the princess rejoiced.	13	False	True	2
+{Prep} the witch , the princess melted and rejoiced{Conn}the princess melted.	13	True	True	1
+{Prep} the witch , the princess melted and rejoiced{Conn}the princess rejoiced.	13	True	True	2
+{Prep} the witch , the princess melted and rejoiced{Conn}the witch melted.	13	False	True	1
+{Prep} the witch , the princess melted and rejoiced{Conn}the witch rejoiced.	13	False	True	2
+{Prep} the princess , the witch rejoiced and melted{Conn}the witch rejoiced.	13	True	True	1
+{Prep} the princess , the witch rejoiced and melted{Conn}the witch melted.	13	True	True	2
+{Prep} the princess , the witch rejoiced and melted{Conn}the princess rejoiced.	13	False	True	1
+{Prep} the princess , the witch rejoiced and melted{Conn}the princess melted.	13	False	True	2
+{Prep} the witch , the princess rejoiced and melted{Conn}the princess rejoiced.	13	True	True	1
+{Prep} the witch , the princess rejoiced and melted{Conn}the princess melted.	13	True	True	2
+{Prep} the witch , the princess rejoiced and melted{Conn}the witch rejoiced.	13	False	True	1
+{Prep} the witch , the princess rejoiced and melted{Conn}the witch melted.	13	False	True	2
+{Prep} the fish , the turtle learned and failed{Conn}the turtle learned.	14	True	True	1
+{Prep} the fish , the turtle learned and failed{Conn}the turtle failed.	14	True	True	2
+{Prep} the fish , the turtle learned and failed{Conn}the fish learned.	14	False	True	1
+{Prep} the fish , the turtle learned and failed{Conn}the fish failed.	14	False	True	2
+{Prep} the turtle , the fish learned and failed{Conn}the fish learned.	14	True	True	1
+{Prep} the turtle , the fish learned and failed{Conn}the fish failed.	14	True	True	2
+{Prep} the turtle , the fish learned and failed{Conn}the turtle learned.	14	False	True	1
+{Prep} the turtle , the fish learned and failed{Conn}the turtle failed.	14	False	True	2
+{Prep} the fish , the turtle failed and learned{Conn}the turtle failed.	14	True	True	1
+{Prep} the fish , the turtle failed and learned{Conn}the turtle learned.	14	True	True	2
+{Prep} the fish , the turtle failed and learned{Conn}the fish failed.	14	False	True	1
+{Prep} the fish , the turtle failed and learned{Conn}the fish learned.	14	False	True	2
+{Prep} the turtle , the fish failed and learned{Conn}the fish failed.	14	True	True	1
+{Prep} the turtle , the fish failed and learned{Conn}the fish learned.	14	True	True	2
+{Prep} the turtle , the fish failed and learned{Conn}the turtle failed.	14	False	True	1
+{Prep} the turtle , the fish failed and learned{Conn}the turtle learned.	14	False	True	2
+{Prep} the king , the jester juggled and sang{Conn}the jester juggled.	15	True	True	1
+{Prep} the king , the jester juggled and sang{Conn}the jester sang.	15	True	True	2
+{Prep} the king , the jester juggled and sang{Conn}the king juggled.	15	False	True	1
+{Prep} the king , the jester juggled and sang{Conn}the king sang.	15	False	True	2
+{Prep} the jester , the king juggled and sang{Conn}the king juggled.	15	True	True	1
+{Prep} the jester , the king juggled and sang{Conn}the king sang.	15	True	True	2
+{Prep} the jester , the king juggled and sang{Conn}the jester juggled.	15	False	True	1
+{Prep} the jester , the king juggled and sang{Conn}the jester sang.	15	False	True	2
+{Prep} the king , the jester sang and juggled{Conn}the jester sang.	15	True	True	1
+{Prep} the king , the jester sang and juggled{Conn}the jester juggled.	15	True	True	2
+{Prep} the king , the jester sang and juggled{Conn}the king sang.	15	False	True	1
+{Prep} the king , the jester sang and juggled{Conn}the king juggled.	15	False	True	2
+{Prep} the jester , the king sang and juggled{Conn}the king sang.	15	True	True	1
+{Prep} the jester , the king sang and juggled{Conn}the king juggled.	15	True	True	2
+{Prep} the jester , the king sang and juggled{Conn}the jester sang.	15	False	True	1
+{Prep} the jester , the king sang and juggled{Conn}the jester juggled.	15	False	True	2
+{Prep} the poet , the dandelion swayed and breathed{Conn}the dandelion swayed.	16	True	True	1
+{Prep} the poet , the dandelion swayed and breathed{Conn}the dandelion breathed.	16	True	True	2
+{Prep} the poet , the dandelion swayed and breathed{Conn}the poet swayed.	16	False	True	1
+{Prep} the poet , the dandelion swayed and breathed{Conn}the poet breathed.	16	False	True	2
+{Prep} the dandelion , the poet swayed and breathed{Conn}the poet swayed.	16	True	True	1
+{Prep} the dandelion , the poet swayed and breathed{Conn}the poet breathed.	16	True	True	2
+{Prep} the dandelion , the poet swayed and breathed{Conn}the dandelion swayed.	16	False	True	1
+{Prep} the dandelion , the poet swayed and breathed{Conn}the dandelion breathed.	16	False	True	2
+{Prep} the poet , the dandelion breathed and swayed{Conn}the dandelion breathed.	16	True	True	1
+{Prep} the poet , the dandelion breathed and swayed{Conn}the dandelion swayed.	16	True	True	2
+{Prep} the poet , the dandelion breathed and swayed{Conn}the poet breathed.	16	False	True	1
+{Prep} the poet , the dandelion breathed and swayed{Conn}the poet swayed.	16	False	True	2
+{Prep} the dandelion , the poet breathed and swayed{Conn}the poet breathed.	16	True	True	1
+{Prep} the dandelion , the poet breathed and swayed{Conn}the poet swayed.	16	True	True	2
+{Prep} the dandelion , the poet breathed and swayed{Conn}the dandelion breathed.	16	False	True	1
+{Prep} the dandelion , the poet breathed and swayed{Conn}the dandelion swayed.	16	False	True	2
+{Prep} the worker , the boss resigned and apologized{Conn}the boss resigned.	17	True	True	1
+{Prep} the worker , the boss resigned and apologized{Conn}the boss apologized.	17	True	True	2
+{Prep} the worker , the boss resigned and apologized{Conn}the worker resigned.	17	False	True	1
+{Prep} the worker , the boss resigned and apologized{Conn}the worker apologized.	17	False	True	2
+{Prep} the boss , the worker resigned and apologized{Conn}the worker resigned.	17	True	True	1
+{Prep} the boss , the worker resigned and apologized{Conn}the worker apologized.	17	True	True	2
+{Prep} the boss , the worker resigned and apologized{Conn}the boss resigned.	17	False	True	1
+{Prep} the boss , the worker resigned and apologized{Conn}the boss apologized.	17	False	True	2
+{Prep} the worker , the boss apologized and resigned{Conn}the boss apologized.	17	True	True	1
+{Prep} the worker , the boss apologized and resigned{Conn}the boss resigned.	17	True	True	2
+{Prep} the worker , the boss apologized and resigned{Conn}the worker apologized.	17	False	True	1
+{Prep} the worker , the boss apologized and resigned{Conn}the worker resigned.	17	False	True	2
+{Prep} the boss , the worker apologized and resigned{Conn}the worker apologized.	17	True	True	1
+{Prep} the boss , the worker apologized and resigned{Conn}the worker resigned.	17	True	True	2
+{Prep} the boss , the worker apologized and resigned{Conn}the boss apologized.	17	False	True	1
+{Prep} the boss , the worker apologized and resigned{Conn}the boss resigned.	17	False	True	2
+{Prep} the magician , the bunny disappeared and observed{Conn}the bunny disappeared.	18	True	True	1
+{Prep} the magician , the bunny disappeared and observed{Conn}the bunny observed.	18	True	True	2
+{Prep} the magician , the bunny disappeared and observed{Conn}the magician disappeared.	18	False	True	1
+{Prep} the magician , the bunny disappeared and observed{Conn}the magician observed.	18	False	True	2
+{Prep} the bunny , the magician disappeared and observed{Conn}the magician disappeared.	18	True	True	1
+{Prep} the bunny , the magician disappeared and observed{Conn}the magician observed.	18	True	True	2
+{Prep} the bunny , the magician disappeared and observed{Conn}the bunny disappeared.	18	False	True	1
+{Prep} the bunny , the magician disappeared and observed{Conn}the bunny observed.	18	False	True	2
+{Prep} the magician , the bunny observed and disappeared{Conn}the bunny observed.	18	True	True	1
+{Prep} the magician , the bunny observed and disappeared{Conn}the bunny disappeared.	18	True	True	2
+{Prep} the magician , the bunny observed and disappeared{Conn}the magician observed.	18	False	True	1
+{Prep} the magician , the bunny observed and disappeared{Conn}the magician disappeared.	18	False	True	2
+{Prep} the bunny , the magician observed and disappeared{Conn}the magician observed.	18	True	True	1
+{Prep} the bunny , the magician observed and disappeared{Conn}the magician disappeared.	18	True	True	2
+{Prep} the bunny , the magician observed and disappeared{Conn}the bunny observed.	18	False	True	1
+{Prep} the bunny , the magician observed and disappeared{Conn}the bunny disappeared.	18	False	True	2
+{Prep} the dragon , the child apologized and flew{Conn}the child apologized.	19	True	True	1
+{Prep} the dragon , the child apologized and flew{Conn}the child flew.	19	True	True	2
+{Prep} the dragon , the child apologized and flew{Conn}the dragon apologized.	19	False	True	1
+{Prep} the dragon , the child apologized and flew{Conn}the dragon flew.	19	False	True	2
+{Prep} the child , the dragon apologized and flew{Conn}the dragon apologized.	19	True	True	1
+{Prep} the child , the dragon apologized and flew{Conn}the dragon flew.	19	True	True	2
+{Prep} the child , the dragon apologized and flew{Conn}the child apologized.	19	False	True	1
+{Prep} the child , the dragon apologized and flew{Conn}the child flew.	19	False	True	2
+{Prep} the dragon , the child flew and apologized{Conn}the child flew.	19	True	True	1
+{Prep} the dragon , the child flew and apologized{Conn}the child apologized.	19	True	True	2
+{Prep} the dragon , the child flew and apologized{Conn}the dragon flew.	19	False	True	1
+{Prep} the dragon , the child flew and apologized{Conn}the dragon apologized.	19	False	True	2
+{Prep} the child , the dragon flew and apologized{Conn}the dragon flew.	19	True	True	1
+{Prep} the child , the dragon flew and apologized{Conn}the dragon apologized.	19	True	True	2
+{Prep} the child , the dragon flew and apologized{Conn}the child flew.	19	False	True	1
+{Prep} the child , the dragon flew and apologized{Conn}the child apologized.	19	False	True	2
+{Prep} the comedian , the audience bombed and aged{Conn}the audience bombed.	20	True	True	1
+{Prep} the comedian , the audience bombed and aged{Conn}the audience aged.	20	True	True	2
+{Prep} the comedian , the audience bombed and aged{Conn}the comedian bombed.	20	False	True	1
+{Prep} the comedian , the audience bombed and aged{Conn}the comedian aged.	20	False	True	2
+{Prep} the audience , the comedian bombed and aged{Conn}the comedian bombed.	20	True	True	1
+{Prep} the audience , the comedian bombed and aged{Conn}the comedian aged.	20	True	True	2
+{Prep} the audience , the comedian bombed and aged{Conn}the audience bombed.	20	False	True	1
+{Prep} the audience , the comedian bombed and aged{Conn}the audience aged.	20	False	True	2
+{Prep} the comedian , the audience aged and bombed{Conn}the audience aged.	20	True	True	1
+{Prep} the comedian , the audience aged and bombed{Conn}the audience bombed.	20	True	True	2
+{Prep} the comedian , the audience aged and bombed{Conn}the comedian aged.	20	False	True	1
+{Prep} the comedian , the audience aged and bombed{Conn}the comedian bombed.	20	False	True	2
+{Prep} the audience , the comedian aged and bombed{Conn}the comedian aged.	20	True	True	1
+{Prep} the audience , the comedian aged and bombed{Conn}the comedian bombed.	20	True	True	2
+{Prep} the audience , the comedian aged and bombed{Conn}the audience aged.	20	False	True	1
+{Prep} the audience , the comedian aged and bombed{Conn}the audience bombed.	20	False	True	2
+{Prep} the therapist , the insurer refused and screamed{Conn}the insurer refused.	21	True	True	1
+{Prep} the therapist , the insurer refused and screamed{Conn}the insurer screamed.	21	True	True	2
+{Prep} the therapist , the insurer refused and screamed{Conn}the therapist refused.	21	False	True	1
+{Prep} the therapist , the insurer refused and screamed{Conn}the therapist screamed.	21	False	True	2
+{Prep} the insurer , the therapist refused and screamed{Conn}the therapist refused.	21	True	True	1
+{Prep} the insurer , the therapist refused and screamed{Conn}the therapist screamed.	21	True	True	2
+{Prep} the insurer , the therapist refused and screamed{Conn}the insurer refused.	21	False	True	1
+{Prep} the insurer , the therapist refused and screamed{Conn}the insurer screamed.	21	False	True	2
+{Prep} the therapist , the insurer screamed and refused{Conn}the insurer screamed.	21	True	True	1
+{Prep} the therapist , the insurer screamed and refused{Conn}the insurer refused.	21	True	True	2
+{Prep} the therapist , the insurer screamed and refused{Conn}the therapist screamed.	21	False	True	1
+{Prep} the therapist , the insurer screamed and refused{Conn}the therapist refused.	21	False	True	2
+{Prep} the insurer , the therapist screamed and refused{Conn}the therapist screamed.	21	True	True	1
+{Prep} the insurer , the therapist screamed and refused{Conn}the therapist refused.	21	True	True	2
+{Prep} the insurer , the therapist screamed and refused{Conn}the insurer screamed.	21	False	True	1
+{Prep} the insurer , the therapist screamed and refused{Conn}the insurer refused.	21	False	True	2
+{Prep} the shoes , the carpet shone and deteriorated{Conn}the carpet shone.	22	True	True	1
+{Prep} the shoes , the carpet shone and deteriorated{Conn}the carpet deteriorated.	22	True	True	2
+{Prep} the shoes , the carpet shone and deteriorated{Conn}the shoes shone.	22	False	True	1
+{Prep} the shoes , the carpet shone and deteriorated{Conn}the shoes deteriorated.	22	False	True	2
+{Prep} the carpet , the shoes shone and deteriorated{Conn}the shoes shone.	22	True	True	1
+{Prep} the carpet , the shoes shone and deteriorated{Conn}the shoes deteriorated.	22	True	True	2
+{Prep} the carpet , the shoes shone and deteriorated{Conn}the carpet shone.	22	False	True	1
+{Prep} the carpet , the shoes shone and deteriorated{Conn}the carpet deteriorated.	22	False	True	2
+{Prep} the shoes , the carpet deteriorated and shone{Conn}the carpet deteriorated.	22	True	True	1
+{Prep} the shoes , the carpet deteriorated and shone{Conn}the carpet shone.	22	True	True	2
+{Prep} the shoes , the carpet deteriorated and shone{Conn}the shoes deteriorated.	22	False	True	1
+{Prep} the shoes , the carpet deteriorated and shone{Conn}the shoes shone.	22	False	True	2
+{Prep} the carpet , the shoes deteriorated and shone{Conn}the shoes deteriorated.	22	True	True	1
+{Prep} the carpet , the shoes deteriorated and shone{Conn}the shoes shone.	22	True	True	2
+{Prep} the carpet , the shoes deteriorated and shone{Conn}the carpet deteriorated.	22	False	True	1
+{Prep} the carpet , the shoes deteriorated and shone{Conn}the carpet shone.	22	False	True	2
+{Prep} the principal , the student smiled and frowned{Conn}the student smiled.	23	True	True	1
+{Prep} the principal , the student smiled and frowned{Conn}the student frowned.	23	True	True	2
+{Prep} the principal , the student smiled and frowned{Conn}the principal smiled.	23	False	True	1
+{Prep} the principal , the student smiled and frowned{Conn}the principal frowned.	23	False	True	2
+{Prep} the student , the principal smiled and frowned{Conn}the principal smiled.	23	True	True	1
+{Prep} the student , the principal smiled and frowned{Conn}the principal frowned.	23	True	True	2
+{Prep} the student , the principal smiled and frowned{Conn}the student smiled.	23	False	True	1
+{Prep} the student , the principal smiled and frowned{Conn}the student frowned.	23	False	True	2
+{Prep} the principal , the student frowned and smiled{Conn}the student frowned.	23	True	True	1
+{Prep} the principal , the student frowned and smiled{Conn}the student smiled.	23	True	True	2
+{Prep} the principal , the student frowned and smiled{Conn}the principal frowned.	23	False	True	1
+{Prep} the principal , the student frowned and smiled{Conn}the principal smiled.	23	False	True	2
+{Prep} the student , the principal frowned and smiled{Conn}the principal frowned.	23	True	True	1
+{Prep} the student , the principal frowned and smiled{Conn}the principal smiled.	23	True	True	2
+{Prep} the student , the principal frowned and smiled{Conn}the student frowned.	23	False	True	1
+{Prep} the student , the principal frowned and smiled{Conn}the student smiled.	23	False	True	2
+{Prep} the river , the sea swelled and shimmered{Conn}the sea swelled.	24	True	True	1
+{Prep} the river , the sea swelled and shimmered{Conn}the sea shimmered.	24	True	True	2
+{Prep} the river , the sea swelled and shimmered{Conn}the river swelled.	24	False	True	1
+{Prep} the river , the sea swelled and shimmered{Conn}the river shimmered.	24	False	True	2
+{Prep} the sea , the river swelled and shimmered{Conn}the river swelled.	24	True	True	1
+{Prep} the sea , the river swelled and shimmered{Conn}the river shimmered.	24	True	True	2
+{Prep} the sea , the river swelled and shimmered{Conn}the sea swelled.	24	False	True	1
+{Prep} the sea , the river swelled and shimmered{Conn}the sea shimmered.	24	False	True	2
+{Prep} the river , the sea shimmered and swelled{Conn}the sea shimmered.	24	True	True	1
+{Prep} the river , the sea shimmered and swelled{Conn}the sea swelled.	24	True	True	2
+{Prep} the river , the sea shimmered and swelled{Conn}the river shimmered.	24	False	True	1
+{Prep} the river , the sea shimmered and swelled{Conn}the river swelled.	24	False	True	2
+{Prep} the sea , the river shimmered and swelled{Conn}the river shimmered.	24	True	True	1
+{Prep} the sea , the river shimmered and swelled{Conn}the river swelled.	24	True	True	2
+{Prep} the sea , the river shimmered and swelled{Conn}the sea shimmered.	24	False	True	1
+{Prep} the sea , the river shimmered and swelled{Conn}the sea swelled.	24	False	True	2

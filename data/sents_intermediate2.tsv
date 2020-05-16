@@ -1,401 +1,401 @@
-inference	item	correct	crossing
-The car hit the tree and burned{Conn}the car hit the tree.	0	True	True
-The car hit the tree and burned{Conn}the car burned.	0	True	False
-The car hit the tree and burned{Conn}the tree hit the car.	0	False	True
-The car hit the tree and burned{Conn}the tree burned.	0	False	False
-The tree hit the car and burned{Conn}the tree hit the car.	0	True	True
-The tree hit the car and burned{Conn}the tree burned.	0	True	False
-The tree hit the car and burned{Conn}the car hit the tree.	0	False	True
-The tree hit the car and burned{Conn}the car burned.	0	False	False
-The car hit the tree and shook{Conn}the car hit the tree.	0	True	True
-The car hit the tree and shook{Conn}the car shook.	0	True	False
-The car hit the tree and shook{Conn}the tree hit the car.	0	False	True
-The car hit the tree and shook{Conn}the tree hit the car.	0	False	False
-The tree hit the car and shook{Conn}the tree hit the car.	0	True	True
-The tree hit the car and shook{Conn}the tree shook.	0	True	False
-The tree hit the car and shook{Conn}the car hit the tree.	0	False	True
-The tree hit the car and shook{Conn}the car hit the tree.	0	False	False
-The grandma kissed the girl and smiled{Conn}the grandma kissed the girl.	1	True	True
-The grandma kissed the girl and smiled{Conn}the grandma smiled.	1	True	False
-The grandma kissed the girl and smiled{Conn}the girl kissed the grandma.	1	False	True
-The grandma kissed the girl and smiled{Conn}the girl smiled.	1	False	False
-The girl kissed the grandma and smiled{Conn}the girl kissed the grandma.	1	True	True
-The girl kissed the grandma and smiled{Conn}the girl smiled.	1	True	False
-The girl kissed the grandma and smiled{Conn}the grandma kissed the girl.	1	False	True
-The girl kissed the grandma and smiled{Conn}the grandma smiled.	1	False	False
-The grandma kissed the girl and laughed{Conn}the grandma kissed the girl.	1	True	True
-The grandma kissed the girl and laughed{Conn}the grandma laughed.	1	True	False
-The grandma kissed the girl and laughed{Conn}the girl kissed the grandma.	1	False	True
-The grandma kissed the girl and laughed{Conn}the girl kissed the grandma.	1	False	False
-The girl kissed the grandma and laughed{Conn}the girl kissed the grandma.	1	True	True
-The girl kissed the grandma and laughed{Conn}the girl laughed.	1	True	False
-The girl kissed the grandma and laughed{Conn}the grandma kissed the girl.	1	False	True
-The girl kissed the grandma and laughed{Conn}the grandma kissed the girl.	1	False	False
-The dog bit the cat and jumped{Conn}the dog bit the cat.	2	True	True
-The dog bit the cat and jumped{Conn}the dog jumped.	2	True	False
-The dog bit the cat and jumped{Conn}the cat bit the dog.	2	False	True
-The dog bit the cat and jumped{Conn}the cat jumped.	2	False	False
-The cat bit the dog and jumped{Conn}the cat bit the dog.	2	True	True
-The cat bit the dog and jumped{Conn}the cat jumped.	2	True	False
-The cat bit the dog and jumped{Conn}the dog bit the cat.	2	False	True
-The cat bit the dog and jumped{Conn}the dog jumped.	2	False	False
-The dog bit the cat and hid{Conn}the dog bit the cat.	2	True	True
-The dog bit the cat and hid{Conn}the dog hid.	2	True	False
-The dog bit the cat and hid{Conn}the cat bit the dog.	2	False	True
-The dog bit the cat and hid{Conn}the cat bit the dog.	2	False	False
-The cat bit the dog and hid{Conn}the cat bit the dog.	2	True	True
-The cat bit the dog and hid{Conn}the cat hid.	2	True	False
-The cat bit the dog and hid{Conn}the dog bit the cat.	2	False	True
-The cat bit the dog and hid{Conn}the dog bit the cat.	2	False	False
-The lion chased the tiger and growled{Conn}the lion chased the tiger.	3	True	True
-The lion chased the tiger and growled{Conn}the lion growled.	3	True	False
-The lion chased the tiger and growled{Conn}the tiger chased the lion.	3	False	True
-The lion chased the tiger and growled{Conn}the tiger growled.	3	False	False
-The tiger chased the lion and growled{Conn}the tiger chased the lion.	3	True	True
-The tiger chased the lion and growled{Conn}the tiger growled.	3	True	False
-The tiger chased the lion and growled{Conn}the lion chased the tiger.	3	False	True
-The tiger chased the lion and growled{Conn}the lion growled.	3	False	False
-The lion chased the tiger and yawned{Conn}the lion chased the tiger.	3	True	True
-The lion chased the tiger and yawned{Conn}the lion yawned.	3	True	False
-The lion chased the tiger and yawned{Conn}the tiger chased the lion.	3	False	True
-The lion chased the tiger and yawned{Conn}the tiger chased the lion.	3	False	False
-The tiger chased the lion and yawned{Conn}the tiger chased the lion.	3	True	True
-The tiger chased the lion and yawned{Conn}the tiger yawned.	3	True	False
-The tiger chased the lion and yawned{Conn}the lion chased the tiger.	3	False	True
-The tiger chased the lion and yawned{Conn}the lion chased the tiger.	3	False	False
-The doctor reviewed the patient and sat{Conn}the doctor reviewed the patient.	4	True	True
-The doctor reviewed the patient and sat{Conn}the doctor sat.	4	True	False
-The doctor reviewed the patient and sat{Conn}the patient reviewed the doctor.	4	False	True
-The doctor reviewed the patient and sat{Conn}the patient sat.	4	False	False
-The patient reviewed the doctor and sat{Conn}the patient reviewed the doctor.	4	True	True
-The patient reviewed the doctor and sat{Conn}the patient sat.	4	True	False
-The patient reviewed the doctor and sat{Conn}the doctor reviewed the patient.	4	False	True
-The patient reviewed the doctor and sat{Conn}the doctor sat.	4	False	False
-The doctor reviewed the patient and blinked{Conn}the doctor reviewed the patient.	4	True	True
-The doctor reviewed the patient and blinked{Conn}the doctor blinked.	4	True	False
-The doctor reviewed the patient and blinked{Conn}the patient reviewed the doctor.	4	False	True
-The doctor reviewed the patient and blinked{Conn}the patient reviewed the doctor.	4	False	False
-The patient reviewed the doctor and blinked{Conn}the patient reviewed the doctor.	4	True	True
-The patient reviewed the doctor and blinked{Conn}the patient blinked.	4	True	False
-The patient reviewed the doctor and blinked{Conn}the doctor reviewed the patient.	4	False	True
-The patient reviewed the doctor and blinked{Conn}the doctor reviewed the patient.	4	False	False
-The President noticed the beaurocrat and contemplated{Conn}the President noticed the beaurocrat.	5	True	True
-The President noticed the beaurocrat and contemplated{Conn}the President contemplated.	5	True	False
-The President noticed the beaurocrat and contemplated{Conn}the beaurocrat noticed the President.	5	False	True
-The President noticed the beaurocrat and contemplated{Conn}the beaurocrat contemplated.	5	False	False
-The beaurocrat noticed the President and contemplated{Conn}the beaurocrat noticed the President.	5	True	True
-The beaurocrat noticed the President and contemplated{Conn}the beaurocrat contemplated.	5	True	False
-The beaurocrat noticed the President and contemplated{Conn}the President noticed the beaurocrat.	5	False	True
-The beaurocrat noticed the President and contemplated{Conn}the President contemplated.	5	False	False
-The President noticed the beaurocrat and tweeted{Conn}the President noticed the beaurocrat.	5	True	True
-The President noticed the beaurocrat and tweeted{Conn}the President tweeted.	5	True	False
-The President noticed the beaurocrat and tweeted{Conn}the beaurocrat noticed the President.	5	False	True
-The President noticed the beaurocrat and tweeted{Conn}the beaurocrat noticed the President.	5	False	False
-The beaurocrat noticed the President and tweeted{Conn}the beaurocrat noticed the President.	5	True	True
-The beaurocrat noticed the President and tweeted{Conn}the beaurocrat tweeted.	5	True	False
-The beaurocrat noticed the President and tweeted{Conn}the President noticed the beaurocrat.	5	False	True
-The beaurocrat noticed the President and tweeted{Conn}the President noticed the beaurocrat.	5	False	False
-The bride slapped the priest and shouted{Conn}the bride slapped the priest.	6	True	True
-The bride slapped the priest and shouted{Conn}the bride shouted.	6	True	False
-The bride slapped the priest and shouted{Conn}the priest slapped the bride.	6	False	True
-The bride slapped the priest and shouted{Conn}the priest shouted.	6	False	False
-The priest slapped the bride and shouted{Conn}the priest slapped the bride.	6	True	True
-The priest slapped the bride and shouted{Conn}the priest shouted.	6	True	False
-The priest slapped the bride and shouted{Conn}the bride slapped the priest.	6	False	True
-The priest slapped the bride and shouted{Conn}the bride shouted.	6	False	False
-The bride slapped the priest and frowned{Conn}the bride slapped the priest.	6	True	True
-The bride slapped the priest and frowned{Conn}the bride frowned.	6	True	False
-The bride slapped the priest and frowned{Conn}the priest slapped the bride.	6	False	True
-The bride slapped the priest and frowned{Conn}the priest slapped the bride.	6	False	False
-The priest slapped the bride and frowned{Conn}the priest slapped the bride.	6	True	True
-The priest slapped the bride and frowned{Conn}the priest frowned.	6	True	False
-The priest slapped the bride and frowned{Conn}the bride slapped the priest.	6	False	True
-The priest slapped the bride and frowned{Conn}the bride slapped the priest.	6	False	False
-The bee appreciated the flower and sang{Conn}the bee appreciated the flower.	7	True	True
-The bee appreciated the flower and sang{Conn}the bee sang.	7	True	False
-The bee appreciated the flower and sang{Conn}the flower appreciated the bee.	7	False	True
-The bee appreciated the flower and sang{Conn}the flower sang.	7	False	False
-The flower appreciated the bee and sang{Conn}the flower appreciated the bee.	7	True	True
-The flower appreciated the bee and sang{Conn}the flower sang.	7	True	False
-The flower appreciated the bee and sang{Conn}the bee appreciated the flower.	7	False	True
-The flower appreciated the bee and sang{Conn}the bee sang.	7	False	False
-The bee appreciated the flower and wriggled{Conn}the bee appreciated the flower.	7	True	True
-The bee appreciated the flower and wriggled{Conn}the bee wriggled.	7	True	False
-The bee appreciated the flower and wriggled{Conn}the flower appreciated the bee.	7	False	True
-The bee appreciated the flower and wriggled{Conn}the flower appreciated the bee.	7	False	False
-The flower appreciated the bee and wriggled{Conn}the flower appreciated the bee.	7	True	True
-The flower appreciated the bee and wriggled{Conn}the flower wriggled.	7	True	False
-The flower appreciated the bee and wriggled{Conn}the bee appreciated the flower.	7	False	True
-The flower appreciated the bee and wriggled{Conn}the bee appreciated the flower.	7	False	False
-The baby loved the nurse and slept{Conn}the baby loved the nurse.	8	True	True
-The baby loved the nurse and slept{Conn}the baby slept.	8	True	False
-The baby loved the nurse and slept{Conn}the nurse loved the baby.	8	False	True
-The baby loved the nurse and slept{Conn}the nurse slept.	8	False	False
-The nurse loved the baby and slept{Conn}the nurse loved the baby.	8	True	True
-The nurse loved the baby and slept{Conn}the nurse slept.	8	True	False
-The nurse loved the baby and slept{Conn}the baby loved the nurse.	8	False	True
-The nurse loved the baby and slept{Conn}the baby slept.	8	False	False
-The baby loved the nurse and cried{Conn}the baby loved the nurse.	8	True	True
-The baby loved the nurse and cried{Conn}the baby cried.	8	True	False
-The baby loved the nurse and cried{Conn}the nurse loved the baby.	8	False	True
-The baby loved the nurse and cried{Conn}the nurse loved the baby.	8	False	False
-The nurse loved the baby and cried{Conn}the nurse loved the baby.	8	True	True
-The nurse loved the baby and cried{Conn}the nurse cried.	8	True	False
-The nurse loved the baby and cried{Conn}the baby loved the nurse.	8	False	True
-The nurse loved the baby and cried{Conn}the baby loved the nurse.	8	False	False
-The virus stopped the antibodies and emerged{Conn}the virus stopped the antibodies.	9	True	True
-The virus stopped the antibodies and emerged{Conn}the virus emerged.	9	True	False
-The virus stopped the antibodies and emerged{Conn}the antibodies stopped the virus.	9	False	True
-The virus stopped the antibodies and emerged{Conn}the antibodies emerged.	9	False	False
-The antibodies stopped the virus and emerged{Conn}the antibodies stopped the virus.	9	True	True
-The antibodies stopped the virus and emerged{Conn}the antibodies emerged.	9	True	False
-The antibodies stopped the virus and emerged{Conn}the virus stopped the antibodies.	9	False	True
-The antibodies stopped the virus and emerged{Conn}the virus emerged.	9	False	False
-The virus stopped the antibodies and dwindled{Conn}the virus stopped the antibodies.	9	True	True
-The virus stopped the antibodies and dwindled{Conn}the virus dwindled.	9	True	False
-The virus stopped the antibodies and dwindled{Conn}the antibodies stopped the virus.	9	False	True
-The virus stopped the antibodies and dwindled{Conn}the antibodies stopped the virus.	9	False	False
-The antibodies stopped the virus and dwindled{Conn}the antibodies stopped the virus.	9	True	True
-The antibodies stopped the virus and dwindled{Conn}the antibodies dwindled.	9	True	False
-The antibodies stopped the virus and dwindled{Conn}the virus stopped the antibodies.	9	False	True
-The antibodies stopped the virus and dwindled{Conn}the virus stopped the antibodies.	9	False	False
-The chef squeezed the octopus and vanished{Conn}the chef squeezed the octopus.	10	True	True
-The chef squeezed the octopus and vanished{Conn}the chef vanished.	10	True	False
-The chef squeezed the octopus and vanished{Conn}the octopus squeezed the chef.	10	False	True
-The chef squeezed the octopus and vanished{Conn}the octopus vanished.	10	False	False
-The octopus squeezed the chef and vanished{Conn}the octopus squeezed the chef.	10	True	True
-The octopus squeezed the chef and vanished{Conn}the octopus vanished.	10	True	False
-The octopus squeezed the chef and vanished{Conn}the chef squeezed the octopus.	10	False	True
-The octopus squeezed the chef and vanished{Conn}the chef vanished.	10	False	False
-The chef squeezed the octopus and gasped{Conn}the chef squeezed the octopus.	10	True	True
-The chef squeezed the octopus and gasped{Conn}the chef gasped.	10	True	False
-The chef squeezed the octopus and gasped{Conn}the octopus squeezed the chef.	10	False	True
-The chef squeezed the octopus and gasped{Conn}the octopus squeezed the chef.	10	False	False
-The octopus squeezed the chef and gasped{Conn}the octopus squeezed the chef.	10	True	True
-The octopus squeezed the chef and gasped{Conn}the octopus gasped.	10	True	False
-The octopus squeezed the chef and gasped{Conn}the chef squeezed the octopus.	10	False	True
-The octopus squeezed the chef and gasped{Conn}the chef squeezed the octopus.	10	False	False
-The journalist pestered the senator and wrote{Conn}the journalist pestered the senator.	11	True	True
-The journalist pestered the senator and wrote{Conn}the journalist wrote.	11	True	False
-The journalist pestered the senator and wrote{Conn}the senator pestered the journalist.	11	False	True
-The journalist pestered the senator and wrote{Conn}the senator wrote.	11	False	False
-The senator pestered the journalist and wrote{Conn}the senator pestered the journalist.	11	True	True
-The senator pestered the journalist and wrote{Conn}the senator wrote.	11	True	False
-The senator pestered the journalist and wrote{Conn}the journalist pestered the senator.	11	False	True
-The senator pestered the journalist and wrote{Conn}the journalist wrote.	11	False	False
-The journalist pestered the senator and fumed{Conn}the journalist pestered the senator.	11	True	True
-The journalist pestered the senator and fumed{Conn}the journalist fumed.	11	True	False
-The journalist pestered the senator and fumed{Conn}the senator pestered the journalist.	11	False	True
-The journalist pestered the senator and fumed{Conn}the senator pestered the journalist.	11	False	False
-The senator pestered the journalist and fumed{Conn}the senator pestered the journalist.	11	True	True
-The senator pestered the journalist and fumed{Conn}the senator fumed.	11	True	False
-The senator pestered the journalist and fumed{Conn}the journalist pestered the senator.	11	False	True
-The senator pestered the journalist and fumed{Conn}the journalist pestered the senator.	11	False	False
-The ant saw the grasshopper and worked{Conn}the ant saw the grasshopper.	12	True	True
-The ant saw the grasshopper and worked{Conn}the ant worked.	12	True	False
-The ant saw the grasshopper and worked{Conn}the grasshopper saw the ant.	12	False	True
-The ant saw the grasshopper and worked{Conn}the grasshopper worked.	12	False	False
-The grasshopper saw the ant and worked{Conn}the grasshopper saw the ant.	12	True	True
-The grasshopper saw the ant and worked{Conn}the grasshopper worked.	12	True	False
-The grasshopper saw the ant and worked{Conn}the ant saw the grasshopper.	12	False	True
-The grasshopper saw the ant and worked{Conn}the ant worked.	12	False	False
-The ant saw the grasshopper and played{Conn}the ant saw the grasshopper.	12	True	True
-The ant saw the grasshopper and played{Conn}the ant played.	12	True	False
-The ant saw the grasshopper and played{Conn}the grasshopper saw the ant.	12	False	True
-The ant saw the grasshopper and played{Conn}the grasshopper saw the ant.	12	False	False
-The grasshopper saw the ant and played{Conn}the grasshopper saw the ant.	12	True	True
-The grasshopper saw the ant and played{Conn}the grasshopper played.	12	True	False
-The grasshopper saw the ant and played{Conn}the ant saw the grasshopper.	12	False	True
-The grasshopper saw the ant and played{Conn}the ant saw the grasshopper.	12	False	False
-The princess angered the witch and melted{Conn}the princess angered the witch.	13	True	True
-The princess angered the witch and melted{Conn}the princess melted.	13	True	False
-The princess angered the witch and melted{Conn}the witch angered the princess.	13	False	True
-The princess angered the witch and melted{Conn}the witch melted.	13	False	False
-The witch angered the princess and melted{Conn}the witch angered the princess.	13	True	True
-The witch angered the princess and melted{Conn}the witch melted.	13	True	False
-The witch angered the princess and melted{Conn}the princess angered the witch.	13	False	True
-The witch angered the princess and melted{Conn}the princess melted.	13	False	False
-The princess angered the witch and rejoiced{Conn}the princess angered the witch.	13	True	True
-The princess angered the witch and rejoiced{Conn}the princess rejoiced.	13	True	False
-The princess angered the witch and rejoiced{Conn}the witch angered the princess.	13	False	True
-The princess angered the witch and rejoiced{Conn}the witch angered the princess.	13	False	False
-The witch angered the princess and rejoiced{Conn}the witch angered the princess.	13	True	True
-The witch angered the princess and rejoiced{Conn}the witch rejoiced.	13	True	False
-The witch angered the princess and rejoiced{Conn}the princess angered the witch.	13	False	True
-The witch angered the princess and rejoiced{Conn}the princess angered the witch.	13	False	False
-The fish sought the turtle and learned{Conn}the fish sought the turtle.	14	True	True
-The fish sought the turtle and learned{Conn}the fish learned.	14	True	False
-The fish sought the turtle and learned{Conn}the turtle sought the fish.	14	False	True
-The fish sought the turtle and learned{Conn}the turtle learned.	14	False	False
-The turtle sought the fish and learned{Conn}the turtle sought the fish.	14	True	True
-The turtle sought the fish and learned{Conn}the turtle learned.	14	True	False
-The turtle sought the fish and learned{Conn}the fish sought the turtle.	14	False	True
-The turtle sought the fish and learned{Conn}the fish learned.	14	False	False
-The fish sought the turtle and failed{Conn}the fish sought the turtle.	14	True	True
-The fish sought the turtle and failed{Conn}the fish failed.	14	True	False
-The fish sought the turtle and failed{Conn}the turtle sought the fish.	14	False	True
-The fish sought the turtle and failed{Conn}the turtle sought the fish.	14	False	False
-The turtle sought the fish and failed{Conn}the turtle sought the fish.	14	True	True
-The turtle sought the fish and failed{Conn}the turtle failed.	14	True	False
-The turtle sought the fish and failed{Conn}the fish sought the turtle.	14	False	True
-The turtle sought the fish and failed{Conn}the fish sought the turtle.	14	False	False
-The king entertained the jester and juggled{Conn}the king entertained the jester.	15	True	True
-The king entertained the jester and juggled{Conn}the king juggled.	15	True	False
-The king entertained the jester and juggled{Conn}the jester entertained the king.	15	False	True
-The king entertained the jester and juggled{Conn}the jester juggled.	15	False	False
-The jester entertained the king and juggled{Conn}the jester entertained the king.	15	True	True
-The jester entertained the king and juggled{Conn}the jester juggled.	15	True	False
-The jester entertained the king and juggled{Conn}the king entertained the jester.	15	False	True
-The jester entertained the king and juggled{Conn}the king juggled.	15	False	False
-The king entertained the jester and sang{Conn}the king entertained the jester.	15	True	True
-The king entertained the jester and sang{Conn}the king sang.	15	True	False
-The king entertained the jester and sang{Conn}the jester entertained the king.	15	False	True
-The king entertained the jester and sang{Conn}the jester entertained the king.	15	False	False
-The jester entertained the king and sang{Conn}the jester entertained the king.	15	True	True
-The jester entertained the king and sang{Conn}the jester sang.	15	True	False
-The jester entertained the king and sang{Conn}the king entertained the jester.	15	False	True
-The jester entertained the king and sang{Conn}the king entertained the jester.	15	False	False
-The poet brushed the dandelion and swayed{Conn}the poet brushed the dandelion.	16	True	True
-The poet brushed the dandelion and swayed{Conn}the poet swayed.	16	True	False
-The poet brushed the dandelion and swayed{Conn}the dandelion brushed the poet.	16	False	True
-The poet brushed the dandelion and swayed{Conn}the dandelion swayed.	16	False	False
-The dandelion brushed the poet and swayed{Conn}the dandelion brushed the poet.	16	True	True
-The dandelion brushed the poet and swayed{Conn}the dandelion swayed.	16	True	False
-The dandelion brushed the poet and swayed{Conn}the poet brushed the dandelion.	16	False	True
-The dandelion brushed the poet and swayed{Conn}the poet swayed.	16	False	False
-The poet brushed the dandelion and breathed{Conn}the poet brushed the dandelion.	16	True	True
-The poet brushed the dandelion and breathed{Conn}the poet breathed.	16	True	False
-The poet brushed the dandelion and breathed{Conn}the dandelion brushed the poet.	16	False	True
-The poet brushed the dandelion and breathed{Conn}the dandelion brushed the poet.	16	False	False
-The dandelion brushed the poet and breathed{Conn}the dandelion brushed the poet.	16	True	True
-The dandelion brushed the poet and breathed{Conn}the dandelion breathed.	16	True	False
-The dandelion brushed the poet and breathed{Conn}the poet brushed the dandelion.	16	False	True
-The dandelion brushed the poet and breathed{Conn}the poet brushed the dandelion.	16	False	False
-The worker sued the boss and resigned{Conn}the worker sued the boss.	17	True	True
-The worker sued the boss and resigned{Conn}the worker resigned.	17	True	False
-The worker sued the boss and resigned{Conn}the boss sued the worker.	17	False	True
-The worker sued the boss and resigned{Conn}the boss resigned.	17	False	False
-The boss sued the worker and resigned{Conn}the boss sued the worker.	17	True	True
-The boss sued the worker and resigned{Conn}the boss resigned.	17	True	False
-The boss sued the worker and resigned{Conn}the worker sued the boss.	17	False	True
-The boss sued the worker and resigned{Conn}the worker resigned.	17	False	False
-The worker sued the boss and apologized{Conn}the worker sued the boss.	17	True	True
-The worker sued the boss and apologized{Conn}the worker apologized.	17	True	False
-The worker sued the boss and apologized{Conn}the boss sued the worker.	17	False	True
-The worker sued the boss and apologized{Conn}the boss sued the worker.	17	False	False
-The boss sued the worker and apologized{Conn}the boss sued the worker.	17	True	True
-The boss sued the worker and apologized{Conn}the boss apologized.	17	True	False
-The boss sued the worker and apologized{Conn}the worker sued the boss.	17	False	True
-The boss sued the worker and apologized{Conn}the worker sued the boss.	17	False	False
-The magician touched the bunny and disappeared{Conn}the magician touched the bunny.	18	True	True
-The magician touched the bunny and disappeared{Conn}the magician disappeared.	18	True	False
-The magician touched the bunny and disappeared{Conn}the bunny touched the magician.	18	False	True
-The magician touched the bunny and disappeared{Conn}the bunny disappeared.	18	False	False
-The bunny touched the magician and disappeared{Conn}the bunny touched the magician.	18	True	True
-The bunny touched the magician and disappeared{Conn}the bunny disappeared.	18	True	False
-The bunny touched the magician and disappeared{Conn}the magician touched the bunny.	18	False	True
-The bunny touched the magician and disappeared{Conn}the magician disappeared.	18	False	False
-The magician touched the bunny and observed{Conn}the magician touched the bunny.	18	True	True
-The magician touched the bunny and observed{Conn}the magician observed.	18	True	False
-The magician touched the bunny and observed{Conn}the bunny touched the magician.	18	False	True
-The magician touched the bunny and observed{Conn}the bunny touched the magician.	18	False	False
-The bunny touched the magician and observed{Conn}the bunny touched the magician.	18	True	True
-The bunny touched the magician and observed{Conn}the bunny observed.	18	True	False
-The bunny touched the magician and observed{Conn}the magician touched the bunny.	18	False	True
-The bunny touched the magician and observed{Conn}the magician touched the bunny.	18	False	False
-The dragon surprised the child and apologized{Conn}the dragon surprised the child.	19	True	True
-The dragon surprised the child and apologized{Conn}the dragon apologized.	19	True	False
-The dragon surprised the child and apologized{Conn}the child surprised the dragon.	19	False	True
-The dragon surprised the child and apologized{Conn}the child apologized.	19	False	False
-The child surprised the dragon and apologized{Conn}the child surprised the dragon.	19	True	True
-The child surprised the dragon and apologized{Conn}the child apologized.	19	True	False
-The child surprised the dragon and apologized{Conn}the dragon surprised the child.	19	False	True
-The child surprised the dragon and apologized{Conn}the dragon apologized.	19	False	False
-The dragon surprised the child and flew{Conn}the dragon surprised the child.	19	True	True
-The dragon surprised the child and flew{Conn}the dragon flew.	19	True	False
-The dragon surprised the child and flew{Conn}the child surprised the dragon.	19	False	True
-The dragon surprised the child and flew{Conn}the child surprised the dragon.	19	False	False
-The child surprised the dragon and flew{Conn}the child surprised the dragon.	19	True	True
-The child surprised the dragon and flew{Conn}the child flew.	19	True	False
-The child surprised the dragon and flew{Conn}the dragon surprised the child.	19	False	True
-The child surprised the dragon and flew{Conn}the dragon surprised the child.	19	False	False
-The comedian delighted the audience and bombed{Conn}the comedian delighted the audience.	20	True	True
-The comedian delighted the audience and bombed{Conn}the comedian bombed.	20	True	False
-The comedian delighted the audience and bombed{Conn}the audience delighted the comedian.	20	False	True
-The comedian delighted the audience and bombed{Conn}the audience bombed.	20	False	False
-The audience delighted the comedian and bombed{Conn}the audience delighted the comedian.	20	True	True
-The audience delighted the comedian and bombed{Conn}the audience bombed.	20	True	False
-The audience delighted the comedian and bombed{Conn}the comedian delighted the audience.	20	False	True
-The audience delighted the comedian and bombed{Conn}the comedian bombed.	20	False	False
-The comedian delighted the audience and aged{Conn}the comedian delighted the audience.	20	True	True
-The comedian delighted the audience and aged{Conn}the comedian aged.	20	True	False
-The comedian delighted the audience and aged{Conn}the audience delighted the comedian.	20	False	True
-The comedian delighted the audience and aged{Conn}the audience delighted the comedian.	20	False	False
-The audience delighted the comedian and aged{Conn}the audience delighted the comedian.	20	True	True
-The audience delighted the comedian and aged{Conn}the audience aged.	20	True	False
-The audience delighted the comedian and aged{Conn}the comedian delighted the audience.	20	False	True
-The audience delighted the comedian and aged{Conn}the comedian delighted the audience.	20	False	False
-The therapist frustrated the insurer and refused{Conn}the therapist frustrated the insurer.	21	True	True
-The therapist frustrated the insurer and refused{Conn}the therapist refused.	21	True	False
-The therapist frustrated the insurer and refused{Conn}the insurer frustrated the therapist.	21	False	True
-The therapist frustrated the insurer and refused{Conn}the insurer refused.	21	False	False
-The insurer frustrated the therapist and refused{Conn}the insurer frustrated the therapist.	21	True	True
-The insurer frustrated the therapist and refused{Conn}the insurer refused.	21	True	False
-The insurer frustrated the therapist and refused{Conn}the therapist frustrated the insurer.	21	False	True
-The insurer frustrated the therapist and refused{Conn}the therapist refused.	21	False	False
-The therapist frustrated the insurer and screamed{Conn}the therapist frustrated the insurer.	21	True	True
-The therapist frustrated the insurer and screamed{Conn}the therapist screamed.	21	True	False
-The therapist frustrated the insurer and screamed{Conn}the insurer frustrated the therapist.	21	False	True
-The therapist frustrated the insurer and screamed{Conn}the insurer frustrated the therapist.	21	False	False
-The insurer frustrated the therapist and screamed{Conn}the insurer frustrated the therapist.	21	True	True
-The insurer frustrated the therapist and screamed{Conn}the insurer screamed.	21	True	False
-The insurer frustrated the therapist and screamed{Conn}the therapist frustrated the insurer.	21	False	True
-The insurer frustrated the therapist and screamed{Conn}the therapist frustrated the insurer.	21	False	False
-The shoes destroyed the carpet and shone{Conn}the shoes destroyed the carpet.	22	True	True
-The shoes destroyed the carpet and shone{Conn}the shoes shone.	22	True	False
-The shoes destroyed the carpet and shone{Conn}the carpet destroyed the shoes.	22	False	True
-The shoes destroyed the carpet and shone{Conn}the carpet shone.	22	False	False
-The carpet destroyed the shoes and shone{Conn}the carpet destroyed the shoes.	22	True	True
-The carpet destroyed the shoes and shone{Conn}the carpet shone.	22	True	False
-The carpet destroyed the shoes and shone{Conn}the shoes destroyed the carpet.	22	False	True
-The carpet destroyed the shoes and shone{Conn}the shoes shone.	22	False	False
-The shoes destroyed the carpet and deteriorated{Conn}the shoes destroyed the carpet.	22	True	True
-The shoes destroyed the carpet and deteriorated{Conn}the shoes deteriorated.	22	True	False
-The shoes destroyed the carpet and deteriorated{Conn}the carpet destroyed the shoes.	22	False	True
-The shoes destroyed the carpet and deteriorated{Conn}the carpet destroyed the shoes.	22	False	False
-The carpet destroyed the shoes and deteriorated{Conn}the carpet destroyed the shoes.	22	True	True
-The carpet destroyed the shoes and deteriorated{Conn}the carpet deteriorated.	22	True	False
-The carpet destroyed the shoes and deteriorated{Conn}the shoes destroyed the carpet.	22	False	True
-The carpet destroyed the shoes and deteriorated{Conn}the shoes destroyed the carpet.	22	False	False
-The principal expelled the student and smiled{Conn}the principal expelled the student.	23	True	True
-The principal expelled the student and smiled{Conn}the principal smiled.	23	True	False
-The principal expelled the student and smiled{Conn}the student expelled the principal.	23	False	True
-The principal expelled the student and smiled{Conn}the student smiled.	23	False	False
-The student expelled the principal and smiled{Conn}the student expelled the principal.	23	True	True
-The student expelled the principal and smiled{Conn}the student smiled.	23	True	False
-The student expelled the principal and smiled{Conn}the principal expelled the student.	23	False	True
-The student expelled the principal and smiled{Conn}the principal smiled.	23	False	False
-The principal expelled the student and frowned{Conn}the principal expelled the student.	23	True	True
-The principal expelled the student and frowned{Conn}the principal frowned.	23	True	False
-The principal expelled the student and frowned{Conn}the student expelled the principal.	23	False	True
-The principal expelled the student and frowned{Conn}the student expelled the principal.	23	False	False
-The student expelled the principal and frowned{Conn}the student expelled the principal.	23	True	True
-The student expelled the principal and frowned{Conn}the student frowned.	23	True	False
-The student expelled the principal and frowned{Conn}the principal expelled the student.	23	False	True
-The student expelled the principal and frowned{Conn}the principal expelled the student.	23	False	False
-The river joined the sea and swelled{Conn}the river joined the sea.	24	True	True
-The river joined the sea and swelled{Conn}the river swelled.	24	True	False
-The river joined the sea and swelled{Conn}the sea joined the river.	24	False	True
-The river joined the sea and swelled{Conn}the sea swelled.	24	False	False
-The sea joined the river and swelled{Conn}the sea joined the river.	24	True	True
-The sea joined the river and swelled{Conn}the sea swelled.	24	True	False
-The sea joined the river and swelled{Conn}the river joined the sea.	24	False	True
-The sea joined the river and swelled{Conn}the river swelled.	24	False	False
-The river joined the sea and shimmered{Conn}the river joined the sea.	24	True	True
-The river joined the sea and shimmered{Conn}the river shimmered.	24	True	False
-The river joined the sea and shimmered{Conn}the sea joined the river.	24	False	True
-The river joined the sea and shimmered{Conn}the sea joined the river.	24	False	False
-The sea joined the river and shimmered{Conn}the sea joined the river.	24	True	True
-The sea joined the river and shimmered{Conn}the sea shimmered.	24	True	False
-The sea joined the river and shimmered{Conn}the river joined the sea.	24	False	True
-The sea joined the river and shimmered{Conn}the river joined the sea.	24	False	False
+inference	item	correct	crossing	subform.id
+The car hit the tree and burned{Conn}the car hit the tree.	0	True	True	1
+The car hit the tree and burned{Conn}the car burned.	0	True	False	2
+The car hit the tree and burned{Conn}the tree hit the car.	0	False	True	1
+The car hit the tree and burned{Conn}the tree burned.	0	False	False	2
+The tree hit the car and burned{Conn}the tree hit the car.	0	True	True	1
+The tree hit the car and burned{Conn}the tree burned.	0	True	False	2
+The tree hit the car and burned{Conn}the car hit the tree.	0	False	True	1
+The tree hit the car and burned{Conn}the car burned.	0	False	False	2
+The car hit the tree and shook{Conn}the car hit the tree.	0	True	True	1
+The car hit the tree and shook{Conn}the car shook.	0	True	False	2
+The car hit the tree and shook{Conn}the tree hit the car.	0	False	True	1
+The car hit the tree and shook{Conn}the tree hit the car.	0	False	False	2
+The tree hit the car and shook{Conn}the tree hit the car.	0	True	True	1
+The tree hit the car and shook{Conn}the tree shook.	0	True	False	2
+The tree hit the car and shook{Conn}the car hit the tree.	0	False	True	1
+The tree hit the car and shook{Conn}the car hit the tree.	0	False	False	2
+The grandma kissed the girl and smiled{Conn}the grandma kissed the girl.	1	True	True	1
+The grandma kissed the girl and smiled{Conn}the grandma smiled.	1	True	False	2
+The grandma kissed the girl and smiled{Conn}the girl kissed the grandma.	1	False	True	1
+The grandma kissed the girl and smiled{Conn}the girl smiled.	1	False	False	2
+The girl kissed the grandma and smiled{Conn}the girl kissed the grandma.	1	True	True	1
+The girl kissed the grandma and smiled{Conn}the girl smiled.	1	True	False	2
+The girl kissed the grandma and smiled{Conn}the grandma kissed the girl.	1	False	True	1
+The girl kissed the grandma and smiled{Conn}the grandma smiled.	1	False	False	2
+The grandma kissed the girl and laughed{Conn}the grandma kissed the girl.	1	True	True	1
+The grandma kissed the girl and laughed{Conn}the grandma laughed.	1	True	False	2
+The grandma kissed the girl and laughed{Conn}the girl kissed the grandma.	1	False	True	1
+The grandma kissed the girl and laughed{Conn}the girl kissed the grandma.	1	False	False	2
+The girl kissed the grandma and laughed{Conn}the girl kissed the grandma.	1	True	True	1
+The girl kissed the grandma and laughed{Conn}the girl laughed.	1	True	False	2
+The girl kissed the grandma and laughed{Conn}the grandma kissed the girl.	1	False	True	1
+The girl kissed the grandma and laughed{Conn}the grandma kissed the girl.	1	False	False	2
+The dog bit the cat and jumped{Conn}the dog bit the cat.	2	True	True	1
+The dog bit the cat and jumped{Conn}the dog jumped.	2	True	False	2
+The dog bit the cat and jumped{Conn}the cat bit the dog.	2	False	True	1
+The dog bit the cat and jumped{Conn}the cat jumped.	2	False	False	2
+The cat bit the dog and jumped{Conn}the cat bit the dog.	2	True	True	1
+The cat bit the dog and jumped{Conn}the cat jumped.	2	True	False	2
+The cat bit the dog and jumped{Conn}the dog bit the cat.	2	False	True	1
+The cat bit the dog and jumped{Conn}the dog jumped.	2	False	False	2
+The dog bit the cat and hid{Conn}the dog bit the cat.	2	True	True	1
+The dog bit the cat and hid{Conn}the dog hid.	2	True	False	2
+The dog bit the cat and hid{Conn}the cat bit the dog.	2	False	True	1
+The dog bit the cat and hid{Conn}the cat bit the dog.	2	False	False	2
+The cat bit the dog and hid{Conn}the cat bit the dog.	2	True	True	1
+The cat bit the dog and hid{Conn}the cat hid.	2	True	False	2
+The cat bit the dog and hid{Conn}the dog bit the cat.	2	False	True	1
+The cat bit the dog and hid{Conn}the dog bit the cat.	2	False	False	2
+The lion chased the tiger and growled{Conn}the lion chased the tiger.	3	True	True	1
+The lion chased the tiger and growled{Conn}the lion growled.	3	True	False	2
+The lion chased the tiger and growled{Conn}the tiger chased the lion.	3	False	True	1
+The lion chased the tiger and growled{Conn}the tiger growled.	3	False	False	2
+The tiger chased the lion and growled{Conn}the tiger chased the lion.	3	True	True	1
+The tiger chased the lion and growled{Conn}the tiger growled.	3	True	False	2
+The tiger chased the lion and growled{Conn}the lion chased the tiger.	3	False	True	1
+The tiger chased the lion and growled{Conn}the lion growled.	3	False	False	2
+The lion chased the tiger and yawned{Conn}the lion chased the tiger.	3	True	True	1
+The lion chased the tiger and yawned{Conn}the lion yawned.	3	True	False	2
+The lion chased the tiger and yawned{Conn}the tiger chased the lion.	3	False	True	1
+The lion chased the tiger and yawned{Conn}the tiger chased the lion.	3	False	False	2
+The tiger chased the lion and yawned{Conn}the tiger chased the lion.	3	True	True	1
+The tiger chased the lion and yawned{Conn}the tiger yawned.	3	True	False	2
+The tiger chased the lion and yawned{Conn}the lion chased the tiger.	3	False	True	1
+The tiger chased the lion and yawned{Conn}the lion chased the tiger.	3	False	False	2
+The doctor reviewed the patient and sat{Conn}the doctor reviewed the patient.	4	True	True	1
+The doctor reviewed the patient and sat{Conn}the doctor sat.	4	True	False	2
+The doctor reviewed the patient and sat{Conn}the patient reviewed the doctor.	4	False	True	1
+The doctor reviewed the patient and sat{Conn}the patient sat.	4	False	False	2
+The patient reviewed the doctor and sat{Conn}the patient reviewed the doctor.	4	True	True	1
+The patient reviewed the doctor and sat{Conn}the patient sat.	4	True	False	2
+The patient reviewed the doctor and sat{Conn}the doctor reviewed the patient.	4	False	True	1
+The patient reviewed the doctor and sat{Conn}the doctor sat.	4	False	False	2
+The doctor reviewed the patient and blinked{Conn}the doctor reviewed the patient.	4	True	True	1
+The doctor reviewed the patient and blinked{Conn}the doctor blinked.	4	True	False	2
+The doctor reviewed the patient and blinked{Conn}the patient reviewed the doctor.	4	False	True	1
+The doctor reviewed the patient and blinked{Conn}the patient reviewed the doctor.	4	False	False	2
+The patient reviewed the doctor and blinked{Conn}the patient reviewed the doctor.	4	True	True	1
+The patient reviewed the doctor and blinked{Conn}the patient blinked.	4	True	False	2
+The patient reviewed the doctor and blinked{Conn}the doctor reviewed the patient.	4	False	True	1
+The patient reviewed the doctor and blinked{Conn}the doctor reviewed the patient.	4	False	False	2
+The President noticed the beaurocrat and contemplated{Conn}the President noticed the beaurocrat.	5	True	True	1
+The President noticed the beaurocrat and contemplated{Conn}the President contemplated.	5	True	False	2
+The President noticed the beaurocrat and contemplated{Conn}the beaurocrat noticed the President.	5	False	True	1
+The President noticed the beaurocrat and contemplated{Conn}the beaurocrat contemplated.	5	False	False	2
+The beaurocrat noticed the President and contemplated{Conn}the beaurocrat noticed the President.	5	True	True	1
+The beaurocrat noticed the President and contemplated{Conn}the beaurocrat contemplated.	5	True	False	2
+The beaurocrat noticed the President and contemplated{Conn}the President noticed the beaurocrat.	5	False	True	1
+The beaurocrat noticed the President and contemplated{Conn}the President contemplated.	5	False	False	2
+The President noticed the beaurocrat and tweeted{Conn}the President noticed the beaurocrat.	5	True	True	1
+The President noticed the beaurocrat and tweeted{Conn}the President tweeted.	5	True	False	2
+The President noticed the beaurocrat and tweeted{Conn}the beaurocrat noticed the President.	5	False	True	1
+The President noticed the beaurocrat and tweeted{Conn}the beaurocrat noticed the President.	5	False	False	2
+The beaurocrat noticed the President and tweeted{Conn}the beaurocrat noticed the President.	5	True	True	1
+The beaurocrat noticed the President and tweeted{Conn}the beaurocrat tweeted.	5	True	False	2
+The beaurocrat noticed the President and tweeted{Conn}the President noticed the beaurocrat.	5	False	True	1
+The beaurocrat noticed the President and tweeted{Conn}the President noticed the beaurocrat.	5	False	False	2
+The bride slapped the priest and shouted{Conn}the bride slapped the priest.	6	True	True	1
+The bride slapped the priest and shouted{Conn}the bride shouted.	6	True	False	2
+The bride slapped the priest and shouted{Conn}the priest slapped the bride.	6	False	True	1
+The bride slapped the priest and shouted{Conn}the priest shouted.	6	False	False	2
+The priest slapped the bride and shouted{Conn}the priest slapped the bride.	6	True	True	1
+The priest slapped the bride and shouted{Conn}the priest shouted.	6	True	False	2
+The priest slapped the bride and shouted{Conn}the bride slapped the priest.	6	False	True	1
+The priest slapped the bride and shouted{Conn}the bride shouted.	6	False	False	2
+The bride slapped the priest and frowned{Conn}the bride slapped the priest.	6	True	True	1
+The bride slapped the priest and frowned{Conn}the bride frowned.	6	True	False	2
+The bride slapped the priest and frowned{Conn}the priest slapped the bride.	6	False	True	1
+The bride slapped the priest and frowned{Conn}the priest slapped the bride.	6	False	False	2
+The priest slapped the bride and frowned{Conn}the priest slapped the bride.	6	True	True	1
+The priest slapped the bride and frowned{Conn}the priest frowned.	6	True	False	2
+The priest slapped the bride and frowned{Conn}the bride slapped the priest.	6	False	True	1
+The priest slapped the bride and frowned{Conn}the bride slapped the priest.	6	False	False	2
+The bee appreciated the flower and sang{Conn}the bee appreciated the flower.	7	True	True	1
+The bee appreciated the flower and sang{Conn}the bee sang.	7	True	False	2
+The bee appreciated the flower and sang{Conn}the flower appreciated the bee.	7	False	True	1
+The bee appreciated the flower and sang{Conn}the flower sang.	7	False	False	2
+The flower appreciated the bee and sang{Conn}the flower appreciated the bee.	7	True	True	1
+The flower appreciated the bee and sang{Conn}the flower sang.	7	True	False	2
+The flower appreciated the bee and sang{Conn}the bee appreciated the flower.	7	False	True	1
+The flower appreciated the bee and sang{Conn}the bee sang.	7	False	False	2
+The bee appreciated the flower and wriggled{Conn}the bee appreciated the flower.	7	True	True	1
+The bee appreciated the flower and wriggled{Conn}the bee wriggled.	7	True	False	2
+The bee appreciated the flower and wriggled{Conn}the flower appreciated the bee.	7	False	True	1
+The bee appreciated the flower and wriggled{Conn}the flower appreciated the bee.	7	False	False	2
+The flower appreciated the bee and wriggled{Conn}the flower appreciated the bee.	7	True	True	1
+The flower appreciated the bee and wriggled{Conn}the flower wriggled.	7	True	False	2
+The flower appreciated the bee and wriggled{Conn}the bee appreciated the flower.	7	False	True	1
+The flower appreciated the bee and wriggled{Conn}the bee appreciated the flower.	7	False	False	2
+The baby loved the nurse and slept{Conn}the baby loved the nurse.	8	True	True	1
+The baby loved the nurse and slept{Conn}the baby slept.	8	True	False	2
+The baby loved the nurse and slept{Conn}the nurse loved the baby.	8	False	True	1
+The baby loved the nurse and slept{Conn}the nurse slept.	8	False	False	2
+The nurse loved the baby and slept{Conn}the nurse loved the baby.	8	True	True	1
+The nurse loved the baby and slept{Conn}the nurse slept.	8	True	False	2
+The nurse loved the baby and slept{Conn}the baby loved the nurse.	8	False	True	1
+The nurse loved the baby and slept{Conn}the baby slept.	8	False	False	2
+The baby loved the nurse and cried{Conn}the baby loved the nurse.	8	True	True	1
+The baby loved the nurse and cried{Conn}the baby cried.	8	True	False	2
+The baby loved the nurse and cried{Conn}the nurse loved the baby.	8	False	True	1
+The baby loved the nurse and cried{Conn}the nurse loved the baby.	8	False	False	2
+The nurse loved the baby and cried{Conn}the nurse loved the baby.	8	True	True	1
+The nurse loved the baby and cried{Conn}the nurse cried.	8	True	False	2
+The nurse loved the baby and cried{Conn}the baby loved the nurse.	8	False	True	1
+The nurse loved the baby and cried{Conn}the baby loved the nurse.	8	False	False	2
+The virus stopped the antibodies and emerged{Conn}the virus stopped the antibodies.	9	True	True	1
+The virus stopped the antibodies and emerged{Conn}the virus emerged.	9	True	False	2
+The virus stopped the antibodies and emerged{Conn}the antibodies stopped the virus.	9	False	True	1
+The virus stopped the antibodies and emerged{Conn}the antibodies emerged.	9	False	False	2
+The antibodies stopped the virus and emerged{Conn}the antibodies stopped the virus.	9	True	True	1
+The antibodies stopped the virus and emerged{Conn}the antibodies emerged.	9	True	False	2
+The antibodies stopped the virus and emerged{Conn}the virus stopped the antibodies.	9	False	True	1
+The antibodies stopped the virus and emerged{Conn}the virus emerged.	9	False	False	2
+The virus stopped the antibodies and dwindled{Conn}the virus stopped the antibodies.	9	True	True	1
+The virus stopped the antibodies and dwindled{Conn}the virus dwindled.	9	True	False	2
+The virus stopped the antibodies and dwindled{Conn}the antibodies stopped the virus.	9	False	True	1
+The virus stopped the antibodies and dwindled{Conn}the antibodies stopped the virus.	9	False	False	2
+The antibodies stopped the virus and dwindled{Conn}the antibodies stopped the virus.	9	True	True	1
+The antibodies stopped the virus and dwindled{Conn}the antibodies dwindled.	9	True	False	2
+The antibodies stopped the virus and dwindled{Conn}the virus stopped the antibodies.	9	False	True	1
+The antibodies stopped the virus and dwindled{Conn}the virus stopped the antibodies.	9	False	False	2
+The chef squeezed the octopus and vanished{Conn}the chef squeezed the octopus.	10	True	True	1
+The chef squeezed the octopus and vanished{Conn}the chef vanished.	10	True	False	2
+The chef squeezed the octopus and vanished{Conn}the octopus squeezed the chef.	10	False	True	1
+The chef squeezed the octopus and vanished{Conn}the octopus vanished.	10	False	False	2
+The octopus squeezed the chef and vanished{Conn}the octopus squeezed the chef.	10	True	True	1
+The octopus squeezed the chef and vanished{Conn}the octopus vanished.	10	True	False	2
+The octopus squeezed the chef and vanished{Conn}the chef squeezed the octopus.	10	False	True	1
+The octopus squeezed the chef and vanished{Conn}the chef vanished.	10	False	False	2
+The chef squeezed the octopus and gasped{Conn}the chef squeezed the octopus.	10	True	True	1
+The chef squeezed the octopus and gasped{Conn}the chef gasped.	10	True	False	2
+The chef squeezed the octopus and gasped{Conn}the octopus squeezed the chef.	10	False	True	1
+The chef squeezed the octopus and gasped{Conn}the octopus squeezed the chef.	10	False	False	2
+The octopus squeezed the chef and gasped{Conn}the octopus squeezed the chef.	10	True	True	1
+The octopus squeezed the chef and gasped{Conn}the octopus gasped.	10	True	False	2
+The octopus squeezed the chef and gasped{Conn}the chef squeezed the octopus.	10	False	True	1
+The octopus squeezed the chef and gasped{Conn}the chef squeezed the octopus.	10	False	False	2
+The journalist pestered the senator and wrote{Conn}the journalist pestered the senator.	11	True	True	1
+The journalist pestered the senator and wrote{Conn}the journalist wrote.	11	True	False	2
+The journalist pestered the senator and wrote{Conn}the senator pestered the journalist.	11	False	True	1
+The journalist pestered the senator and wrote{Conn}the senator wrote.	11	False	False	2
+The senator pestered the journalist and wrote{Conn}the senator pestered the journalist.	11	True	True	1
+The senator pestered the journalist and wrote{Conn}the senator wrote.	11	True	False	2
+The senator pestered the journalist and wrote{Conn}the journalist pestered the senator.	11	False	True	1
+The senator pestered the journalist and wrote{Conn}the journalist wrote.	11	False	False	2
+The journalist pestered the senator and fumed{Conn}the journalist pestered the senator.	11	True	True	1
+The journalist pestered the senator and fumed{Conn}the journalist fumed.	11	True	False	2
+The journalist pestered the senator and fumed{Conn}the senator pestered the journalist.	11	False	True	1
+The journalist pestered the senator and fumed{Conn}the senator pestered the journalist.	11	False	False	2
+The senator pestered the journalist and fumed{Conn}the senator pestered the journalist.	11	True	True	1
+The senator pestered the journalist and fumed{Conn}the senator fumed.	11	True	False	2
+The senator pestered the journalist and fumed{Conn}the journalist pestered the senator.	11	False	True	1
+The senator pestered the journalist and fumed{Conn}the journalist pestered the senator.	11	False	False	2
+The ant saw the grasshopper and worked{Conn}the ant saw the grasshopper.	12	True	True	1
+The ant saw the grasshopper and worked{Conn}the ant worked.	12	True	False	2
+The ant saw the grasshopper and worked{Conn}the grasshopper saw the ant.	12	False	True	1
+The ant saw the grasshopper and worked{Conn}the grasshopper worked.	12	False	False	2
+The grasshopper saw the ant and worked{Conn}the grasshopper saw the ant.	12	True	True	1
+The grasshopper saw the ant and worked{Conn}the grasshopper worked.	12	True	False	2
+The grasshopper saw the ant and worked{Conn}the ant saw the grasshopper.	12	False	True	1
+The grasshopper saw the ant and worked{Conn}the ant worked.	12	False	False	2
+The ant saw the grasshopper and played{Conn}the ant saw the grasshopper.	12	True	True	1
+The ant saw the grasshopper and played{Conn}the ant played.	12	True	False	2
+The ant saw the grasshopper and played{Conn}the grasshopper saw the ant.	12	False	True	1
+The ant saw the grasshopper and played{Conn}the grasshopper saw the ant.	12	False	False	2
+The grasshopper saw the ant and played{Conn}the grasshopper saw the ant.	12	True	True	1
+The grasshopper saw the ant and played{Conn}the grasshopper played.	12	True	False	2
+The grasshopper saw the ant and played{Conn}the ant saw the grasshopper.	12	False	True	1
+The grasshopper saw the ant and played{Conn}the ant saw the grasshopper.	12	False	False	2
+The princess angered the witch and melted{Conn}the princess angered the witch.	13	True	True	1
+The princess angered the witch and melted{Conn}the princess melted.	13	True	False	2
+The princess angered the witch and melted{Conn}the witch angered the princess.	13	False	True	1
+The princess angered the witch and melted{Conn}the witch melted.	13	False	False	2
+The witch angered the princess and melted{Conn}the witch angered the princess.	13	True	True	1
+The witch angered the princess and melted{Conn}the witch melted.	13	True	False	2
+The witch angered the princess and melted{Conn}the princess angered the witch.	13	False	True	1
+The witch angered the princess and melted{Conn}the princess melted.	13	False	False	2
+The princess angered the witch and rejoiced{Conn}the princess angered the witch.	13	True	True	1
+The princess angered the witch and rejoiced{Conn}the princess rejoiced.	13	True	False	2
+The princess angered the witch and rejoiced{Conn}the witch angered the princess.	13	False	True	1
+The princess angered the witch and rejoiced{Conn}the witch angered the princess.	13	False	False	2
+The witch angered the princess and rejoiced{Conn}the witch angered the princess.	13	True	True	1
+The witch angered the princess and rejoiced{Conn}the witch rejoiced.	13	True	False	2
+The witch angered the princess and rejoiced{Conn}the princess angered the witch.	13	False	True	1
+The witch angered the princess and rejoiced{Conn}the princess angered the witch.	13	False	False	2
+The fish sought the turtle and learned{Conn}the fish sought the turtle.	14	True	True	1
+The fish sought the turtle and learned{Conn}the fish learned.	14	True	False	2
+The fish sought the turtle and learned{Conn}the turtle sought the fish.	14	False	True	1
+The fish sought the turtle and learned{Conn}the turtle learned.	14	False	False	2
+The turtle sought the fish and learned{Conn}the turtle sought the fish.	14	True	True	1
+The turtle sought the fish and learned{Conn}the turtle learned.	14	True	False	2
+The turtle sought the fish and learned{Conn}the fish sought the turtle.	14	False	True	1
+The turtle sought the fish and learned{Conn}the fish learned.	14	False	False	2
+The fish sought the turtle and failed{Conn}the fish sought the turtle.	14	True	True	1
+The fish sought the turtle and failed{Conn}the fish failed.	14	True	False	2
+The fish sought the turtle and failed{Conn}the turtle sought the fish.	14	False	True	1
+The fish sought the turtle and failed{Conn}the turtle sought the fish.	14	False	False	2
+The turtle sought the fish and failed{Conn}the turtle sought the fish.	14	True	True	1
+The turtle sought the fish and failed{Conn}the turtle failed.	14	True	False	2
+The turtle sought the fish and failed{Conn}the fish sought the turtle.	14	False	True	1
+The turtle sought the fish and failed{Conn}the fish sought the turtle.	14	False	False	2
+The king entertained the jester and juggled{Conn}the king entertained the jester.	15	True	True	1
+The king entertained the jester and juggled{Conn}the king juggled.	15	True	False	2
+The king entertained the jester and juggled{Conn}the jester entertained the king.	15	False	True	1
+The king entertained the jester and juggled{Conn}the jester juggled.	15	False	False	2
+The jester entertained the king and juggled{Conn}the jester entertained the king.	15	True	True	1
+The jester entertained the king and juggled{Conn}the jester juggled.	15	True	False	2
+The jester entertained the king and juggled{Conn}the king entertained the jester.	15	False	True	1
+The jester entertained the king and juggled{Conn}the king juggled.	15	False	False	2
+The king entertained the jester and sang{Conn}the king entertained the jester.	15	True	True	1
+The king entertained the jester and sang{Conn}the king sang.	15	True	False	2
+The king entertained the jester and sang{Conn}the jester entertained the king.	15	False	True	1
+The king entertained the jester and sang{Conn}the jester entertained the king.	15	False	False	2
+The jester entertained the king and sang{Conn}the jester entertained the king.	15	True	True	1
+The jester entertained the king and sang{Conn}the jester sang.	15	True	False	2
+The jester entertained the king and sang{Conn}the king entertained the jester.	15	False	True	1
+The jester entertained the king and sang{Conn}the king entertained the jester.	15	False	False	2
+The poet brushed the dandelion and swayed{Conn}the poet brushed the dandelion.	16	True	True	1
+The poet brushed the dandelion and swayed{Conn}the poet swayed.	16	True	False	2
+The poet brushed the dandelion and swayed{Conn}the dandelion brushed the poet.	16	False	True	1
+The poet brushed the dandelion and swayed{Conn}the dandelion swayed.	16	False	False	2
+The dandelion brushed the poet and swayed{Conn}the dandelion brushed the poet.	16	True	True	1
+The dandelion brushed the poet and swayed{Conn}the dandelion swayed.	16	True	False	2
+The dandelion brushed the poet and swayed{Conn}the poet brushed the dandelion.	16	False	True	1
+The dandelion brushed the poet and swayed{Conn}the poet swayed.	16	False	False	2
+The poet brushed the dandelion and breathed{Conn}the poet brushed the dandelion.	16	True	True	1
+The poet brushed the dandelion and breathed{Conn}the poet breathed.	16	True	False	2
+The poet brushed the dandelion and breathed{Conn}the dandelion brushed the poet.	16	False	True	1
+The poet brushed the dandelion and breathed{Conn}the dandelion brushed the poet.	16	False	False	2
+The dandelion brushed the poet and breathed{Conn}the dandelion brushed the poet.	16	True	True	1
+The dandelion brushed the poet and breathed{Conn}the dandelion breathed.	16	True	False	2
+The dandelion brushed the poet and breathed{Conn}the poet brushed the dandelion.	16	False	True	1
+The dandelion brushed the poet and breathed{Conn}the poet brushed the dandelion.	16	False	False	2
+The worker sued the boss and resigned{Conn}the worker sued the boss.	17	True	True	1
+The worker sued the boss and resigned{Conn}the worker resigned.	17	True	False	2
+The worker sued the boss and resigned{Conn}the boss sued the worker.	17	False	True	1
+The worker sued the boss and resigned{Conn}the boss resigned.	17	False	False	2
+The boss sued the worker and resigned{Conn}the boss sued the worker.	17	True	True	1
+The boss sued the worker and resigned{Conn}the boss resigned.	17	True	False	2
+The boss sued the worker and resigned{Conn}the worker sued the boss.	17	False	True	1
+The boss sued the worker and resigned{Conn}the worker resigned.	17	False	False	2
+The worker sued the boss and apologized{Conn}the worker sued the boss.	17	True	True	1
+The worker sued the boss and apologized{Conn}the worker apologized.	17	True	False	2
+The worker sued the boss and apologized{Conn}the boss sued the worker.	17	False	True	1
+The worker sued the boss and apologized{Conn}the boss sued the worker.	17	False	False	2
+The boss sued the worker and apologized{Conn}the boss sued the worker.	17	True	True	1
+The boss sued the worker and apologized{Conn}the boss apologized.	17	True	False	2
+The boss sued the worker and apologized{Conn}the worker sued the boss.	17	False	True	1
+The boss sued the worker and apologized{Conn}the worker sued the boss.	17	False	False	2
+The magician touched the bunny and disappeared{Conn}the magician touched the bunny.	18	True	True	1
+The magician touched the bunny and disappeared{Conn}the magician disappeared.	18	True	False	2
+The magician touched the bunny and disappeared{Conn}the bunny touched the magician.	18	False	True	1
+The magician touched the bunny and disappeared{Conn}the bunny disappeared.	18	False	False	2
+The bunny touched the magician and disappeared{Conn}the bunny touched the magician.	18	True	True	1
+The bunny touched the magician and disappeared{Conn}the bunny disappeared.	18	True	False	2
+The bunny touched the magician and disappeared{Conn}the magician touched the bunny.	18	False	True	1
+The bunny touched the magician and disappeared{Conn}the magician disappeared.	18	False	False	2
+The magician touched the bunny and observed{Conn}the magician touched the bunny.	18	True	True	1
+The magician touched the bunny and observed{Conn}the magician observed.	18	True	False	2
+The magician touched the bunny and observed{Conn}the bunny touched the magician.	18	False	True	1
+The magician touched the bunny and observed{Conn}the bunny touched the magician.	18	False	False	2
+The bunny touched the magician and observed{Conn}the bunny touched the magician.	18	True	True	1
+The bunny touched the magician and observed{Conn}the bunny observed.	18	True	False	2
+The bunny touched the magician and observed{Conn}the magician touched the bunny.	18	False	True	1
+The bunny touched the magician and observed{Conn}the magician touched the bunny.	18	False	False	2
+The dragon surprised the child and apologized{Conn}the dragon surprised the child.	19	True	True	1
+The dragon surprised the child and apologized{Conn}the dragon apologized.	19	True	False	2
+The dragon surprised the child and apologized{Conn}the child surprised the dragon.	19	False	True	1
+The dragon surprised the child and apologized{Conn}the child apologized.	19	False	False	2
+The child surprised the dragon and apologized{Conn}the child surprised the dragon.	19	True	True	1
+The child surprised the dragon and apologized{Conn}the child apologized.	19	True	False	2
+The child surprised the dragon and apologized{Conn}the dragon surprised the child.	19	False	True	1
+The child surprised the dragon and apologized{Conn}the dragon apologized.	19	False	False	2
+The dragon surprised the child and flew{Conn}the dragon surprised the child.	19	True	True	1
+The dragon surprised the child and flew{Conn}the dragon flew.	19	True	False	2
+The dragon surprised the child and flew{Conn}the child surprised the dragon.	19	False	True	1
+The dragon surprised the child and flew{Conn}the child surprised the dragon.	19	False	False	2
+The child surprised the dragon and flew{Conn}the child surprised the dragon.	19	True	True	1
+The child surprised the dragon and flew{Conn}the child flew.	19	True	False	2
+The child surprised the dragon and flew{Conn}the dragon surprised the child.	19	False	True	1
+The child surprised the dragon and flew{Conn}the dragon surprised the child.	19	False	False	2
+The comedian delighted the audience and bombed{Conn}the comedian delighted the audience.	20	True	True	1
+The comedian delighted the audience and bombed{Conn}the comedian bombed.	20	True	False	2
+The comedian delighted the audience and bombed{Conn}the audience delighted the comedian.	20	False	True	1
+The comedian delighted the audience and bombed{Conn}the audience bombed.	20	False	False	2
+The audience delighted the comedian and bombed{Conn}the audience delighted the comedian.	20	True	True	1
+The audience delighted the comedian and bombed{Conn}the audience bombed.	20	True	False	2
+The audience delighted the comedian and bombed{Conn}the comedian delighted the audience.	20	False	True	1
+The audience delighted the comedian and bombed{Conn}the comedian bombed.	20	False	False	2
+The comedian delighted the audience and aged{Conn}the comedian delighted the audience.	20	True	True	1
+The comedian delighted the audience and aged{Conn}the comedian aged.	20	True	False	2
+The comedian delighted the audience and aged{Conn}the audience delighted the comedian.	20	False	True	1
+The comedian delighted the audience and aged{Conn}the audience delighted the comedian.	20	False	False	2
+The audience delighted the comedian and aged{Conn}the audience delighted the comedian.	20	True	True	1
+The audience delighted the comedian and aged{Conn}the audience aged.	20	True	False	2
+The audience delighted the comedian and aged{Conn}the comedian delighted the audience.	20	False	True	1
+The audience delighted the comedian and aged{Conn}the comedian delighted the audience.	20	False	False	2
+The therapist frustrated the insurer and refused{Conn}the therapist frustrated the insurer.	21	True	True	1
+The therapist frustrated the insurer and refused{Conn}the therapist refused.	21	True	False	2
+The therapist frustrated the insurer and refused{Conn}the insurer frustrated the therapist.	21	False	True	1
+The therapist frustrated the insurer and refused{Conn}the insurer refused.	21	False	False	2
+The insurer frustrated the therapist and refused{Conn}the insurer frustrated the therapist.	21	True	True	1
+The insurer frustrated the therapist and refused{Conn}the insurer refused.	21	True	False	2
+The insurer frustrated the therapist and refused{Conn}the therapist frustrated the insurer.	21	False	True	1
+The insurer frustrated the therapist and refused{Conn}the therapist refused.	21	False	False	2
+The therapist frustrated the insurer and screamed{Conn}the therapist frustrated the insurer.	21	True	True	1
+The therapist frustrated the insurer and screamed{Conn}the therapist screamed.	21	True	False	2
+The therapist frustrated the insurer and screamed{Conn}the insurer frustrated the therapist.	21	False	True	1
+The therapist frustrated the insurer and screamed{Conn}the insurer frustrated the therapist.	21	False	False	2
+The insurer frustrated the therapist and screamed{Conn}the insurer frustrated the therapist.	21	True	True	1
+The insurer frustrated the therapist and screamed{Conn}the insurer screamed.	21	True	False	2
+The insurer frustrated the therapist and screamed{Conn}the therapist frustrated the insurer.	21	False	True	1
+The insurer frustrated the therapist and screamed{Conn}the therapist frustrated the insurer.	21	False	False	2
+The shoes destroyed the carpet and shone{Conn}the shoes destroyed the carpet.	22	True	True	1
+The shoes destroyed the carpet and shone{Conn}the shoes shone.	22	True	False	2
+The shoes destroyed the carpet and shone{Conn}the carpet destroyed the shoes.	22	False	True	1
+The shoes destroyed the carpet and shone{Conn}the carpet shone.	22	False	False	2
+The carpet destroyed the shoes and shone{Conn}the carpet destroyed the shoes.	22	True	True	1
+The carpet destroyed the shoes and shone{Conn}the carpet shone.	22	True	False	2
+The carpet destroyed the shoes and shone{Conn}the shoes destroyed the carpet.	22	False	True	1
+The carpet destroyed the shoes and shone{Conn}the shoes shone.	22	False	False	2
+The shoes destroyed the carpet and deteriorated{Conn}the shoes destroyed the carpet.	22	True	True	1
+The shoes destroyed the carpet and deteriorated{Conn}the shoes deteriorated.	22	True	False	2
+The shoes destroyed the carpet and deteriorated{Conn}the carpet destroyed the shoes.	22	False	True	1
+The shoes destroyed the carpet and deteriorated{Conn}the carpet destroyed the shoes.	22	False	False	2
+The carpet destroyed the shoes and deteriorated{Conn}the carpet destroyed the shoes.	22	True	True	1
+The carpet destroyed the shoes and deteriorated{Conn}the carpet deteriorated.	22	True	False	2
+The carpet destroyed the shoes and deteriorated{Conn}the shoes destroyed the carpet.	22	False	True	1
+The carpet destroyed the shoes and deteriorated{Conn}the shoes destroyed the carpet.	22	False	False	2
+The principal expelled the student and smiled{Conn}the principal expelled the student.	23	True	True	1
+The principal expelled the student and smiled{Conn}the principal smiled.	23	True	False	2
+The principal expelled the student and smiled{Conn}the student expelled the principal.	23	False	True	1
+The principal expelled the student and smiled{Conn}the student smiled.	23	False	False	2
+The student expelled the principal and smiled{Conn}the student expelled the principal.	23	True	True	1
+The student expelled the principal and smiled{Conn}the student smiled.	23	True	False	2
+The student expelled the principal and smiled{Conn}the principal expelled the student.	23	False	True	1
+The student expelled the principal and smiled{Conn}the principal smiled.	23	False	False	2
+The principal expelled the student and frowned{Conn}the principal expelled the student.	23	True	True	1
+The principal expelled the student and frowned{Conn}the principal frowned.	23	True	False	2
+The principal expelled the student and frowned{Conn}the student expelled the principal.	23	False	True	1
+The principal expelled the student and frowned{Conn}the student expelled the principal.	23	False	False	2
+The student expelled the principal and frowned{Conn}the student expelled the principal.	23	True	True	1
+The student expelled the principal and frowned{Conn}the student frowned.	23	True	False	2
+The student expelled the principal and frowned{Conn}the principal expelled the student.	23	False	True	1
+The student expelled the principal and frowned{Conn}the principal expelled the student.	23	False	False	2
+The river joined the sea and swelled{Conn}the river joined the sea.	24	True	True	1
+The river joined the sea and swelled{Conn}the river swelled.	24	True	False	2
+The river joined the sea and swelled{Conn}the sea joined the river.	24	False	True	1
+The river joined the sea and swelled{Conn}the sea swelled.	24	False	False	2
+The sea joined the river and swelled{Conn}the sea joined the river.	24	True	True	1
+The sea joined the river and swelled{Conn}the sea swelled.	24	True	False	2
+The sea joined the river and swelled{Conn}the river joined the sea.	24	False	True	1
+The sea joined the river and swelled{Conn}the river swelled.	24	False	False	2
+The river joined the sea and shimmered{Conn}the river joined the sea.	24	True	True	1
+The river joined the sea and shimmered{Conn}the river shimmered.	24	True	False	2
+The river joined the sea and shimmered{Conn}the sea joined the river.	24	False	True	1
+The river joined the sea and shimmered{Conn}the sea joined the river.	24	False	False	2
+The sea joined the river and shimmered{Conn}the sea joined the river.	24	True	True	1
+The sea joined the river and shimmered{Conn}the sea shimmered.	24	True	False	2
+The sea joined the river and shimmered{Conn}the river joined the sea.	24	False	True	1
+The sea joined the river and shimmered{Conn}the river joined the sea.	24	False	False	2
