@@ -9,11 +9,13 @@ header-includes: |
 output:
   html_document:
     df_print: paged
+    toc: true
+    toc_float: true
+    code_folding: hide
   pdf_document:
     highlight: default
     latex_engine: xelatex
     number_sections: yes
-classoption: landscape
 monofont: Fira Code Retina
 geometry: margin=0.5in
 ---
@@ -24,18 +26,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 library(Hmisc)
+# library(boot)
 library(tidyverse)
-library(boot)
 set.seed(42)
-options(boot.parallel='multicore')
-options(boot.ncpus=8)
+# options(boot.parallel='multicore')
+# options(boot.ncpus=8)
 ```
 
 # Data wrangling
 
 ```{r}
-forms <- 1:7
-
 results2tbl <- function(model_prefix, sents_prefix, n) {
   for (i in n) {
     # Bind all the result tsv's into one tbl, with a column for experiment;
@@ -64,16 +64,20 @@ results2tbl <- function(model_prefix, sents_prefix, n) {
 ```
 
 ```{r}
+forms <- 1:7
 lm1b <- results2tbl('lm1b_', '../data/small_sents', forms) %>% mutate(Model='lm1b')
 gpt2 <- results2tbl('gpt2_', '../data/sents', forms) %>% mutate(Model='gpt2')
 
 # Just a taste...
 print(sample_n(lm1b, 10))
 print(sample_n(gpt2, 10))
+
+allmodels <- bind_rows(lm1b, gpt2)
 ```
 
+Birds-eye view which may or may not be very helpful...
 ```{r}
-summ <- bind_rows(lm1b, gpt2) %>%
+summ <- allmodels %>%
   group_by(Experiment, Subform.id, Connective.summ, Matches, Model) %>%
   summarize(avg=mean(Inference))
 
@@ -94,31 +98,34 @@ ggplot(summ %>% filter(Model=='gpt2'), aes(x=Experiment, y=avg, fill=interaction
 
 # Does NN know enough about SVO dependencies to be less surprised at summary than contrast? (MATCHING ONLY)
 
+## Behavioral pattern
+
 ```{r}
-avgs_summ <- bind_rows(lm1b, gpt2) %>%
+avgs_summ <- allmodels %>%
   filter(Connective.summ==T) %>%
   group_by(Experiment, Subform.id, Matches, Model) %>%
-  summarize(avg.summ=mean(Inference))
+  summarize(avg.summ=median(Inference))
 
-avgs_contr <- bind_rows(lm1b, gpt2) %>%
+avgs_contr <- allmodels %>%
   filter(Connective.summ==F) %>%
   group_by(Experiment, Subform.id, Matches, Model) %>%
-  summarize(avg.contr=mean(Inference))
+  summarize(avg.contr=median(Inference))
 
-# note that these two tbls rows correspond; sum(avgs_summ[,1:4]!=avgs_contr[,1:4]) = 0
+# note that these two tbls rows have corresponding columns except for avg;
+# sum(avgs_summ[,1:4]!=avgs_contr[,1:4]) = 0
 
-avgs <- avgs_summ %>%
+avgs1 <- avgs_summ %>%
   bind_cols(avg.contr=avgs_contr$avg.contr) %>%
   mutate(avg.diff=(avg.summ - avg.contr)) %>%
   filter(Matches==T)  # MATCHING ONLY
 
-ggplot(avgs %>% filter(Model=='lm1b'), aes(x=Experiment, y=avg.diff, fill=Subform.id)) +
+ggplot(avgs1 %>% filter(Model=='lm1b'), aes(x=Experiment, y=avg.diff, fill=Subform.id)) +
   geom_bar(stat="identity", position="dodge") +
   # scale_fill_grey(start = 0, end = .95) + theme_bw() +
   scale_x_continuous(breaks=forms) +
   ggtitle("(lm1b) Summary - Contrast, Matching=T")
 
-ggplot(avgs %>% filter(Model=='gpt2'), aes(x=Experiment, y=avg.diff, fill=Subform.id)) +
+ggplot(avgs1 %>% filter(Model=='gpt2'), aes(x=Experiment, y=avg.diff, fill=Subform.id)) +
   geom_bar(stat="identity", position="dodge") +
   # scale_fill_grey(start = 0, end = .95) + theme_bw() +
   scale_x_continuous(breaks=forms) +
@@ -127,33 +134,67 @@ ggplot(avgs %>% filter(Model=='gpt2'), aes(x=Experiment, y=avg.diff, fill=Subfor
 
 # Does NN know enough about SVO dependencies to be less surprised at matching than mismatched? (SUMMARY ONLY)
 
+## Behavioral pattern
+
 ```{r}
-avgs_match <- bind_rows(lm1b, gpt2) %>%
+avgs_match <- allmodels %>%
   filter(Matches==T) %>%
   group_by(Experiment, Subform.id, Connective.summ, Model) %>%
-  summarize(avg.match=mean(Inference))
+  summarize(avg.match=median(Inference))
 
-avgs_mismatch <- bind_rows(lm1b, gpt2) %>%
+avgs_mismatch <- allmodels %>%
   filter(Matches==F) %>%
   group_by(Experiment, Subform.id, Connective.summ, Model) %>%
-  summarize(avg.mismatch=mean(Inference))
+  summarize(avg.mismatch=median(Inference))
 
-# note that these two tbls rows correspond; sum(avgs_summ[,1:4]!=avgs_contr[,1:4]) = 0
+# note that these two tbls rows have corresponding columns except for avg
 
-avgs <- avgs_match %>%
+avgs2 <- avgs_match %>%
   bind_cols(avg.mismatch=avgs_mismatch$avg.mismatch) %>%
   mutate(avg.diff=(avg.match - avg.mismatch)) %>%
   filter(Connective.summ==T)
 
-ggplot(avgs %>% filter(Model=='lm1b'), aes(x=Experiment, y=avg.diff, fill=Subform.id)) +
+ggplot(avgs2 %>% filter(Model=='lm1b'), aes(x=Experiment, y=avg.diff, fill=Subform.id)) +
   geom_bar(stat="identity", position="dodge") +
   # scale_fill_grey(start = 0, end = .95) + theme_bw() +
   scale_x_continuous(breaks=forms) +
   ggtitle("(lm1b) Matching - Mismatched, Summary=T")
 
-ggplot(avgs %>% filter(Model=='gpt2'), aes(x=Experiment, y=avg.diff, fill=Subform.id)) +
+ggplot(avgs2 %>% filter(Model=='gpt2'), aes(x=Experiment, y=avg.diff, fill=Subform.id)) +
   geom_bar(stat="identity", position="dodge") +
   # scale_fill_grey(start = 0, end = .95) + theme_bw() +
   scale_x_continuous(breaks=forms) +
   ggtitle("(gpt2) Matching - Mismatched, Summary=T")
 ```
+
+## Accuracy
+
+We can compute accuracy by comparing the minimal pairs here because every matching sentence has a mismatched pair (with the same connective). We don't compute accuracy for the previous section since there's no obvious one-to-one pairing of summary connectives to contrasting connectives.
+
+```{r}
+match <- allmodels %>% filter(Matches==T) %>% rename(Match.infer=Inference)
+mismatch <- allmodels %>% filter(Matches==F)
+# note that these two tbls rows have corresponding columns except for inference (float) and match (logical)
+# sum(match[,c(2,4:13)]!=mismatch[,c(2,4:13)], na.rm=T) = 0
+comparisons2 <- match %>%
+  bind_cols(Mismatch.infer=mismatch$Inference) %>%
+  mutate(m.less.mm=(Match.infer < Mismatch.infer))
+
+accs2 <- comparisons2 %>%
+  group_by(Experiment, Subform.id, Connective.summ, Model) %>%
+  summarize(avg.acc=mean(m.less.mm)) %>%
+  filter(Connective.summ==T)
+
+ggplot(accs2 %>% filter(Model=='lm1b'), aes(x=Experiment, y=avg.acc, fill=Subform.id)) +
+  geom_bar(stat="identity", position="dodge") +
+  # scale_fill_grey(start = 0, end = .95) + theme_bw() +
+  scale_x_continuous(breaks=forms) +
+  ggtitle("(lm1b) Match < MMatch Accuracy, Summary=T")
+
+ggplot(accs2 %>% filter(Model=='gpt2'), aes(x=Experiment, y=avg.acc, fill=Subform.id)) +
+  geom_bar(stat="identity", position="dodge") +
+  # scale_fill_grey(start = 0, end = .95) + theme_bw() +
+  scale_x_continuous(breaks=forms) +
+  ggtitle("(gpt2) Match < MMatch Accuracy, Summary=T")
+```
+
