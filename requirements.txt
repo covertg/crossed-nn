@@ -41,7 +41,7 @@ mccabe==0.6.1
 meson==0.54.1
 more-itertools==8.2.0
 msgpack==1.0.0
-numpy==1.18.4
+numpy==1.22.0
 ordered-set==3.1.1
 packaging==20.3
 pandas==1.0.3
